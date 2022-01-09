@@ -2,41 +2,116 @@
 @tailwind components;
 @tailwind utilities;
 
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gugi&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&family=Righteous&display=swap');
+
+body {
+  background: #1a1a1c;
+  color: #E6E6E6;
+  font-family: 'Noto Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.orange {
+  color: #DF6F00;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.purple {
+  color: #7F6CFF;
+}
+
+.green {
+  color:#00A913;
+}
+
+.red {
+  color: #FE0000;
+}
+
+.pink {
+  color: #FF4D5F;
+}
+
+.link {
+  font-weight: bold;
+  color: #3077FF;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #3664FF;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.navigation .MuiListItemIcon-root {
+  min-width: 40px !important;
+}
+
+.navigation .MuiListItemText-root {
+  margin-right: 10px;
+}
+
+.navigation .MuiTypography-root {
+  font-size: 14px !important;
+}
+
+.navigation .MuiListItem-root {
+  max-height: 66px;
+}
+
+.navigation .MuiSvgIcon-root{
+  transition: transform 0.32s ease-in-out !important;
+}
+
+.navigation .rotate {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  transition: transform 0.32s ease-in-out !important;
+}
+
+.dark .MuiDrawer-paper::-webkit-scrollbar {
+	width: 6px;
+	background-color: #222222;
+}
+
+.dark .MuiDrawer-paper::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: #222222;
+  outline: 3px solid #222222;
+}
+
+.light .MuiDrawer-paper::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color: #C6C6C6;
+}
+
+.light .MuiDrawer-paper::-webkit-scrollbar {
+	width: 6px;
+	background-color: #DEDEDE;
+}
+
+.light .MuiDrawer-paper::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #DEDEDE;
+  outline: 3px solid #DEDEDE;
+}
+
+.dark .MuiDrawer-paper::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color: #1C1C1C;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation .MuiListItemIcon-root{
+    margin-left: -6px;
+  }
+
+  .css-4oxozc-MuiButtonBase-root-MuiIconButton-root.drawer-icon  {
+    margin-left: -13px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
