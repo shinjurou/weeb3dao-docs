@@ -346,8 +346,8 @@ const rows = [
     "YU",
     "@stdio_nameraka",
     "https://twitter.com/stdio_nameraka",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@stdio_nameraka",
+    "https://foundation.app/@stdio_nameraka",
     false,
     true
   ),

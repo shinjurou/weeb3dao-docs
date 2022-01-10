@@ -27,6 +27,10 @@ import DatabaseInfo from "../2 - Database Information/DatabaseInformation";
 import Introduction from "../3 - Introduction/Introduction";
 import Scholarship from "../4 - weeb3dao Mint Scholarship/weeb3daoScholarship";
 import InfoNFT from "../5 - General Information about NFT/InfoNFT";
+import WhatIsNFT from "../5 - General Information about NFT/WhatIsNFT";
+import WhatIsBlockchain from "../5 - General Information about NFT/WhatIsBlockchain";
+import WhatIsDigitalWallet from "../5 - General Information about NFT/WhatIsDigitalWallet";
+import ImportantTerminologies from "../5 - General Information about NFT/ImportantTerminologies";
 import SellNFT from "../6 - How to Mint and List your NFT/SellNFT";
 import BurnNFT from "../7 - Burn your NFT/BurnNFT";
 import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
@@ -341,7 +345,7 @@ export default function Index(props) {
               </Link>
               <Collapse in={openGeneralNFTMenu}>
                 <List component="div" disablePadding>
-                  <Link to="/">
+                  <Link to="/what-is-nft">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter1Icon
@@ -352,7 +356,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/what-is-blockchain">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter2Icon
@@ -363,7 +367,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/what-is-digital-wallet">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter3Icon
@@ -374,7 +378,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/important-terminologies">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter4Icon
@@ -734,6 +738,19 @@ export default function Index(props) {
               <Route
                 path="/reverse-img-search"
                 element={<ReverseImageSearch />}
+              />
+              <Route path="/what-is-nft" element={<WhatIsNFT />} />
+              <Route
+                path="/what-is-blockchain"
+                element={<WhatIsBlockchain />}
+              />
+              <Route
+                path="/what-is-digital-wallet"
+                element={<WhatIsDigitalWallet />}
+              />
+              <Route
+                path="/important-terminologies"
+                element={<ImportantTerminologies />}
               />
             </Routes>
           </Box>

@@ -9,6 +9,7 @@ import weeb3dao from "../../../Imgs/cover.png";
 import anifam from "../../../Imgs/anifam.jpeg";
 import uwucrew from "../../../Imgs/uwucrew.png";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import RouterLink from "../0 - Index/RouterLink";
 
 const naokiSaito = [
   {
@@ -241,12 +242,10 @@ export default function Introduction() {
                   <ArrowRightAltIcon /> If you are interested then please
                 </span>,
                 " ",
-                <a
-                  href="/weeb3dao-scholarship"
-                  className="font-bold text-blue-500 cursor-pointer transition ease-in-out delay-50 hover:text-indigo-500 hover:underline"
-                >
-                  click this link and apply for the program
-                </a>,
+                <RouterLink
+                  link="/weeb3dao-scholarship"
+                  title="click this link and apply for the program"
+                />,
                 ".",
                 <br />,
                 <div className="text-violet-500 ml-8">

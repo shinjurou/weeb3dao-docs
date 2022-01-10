@@ -74,7 +74,7 @@ const themeDark = createTheme({
       light: "#4e4e4e",
     },
     secondary: {
-      main: "#d50000",
+      main: "#970F47",
     },
     success: {
       main: "#388e3c",

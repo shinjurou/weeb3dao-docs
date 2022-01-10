@@ -125,7 +125,7 @@ export default function DatabaseInfo() {
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">10 January 2022</span>,
+              <span className="text-violet-500">11 January 2022</span>,
               " ",
               <span className="text-red-600 font-bold">Version 2.0</span>,
               " Migrated from Gitbook and rebuilt the Database to become its own individual website",
