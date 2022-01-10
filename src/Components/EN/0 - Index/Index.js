@@ -26,15 +26,30 @@ import Welcome from "../1 - Welcome/Welcome";
 import DatabaseInfo from "../2 - Database Information/DatabaseInformation";
 import Introduction from "../3 - Introduction/Introduction";
 import Scholarship from "../4 - weeb3dao Mint Scholarship/weeb3daoScholarship";
+
 import InfoNFT from "../5 - General Information about NFT/InfoNFT";
 import WhatIsNFT from "../5 - General Information about NFT/WhatIsNFT";
 import WhatIsBlockchain from "../5 - General Information about NFT/WhatIsBlockchain";
 import WhatIsDigitalWallet from "../5 - General Information about NFT/WhatIsDigitalWallet";
 import ImportantTerminologies from "../5 - General Information about NFT/ImportantTerminologies";
-import SellNFT from "../6 - How to Mint and List your NFT/SellNFT";
+
+import SellNFT from "../6 - How to Mint and List an NFT/SellNFT";
+import CreateWallet from "../6 - How to Mint and List an NFT/CreateWallet";
+import ChooseBlockchain from "../6 - How to Mint and List an NFT/ChooseBlockchain";
+import ChooseMarketplace from "../6 - How to Mint and List an NFT/ChooseMarketplace";
+import MintNFT from "../6 - How to Mint and List an NFT/MintNFT";
+import ListNFT from "../6 - How to Mint and List an NFT/ListNFT";
+import PromoteNFT from "../6 - How to Mint and List an NFT/PromoteNFT";
+import Celebration from "../6 - How to Mint and List an NFT/Celebration";
+import Gas from "../6 - How to Mint and List an NFT/Gas";
+
 import BurnNFT from "../7 - Burn your NFT/BurnNFT";
 import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
+
 import Community from "../9 - Community/Community";
+import Terminologies from "../9 - Community/Terminologies";
+import Culture from "../9 - Community/Culture";
+
 import FAQ from "../10 - FAQ/FAQ";
 import Environment from "../11 - Environment Controversy/Environment";
 import RecReadings from "../12 - Recommended Readings/RecReadings";
@@ -345,7 +360,7 @@ export default function Index(props) {
               </Link>
               <Collapse in={openGeneralNFTMenu}>
                 <List component="div" disablePadding>
-                  <Link to="/what-is-nft">
+                  <Link to="/info-nft/what-is-nft">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter1Icon
@@ -356,7 +371,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/what-is-blockchain">
+                  <Link to="/info-nft/what-is-blockchain">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter2Icon
@@ -367,7 +382,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/what-is-digital-wallet">
+                  <Link to="/info-nft/what-is-digital-wallet">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter3Icon
@@ -378,7 +393,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/important-terminologies">
+                  <Link to="/info-nft/important-terminologies">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter4Icon
@@ -420,7 +435,7 @@ export default function Index(props) {
                     timeout={{ enter: 666, exit: 0 }}
                   >
                     <ListItemText
-                      primary={"How to Mint and List your NFT"}
+                      primary={"How to Mint and List an NFT"}
                       primaryTypographyProps={{
                         style: { whiteSpace: "normal" },
                       }}
@@ -435,7 +450,7 @@ export default function Index(props) {
               </Link>
               <Collapse in={openSellNFTMenu}>
                 <List component="div" disablePadding>
-                  <Link to="/">
+                  <Link to="/sell-nft/create-wallet">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter1Icon
@@ -446,7 +461,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/sell-nft/choose-blockchain">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter2Icon
@@ -457,7 +472,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/sell-nft/choose-marketplace">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter3Icon
@@ -468,29 +483,29 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/sell-nft/mint-nft">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter4Icon
                           sx={props.light !== true ? { color: "white" } : null}
                         />
                       </ListItemIcon>
-                      <ListItemText primary="Mint an artwork" />
+                      <ListItemText primary="Mint an NFT" />
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/sell-nft/list-nft">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter5Icon
                           sx={props.light !== true ? { color: "white" } : null}
                         />
                       </ListItemIcon>
-                      <ListItemText primary="List your NFT" />
+                      <ListItemText primary="List an NFT" />
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/sell-nft/promote-nft">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <Filter6Icon
@@ -501,7 +516,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/sell-nft/celebration">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <CakeIcon
@@ -512,7 +527,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/sell-nft/gas">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <LocalGasStationIcon
@@ -607,7 +622,7 @@ export default function Index(props) {
 
               <Collapse in={openCommunityMenu}>
                 <List component="div" disablePadding>
-                  <Link to="/">
+                  <Link to="/community/terminologies">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <SpeakerNotesIcon
@@ -618,7 +633,7 @@ export default function Index(props) {
                     </ListItem>
                   </Link>
 
-                  <Link to="/">
+                  <Link to="/community/culture">
                     <ListItem button sx={{ pl: 4 }}>
                       <ListItemIcon>
                         <FactCheckIcon
@@ -727,30 +742,55 @@ export default function Index(props) {
               <Route path="/database-info" element={<DatabaseInfo />} />
               <Route path="/introduction" element={<Introduction />} />
               <Route path="/weeb3dao-scholarship" element={<Scholarship />} />
-              <Route path="/info-NFT" element={<InfoNFT />} />
-              <Route path="/sell-NFT" element={<SellNFT />} />
-              <Route path="/burn-NFT" element={<BurnNFT />} />
+
+              <Route path="/info-nft" element={<InfoNFT />} />
+              <Route path="/info-nft/what-is-nft" element={<WhatIsNFT />} />
+              <Route
+                path="/info-nft/what-is-blockchain"
+                element={<WhatIsBlockchain />}
+              />
+              <Route
+                path="/info-nft/what-is-digital-wallet"
+                element={<WhatIsDigitalWallet />}
+              />
+              <Route
+                path="/info-nft/important-terminologies"
+                element={<ImportantTerminologies />}
+              />
+
+              <Route path="/sell-nft" element={<SellNFT />} />
+              <Route
+                path="/sell-nft/create-wallet"
+                element={<CreateWallet />}
+              />
+              <Route
+                path="/sell-nft/choose-blockchain"
+                element={<ChooseBlockchain />}
+              />
+              <Route
+                path="/sell-nft/choose-marketplace"
+                element={<ChooseMarketplace />}
+              />
+              <Route path="/sell-nft/mint-nft" element={<MintNFT />} />
+              <Route path="/sell-nft/list-nft" element={<ListNFT />} />
+              <Route path="/sell-nft/promote-nft" element={<PromoteNFT />} />
+              <Route path="/sell-nft/celebration" element={<Celebration />} />
+              <Route path="/sell-nft/gas" element={<Gas />} />
+
+              <Route path="/burn-nft" element={<BurnNFT />} />
               <Route path="/crypto-exchange" element={<CryptoExchange />} />
               <Route path="/community" element={<Community />} />
+              <Route
+                path="/community/terminologies"
+                element={<Terminologies />}
+              />
+              <Route path="/community/culture" element={<Culture />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/environment" element={<Environment />} />
               <Route path="/rec-readings" element={<RecReadings />} />
               <Route
                 path="/reverse-img-search"
                 element={<ReverseImageSearch />}
-              />
-              <Route path="/what-is-nft" element={<WhatIsNFT />} />
-              <Route
-                path="/what-is-blockchain"
-                element={<WhatIsBlockchain />}
-              />
-              <Route
-                path="/what-is-digital-wallet"
-                element={<WhatIsDigitalWallet />}
-              />
-              <Route
-                path="/important-terminologies"
-                element={<ImportantTerminologies />}
               />
             </Routes>
           </Box>

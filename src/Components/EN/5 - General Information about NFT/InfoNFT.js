@@ -15,28 +15,28 @@ export default function InfoNFT() {
         questions with simpler explanations here for easier understanding.
         <ol className="list-decimal ml-4 mt-6 text-blue-500 font-bold">
           <li className="my-2">
-            <RouterLink link="/what-is-nft" title="What is NFT?"></RouterLink>
+            <RouterLink link="/info-nft/what-is-nft" title="What is NFT?" />
           </li>
 
           <li className="my-2">
             <RouterLink
-              link="/what-is-blockchain"
+              link="/info-nft/what-is-blockchain"
               title="What is Blockchain?"
-            ></RouterLink>
+            />
           </li>
 
           <li className="my-2">
             <RouterLink
-              link="/what-is-digital-wallet"
+              link="/info-nft/what-is-digital-wallet"
               title="What is Digital Wallet?"
-            ></RouterLink>
+            />
           </li>
 
           <li className="my-2">
             <RouterLink
-              link="/important-terminologies"
+              link="/info-nft/important-terminologies"
               title="Explanations for Important Terminologies"
-            ></RouterLink>
+            />
           </li>
         </ol>
       </div>

@@ -239,7 +239,10 @@ export default function Introduction() {
                 " to mint their first artwork on a high gas platform (example: Foundation, MakersPlace, etc.)",
                 <br />,
                 <span className="text-pink-600 font-bold ml-8">
-                  <ArrowRightAltIcon /> If you are interested then please
+                  <span className="relative bottom-0.5">
+                    <ArrowRightAltIcon />
+                  </span>{" "}
+                  If you are interested then please
                 </span>,
                 " ",
                 <RouterLink
