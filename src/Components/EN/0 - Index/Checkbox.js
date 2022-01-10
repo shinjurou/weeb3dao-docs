@@ -4,7 +4,7 @@ import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 
 export default function CustomCheckbox(props) {
   return (
-    <div className="custom-checkbox ml-3 my-2">
+    <div className="custom-checkbox ml-3 my-1 align-middle">
       {props.checked ? (
         <span className="text-green-600">
           <CheckBoxIcon />
@@ -14,7 +14,7 @@ export default function CustomCheckbox(props) {
           <CheckBoxOutlineBlankIcon />
         </span>
       )}{" "}
-      <span className="inline-block align-middle">{props.label}</span>
+      {props.label}
     </div>
   );
 }

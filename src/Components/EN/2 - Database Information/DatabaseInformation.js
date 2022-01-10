@@ -29,7 +29,7 @@ export default function DatabaseInfo() {
           ]}
         />
 
-        <div className="contributors my-12 ml-12">
+        <div className="contributors my-12 lg:ml-12 md:ml-6 sm:ml-2">
           <Typography variant="h3" color="inherit" component="h3">
             <span className="text-orange-500">Contributors</span>
           </Typography>
@@ -72,7 +72,7 @@ export default function DatabaseInfo() {
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
                 Korean Translator:
               </span>{" "}
-              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ." />,{" "}
+              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />,{" "}
               <Link link="https://twitter.com/poopeetuna" title="Tuna" />
             </li>
           </ul>
@@ -88,7 +88,7 @@ export default function DatabaseInfo() {
           ]}
         />
 
-        <div className="release-notes my-7 ml-12">
+        <div className="release-notes my-7 lg:ml-12 md:ml-6 sm:ml-2">
           <Typography variant="h3" color="inherit" component="h3">
             <span className="text-teal-700">Release Notes</span>
           </Typography>

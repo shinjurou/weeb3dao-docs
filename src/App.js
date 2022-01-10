@@ -141,17 +141,17 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
       transform: "translateX(22px)",
       "& .MuiSwitch-thumb:before": {
         backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 20 20"><path fill="${encodeURIComponent(
-          "#fff"
+          "#2E2E2E"
         )}" d="M4.2 2.5l-.7 1.8-1.8.7 1.8.7.7 1.8.6-1.8L6.7 5l-1.9-.7-.6-1.8zm15 8.3a6.7 6.7 0 11-6.6-6.6 5.8 5.8 0 006.6 6.6z"/></svg>')`,
       },
       "& + .MuiSwitch-track": {
         opacity: 0.2,
-        backgroundColor: theme.palette.mode === "dark" ? "#131313" : "#aab4be",
+        backgroundColor: theme.palette.type === "dark" ? "#818181" : "#aab4be",
       },
     },
   },
   "& .MuiSwitch-thumb": {
-    backgroundColor: theme.palette.mode === "dark" ? "#B9B5C3" : "#2C2B2D",
+    backgroundColor: theme.palette.type === "dark" ? "#E2E2E2" : "#2C2B2D",
     width: 32,
     height: 32,
     "&:before": {
@@ -171,7 +171,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   "& .MuiSwitch-track": {
     width: 45,
     opacity: 0.2,
-    backgroundColor: theme.palette.mode === "dark" ? "#aab4be" : "#131313",
+    backgroundColor: theme.palette.type === "dark" ? "#aab4be" : "#131313",
     borderRadius: 200,
   },
 }));
