@@ -2,44 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gugi&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gugi&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&family=Righteous&display=swap");
 
 body {
   background: #1a1a1c;
-  color: #E6E6E6;
-  font-family: 'Noto Sans', sans-serif;
+  color: #e6e6e6;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .orange {
-  color: #DF6F00;
+  color: #df6f00;
 }
 
 .purple {
-  color: #7F6CFF;
+  color: #7f6cff;
 }
 
 .green {
-  color:#00A913;
+  color: #00a913;
 }
 
 .red {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .pink {
-  color: #FF4D5F;
+  color: #ff4d5f;
 }
 
 .link {
   font-weight: bold;
-  color: #3077FF;
+  color: #3077ff;
   text-decoration: none;
   transition: 0.2s;
 }
 
 .link:hover {
   cursor: pointer;
-  color: #3664FF;
+  color: #3664ff;
   text-decoration: underline;
   transition: 0.2s;
 }
@@ -60,58 +60,57 @@ body {
   max-height: 66px;
 }
 
-.navigation .MuiSvgIcon-root{
+.navigation .MuiSvgIcon-root {
   transition: transform 0.32s ease-in-out !important;
 }
 
 .navigation .rotate {
   -webkit-transform: rotate(-180deg);
-          transform: rotate(-180deg);
+  transform: rotate(-180deg);
   transition: transform 0.32s ease-in-out !important;
 }
 
 .dark .MuiDrawer-paper::-webkit-scrollbar {
-	width: 6px;
-	background-color: #222222;
+  width: 6px;
+  background-color: #222222;
 }
 
 .dark .MuiDrawer-paper::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
-	border-radius: 10px;
-	background-color: #222222;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #222222;
   outline: 3px solid #222222;
 }
 
 .light .MuiDrawer-paper::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
-	background-color: #C6C6C6;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #c6c6c6;
 }
 
 .light .MuiDrawer-paper::-webkit-scrollbar {
-	width: 6px;
-	background-color: #DEDEDE;
+  width: 6px;
+  background-color: #dedede;
 }
 
 .light .MuiDrawer-paper::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
-	background-color: #DEDEDE;
-  outline: 3px solid #DEDEDE;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #dedede;
+  outline: 3px solid #dedede;
 }
 
 .dark .MuiDrawer-paper::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
-	background-color: #1C1C1C;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #1c1c1c;
 }
 
 @media screen and (max-width: 600px) {
-  .navigation .MuiListItemIcon-root{
+  .navigation .MuiListItemIcon-root {
     margin-left: -6px;
   }
 
-  .css-4oxozc-MuiButtonBase-root-MuiIconButton-root.drawer-icon  {
+  .css-4oxozc-MuiButtonBase-root-MuiIconButton-root.drawer-icon {
     margin-left: -13px;
   }
 }
-
