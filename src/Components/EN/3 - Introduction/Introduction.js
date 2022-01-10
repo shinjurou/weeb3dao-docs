@@ -8,6 +8,7 @@ import ButtonBase from "@mui/material/ButtonBase";
 import weeb3dao from "../../../Imgs/cover.png";
 import anifam from "../../../Imgs/anifam.jpeg";
 import uwucrew from "../../../Imgs/uwucrew.png";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
 const naokiSaito = [
   {
@@ -237,7 +238,7 @@ export default function Introduction() {
                 " to mint their first artwork on a high gas platform (example: Foundation, MakersPlace, etc.)",
                 <br />,
                 <span className="text-pink-600 font-bold ml-8">
-                  => If you are interested then please
+                  <ArrowRightAltIcon /> If you are interested then please
                 </span>,
                 " ",
                 <a
