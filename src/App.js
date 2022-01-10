@@ -183,12 +183,12 @@ function App() {
     <div className='App'>
       <ThemeProvider theme={light ? themeLight : themeDark}>
       <CssBaseline />
-    <FormGroup>
+        <FormGroup>
           <FormControlLabel
         control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked onClick={() => setLight(!light)}/>}
         label=""
-      />
-      </FormGroup>
+          />
+        </FormGroup>
         <Index light={light}/>
       </ThemeProvider>
     </div>

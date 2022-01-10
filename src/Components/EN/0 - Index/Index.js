@@ -19,11 +19,22 @@ import ListItemText from '@mui/material/ListItemText';
 import Collapse from '@mui/material/Collapse';
 import Fade from '@mui/material/Fade';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from "react-router-dom";
+
+// Importing Router
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Welcome from '../1 - Welcome/Welcome'
+import DatabaseInfo from '../2 - Database Information/DatabaseInformation'
+import Introduction from '../3 - Introduction/Introduction'
+import Scholarship from '../4 - weeb3dao Mint Scholarship/weeb3daoScholarship'
+import InfoNFT from '../5 - General Information about NFT/InfoNFT'
+import SellNFT from '../6 - How to Mint and List your NFT/SellNFT'
+import BurnNFT from '../7 - Burn your NFT/BurnNFT'
+import CryptoExchange from '../8 - Crypto Exchange/CryptoExchange'
+import Community from '../9 - Community/Community'
+import FAQ from '../10 - FAQ/FAQ'
+import Environment from '../11 - Environment Controversy/Environment'
+import RecReadings from '../12 - Recommended Readings/RecReadings'
+import ReverseImageSearch from '../13 - Reverse Image Search Resources/ReverseImageSearch';
 
 // Importing icons
 import CelebrationIcon from '@mui/icons-material/Celebration';
@@ -50,8 +61,6 @@ import LiveHelpIcon from '@mui/icons-material/LiveHelp';
 import ParkIcon from '@mui/icons-material/Park';
 import BookIcon from '@mui/icons-material/Book';
 import ImageSearchIcon from '@mui/icons-material/ImageSearch';
-
-import Welcome from '../1 - Welcome/Welcome'
 
 const headerText = createTheme({
   typography: {
@@ -148,6 +157,7 @@ export default function Index(props) {
 
   return (
     <div className='index'>
+    <Router>
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar position="fixed" open={open}>
@@ -183,7 +193,6 @@ export default function Index(props) {
         </DrawerHeader>
         <Divider />
         
-        <Router>
         <List>       
             <Link to="/">
               <ListItem button>
@@ -201,7 +210,7 @@ export default function Index(props) {
               </ListItem>
             </Link>
 
-            <Link to="/">
+            <Link to="/database-info">
               <ListItem button>
                 <ListItemIcon>
                 <BookmarkIcon sx={ (props.light !== true) ? {color: 'white'} : null}/>
@@ -217,7 +226,7 @@ export default function Index(props) {
               </ListItem>
             </Link>
 
-            <Link to="/">
+            <Link to="/introduction">
               <ListItem button>
                 <ListItemIcon>
                 <FaceRetouchingNaturalIcon sx={ (props.light !== true) ? {color: 'white'} : null} />
@@ -233,7 +242,7 @@ export default function Index(props) {
               </ListItem>
             </Link>
 
-            <Link to="/">
+            <Link to="/weeb3dao-scholarship">
               <ListItem button>
                 <ListItemIcon>
                 <RedeemIcon sx={ (props.light !== true) ? {color: 'white'} : null} />
@@ -253,7 +262,7 @@ export default function Index(props) {
 
         <Divider />
         <List>
-            <Link to="/">
+            <Link to="/info-NFT">
               <ListItem button onClick={() => {
                  if (open) {setOpenGeneralNFTMenu(!openGeneralNFTMenu)};
                  if (openSellNFTMenu) {setOpenSellNFTMenu(false)};
@@ -312,7 +321,7 @@ export default function Index(props) {
         </List>
       </Collapse>
         
-            <Link to="/">
+            <Link to="/sell-NFT">
               <ListItem button onClick={() => {
                  if (open) {setOpenSellNFTMenu(!openSellNFTMenu)};
                  if (openGeneralNFTMenu) {setOpenGeneralNFTMenu(false)};
@@ -409,7 +418,7 @@ export default function Index(props) {
         </List>
       </Collapse>
      
-          <Link to="/">
+          <Link to="/burn-NFT">
               <ListItem button>
                 <ListItemIcon>
                   <LocalFireDepartmentIcon sx={ (props.light !== true) ? {color: 'white'} : null}/>
@@ -427,7 +436,7 @@ export default function Index(props) {
       </List>
       <Divider/>
       <List>
-            <Link to="/">
+            <Link to="/crypto-exchange">
               <ListItem button>
                 <ListItemIcon>
                   <CurrencyExchangeIcon sx={ (props.light !== true) ? {color: 'white'} : null}/>
@@ -443,7 +452,7 @@ export default function Index(props) {
               </ListItem>
             </Link>
 
-            <Link to="/">
+            <Link to="/community">
             <ListItem button onClick={() => {
                     if (open) {setOpenCommunityMenu(!openCommunityMenu)};
                     if (openGeneralNFTMenu) {setOpenGeneralNFTMenu(false)};
@@ -485,7 +494,7 @@ export default function Index(props) {
         </List>
       </Collapse>
 
-            <Link to="/">
+            <Link to="/faq">
               <ListItem button>
                 <ListItemIcon>
                   <LiveHelpIcon sx={ (props.light !== true) ? {color: 'white'} : null}/>
@@ -504,7 +513,7 @@ export default function Index(props) {
 
       <Divider/>
       <List>
-            <Link to="/">
+            <Link to="/environment">
               <ListItem button>
                 <ListItemIcon>
                   <ParkIcon sx={ (props.light !== true) ? {color: 'white'} : null}/>
@@ -520,7 +529,7 @@ export default function Index(props) {
               </ListItem>
             </Link>
 
-            <Link to="/">
+            <Link to="/rec-readings">
               <ListItem button>
                 <ListItemIcon>
                   <BookIcon sx={ (props.light !== true) ? {color: 'white'} : null}/>
@@ -536,7 +545,7 @@ export default function Index(props) {
               </ListItem>
             </Link>
 
-            <Link to="/">
+            <Link to="/reverse-img-search">
               <ListItem button>
                 <ListItemIcon>
                   <ImageSearchIcon sx={ (props.light !== true) ? {color: 'white'} : null}/>
@@ -552,14 +561,28 @@ export default function Index(props) {
               </ListItem>
             </Link>
       </List>
-        </Router>
 
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1 }}>
         <DrawerHeader />
-        <Welcome/>
+          <Routes>
+            <Route exact path="/" element={<Welcome />} />
+            <Route path="/database-info" element={<DatabaseInfo />} />
+            <Route path="/introduction" element={<Introduction />} />
+            <Route path="/weeb3dao-scholarship" element={<Scholarship />} />
+            <Route path="/info-NFT" element={<InfoNFT />} />
+            <Route path="/sell-NFT" element={<SellNFT />} />
+            <Route path="/burn-NFT" element={<BurnNFT />} />
+            <Route path="/crypto-exchange" element={<CryptoExchange />} />
+            <Route path="/community" element={<Community />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/environment" element={<Environment />} />
+            <Route path="/rec-readings" element={<RecReadings />} />
+            <Route path="/reverse-img-search" element={<ReverseImageSearch />} />
+          </Routes>
       </Box>
     </Box>
+    </Router>
     </div>
   );
 }
