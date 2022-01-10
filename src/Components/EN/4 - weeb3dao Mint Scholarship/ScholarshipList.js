@@ -14,7 +14,7 @@ import TableCheckbox from "./TableCheckbox";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: theme.palette.type === "light" ? "#CFCCCC" : "#181818",
     color: theme.palette.text.primary,
   },
   [`&.${tableCellClasses.body}`]: {
@@ -22,16 +22,22 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
   },
 }));
 
-const StyledPagination = styled(TablePagination)({
-  selectDropdown: { color: "#fff" },
-});
-
 const columns = [
-  { id: "name", label: "Name", minWidth: 170 },
-  { id: "twitter", label: "Twitter Link", minWidth: 100, align: "center" },
-  { id: "fnd", label: "Foundation Link", minWidth: 100, align: "center" },
-  { id: "gas", label: "Gas", maxWidth: 69, align: "center" },
-  { id: "invite", label: "Invite", maxWidth: 69, align: "center" },
+  { id: "name", label: "Name", width: "34%" },
+  {
+    id: "twitter",
+    label: "Twitter Link",
+    width: "20%",
+    align: "center",
+  },
+  {
+    id: "fnd",
+    label: "Foundation Link",
+    width: "20%",
+    align: "center",
+  },
+  { id: "gas", label: "Gas", width: "13%", align: "center" },
+  { id: "invite", label: "Invite", width: "13%", align: "center" },
 ];
 
 function createData(
@@ -204,142 +210,145 @@ const rows = [
     "https://twitter.com/FancyCharNim",
     "@CharNim",
     "https://foundation.app/@CharNim",
+    false,
     true
   ),
   createData(
     "Antonio",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@akki_q",
+    "https://twitter.com/akki_q",
+    "@akki",
+    "https://foundation.app/@akki",
     true,
     true
   ),
   createData(
     "xiran",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@xiran_art",
+    "https://twitter.com/xiran_art",
+    "@xiran",
+    "https://foundation.app/@xiran",
     true
   ),
   createData(
     "Christine",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@Kazadi777",
+    "https://twitter.com/Kazadi777",
+    "@kazadi777",
+    "https://foundation.app/@kazadi777",
     true
   ),
   createData(
     "Gensui_Hime",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@Gensui_Hime",
+    "https://twitter.com/Gensui_Hime",
+    "@gensui_hime",
+    "https://foundation.app/@gensui_hime",
     true,
     true
   ),
   createData(
     "shishiart",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@shishiart",
+    "https://twitter.com/shishiart",
+    "@shishi",
+    "https://foundation.app/@shishi",
     true
   ),
   createData(
     "anti3024",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@anti3024",
+    "https://twitter.com/anti3024",
+    "@anti3024",
+    "https://foundation.app/@anti3024",
     true
   ),
   createData(
     "patch_oxxo",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@Patch_NFT",
+    "https://twitter.com/Patch_NFT",
+    "@patch_oxxo",
+    "https://foundation.app/@patch_oxxo",
+    false,
     true
   ),
   createData(
     "SEIRO_ART",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@NFT_SEIRO",
+    "https://twitter.com/NFT_SEIRO",
+    "@seiro_art",
+    "https://foundation.app/@seiro_art",
     true,
     true
   ),
   createData(
     "diyokama",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@diyokama",
+    "https://twitter.com/diyokama",
+    "@diyokama",
+    "https://foundation.app/@diyokama",
     true,
     true
   ),
   createData(
     "CYI",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@cyicheng",
+    "https://twitter.com/cyicheng",
+    "@cyi",
+    "https://foundation.app/@cyi",
     true,
     true
   ),
   createData(
     "7th_knights",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@7th_knights",
+    "https://twitter.com/7th_knights",
+    "@7th_knights",
+    "https://foundation.app/@7th_knights",
     true,
     true
   ),
   createData(
     "qiqi",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@cryingqiqi",
+    "https://twitter.com/cryingqiqi",
+    "@cryingqiqi",
+    "https://foundation.app/@cryingqiqi",
     true
   ),
   createData(
     "asagon",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@gooooon007",
+    "https://twitter.com/gooooon007",
+    "@asagon",
+    "https://foundation.app/@asagon",
     true,
     true
   ),
   createData(
     "Monope",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@monoprx",
+    "https://twitter.com/monoprx",
+    "@monope",
+    "https://foundation.app/@monope",
     true
   ),
   createData(
     "R3i",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
-    "@anemone_kisumi",
-    "https://foundation.app/@anemone_kisumi",
+    "@Ray_pepper12",
+    "https://twitter.com/Ray_pepper12",
+    "@r3i",
+    "https://foundation.app/@r3i",
     true,
     true
   ),
   createData(
     "YU",
-    "@anemone_kisumi",
-    "https://twitter.com/anemone_kisumi",
+    "@stdio_nameraka",
+    "https://twitter.com/stdio_nameraka",
     "@anemone_kisumi",
     "https://foundation.app/@anemone_kisumi",
+    false,
     true
   ),
 ];
@@ -367,7 +376,11 @@ export default function StickyHeadTable() {
                 <StyledTableCell
                   key={column.id}
                   align={column.align}
-                  style={{ minWidth: column.minWidth }}
+                  style={{
+                    width: column.width,
+                    fontSize: "12.5pt",
+                    fontWeight: "bold",
+                  }}
                 >
                   {column.label}
                 </StyledTableCell>
