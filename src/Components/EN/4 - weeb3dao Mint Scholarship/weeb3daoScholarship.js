@@ -19,6 +19,10 @@ export default function weeb3daoScholarship() {
         <Typography variant="h3" color="inherit" component="h3" mt={3} mb={2}>
           List of Artists received the weeb3dao's Mint Scholarship
         </Typography>
+        <Card
+          color="green"
+          title="The following artists have received help from weeb3dao, either with the Mint Scholarship or Onboarding Support"
+        />
         <ScholarshipList />
       </div>
     </div>

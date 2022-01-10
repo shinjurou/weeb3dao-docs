@@ -43,7 +43,7 @@ export default function CustomCard(props) {
             <div
               className={classNames(
                 "font-bold",
-                "mb-1",
+                { "mb-1": props.content },
                 {
                   "text-red-600": props.color === "red",
                 },
