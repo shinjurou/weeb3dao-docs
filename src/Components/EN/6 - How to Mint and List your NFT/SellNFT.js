@@ -1,6 +1,8 @@
 import React from "react";
 
 import Typography from "@mui/material/Typography";
+import Card from "../0 - Index/Card";
+import Link from "../0 - Index/Link";
 
 export default function SellNFT() {
   return (
