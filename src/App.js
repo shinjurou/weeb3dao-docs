@@ -95,6 +95,7 @@ const themeDark = createTheme({
     },
     text: {
       primary: "#c5c5c5",
+      secondary: "rgba(212,212,212,0.7)",
     },
   },
 

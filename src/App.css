@@ -10,40 +10,6 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-.orange {
-  color: #df6f00;
-}
-
-.purple {
-  color: #7f6cff;
-}
-
-.green {
-  color: #00a913;
-}
-
-.red {
-  color: #fe0000;
-}
-
-.pink {
-  color: #ff4d5f;
-}
-
-.link {
-  font-weight: bold;
-  color: #3077ff;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.link:hover {
-  cursor: pointer;
-  color: #3664ff;
-  text-decoration: underline;
-  transition: 0.2s;
-}
-
 .navigation .MuiListItemIcon-root {
   min-width: 40px !important;
 }
