@@ -1,9 +1,8 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 import RouterLink from "../0 - Index/RouterLink";
 import HotColdWalletTable from "./HotColdWalletTable";
 
@@ -14,11 +13,6 @@ export default function WhatIsDigitalWallet() {
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
           What is Digital Wallet?
         </Typography>
-
-        <ReturnLink
-          link="/info-nft"
-          title="Return to General Information about NFT"
-        />
 
         <Card
           color="pink"
@@ -72,7 +66,6 @@ export default function WhatIsDigitalWallet() {
               <Link
                 link="https://www.gemini.com/cryptopedia/crypto-wallets-hot-cold#section-best-of-both-wallet-worlds"
                 title="This section have good examples on how to utilize both wallet types"
-                light={true}
               />
             </div>,
           ]}
@@ -86,12 +79,7 @@ export default function WhatIsDigitalWallet() {
               <li>
                 <span className="font-bold">Hot wallet:</span> The list of
                 recommendations for hot wallets are available{" "}
-                <RouterLink
-                  link="/sell-nft/create-wallet"
-                  title="here"
-                  light={true}
-                />
-                .
+                <RouterLink link="/sell-nft/create-wallet" title="here" />.
               </li>
               <li>
                 <span className="font-bold">Cold wallet:</span> The best cold
@@ -105,6 +93,12 @@ export default function WhatIsDigitalWallet() {
               </li>
             </ul>,
           ]}
+        />
+        <NaviButtons
+          return="What is Blockchain?"
+          returnlink="/info-nft/what-is-blockchain"
+          next="Important Terminologies"
+          nextlink="/info-nft/important-terminologies"
         />
       </div>
     </div>

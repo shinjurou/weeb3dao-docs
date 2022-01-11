@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 import RouterLink from "../0 - Index/RouterLink";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import sr from "../../../Imgs/sr.png";
@@ -14,11 +14,6 @@ export default function ListNFT() {
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
           List an NFT
         </Typography>
-
-        <ReturnLink
-          link="/sell-nft"
-          title="Return to How to Mint and List your NFT"
-        />
 
         <Typography variant="h2" color="inherit" component="h2" mt={4}>
           Guide for Listing Gas
@@ -195,6 +190,12 @@ export default function ListNFT() {
             </ul>
           </div>
         </div>
+        <NaviButtons
+          return="Mint an NFT"
+          returnlink="/sell-nft/mint-nft"
+          next="Promote your NFT"
+          nextlink="/sell-nft/promote-nft"
+        />
       </div>
     </div>
   );

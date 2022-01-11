@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import RouterLink from "../0 - Index/RouterLink";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import mp1 from "../../../Imgs/mp1.png";
 import mp2 from "../../../Imgs/mp2.png";
@@ -15,11 +15,6 @@ export default function MintNFT() {
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
           Mint an NFT
         </Typography>
-
-        <ReturnLink
-          link="/sell-nft"
-          title="Return to How to Mint and List your NFT"
-        />
 
         <Typography variant="h2" color="inherit" component="h2" mt={4}>
           Guide for Minting Gas
@@ -321,6 +316,12 @@ export default function MintNFT() {
             </ul>
           </div>
         </div>
+        <NaviButtons
+          return="Choose your Marketplace"
+          returnlink="/sell-nft/choose-marketplace"
+          next="List an NFT"
+          nextlink="/sell-nft/list-nft"
+        />
       </div>
     </div>
   );

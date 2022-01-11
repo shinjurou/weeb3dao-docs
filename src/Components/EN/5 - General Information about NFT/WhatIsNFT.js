@@ -1,9 +1,8 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 export default function WhatIsNFT() {
   return (
@@ -12,10 +11,7 @@ export default function WhatIsNFT() {
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
           What is NFT?
         </Typography>
-        <ReturnLink
-          link="/info-nft"
-          title="Return to General Information about NFT"
-        />
+
         <div className="mt-5">
           NFT is the abbreviation for{" "}
           <span className="text-orange-500">Non-fungible tokens</span>.
@@ -67,6 +63,12 @@ export default function WhatIsNFT() {
               </div>
             </div>,
           ]}
+        />
+        <NaviButtons
+          return="General Information about NFT"
+          returnlink="/info-NFT"
+          next="What is Blockchain?"
+          nextlink="/info-nft/what-is-blockchain"
         />
       </div>
     </div>

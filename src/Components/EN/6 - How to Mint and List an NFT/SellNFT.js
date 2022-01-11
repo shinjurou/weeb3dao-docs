@@ -1,8 +1,7 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
-import Card from "../0 - Index/Card";
 import RouterLink from "../0 - Index/RouterLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 export default function SellNFT() {
   return (
@@ -13,7 +12,7 @@ export default function SellNFT() {
         </Typography>
         Here are the steps you will need to do in order to start selling your
         artwork(s) as NFT(s).
-        <ol className="list-decimal ml-4 mt-6 text-blue-500 font-bold">
+        <ol className="list-decimal ml-14 mt-4 text-blue-500 font-bold">
           <li className="my-2">
             <RouterLink
               link="/sell-nft/create-wallet"
@@ -55,6 +54,12 @@ export default function SellNFT() {
             <RouterLink link="/sell-nft/gas" title="How to keep track of Gas" />
           </li>
         </ol>
+        <NaviButtons
+          return="Important Terminologies"
+          returnlink="/info-nft/important-terminologies"
+          next="Create your Digital Wallet"
+          nextlink="/sell-nft/create-wallet"
+        />
       </div>
     </div>
   );

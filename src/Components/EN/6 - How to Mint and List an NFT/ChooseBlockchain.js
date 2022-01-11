@@ -1,9 +1,8 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import Blockchains from "./Blockchains";
 
@@ -14,11 +13,6 @@ export default function ChooseBlockchain() {
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
           Choose your Blockchain
         </Typography>
-
-        <ReturnLink
-          link="/sell-nft"
-          title="Return to How to Mint and List your NFT"
-        />
 
         <div className="mt-5">
           There is a full list of blockchains information available on this{" "}
@@ -179,6 +173,12 @@ export default function ChooseBlockchain() {
             ]}
           />
         </div>
+        <NaviButtons
+          return="Create your Digital Wallet"
+          returnlink="/sell-nft/create-wallet"
+          next="Choose your Marketplace"
+          nextlink="/sell-nft/choose-marketplace"
+        />
       </div>
     </div>
   );

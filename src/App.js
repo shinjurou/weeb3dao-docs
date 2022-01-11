@@ -13,6 +13,10 @@ import Index from "./Components/EN/0 - Index/Index";
 const themeLight = createTheme({
   palette: {
     type: "light",
+    action: {
+      disabledBackground: "#E2E2E2",
+      disabled: "#CDCDCD",
+    },
     primary: {
       main: "#D3D3D3",
     },
@@ -68,9 +72,13 @@ const themeLight = createTheme({
 const themeDark = createTheme({
   palette: {
     type: "dark",
+    action: {
+      disabledBackground: "#1C1C1C",
+      disabled: "#292929",
+    },
     primary: {
       main: "#202020",
-      contrastText: "#fafafa",
+      contrastText: "#c5c5c5",
       light: "#4e4e4e",
     },
     secondary: {

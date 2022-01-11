@@ -10,6 +10,7 @@ import anifam from "../../../Imgs/anifam.jpeg";
 import uwucrew from "../../../Imgs/uwucrew.png";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import RouterLink from "../0 - Index/RouterLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 const naokiSaito = [
   {
@@ -411,6 +412,12 @@ export default function Introduction() {
             </div>
           </div>
         </div>
+        <NaviButtons
+          return="Database Information"
+          returnlink="/database-info"
+          next="weeb3dao Scholarship"
+          nextlink="/weeb3dao-scholarship"
+        />
       </div>
     </div>
   );

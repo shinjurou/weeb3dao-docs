@@ -3,6 +3,7 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import Checkbox from "../0 - Index/Checkbox";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 export default function DatabaseInfo() {
   return (
@@ -90,7 +91,7 @@ export default function DatabaseInfo() {
           ]}
         />
 
-        <div className="release-notes my-7 lg:ml-12 md:ml-6 sm:ml-2">
+        <div className="release-notes mt-7 lg:ml-12 md:ml-6 sm:ml-2">
           <Typography variant="h3" color="inherit" component="h3">
             <span className="text-teal-600">Release Notes</span>
           </Typography>
@@ -150,6 +151,12 @@ export default function DatabaseInfo() {
             ]}
           />
         </div>
+        <NaviButtons
+          return="Welcome"
+          returnlink="/"
+          next="Introduction"
+          nextlink="/introduction"
+        />
       </div>
     </div>
   );

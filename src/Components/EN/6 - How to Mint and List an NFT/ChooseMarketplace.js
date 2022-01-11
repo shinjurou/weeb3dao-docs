@@ -1,8 +1,7 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 import Fee from "./Fee";
 import ETHmarket from "./ETHmarket";
 import XTZmarket from "./XTZmarket";
@@ -14,11 +13,6 @@ export default function ChooseMarketplace() {
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
           Choose your Marketplace
         </Typography>
-
-        <ReturnLink
-          link="/sell-nft"
-          title="Return to How to Mint and List your NFT"
-        />
 
         <Card
           color="pink"
@@ -72,6 +66,12 @@ export default function ChooseMarketplace() {
             <XTZmarket />
           </div>
         </div>
+        <NaviButtons
+          return="Choose your Blockchain"
+          returnlink="/sell-nft/choose-blockchain"
+          next="Mint an NFT"
+          nextlink="/sell-nft/mint-nft"
+        />
       </div>
     </div>
   );

@@ -1,9 +1,8 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 import Wallets from "./Wallets";
 import ReactPlayer from "react-player";
 import RouterLink from "../0 - Index/RouterLink";
@@ -15,10 +14,6 @@ export default function CreateWallet() {
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
           Create your Digital Wallet
         </Typography>
-        <ReturnLink
-          link="/sell-nft"
-          title="Return to How to Mint and List your NFT"
-        />
 
         <div className="mt-5">
           First of all you will need to create a digital wallet. Here is a list
@@ -106,10 +101,21 @@ export default function CreateWallet() {
           color="pink"
           title="The following video is highly recommended for artists to watch to protect themselves."
           content={[
-            <div>
-              <ReactPlayer url="https://www.youtube.com/watch?v=3kcXVEDB64Y" />
+            <div className="content-center sm:h-vidsm md:h-vidmd lg:h-vidlg xl:h-vidxl mt-4">
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=3kcXVEDB64Y"
+                controls={true}
+                width="100%"
+                height="100%"
+              />
             </div>,
           ]}
+        />
+        <NaviButtons
+          return="How to Mint and List your NFT"
+          returnlink="/sell-NFT"
+          next="Choose your Blockchain"
+          nextlink="/sell-nft/choose-blockchain"
         />
       </div>
     </div>

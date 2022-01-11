@@ -1,7 +1,7 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import RouterLink from "../0 - Index/RouterLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 export default function InfoNFT() {
   return (
@@ -13,7 +13,7 @@ export default function InfoNFT() {
         There is a large amount of information available online explaining about
         everything relating to NFT. So we have compiled the most common
         questions with simpler explanations here for easier understanding.
-        <ol className="list-decimal ml-4 mt-6 text-blue-500 font-bold">
+        <ol className="list-decimal ml-14 mt-4 text-blue-500 font-bold">
           <li className="my-2">
             <RouterLink link="/info-nft/what-is-nft" title="What is NFT?" />
           </li>
@@ -39,6 +39,12 @@ export default function InfoNFT() {
             />
           </li>
         </ol>
+        <NaviButtons
+          return="weeb3dao Mint Scholarship"
+          returnlink="/weeb3dao-scholarship"
+          next="What is NFT?"
+          nextlink="/info-nft/what-is-nft"
+        />
       </div>
     </div>
   );

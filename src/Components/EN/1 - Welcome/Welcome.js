@@ -2,8 +2,8 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-
 import cover from "../../../Imgs/cover.png";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 export default function Welcome() {
   return (
@@ -59,6 +59,12 @@ export default function Welcome() {
               help you find the information you need much easier.
             </span>,
           ]}
+        />
+        <NaviButtons
+          return=""
+          returnlink=""
+          next="Database Information"
+          nextlink="/database-info"
         />
       </div>
     </div>

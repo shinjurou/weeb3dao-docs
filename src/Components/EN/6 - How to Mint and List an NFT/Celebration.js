@@ -1,9 +1,8 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 export default function Celebration() {
   return (
@@ -13,9 +12,48 @@ export default function Celebration() {
           Celebration
         </Typography>
 
-        <ReturnLink
-          link="/sell-nft"
-          title="Return to How to Mint and List your NFT"
+        <div className="mb-6"></div>
+        <Card
+          color="green"
+          title="Congratulations on your first collected NFT! Remember to be grateful to your collector and those who have helped you!"
+          content={[
+            <div>
+              <ul className="list-disc ml-5">
+                <li className="mt-1">
+                  💟{" "}
+                  <span className="text-green-600 font-bold">
+                    Send a thank you message to your collector
+                  </span>{" "}
+                  after the transaction.
+                </li>
+                <li className="mt-1">
+                  💝{" "}
+                  <span className="text-green-600 font-bold">
+                    Draw a gift for the collector
+                  </span>{" "}
+                  would be great but{" "}
+                  <span className="text-teal-600 font-bold">not mandatory</span>
+                  . Prioritizing your health and having a balanced schedule is
+                  more important.
+                </li>
+                <li className="mt-1">
+                  🙌🎉 Send a message in{" "}
+                  <Link
+                    link="https://discord.gg/vktnAzvyNQ"
+                    title="Anifriends Discord Server's #congratsu
+              channel"
+                  />{" "}
+                  so we can congratulate you! 💖
+                </li>
+              </ul>
+            </div>,
+          ]}
+        />
+        <NaviButtons
+          return="Promote your NFT"
+          returnlink="/sell-nft/promote-nft"
+          next="Introduction"
+          nextlink="/introduction"
         />
       </div>
     </div>

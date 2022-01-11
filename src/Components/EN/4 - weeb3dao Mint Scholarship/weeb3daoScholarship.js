@@ -3,6 +3,7 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import { Widget } from "@typeform/embed-react";
 import ScholarshipList from "./ScholarshipList";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 export default function weeb3daoScholarship() {
   return (
@@ -24,6 +25,12 @@ export default function weeb3daoScholarship() {
           title="The following artists have received help from weeb3dao, either with the Mint Scholarship or Onboarding Support"
         />
         <ScholarshipList />
+        <NaviButtons
+          return="Introduction"
+          returnlink="/introduction"
+          next="General Information about NFT"
+          nextlink="/info-NFT"
+        />
       </div>
     </div>
   );

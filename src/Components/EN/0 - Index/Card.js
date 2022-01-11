@@ -1,21 +1,29 @@
-import React from "react";
-
+import React, { useState } from "react";
 import Card from "@mui/material/Card";
 import classNames from "classnames";
-
 import HighlightOffOutlinedIcon from "@mui/icons-material/HighlightOffOutlined";
 import ErrorOutlineOutlinedIcon from "@mui/icons-material/ErrorOutlineOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import CheckCircleOutlineOutlinedIcon from "@mui/icons-material/CheckCircleOutlineOutlined";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import CircleNotificationsOutlinedIcon from "@mui/icons-material/CircleNotificationsOutlined";
+import { useTheme } from "@mui/material/styles";
 
 export default function CustomCard(props) {
+  const theme = useTheme();
+  console.log(theme.palette.type);
+
   return (
     <Card
-      sx={{ minWidth: 275, my: 2 }}
-      style={{
-        backgroundColor: props.light ? "rgba(255,255, 255, 0.06)" : null,
+      sx={{
+        minWidth: 275,
+        my: 2,
+        backgroundColor:
+          props.light && theme.palette.type === "light"
+            ? "#EDEDED"
+            : props.light && theme.palette.type === "dark"
+            ? "#2F2F2F"
+            : null,
       }}
     >
       <div

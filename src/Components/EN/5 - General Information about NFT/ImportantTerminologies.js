@@ -1,9 +1,8 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 import WordExplain from "../0 - Index/WordExplain";
 import WordExample from "../0 - Index/WordExample";
 
@@ -14,13 +13,9 @@ export default function ImportantTerminologies() {
     <div className="important-terminologies">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Explanations for Important Terminologies
+          Important Terminologies
         </Typography>
 
-        <ReturnLink
-          link="/info-nft"
-          title="Return to General Information about NFT"
-        />
         <ul className="list-disc mt-5 ml-6">
           <li>
             <WordExplain
@@ -265,6 +260,12 @@ export default function ImportantTerminologies() {
             <WordExample notReal={true} explain="doraemon.eth" />
           </li>
         </ul>
+        <NaviButtons
+          return="What is Digital Wallet?"
+          returnlink="/info-nft/what-is-digital-wallet"
+          next="How to Mint and List your NFT"
+          nextlink="/sell-NFT"
+        />
       </div>
     </div>
   );

@@ -1,9 +1,8 @@
 import React from "react";
-
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
-import ReturnLink from "../0 - Index/ReturnLink";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 export default function WhatIsBlockchain() {
   return (
@@ -13,10 +12,6 @@ export default function WhatIsBlockchain() {
           What is Blockchain?
         </Typography>
 
-        <ReturnLink
-          link="/info-nft"
-          title="Return to General Information about NFT"
-        />
         <Card
           color="pink"
           content={[
@@ -79,6 +74,12 @@ export default function WhatIsBlockchain() {
               </li>
             </ul>,
           ]}
+        />
+        <NaviButtons
+          return="What is NFT?"
+          returnlink="/info-nft/what-is-nft"
+          next="What is Digital Wallet?"
+          nextlink="/info-nft/what-is-digital-wallet"
         />
       </div>
     </div>
