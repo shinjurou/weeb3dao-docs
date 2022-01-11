@@ -104,6 +104,7 @@ export default function FullWidthTabs() {
           <Card
             color="teal"
             title="Guide on how to create a MetaMask wallet"
+            light={true}
             content={[
               <div>
                 <ol className="list-decimal ml-4">
@@ -183,19 +184,19 @@ export default function FullWidthTabs() {
         <TabPanel value={value} index={1} dir={theme.direction}>
           <div className="mb-2">
             Kukai is used for the{" "}
-            <span className="text-pink-600 font-bold">Tezos</span>
-            blockchain.
+            <span className="text-pink-600 font-bold">Tezos</span> blockchain.
           </div>
           <div className="mb-2">
             Marketplaces for Tezos:{" "}
+            <Link link="https://hicetnunc.art/" title="Hicetnunc" />,{" "}
             <Link link="https://objkt.com/" title="OBJKT" />,{" "}
-            <Link link="https://kalamint.io/" title="Kalamint" />,{" "}
-            <Link link="https://hicetnunc.art/" title="Hicetnunc" />.
+            <Link link="https://kalamint.io/" title="Kalamint" />.
           </div>
 
           <Card
             color="teal"
             title="Guide on how to create a Kukai wallet"
+            light={true}
             content={[
               <div>
                 <ol className="list-decimal ml-4">

@@ -10,6 +10,7 @@ import Box from "@mui/material/Box";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import RouterLink from "../0 - Index/RouterLink";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -79,201 +80,292 @@ export default function FullWidthTabs() {
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
           <div className="mb-2">
-            MetaMask is can be used for the{" "}
-            <span className="text-pink-600 font-bold">Ethereum</span> and{" "}
-            <span className="text-pink-600 font-bold">Polygon</span>{" "}
-            blockchains.
+            The{" "}
+            <span className="text-pink-600 font-bold">
+              most popular blockchain
+            </span>{" "}
+            for anime NFT artists at the current time of writing.
           </div>
+
+          <Card
+            color="pink"
+            light={true}
+            content={[
+              <div>
+                Information about marketplaces are available{" "}
+                <RouterLink link="/sell-nft/choose-marketplace" title="here" />.
+              </div>,
+            ]}
+          />
           <div className="mb-2">
             Marketplaces for Ethereum:{" "}
             <Link link="https://opensea.io/" title="OpenSea" />,{" "}
-            <Link link="https://foundation.app/" title="Foundation" />,{" "}
+            <Link link="https://foundation.app/" title="Foundation" />{" "}
+            (currently the main hub for anime-inspired artists),{" "}
             <Link link="https://makersplace.com/" title="MakersPlace" />,
             <Link link="https://knownorigin.io/" title="KnownOrigin" />,{" "}
             <Link link="https://superrare.co/" title="SuperRare" />,{" "}
             <Link link="https://anifty.jp/" title="ANIFTY" />.
           </div>
-          <div className="mb-2">
-            Marketplace for Polygon:{" "}
-            <Link link="https://opensea.io/" title="OpenSea" /> (Polygon
-            Network)
-          </div>
-          <div className="mb-2">
-            Information about marketplaces are available{" "}
-            <RouterLink link="/sell-nft/choose-marketplace" title="here" />.
-          </div>
+
           <Card
-            color="teal"
-            title="Guide on how to create a MetaMask wallet"
+            color="green"
+            title="Pros"
+            light={true}
             content={[
-              <div>
-                <ol className="list-decimal ml-4">
+              <>
+                <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    <Link
-                      link="https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-started-with-MetaMask"
-                      title="Install the extension on Chrome, Firefox, Edge, or Brave"
-                      light={true}
-                    />
+                    Widely used for all NFT creators + collectors
                   </li>
                   <li className="mt-1">
-                    <Link
-                      link="https://www.followchain.org/make-metamask-wallet/"
-                      title="Set up your MetaMask wallet"
-                      light={true}
-                    />
-                  </li>
-                  <li className="mt-1">
-                    Buy ETH for your wallet (
-                    <span className="text-pink-600">
-                      Highly recommend everyone to apply for{" "}
-                      <RouterLink
-                        link="/weeb3dao-scholarship"
-                        title="the weeb3dao
-                      scholarship"
-                      />{" "}
-                      instead of buying ETH to mint your first artwork
-                    </span>
-                    )
-                  </li>
-                </ol>
-                <ul className="list-disc ml-10">
-                  <li className="mt-1">
-                    <Link
-                      link="https://metamask.zendesk.com/hc/en-us/articles/360058239311-How-to-buy-ETH"
-                      title="Directly via MetaMask"
-                      light={true}
-                    />
-                  </li>
-                  <li className="mt-1">
-                    <Link
-                      link="https://help.foundation.app/en/articles/4731452-a-complete-guide-to-getting-eth-and-a-wallet-with-metamask"
-                      title="Using Coinbase"
-                      light={true}
-                    />
-                  </li>{" "}
-                  <li className="mt-1">
-                    If those methods don't work then you can check{" "}
-                    <Link
-                      link="https://ethereum.org/en/get-eth/"
-                      title="the services
-                      available for the country you are in here"
-                      light={true}
-                    />
-                    . <br />
-                    <span className="text-orange-500 font-bold">
-                      Recommendation:
-                    </span>{" "}
-                    <Link
-                      link="https://www.myetherwallet.com/"
-                      title="MEW"
-                      light={true}
-                    />
-                    as you can buy ETH{" "}
-                    <Link
-                      link="https://kb.myetherwallet.com/en/swap/buy-eth-via-simplex/"
-                      title="using your credit card through
-                      Simplex"
-                      light={true}
-                    />
+                    Have the highest volume and average sale value in terms of
+                    USD
                   </li>
                 </ul>
-              </div>,
+              </>,
+            ]}
+          />
+
+          <Card
+            color="red"
+            title="Cons"
+            light={true}
+            content={[
+              <>
+                <ul className="list-disc ml-4">
+                  <li className="mt-1">
+                    High gas fees for each transaction on the network
+                  </li>
+                </ul>
+              </>,
+            ]}
+          />
+
+          <Card
+            color="orange"
+            title="Important information"
+            light={true}
+            content={[
+              <>
+                <ul className="list-disc ml-4">
+                  <li className="mt-1">
+                    All transactions on ETH will incur a gas fee based on the
+                    GWEI at the time of usage. (GWEI and gas fee explanations
+                    are available{" "}
+                    <RouterLink
+                      link="/info-nft/important-terminologies"
+                      title="here"
+                      light={true}
+                    />
+                    )
+                  </li>
+                  <li className="mt-1">
+                    Examples for gas fee price for minting on{" "}
+                    <Link
+                      link="https://foundation.app/"
+                      title="Foundation"
+                      light={true}
+                    />
+                    :
+                  </li>
+
+                  <ul className="list-disc ml-6">
+                    <li className="mt-1">
+                      1 ETH = USD $3000{" "}
+                      <span className="relative bottom-0.5 right-0.5">
+                        <ArrowRightAltIcon />
+                      </span>{" "}
+                      50 GWEI = approximately USD $40~$60
+                    </li>
+                    <li className="mt-1">
+                      1 ETH = USD $4000{" "}
+                      <span className="relative bottom-0.5 right-0.5">
+                        <ArrowRightAltIcon />
+                      </span>{" "}
+                      50 GWEI = approximately USD $60~$80
+                    </li>
+                  </ul>
+                  <li className="mt-1">
+                    <span className="text-pink-600 font-bold">
+                      Each gas fee
+                    </span>{" "}
+                    is for{" "}
+                    <span className="text-pink-600 font-bold">
+                      each transaction
+                    </span>
+                    . If you mint x2 artworks then it will cost x2 gas fees.
+                  </li>
+                </ul>
+              </>,
             ]}
           />
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
           <div className="mb-2">
-            Kukai is used for the{" "}
-            <span className="text-pink-600 font-bold">Tezos</span>
-            blockchain.
-          </div>
-          <div className="mb-2">
-            Marketplaces for Tezos:{" "}
-            <Link link="https://objkt.com/" title="OBJKT" />,{" "}
-            <Link link="https://kalamint.io/" title="Kalamint" />,{" "}
-            <Link link="https://hicetnunc.art/" title="Hicetnunc" />.
+            Ethereum and Polygon are the{" "}
+            <span className="text-pink-600 font-bold">
+              most popular blockchains
+            </span>{" "}
+            for{" "}
+            <span className="text-pink-600 font-bold">
+              Japanese anime NFT artists
+            </span>{" "}
+            at the current time of writing.
           </div>
 
           <Card
-            color="teal"
-            title="Guide on how to create a Kukai wallet"
+            color="pink"
+            light={true}
             content={[
-              <div>
-                <ol className="list-decimal ml-4">
+              <div className="ml-9">
+                Many{" "}
+                <span className="text-pink-600 font-bold">
+                  Japanese anime NFT artists
+                </span>{" "}
+                prefer to use Polygon instead of Ethereum for its{" "}
+                <span className="text-green-600 font-bold">
+                  very low gas fees
+                </span>{" "}
+                for transactions and blockchain is also{" "}
+                <span className="text-green-600 font-bold">eco-friendly</span>.
+              </div>,
+            ]}
+          />
+
+          <div className="mb-2">
+            Marketplace for Polygon:{" "}
+            <Link link="https://opensea.io/" title="OpenSea" /> (Polygon
+            Network)
+          </div>
+
+          <Card
+            color="green"
+            title="Pros"
+            light={true}
+            content={[
+              <>
+                <ul className="list-disc ml-4">
+                  <li className="mt-1">Eco-friendly</li>
                   <li className="mt-1">
-                    <Link
-                      link="https://docs.kukai.app/learn-kukai/new-wallet"
-                      title="Set up your Kukai wallet"
-                      light={true}
-                    />
+                    No gas fee for any sale or purchase (on OpenSea){" "}
+                    <span className="relative bottom-0.5 right-0.5">
+                      <ArrowRightAltIcon />
+                    </span>{" "}
+                    Therefore Polygon is better for lower priced collections
                   </li>
-                  <li className="mt-1">Buy Tezos for your wallet</li>
-                </ol>
-                <ul className="list-disc ml-10">
                   <li className="mt-1">
-                    <Link
-                      link="https://www.kraken.com/en-gb/learn/buy-tezos-xtz"
-                      title="Using Kraken"
-                      light={true}
-                    />
+                    Collectors on ETH main net can convert to Polygon ETH on
+                    OpenSea and able to purchase your artwork(s) easily
                   </li>
                   <li className="mt-1">
-                    <Link
-                      link="https://wheretobuytezos.com/how-to-buy-tezos-xtz/coinbase"
-                      title="Using Coinbase"
-                      light={true}
-                    />
+                    Can be used to airdrop tokens or NFTs for a very low cost
+                  </li>
+                  <li className="mt-1">
+                    Can be exchanged into FIAT at almost the same value as ETH
                   </li>
                 </ul>
-              </div>,
+              </>,
+            ]}
+          />
+
+          <Card
+            color="red"
+            title="Cons"
+            light={true}
+            content={[
+              <>
+                <ul className="list-disc ml-4">
+                  <li className="mt-1">
+                    Needs bridging/conversion between Ethereum network and
+                    Polygon network for usage
+                  </li>
+                  <li className="mt-1">
+                    OpenSea hides Polygon airdrops and filters "Activity" tab to
+                    only Ethereum by default
+                  </li>
+                  <li className="mt-1">
+                    Commonly used to send spam or advertisement NFTs as well as
+                    art thieves due to the low gas costs, which hurt the
+                    popularity and legitimacy of Polygon NFTs as a whole.{" "}
+                    <span className="relative bottom-0.5 right-0.5">
+                      <ArrowRightAltIcon />
+                    </span>{" "}
+                    Due to this, a lot of collectors still prefer NFTs on ETH
+                    Mainnet despite higher gas fees
+                  </li>
+                  <li className="mt-1">
+                    Volume and average sale price on polygon tend to be lower
+                  </li>
+                </ul>
+              </>,
             ]}
           />
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
           <div className="mb-2">
-            Kukai is used for the{" "}
-            <span className="text-pink-600 font-bold">Tezos</span>
-            blockchain.
-          </div>
-          <div className="mb-2">
-            Marketplaces for Tezos:{" "}
-            <Link link="https://objkt.com/" title="OBJKT" />,{" "}
-            <Link link="https://kalamint.io/" title="Kalamint" />,{" "}
-            <Link link="https://hicetnunc.art/" title="Hicetnunc" />.
+            An alternative to Polygon for{" "}
+            <span className="text-green-600 font-bold">
+              eco-friendly blockchain
+            </span>
+            .
           </div>
 
           <Card
-            color="teal"
-            title="Guide on how to create a Kukai wallet"
+            color="pink"
+            light={true}
             content={[
-              <div>
-                <ol className="list-decimal ml-4">
+              <div className="ml-9">
+                <Link link="https://opensea.io/" title="OpenSea" /> have plans
+                to add Tezos to their list of blockchains.
+              </div>,
+            ]}
+          />
+
+          <div className="mb-2">
+            Marketplaces for Tezos:{" "}
+            <Link link="https://hicetnunc.art/" title="Hicetnunc" />,{" "}
+            <Link link="https://objkt.com/" title="OBJKT" />,{" "}
+            <Link link="https://kalamint.io/" title="Kalamint" />.
+          </div>
+
+          <Card
+            color="green"
+            title="Pros"
+            light={true}
+            content={[
+              <>
+                <ul className="list-disc ml-4">
+                  <li className="mt-1">Eco-friendly</li>
                   <li className="mt-1">
-                    <Link
-                      link="https://docs.kukai.app/learn-kukai/new-wallet"
-                      title="Set up your Kukai wallet"
-                      light={true}
-                    />
+                    Very low cost gas for each transaction
                   </li>
-                  <li className="mt-1">Buy Tezos for your wallet</li>
-                </ol>
-                <ul className="list-disc ml-10">
                   <li className="mt-1">
-                    <Link
-                      link="https://www.kraken.com/en-gb/learn/buy-tezos-xtz"
-                      title="Using Kraken"
-                      light={true}
-                    />
+                    Very good option if you want to sell your artworks as
+                    multiple editions instead of 1/1
                   </li>
                   <li className="mt-1">
-                    <Link
-                      link="https://wheretobuytezos.com/how-to-buy-tezos-xtz/coinbase"
-                      title="Using Coinbase"
-                      light={true}
-                    />
+                    Collectors and fellow artists will be able to collect your
+                    artwork(s) easily due to its low prices.
                   </li>
                 </ul>
-              </div>,
+              </>,
+            ]}
+          />
+
+          <Card
+            color="red"
+            title="Cons"
+            light={true}
+            content={[
+              <>
+                <ul className="list-disc ml-4">
+                  <li className="mt-1">
+                    Doesn't have as much collectors as ETH blockchain
+                  </li>
+                  <li className="mt-1">Low FIAT value</li>
+                </ul>
+              </>,
             ]}
           />
         </TabPanel>

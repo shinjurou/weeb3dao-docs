@@ -75,10 +75,11 @@ export default function FullWidthTabs() {
         onChangeIndex={handleChangeIndex}
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
-          <Card color="orange" title="Blockchain" content="ETH" />
+          <Card color="orange" title="Blockchain" light={true} content="ETH" />
           <Card
             color="green"
             title="Pros"
+            light={true}
             content={[
               <div>
                 <ul className="list-disc">
@@ -93,6 +94,7 @@ export default function FullWidthTabs() {
           <Card
             color="red"
             title="Cons"
+            light={true}
             content={[
               <div>
                 <ul className="list-disc">
@@ -112,6 +114,7 @@ export default function FullWidthTabs() {
           <Card
             color="orange"
             title="Blockchains"
+            light={true}
             content={[
               <div>
                 Polygon
@@ -123,6 +126,7 @@ export default function FullWidthTabs() {
           <Card
             color="green"
             title="Pros"
+            light={true}
             content={[
               <div>
                 <ul className="list-disc">
@@ -135,6 +139,7 @@ export default function FullWidthTabs() {
           <Card
             color="red"
             title="Cons"
+            light={true}
             content={[
               <div>
                 <ul className="list-disc">

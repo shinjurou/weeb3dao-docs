@@ -12,7 +12,12 @@ import CircleNotificationsOutlinedIcon from "@mui/icons-material/CircleNotificat
 
 export default function CustomCard(props) {
   return (
-    <Card sx={{ minWidth: 275, my: 2 }}>
+    <Card
+      sx={{ minWidth: 275, my: 2 }}
+      style={{
+        backgroundColor: props.light ? "rgba(255,255, 255, 0.06)" : null,
+      }}
+    >
       <div
         className={classNames(
           "border-l-4",

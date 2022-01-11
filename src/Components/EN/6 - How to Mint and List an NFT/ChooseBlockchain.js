@@ -134,8 +134,14 @@ export default function ChooseBlockchain() {
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     Settling for only one blockchain is unnecessary as you can
-                    use multiples at the same time and use different types of
-                    artworks on each marketplace(s) and each blockchain(s).
+                    <span className="text-green-600 font-bold">
+                      use multiples at the same time
+                    </span>{" "}
+                    and use{" "}
+                    <span className="text-orange-500">
+                      different types of artworks
+                    </span>{" "}
+                    on each marketplace(s) and each blockchain(s).
                   </li>
 
                   <li className="mt-1">
@@ -157,13 +163,18 @@ export default function ChooseBlockchain() {
                   </ul>
 
                   <li className="mt-1">
-                    Conversion between Ethereum and Polygon are easier compare
-                    to converting Tezos to either of the other 2 blockchains.{" "}
+                    <span className="text-pink-600">
+                      Conversion between Ethereum and Polygon are easier
+                    </span>{" "}
+                    compare to converting Tezos to either of the other 2
+                    blockchains.{" "}
                     <span className="relative bottom-0.5 right-0.5">
                       <ArrowRightAltIcon />
                     </span>
-                    It is recommended use Ethereum and Polygon if you wish to
-                    use multiple blockchains at the same time.
+                    <span className="text-pink-600 font-bold">
+                      It is recommended use Ethereum and Polygon if you wish to
+                      use multiple blockchains at the same time.
+                    </span>
                   </li>
                 </ul>
               </div>,
