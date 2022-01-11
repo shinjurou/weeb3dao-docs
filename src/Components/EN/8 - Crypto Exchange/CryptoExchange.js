@@ -1,6 +1,5 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
-import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import RouterLink from "../0 - Index/RouterLink";
 import NaviButtons from "../0 - Index/NaviButtons";
