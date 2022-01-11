@@ -52,8 +52,8 @@ export default function Celebration() {
         <NaviButtons
           return="Promote your NFT"
           returnlink="/sell-nft/promote-nft"
-          next="Introduction"
-          nextlink="/introduction"
+          next="How to keep track of Gas"
+          nextlink="/sell-nft/gas"
         />
       </div>
     </div>

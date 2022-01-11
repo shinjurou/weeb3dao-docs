@@ -39,16 +39,17 @@ export default function DatabaseInfo() {
               </span>{" "}
               <Link link="https://twitter.com/shinjuroukai" title="Shinjurou" />
             </li>
-            <li className="my-2">
-              <span className="bg-indigo-400 text-gray-800 p-0.5 rounded-sm">
-                Assistant:
+            <li className="my-2 ">
+              <span className="bg-sky-600 text-gray-800 p-0.5 rounded-sm">
+                Website Editor:
               </span>{" "}
-              <Link link="https://twitter.com/Feireina" title="Fei" />
+              <Link link="https://twitter.com/shiomueth" title="Shiomu" />
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
                 Proofreaders:
               </span>{" "}
+              <Link link="https://twitter.com/Feireina" title="Fei" />,{" "}
               <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link
                 link="https://twitter.com/morellostorment"
@@ -122,13 +123,13 @@ export default function DatabaseInfo() {
             checked={true}
             label={[
               <span className="text-violet-500">9 January 2022</span>,
-              " Migration start",
+              " Migration and rebuilding start",
             ]}
           />
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">11 January 2022</span>,
+              <span className="text-violet-500">12 January 2022</span>,
               " ",
               <span className="text-red-600 font-bold">Version 2.0</span>,
               " Migrated from Gitbook and rebuilt the Database to become its own individual website",

@@ -3,6 +3,8 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
+import WordExplain from "../0 - Index/WordExplain";
+import WordExample from "../0 - Index/WordExample";
 
 export default function WhatIsNFT() {
   return (
@@ -32,24 +34,23 @@ export default function WhatIsNFT() {
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
           Simple explanation
         </Typography>
-        <div className="mb-2">
-          <span className="text-pink-600 font-bold">Non-fungible</span> =
-          unique, the only one of it's kind and cannot be replaced. <br />
-          <span className="text-green-600 font-bold">
-            Real life example:
-          </span>{" "}
-          you as an individual cannot be replaced by your high school math
-          teacher.
-        </div>
-        <div>
-          <span className="text-pink-600 font-bold">Token</span> = a virtual
+        <WordExplain
+          word="Non-fungible"
+          explain="Unique, the only one of it's kind and cannot be replaced."
+        />
+        <WordExample
+          explain="You as an individual cannot be replaced by your high school math
+          teacher."
+        />
+
+        <WordExplain
+          word="Token"
+          explain="A virtual
           currency that the holder will be able to trade online through the
-          blockchain. <br />
-          <span className="text-green-600 font-bold">
-            Real life example:
-          </span>{" "}
-          coins we use everyday representing money to be exchanged for goods
-        </div>
+          blockchain."
+        />
+        <WordExample explain="Coins we use everyday representing money to be exchanged for goods." />
+
         <Card
           color="orange"
           content={[

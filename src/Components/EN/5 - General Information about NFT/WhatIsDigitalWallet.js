@@ -5,6 +5,8 @@ import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
 import RouterLink from "../0 - Index/RouterLink";
 import HotColdWalletTable from "./HotColdWalletTable";
+import WordExplain from "../0 - Index/WordExplain";
+import WordExample from "../0 - Index/WordExample";
 
 export default function WhatIsDigitalWallet() {
   return (
@@ -29,15 +31,13 @@ export default function WhatIsDigitalWallet() {
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
           Simple explanation
         </Typography>
-        <div className="mb-2">
-          <span className="text-pink-600 font-bold">Digital Wallet</span> is a
-          software that can store all your digital assets on the Blockchain.{" "}
-          <br />
-          <span className="text-green-600 font-bold">
-            Real life example:
-          </span>{" "}
-          your wallet storing your paper money and credit cards.
-        </div>
+        <WordExplain
+          word="Digital Wallet"
+          explain="This is a
+          software that can store all your digital assets on the Blockchain."
+        />
+        <WordExample explain="Your wallet storing your paper money and credit cards." />
+
         <Card
           color="orange"
           content="All transactions made in your wallet will be recorded and available for everyone to see on the Blockchain."

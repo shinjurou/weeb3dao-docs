@@ -3,6 +3,8 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
+import WordExplain from "../0 - Index/WordExplain";
+import WordExample from "../0 - Index/WordExample";
 
 export default function WhatIsBlockchain() {
   return (
@@ -29,13 +31,17 @@ export default function WhatIsBlockchain() {
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
           Simple explanation
         </Typography>
-        <div className="mb-2">
-          <span className="text-pink-600 font-bold">Blockchain</span> is a
+
+        <WordExplain
+          word="Blockchain"
+          explain="This is a
           system that records all activities that happens online and stores
-          everything on the network. <br />
-          <span className="text-green-600 font-bold">Real life example:</span> a
-          financial book for a company with listings of their funds, sales, etc.
-        </div>
+          everything on the network."
+        />
+        <WordExample
+          explain="A
+          financial book for a company with listings of their funds, sales, etc."
+        />
 
         <Card
           color="orange"

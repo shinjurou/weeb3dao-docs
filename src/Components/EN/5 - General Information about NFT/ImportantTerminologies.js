@@ -74,13 +74,13 @@ export default function ImportantTerminologies() {
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="ETH" explain="Ethereum" />
+            <WordExplain word="ETH" explain="Ethereum." />
           </li>
           <li>
-            <WordExplain word="XTZ/TEZ" explain="Tezos" />
+            <WordExplain word="XTZ/TEZ" explain="Tezos." />
           </li>
           <li>
-            <WordExplain word="ETH" explain="Ethereum" />
+            <WordExplain word="ETH" explain="Ethereum." />
           </li>
           <li>
             <WordExplain
@@ -105,7 +105,7 @@ export default function ImportantTerminologies() {
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="Mint" explain="Create an NFT" />
+            <WordExplain word="Mint" explain="Create an NFT." />
           </li>
         </ul>
 
@@ -131,10 +131,10 @@ export default function ImportantTerminologies() {
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="POW" explain="Proof of Work" />
+            <WordExplain word="POW" explain="Proof of Work." />
           </li>
           <li>
-            <WordExplain word="POS" explain="Proof of Stake" />
+            <WordExplain word="POS" explain="Proof of Stake." />
           </li>
           <li>
             <WordExplain
@@ -171,7 +171,7 @@ export default function ImportantTerminologies() {
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="GWEI" explain="Gigawei" />
+            <WordExplain word="GWEI" explain="Gigawei." />
           </li>
         </ul>
 
