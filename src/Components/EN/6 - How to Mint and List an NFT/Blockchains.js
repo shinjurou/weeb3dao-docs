@@ -218,7 +218,7 @@ export default function FullWidthTabs() {
             color="pink"
             light={true}
             content={[
-              <div className="ml-9">
+              <div>
                 Many{" "}
                 <span className="text-pink-600 font-bold">
                   Japanese anime NFT artists
@@ -315,7 +315,7 @@ export default function FullWidthTabs() {
             color="pink"
             light={true}
             content={[
-              <div className="ml-9">
+              <div>
                 <Link link="https://opensea.io/" title="OpenSea" /> have plans
                 to add Tezos to their list of blockchains.
               </div>,

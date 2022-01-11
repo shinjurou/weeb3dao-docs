@@ -228,34 +228,33 @@ export default function Introduction() {
             <Card
               color="orange"
               content={[
-                "We have a ",
-                <span className="text-pink-600 font-bold">
-                  Scholarship Program
-                </span>,
-                " to help new emerging artists by ",
-                <span className="text-orange-500">
-                  providing them the gas fee
-                </span>,
-                " to mint their first artwork on a high gas platform (example: Foundation, MakersPlace, etc.)",
-                <br />,
-                <span className="text-pink-600 font-bold ml-8">
-                  <span className="relative bottom-0.5">
-                    <ArrowRightAltIcon />
+                <div>
+                  We have a{" "}
+                  <span className="text-pink-600 font-bold">
+                    Scholarship Program
                   </span>{" "}
-                  If you are interested then please
-                </span>,
-                " ",
-                <RouterLink
-                  link="/weeb3dao-scholarship"
-                  title="click this link and apply for the program"
-                />,
-                ".",
-                <br />,
-                <div className="text-violet-500 ml-8">
-                  (For Japanese and Korean artists please select the
-                  corresponding links for the translations if you are struggling
-                  with the English version of the Scholarship website which will
-                  be available at a later date)
+                  to help new emerging artists by{" "}
+                  <span className="text-orange-500">
+                    providing them the gas fee
+                  </span>{" "}
+                  to mint their first artwork on a high gas platform (example:
+                  Foundation, MakersPlace, etc.)
+                  <div className="text-pink-600 font-bold mt-2">
+                    <span className="relative bottom-0.5">
+                      <ArrowRightAltIcon />
+                    </span>{" "}
+                    If you are interested then please{" "}
+                    <RouterLink
+                      link="/weeb3dao-scholarship"
+                      title="click this link and apply for the program"
+                    />
+                  </div>
+                  <div className="text-violet-500 mt-2">
+                    (For Japanese and Korean artists please select the
+                    corresponding links for the translations if you are
+                    struggling with the English version of the Scholarship
+                    website which will be available at a later date)
+                  </div>
                 </div>,
               ]}
             />

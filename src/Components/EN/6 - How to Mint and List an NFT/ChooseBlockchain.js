@@ -130,54 +130,52 @@ export default function ChooseBlockchain() {
           <Card
             color="green"
             content={[
-              <div className="ml-9">
-                <ul className="list-disc ml-4">
-                  <li className="mt-1">
-                    Settling for only one blockchain is unnecessary as you can
-                    <span className="text-green-600 font-bold">
-                      use multiples at the same time
-                    </span>{" "}
-                    and use{" "}
-                    <span className="text-orange-500">
-                      different types of artworks
-                    </span>{" "}
-                    on each marketplace(s) and each blockchain(s).
-                  </li>
+              <ul className="list-disc ml-4">
+                <li className="mt-1">
+                  Settling for only one blockchain is unnecessary as you can
+                  <span className="text-green-600 font-bold">
+                    use multiples at the same time
+                  </span>{" "}
+                  and use{" "}
+                  <span className="text-orange-500">
+                    different types of artworks
+                  </span>{" "}
+                  on each marketplace(s) and each blockchain(s).
+                </li>
 
-                  <li className="mt-1">
-                    <span className="text-green-600 font-bold">Example</span>
-                  </li>
+                <li className="mt-1">
+                  <span className="text-green-600 font-bold">Example</span>
+                </li>
 
-                  <ul className="list-disc ml-6">
-                    <li className="mt-1">
-                      Minting your 1/1 works with high attention to details on
-                      Ethereum and simpler versions of artworks on Polygon or
-                      Tezos.{" "}
-                      <span className="relative bottom-0.5 right-0.5">
-                        <ArrowRightAltIcon />
-                      </span>{" "}
-                      This will require you to use multiple wallets and convert
-                      the currencies, but it will help you be able to utilizes
-                      all the good points on each blockchain.
-                    </li>
-                  </ul>
-
+                <ul className="list-disc ml-6">
                   <li className="mt-1">
-                    <span className="text-pink-600">
-                      Conversion between Ethereum and Polygon are easier
-                    </span>{" "}
-                    compare to converting Tezos to either of the other 2
-                    blockchains.{" "}
+                    Minting your 1/1 works with high attention to details on
+                    Ethereum and simpler versions of artworks on Polygon or
+                    Tezos.{" "}
                     <span className="relative bottom-0.5 right-0.5">
                       <ArrowRightAltIcon />
-                    </span>
-                    <span className="text-pink-600 font-bold">
-                      It is recommended use Ethereum and Polygon if you wish to
-                      use multiple blockchains at the same time.
-                    </span>
+                    </span>{" "}
+                    This will require you to use multiple wallets and convert
+                    the currencies, but it will help you be able to utilizes all
+                    the good points on each blockchain.
                   </li>
                 </ul>
-              </div>,
+
+                <li className="mt-1">
+                  <span className="text-pink-600">
+                    Conversion between Ethereum and Polygon are easier
+                  </span>{" "}
+                  compare to converting Tezos to either of the other 2
+                  blockchains.{" "}
+                  <span className="relative bottom-0.5 right-0.5">
+                    <ArrowRightAltIcon />
+                  </span>
+                  <span className="text-pink-600 font-bold">
+                    It is recommended use Ethereum and Polygon if you wish to
+                    use multiple blockchains at the same time.
+                  </span>
+                </li>
+              </ul>,
             ]}
           />
         </div>

@@ -15,17 +15,15 @@ export default function DatabaseInfo() {
         <Card
           color="orange"
           content={[
-            "All information available on this website were gathered ",
-            <span className="text-pink-600">from the internet</span>,
-            " and thanks to the ",
-            <span className="text-pink-600">information provided</span>,
-            " by various ",
-            <span className="text-orange-500">artists</span>,
-            " and ",
-            <span className="text-orange-500">collectors</span>,
-            " in ",
-            <Link link="https://discord.gg/vktnAzvyNQ" title="Anifriends" />,
-            ".",
+            <div>
+              All information available on this website were gathered{" "}
+              <span className="text-pink-600">from the internet</span> and
+              thanks to the{" "}
+              <span className="text-pink-600">information provided</span> by{" "}
+              <span className="text-orange-500">artists</span> and{" "}
+              <span className="text-orange-500">collectors</span> in{" "}
+              <Link link="https://discord.gg/vktnAzvyNQ" title="Anifriends" />
+            </div>,
           ]}
         />
 
@@ -81,10 +79,14 @@ export default function DatabaseInfo() {
         <Card
           color="green"
           content={[
-            "If you wish to report any typo, correct an information, provide new information or provide translation into another language to be added onto the database then ",
-            <span className="text-pink-600">
-              please send a message to Shinjurou via Twitter or Discord.
-            </span>,
+            <div>
+              If you wish to report any typo, correct an information, provide
+              new information or provide translation into another language to be
+              added onto the database then{" "}
+              <span className="text-pink-600">
+                please send a message to Shinjurou via Twitter or Discord.
+              </span>
+            </div>,
           ]}
         />
 

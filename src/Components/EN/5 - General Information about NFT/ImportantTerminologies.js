@@ -186,7 +186,7 @@ export default function ImportantTerminologies() {
             <div>
               GWEI is the measure unit for the gas price for all transactions on
               ETH based blockchains (including Polygon).
-              <div className="ml-16">
+              <div className="ml-8">
                 <ul className="list-disc">
                   <li className="mt-1">High GWEI = High gas fee</li>
                   <li className="mt-1">Low GWEI = Low gas fee </li>

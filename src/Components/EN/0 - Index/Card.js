@@ -59,7 +59,7 @@ export default function CustomCard(props) {
                   "text-green-600": props.color === "green",
                 },
                 {
-                  "text-teal-700": props.color === "teal",
+                  "text-teal-600": props.color === "teal",
                 },
                 {
                   "text-purple-700": props.color === "purple",
@@ -69,24 +69,27 @@ export default function CustomCard(props) {
                 }
               )}
             >
-              {props.color === "red" ? <HighlightOffOutlinedIcon /> : null}
-              {props.color === "orange" ? <ErrorOutlineOutlinedIcon /> : null}
-              {props.color === "green" ? (
-                <CheckCircleOutlineOutlinedIcon />
-              ) : null}
-              {props.color === "teal" ? <InfoOutlinedIcon /> : null}
-              {props.color === "purple" ? <HelpOutlineOutlinedIcon /> : null}
-              {props.color === "pink" ? (
-                <CircleNotificationsOutlinedIcon />
-              ) : null}
-              <span className="ml-2">{props.title}</span>
+              {" "}
+              <div className="float-left mr-2">
+                {props.color === "red" ? <HighlightOffOutlinedIcon /> : null}
+                {props.color === "orange" ? <ErrorOutlineOutlinedIcon /> : null}
+                {props.color === "green" ? (
+                  <CheckCircleOutlineOutlinedIcon />
+                ) : null}
+                {props.color === "teal" ? <InfoOutlinedIcon /> : null}
+                {props.color === "purple" ? <HelpOutlineOutlinedIcon /> : null}
+                {props.color === "pink" ? (
+                  <CircleNotificationsOutlinedIcon />
+                ) : null}
+              </div>
+              <div className="ml-2">{props.title}</div>
             </div>
 
             <div className="ml-8">{props.content}</div>
           </>
         ) : (
           <>
-            <span
+            <div
               className={classNames(
                 "font-bold",
                 "mb-1",
@@ -112,19 +115,21 @@ export default function CustomCard(props) {
                 }
               )}
             >
-              {props.color === "red" ? <HighlightOffOutlinedIcon /> : null}
-              {props.color === "orange" ? <ErrorOutlineOutlinedIcon /> : null}
-              {props.color === "green" ? (
-                <CheckCircleOutlineOutlinedIcon />
-              ) : null}
-              {props.color === "teal" ? <InfoOutlinedIcon /> : null}
-              {props.color === "purple" ? <HelpOutlineOutlinedIcon /> : null}
-              {props.color === "pink" ? (
-                <CircleNotificationsOutlinedIcon />
-              ) : null}
-            </span>
+              <div className="float-left">
+                {props.color === "red" ? <HighlightOffOutlinedIcon /> : null}
+                {props.color === "orange" ? <ErrorOutlineOutlinedIcon /> : null}
+                {props.color === "green" ? (
+                  <CheckCircleOutlineOutlinedIcon />
+                ) : null}
+                {props.color === "teal" ? <InfoOutlinedIcon /> : null}
+                {props.color === "purple" ? <HelpOutlineOutlinedIcon /> : null}
+                {props.color === "pink" ? (
+                  <CircleNotificationsOutlinedIcon />
+                ) : null}
+              </div>
+            </div>
 
-            <span>{props.content}</span>
+            <div className="ml-8">{props.content}</div>
           </>
         )}
       </div>
