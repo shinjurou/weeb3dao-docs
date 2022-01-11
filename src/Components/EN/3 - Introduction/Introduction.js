@@ -184,7 +184,7 @@ export default function Introduction() {
             ".",
           ]}
         />
-        <div className="intro grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
+        <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
           <div>
             <Typography variant="h2" color="inherit" component="h2" my={1}>
               <Link

@@ -92,7 +92,7 @@ export default function DatabaseInfo() {
 
         <div className="release-notes my-7 lg:ml-12 md:ml-6 sm:ml-2">
           <Typography variant="h3" color="inherit" component="h3">
-            <span className="text-teal-700">Release Notes</span>
+            <span className="text-teal-600">Release Notes</span>
           </Typography>
           <Checkbox
             checked={true}

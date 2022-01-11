@@ -32,7 +32,7 @@ export default function CustomCard(props) {
             "border-green-600": props.color === "green",
           },
           {
-            "border-teal-700": props.color === "teal",
+            "border-teal-600": props.color === "teal",
           },
           {
             "border-purple-700": props.color === "purple",
@@ -105,7 +105,7 @@ export default function CustomCard(props) {
                   "text-green-600": props.color === "green",
                 },
                 {
-                  "text-teal-700": props.color === "teal",
+                  "text-teal-600": props.color === "teal",
                 },
                 {
                   "text-purple-700": props.color === "purple",

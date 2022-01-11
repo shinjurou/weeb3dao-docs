@@ -6,11 +6,11 @@ export default function CustomTableCheckbox(props) {
   return (
     <div className="custom-checkbox ml-3 my-1 align-middle">
       {props.checked ? (
-        <span className="text-teal-700">
+        <span className="text-teal-600">
           <CheckBoxIcon />
         </span>
       ) : (
-        <span className="text-teal-700">
+        <span className="text-teal-600">
           <CheckBoxOutlineBlankIcon />
         </span>
       )}
