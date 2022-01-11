@@ -303,13 +303,21 @@ export default function MintNFT() {
                 </span>{" "}
                 at the top of the webpage after you logged in.
               </li>
-              <img src={mp1} alt="MakersPlace Upload Creation button" />
+              <img
+                src={mp1}
+                alt="MakersPlace Upload Creation button"
+                className="rounded"
+              />
               <li className="my-2">
                 Upload your creation and click{" "}
                 <span className="text-orange-500 font-bold">"Publish"</span> and
                 just pay the gas fee that pops up and you're done!
               </li>
-              <img src={mp2} alt="MakersPlace Publish button" />
+              <img
+                src={mp2}
+                alt="MakersPlace Publish button"
+                className="rounded"
+              />
             </ul>
           </div>
         </div>
