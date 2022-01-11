@@ -82,7 +82,7 @@ export default function CustomCard(props) {
                   <CircleNotificationsOutlinedIcon />
                 ) : null}
               </div>
-              <div className="ml-2">{props.title}</div>
+              <div className="ml-8">{props.title}</div>
             </div>
 
             <div className="ml-8">{props.content}</div>
