@@ -19,6 +19,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Collapse from "@mui/material/Collapse";
 import Fade from "@mui/material/Fade";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import ScrollToTop from "./ScrollToTop";
 
 // Importing Router
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -737,6 +738,7 @@ export default function Index(props) {
           </Drawer>
           <Box component="main" sx={{ flexGrow: 1 }}>
             <DrawerHeader />
+            <ScrollToTop />
             <Routes>
               <Route exact path="/" element={<Welcome />} />
               <Route path="/database-info" element={<DatabaseInfo />} />
