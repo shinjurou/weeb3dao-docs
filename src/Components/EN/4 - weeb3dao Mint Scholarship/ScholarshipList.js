@@ -205,7 +205,7 @@ const rows = [
     true
   ),
   createData(
-    "Charee",
+    "Charnime",
     "@FancyCharNim",
     "https://twitter.com/FancyCharNim",
     "@CharNim",
