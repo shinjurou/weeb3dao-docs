@@ -11,7 +11,6 @@ import { useTheme } from "@mui/material/styles";
 
 export default function CustomCard(props) {
   const theme = useTheme();
-  console.log(theme.palette.type);
 
   return (
     <Card
