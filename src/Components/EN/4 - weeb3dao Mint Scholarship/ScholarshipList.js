@@ -411,7 +411,7 @@ const rows = [
     "https://twitter.com/Kuronaken1",
     "@Kuronaken",
     "https://foundation.app/@Kuronaken",
-    true,
+    true
   ),
   createData(
     "Laika",
@@ -470,7 +470,7 @@ const rows = [
     "https://twitter.com/_mm2k_",
     "@_mm2k_",
     "https://foundation.app/@_mm2k_",
-    true,
+    true
   ),
   createData(
     "mirakuru☆momoka",
@@ -478,7 +478,7 @@ const rows = [
     "https://twitter.com/kanamomoka5",
     "@mirakuru_momoka",
     "https://foundation.app/@mirakuru_momoka",
-    true,
+    true
   ),
   createData(
     "Misato",
@@ -992,7 +992,7 @@ export default function StickyHeadTable() {
         </Table>
       </TableContainer>
       <TablePagination
-        rowsPerPageOptions={[5, 10, 20]}
+        rowsPerPageOptions={[5, 10, 20, { value: -1, label: "All" }]}
         component="div"
         count={rows.length}
         rowsPerPage={rowsPerPage}
