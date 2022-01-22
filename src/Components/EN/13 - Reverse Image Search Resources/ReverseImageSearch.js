@@ -15,11 +15,11 @@ export default function ReverseImageSearch() {
           color="green"
           content={[
             <div>
-              <Link link="https://twitter.com/shiomueth" title="Shiomu" /> has
+              <Link link="https://twitter.com/shiomueth" title="shiomu" /> has
               provided various resources to help the process of reverse image
               search in order to{" "}
               <span className="text-green-600 font-bold">
-                verify authenticity for artworks.
+                verify authenticity and locate original source of artworks.
               </span>
             </div>,
           ]}
@@ -45,7 +45,7 @@ export default function ReverseImageSearch() {
               title="https://trace.moe/"
               light={true}
             />{" "}
-            (search scene from anime)
+            (search scenes from anime)
           </li>
           <li className="mb-2">
             <Link
@@ -53,6 +53,8 @@ export default function ReverseImageSearch() {
               title="https://ascii2d.net/"
               light={true}
             />{" "}
+          </li>
+          <li className="mb-2">
             <Link
               link="https://saucenao.com/"
               title="https://saucenao.com/"
@@ -60,7 +62,12 @@ export default function ReverseImageSearch() {
             />
           </li>
           <li className="mb-2">
-            General image search Good old google reverse image search
+            <Link
+              link="https://www.google.com/imghp"
+              title="https://www.google.com/imghp"
+              light={true}
+            />{" "}
+            (Good old google reverse image search)
           </li>
           <li className="mb-2">
             <Link
@@ -76,6 +83,8 @@ export default function ReverseImageSearch() {
               title="https://tineye.com/"
               light={true}
             />{" "}
+          </li>
+          <li className="mb-2">
             <Link
               link="https://3d.iqdb.org/"
               title="https://3d.iqdb.org/"
@@ -89,11 +98,11 @@ export default function ReverseImageSearch() {
           title="Reverse Image Search process"
           content={[
             <ol className="list-decimal ml-6">
-              <li className="mt-1">Search with the image you have</li>
+              <li className="mt-1">Search with the image you have, might lead you straight to original source</li>
               <li className="mt-1">
-                Look for a higher res/un-flipped/uncropped copy elsewhere
+                Else look for a higher res/un-flipped/uncropped version elsewhere
               </li>
-              <li className="mt-1">Use it to search for the actual source</li>
+              <li className="mt-1">Use full image to search for the actual source</li>
             </ol>,
           ]}
         />
