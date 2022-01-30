@@ -224,7 +224,7 @@ function App() {
               <Route path="/:lang/*" element={<PageRouter light={lightTheme}/>}>
                 {routes.map((route, index) => {
                   return <Route key={index} path={'*/'+route}/>  
-                })}
+                })} 
               </Route>
               <Route exact path="/" element={<IndexEN light={lightTheme}/>}>
                 {routes.map((route, index) => {

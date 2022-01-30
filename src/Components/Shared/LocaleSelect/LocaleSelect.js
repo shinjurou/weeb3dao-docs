@@ -1,21 +1,26 @@
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import { locales } from '../../../utils/locales';
-import { useParams, useNavigate } from "react-router-dom"
+import { useParams, useNavigate, useLocation } from "react-router-dom"
 
 const LocaleSelect = () => {
   let navigate = useNavigate();
+  let location = useLocation();
   const params = useParams();
-  const locale = !params.lang ? 'en' : params.lang;
+  const locale = params.lang;
 
   const handleChange = (e) => {
-    navigate("/"+e.target.value+"/"+params['*'], { replace: true });
+    if (!params.lang) {
+      navigate("/"+e.target.value+location.pathname, { replace: true });
+    } else {
+      navigate("/"+e.target.value+"/"+params['*'], { replace: true });
+    }
   }
 
   return (
-    <Select value={locale} onChange={handleChange}>
+    <Select value={locale ?? 'en'} onChange={handleChange}>
       {locales.map((lang) => {
-        return <MenuItem value={lang}>{lang.toUpperCase()}</MenuItem>
+        return <MenuItem key={lang} value={lang}>{lang.toUpperCase()}</MenuItem>
       })}
     </Select>
   )
