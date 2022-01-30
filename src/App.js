@@ -14,7 +14,7 @@ import routes from "./routes";
 import IndexEN from "./Components/EN/0 - Index/Index";
 import useCustomTheme from "./Hooks/useCustomTheme";
 import { getIndexPage } from "./utils/router";
-import { useParams } from 'react-router-dom';
+import { useParams } from "react-router-dom";
 
 const themeLight = createTheme({
   palette: {
@@ -197,42 +197,32 @@ function App() {
     <div className="App">
       <ThemeProvider theme={lightTheme ? themeLight : themeDark}>
         <CssBaseline />
-          <FormGroup>
-            <FormControlLabel
-              control={
-                <MaterialUISwitch
-                  sx={{ m: 1 }}
-                  defaultChecked
-                  onClick={toggleTheme}
-                />
-              }
-              label=""
-            />
-            <FormControlLabel
-              control={
-                <MaterialUISwitch
-                  sx={{ m: 1 }}
-                  defaultChecked
-                  onClick={toggleTheme}
-                />
-              }
-              label=""
-            />
-          </FormGroup>
-          <Router>
-            <Routes>
-              <Route path="/:lang/*" element={<PageRouter light={lightTheme}/>}>
-                {routes.map((route, index) => {
-                  return <Route key={index} path={'*/'+route}/>  
-                })} 
-              </Route>
-              <Route exact path="/" element={<IndexEN light={lightTheme}/>}>
-                {routes.map((route, index) => {
-                  return <Route key={index} path={route}/>  
-                })}
-              </Route>
-            </Routes>
-          </Router>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <MaterialUISwitch
+                sx={{ m: 1 }}
+                defaultChecked
+                onClick={toggleTheme}
+              />
+            }
+            label=""
+          />
+        </FormGroup>
+        <Router>
+          <Routes>
+            <Route path="/:lang/*" element={<PageRouter light={lightTheme} />}>
+              {routes.map((route, index) => {
+                return <Route key={index} path={"*/" + route} />;
+              })}
+            </Route>
+            <Route exact path="/" element={<IndexEN light={lightTheme} />}>
+              {routes.map((route, index) => {
+                return <Route key={index} path={route} />;
+              })}
+            </Route>
+          </Routes>
+        </Router>
       </ThemeProvider>
     </div>
   );
@@ -241,23 +231,19 @@ function App() {
 const PageRouter = (lightTheme) => {
   const { lang } = useParams();
   return getIndexPage(lang, lightTheme);
-}
+};
 
 const Providers = ({ children }) => {
-  return (
-    <CustomThemeProvider>
-      {children}
-    </CustomThemeProvider>
-  );
+  return <CustomThemeProvider>{children}</CustomThemeProvider>;
 };
 
 function withProviders(Component) {
   const ComponentProviders = (props) => {
     return (
       <Providers>
-        <Component {...props}/>
+        <Component {...props} />
       </Providers>
-    )
+    );
   };
   return ComponentProviders;
 }
