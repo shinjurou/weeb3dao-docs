@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import { locales } from "../../../utils/locales";
@@ -15,9 +16,15 @@ const LocaleSelect = () => {
     if (!params.lang) {
       navigate("/" + e.target.value + location.pathname, { replace: true });
     } else {
-      navigate("/" + e.target.value + "/" + params["*"], { replace: true });
+      navigate("/" + e.target.value + "/" + params["*"], { replace: false });
     }
   };
+
+  useEffect(() => {
+    if (!locale) {
+      navigate("/en" + location.pathname, { replace: true });
+    }
+  }, [locale])
 
   return (
     <>
