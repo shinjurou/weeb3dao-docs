@@ -216,19 +216,19 @@ export default function Index(props) {
           variant="permanent"
           open={open}
           className={classNames("navigation", {
-            dark: !props.light,
-            light: props.light,
+            dark: theme.palette.type === "dark",
+            light: theme.palette.type === "light",
           })}
         >
           <DrawerHeader>
             <IconButton onClick={handleDrawerClose}>
               {theme.direction === "rtl" ? (
                 <ChevronRightIcon
-                  sx={props.light !== true ? { color: "white" } : null}
+                  sx={theme.palette.type === "dark" ? { color: "white" } : null}
                 />
               ) : (
                 <ChevronLeftIcon
-                  sx={props.light !== true ? { color: "white" } : null}
+                  sx={theme.palette.type === "dark" ? { color: "white" } : null}
                 />
               )}
             </IconButton>
@@ -240,7 +240,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <CelebrationIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -260,7 +262,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <BookmarkIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -280,7 +284,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <FaceRetouchingNaturalIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -300,7 +306,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <RedeemIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -336,7 +344,9 @@ export default function Index(props) {
               >
                 <ListItemIcon>
                   <MenuBookIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -367,7 +377,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter1Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="What is NFT?" />
@@ -378,7 +392,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter2Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="What is Blockchain?" />
@@ -389,7 +407,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter3Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="What is Digital Wallet?" />
@@ -400,7 +422,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter4Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Important Terminologies" />
@@ -426,7 +452,9 @@ export default function Index(props) {
               >
                 <ListItemIcon>
                   <AddBusinessIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -457,7 +485,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter1Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Create your Digital Wallet" />
@@ -468,7 +500,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter2Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Choose your Blockchain" />
@@ -479,7 +515,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter3Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Choose your Marketplace" />
@@ -490,7 +530,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter4Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Mint an NFT" />
@@ -501,7 +545,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter5Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="List an NFT" />
@@ -512,7 +560,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <Filter6Icon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Promote your NFT" />
@@ -523,7 +575,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <CakeIcon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Celebration" />
@@ -534,7 +590,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <LocalGasStationIcon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="How to keep track of Gas" />
@@ -547,7 +607,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <LocalFireDepartmentIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -569,7 +631,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <CurrencyExchangeIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -602,7 +666,9 @@ export default function Index(props) {
               >
                 <ListItemIcon>
                   <MapsHomeWorkIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -629,7 +695,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <SpeakerNotesIcon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Terminologies" />
@@ -640,7 +710,11 @@ export default function Index(props) {
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <FactCheckIcon
-                        sx={props.light !== true ? { color: "white" } : null}
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
                       />
                     </ListItemIcon>
                     <ListItemText primary="Culture" />
@@ -653,7 +727,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <LiveHelpIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -676,7 +752,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <ParkIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -696,7 +774,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <BookIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -716,7 +796,9 @@ export default function Index(props) {
               <ListItem button>
                 <ListItemIcon>
                   <ImageSearchIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
                 </ListItemIcon>
                 <Fade
@@ -763,10 +845,7 @@ export default function Index(props) {
             />
 
             <Route path="/sell-nft" element={<SellNFT />} />
-            <Route
-              path="/sell-nft/create-wallet"
-              element={<CreateWallet />}
-            />
+            <Route path="/sell-nft/create-wallet" element={<CreateWallet />} />
             <Route
               path="/sell-nft/choose-blockchain"
               element={<ChooseBlockchain />}

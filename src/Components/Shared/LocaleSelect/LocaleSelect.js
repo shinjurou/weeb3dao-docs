@@ -25,7 +25,7 @@ const LocaleSelect = () => {
         sx={{
           fontSize: 20,
           position: "absolute",
-          right: 197,
+          right: 177,
           top: 21,
           opacity: 0.5,
         }}
@@ -41,8 +41,8 @@ const LocaleSelect = () => {
           height: 45,
           paddingRight: 0,
           position: "absolute",
-          right: 140,
-          top: 10,
+          right: 120,
+          top: 8,
         }}
         autoWidth
         MenuProps={{
