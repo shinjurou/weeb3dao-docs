@@ -15,7 +15,7 @@ export default function ReverseImageSearch() {
           color="green"
           content={[
             <div>
-              <Link link="https://twitter.com/shiomueth" title="shiomu" /> has
+              <Link link="https://twitter.com/shiomueth" title="Shiomu" /> has
               provided various resources to help the process of reverse image
               search in order to{" "}
               <span className="text-green-600 font-bold">
@@ -98,11 +98,17 @@ export default function ReverseImageSearch() {
           title="Reverse Image Search process"
           content={[
             <ol className="list-decimal ml-6">
-              <li className="mt-1">Search with the image you have, might lead you straight to original source</li>
               <li className="mt-1">
-                Else look for a higher res/un-flipped/uncropped version elsewhere
+                Search with the image you have, might lead you straight to
+                original source
               </li>
-              <li className="mt-1">Use full image to search for the actual source</li>
+              <li className="mt-1">
+                Else look for a higher res/un-flipped/uncropped version
+                elsewhere
+              </li>
+              <li className="mt-1">
+                Use full image to search for the actual source
+              </li>
             </ol>,
           ]}
         />

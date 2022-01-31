@@ -104,7 +104,7 @@ export default function ChooseBlockchain() {
                   <li className="mt-1">
                     Selling <span className="text-orange-500">editions</span> in
                     order to have your work(s) collected by many collectors:
-                    Tezos.
+                    Polygon, Tezos.
                   </li>
                   <li className="mt-1">
                     Selling on an eco-friendly{" "}
@@ -126,7 +126,7 @@ export default function ChooseBlockchain() {
             content={[
               <ul className="list-disc ml-4">
                 <li className="mt-1">
-                  Settling for only one blockchain is unnecessary as you can
+                  Settling for only one blockchain is unnecessary as you can{" "}
                   <span className="text-green-600 font-bold">
                     use multiples at the same time
                   </span>{" "}

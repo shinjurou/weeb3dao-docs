@@ -20,9 +20,12 @@ import Collapse from "@mui/material/Collapse";
 import Fade from "@mui/material/Fade";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import ScrollToTop from "./ScrollToTop";
+import LocaleSelect from "../../Shared/LocaleSelect/LocaleSelect";
+import SVG from "react-inlinesvg";
+import weeb3Logo from "../../../Imgs/weeb3Logo.svg";
 
 // Importing Router
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Welcome from "../1 - Welcome/Welcome";
 import DatabaseInfo from "../2 - Database Information/DatabaseInformation";
 import Introduction from "../3 - Introduction/Introduction";
@@ -183,621 +186,703 @@ export default function Index(props) {
 
   return (
     <div className="index">
-      <Router>
-        <Box sx={{ display: "flex" }}>
-          <CssBaseline />
-          <AppBar position="fixed" open={open}>
-            <Toolbar>
-              <IconButton
-                className="drawer-icon"
-                color="inherit"
-                aria-label="open drawer"
-                onClick={() => handleDrawerOpen()}
-                edge="start"
-                sx={{
-                  marginLeft: "-15px",
-                  marginRight: "38px",
-                  ...(open && { display: "none" }),
+      <Box sx={{ display: "flex" }}>
+        <CssBaseline />
+        <AppBar position="fixed" open={open}>
+          <Toolbar>
+            <IconButton
+              className="drawer-icon"
+              color="inherit"
+              aria-label="open drawer"
+              onClick={() => handleDrawerOpen()}
+              edge="start"
+              sx={{
+                marginLeft: "-15px",
+                marginRight: "38px",
+                ...(open && { display: "none" }),
+              }}
+            >
+              <MenuIcon />
+            </IconButton>
+
+            <ThemeProvider theme={headerText}>
+              <Typography variant="h6" color="inherit" component="div" my={2}>
+                <div className="mt-1 mr-3 float-left">
+                  <SVG src={weeb3Logo} height={19} title="weeb3 Logo" />
+                </div>
+                <span className="invisible md:visible">Anime NFT Database</span>
+              </Typography>
+            </ThemeProvider>
+
+            <LocaleSelect />
+          </Toolbar>
+        </AppBar>
+        <Drawer
+          variant="permanent"
+          open={open}
+          className={classNames("navigation", {
+            dark: theme.palette.type === "dark",
+            light: theme.palette.type === "light",
+          })}
+        >
+          <DrawerHeader>
+            <IconButton onClick={handleDrawerClose}>
+              {theme.direction === "rtl" ? (
+                <ChevronRightIcon
+                  sx={theme.palette.type === "dark" ? { color: "white" } : null}
+                />
+              ) : (
+                <ChevronLeftIcon
+                  sx={theme.palette.type === "dark" ? { color: "white" } : null}
+                />
+              )}
+            </IconButton>
+          </DrawerHeader>
+          <Divider />
+
+          <List>
+            <Link to="">
+              <ListItem button>
+                <ListItemIcon>
+                  <CelebrationIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Welcome" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="database-info">
+              <ListItem button>
+                <ListItemIcon>
+                  <BookmarkIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Database Information" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="introduction">
+              <ListItem button>
+                <ListItemIcon>
+                  <FaceRetouchingNaturalIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Introduction" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="weeb3dao-scholarship">
+              <ListItem button>
+                <ListItemIcon>
+                  <RedeemIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="weeb3dao Mint Scholarship" />
+                </Fade>
+              </ListItem>
+            </Link>
+          </List>
+
+          <Divider />
+          <List>
+            <Link to="info-NFT">
+              <ListItem
+                button
+                onClick={() => {
+                  if (open) {
+                    setOpenGeneralNFTMenu(!openGeneralNFTMenu);
+                  }
+                  if (openSellNFTMenu) {
+                    setOpenSellNFTMenu(false);
+                  }
+                  if (openCommunityMenu) {
+                    setOpenCommunityMenu(false);
+                  }
                 }}
               >
-                <MenuIcon />
-              </IconButton>
-
-              <ThemeProvider theme={headerText}>
-                <Typography variant="h6" color="inherit" component="div" my={2}>
-                  Anime NFT Database
-                </Typography>
-              </ThemeProvider>
-            </Toolbar>
-          </AppBar>
-          <Drawer
-            variant="permanent"
-            open={open}
-            className={classNames("navigation", {
-              dark: !props.light,
-              light: props.light,
-            })}
-          >
-            <DrawerHeader>
-              <IconButton onClick={handleDrawerClose}>
-                {theme.direction === "rtl" ? (
-                  <ChevronRightIcon
-                    sx={props.light !== true ? { color: "white" } : null}
+                <ListItemIcon>
+                  <MenuBookIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
                   />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText
+                    primary={"General Information about NFT"}
+                    primaryTypographyProps={{
+                      style: { whiteSpace: "normal" },
+                    }}
+                  />
+                </Fade>
+                {openGeneralNFTMenu ? (
+                  <ExpandLessIcon />
                 ) : (
-                  <ChevronLeftIcon
-                    sx={props.light !== true ? { color: "white" } : null}
-                  />
+                  <ExpandLessIcon className="rotate" />
                 )}
-              </IconButton>
-            </DrawerHeader>
-            <Divider />
+              </ListItem>
+            </Link>
+            <Collapse in={openGeneralNFTMenu}>
+              <List component="div" disablePadding>
+                <Link to="info-nft/what-is-nft">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter1Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="What is NFT?" />
+                  </ListItem>
+                </Link>
 
-            <List>
-              <Link to="/">
-                <ListItem button>
-                  <ListItemIcon>
-                    <CelebrationIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="Welcome" />
-                  </Fade>
-                </ListItem>
-              </Link>
+                <Link to="info-nft/what-is-blockchain">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter2Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="What is Blockchain?" />
+                  </ListItem>
+                </Link>
 
-              <Link to="/database-info">
-                <ListItem button>
-                  <ListItemIcon>
-                    <BookmarkIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="Database Information" />
-                  </Fade>
-                </ListItem>
-              </Link>
+                <Link to="info-nft/what-is-digital-wallet">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter3Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="What is Digital Wallet?" />
+                  </ListItem>
+                </Link>
 
-              <Link to="/introduction">
-                <ListItem button>
-                  <ListItemIcon>
-                    <FaceRetouchingNaturalIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="Introduction" />
-                  </Fade>
-                </ListItem>
-              </Link>
+                <Link to="info-nft/important-terminologies">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter4Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Important Terminologies" />
+                  </ListItem>
+                </Link>
+              </List>
+            </Collapse>
 
-              <Link to="/weeb3dao-scholarship">
-                <ListItem button>
-                  <ListItemIcon>
-                    <RedeemIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="weeb3dao Mint Scholarship" />
-                  </Fade>
-                </ListItem>
-              </Link>
-            </List>
-
-            <Divider />
-            <List>
-              <Link to="/info-NFT">
-                <ListItem
-                  button
-                  onClick={() => {
-                    if (open) {
-                      setOpenGeneralNFTMenu(!openGeneralNFTMenu);
+            <Link to="sell-NFT">
+              <ListItem
+                button
+                onClick={() => {
+                  if (open) {
+                    setOpenSellNFTMenu(!openSellNFTMenu);
+                  }
+                  if (openGeneralNFTMenu) {
+                    setOpenGeneralNFTMenu(false);
+                  }
+                  if (openCommunityMenu) {
+                    setOpenCommunityMenu(false);
+                  }
+                }}
+              >
+                <ListItemIcon>
+                  <AddBusinessIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
                     }
-                    if (openSellNFTMenu) {
-                      setOpenSellNFTMenu(false);
-                    }
-                    if (openCommunityMenu) {
-                      setOpenCommunityMenu(false);
-                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
                   }}
+                  timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemIcon>
-                    <MenuBookIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
+                  <ListItemText
+                    primary={"How to Mint and List an NFT"}
+                    primaryTypographyProps={{
+                      style: { whiteSpace: "normal" },
                     }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText
-                      primary={"General Information about NFT"}
-                      primaryTypographyProps={{
-                        style: { whiteSpace: "normal" },
-                      }}
-                    />
-                  </Fade>
-                  {openGeneralNFTMenu ? (
-                    <ExpandLessIcon />
-                  ) : (
-                    <ExpandLessIcon className="rotate" />
-                  )}
-                </ListItem>
-              </Link>
-              <Collapse in={openGeneralNFTMenu}>
-                <List component="div" disablePadding>
-                  <Link to="/info-nft/what-is-nft">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter1Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="What is NFT?" />
-                    </ListItem>
-                  </Link>
+                  />
+                </Fade>
+                {openSellNFTMenu ? (
+                  <ExpandLessIcon />
+                ) : (
+                  <ExpandLessIcon className="rotate" />
+                )}
+              </ListItem>
+            </Link>
+            <Collapse in={openSellNFTMenu}>
+              <List component="div" disablePadding>
+                <Link to="sell-nft/create-wallet">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter1Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Create your Digital Wallet" />
+                  </ListItem>
+                </Link>
 
-                  <Link to="/info-nft/what-is-blockchain">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter2Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="What is Blockchain?" />
-                    </ListItem>
-                  </Link>
+                <Link to="sell-nft/choose-blockchain">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter2Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Choose your Blockchain" />
+                  </ListItem>
+                </Link>
 
-                  <Link to="/info-nft/what-is-digital-wallet">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter3Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="What is Digital Wallet?" />
-                    </ListItem>
-                  </Link>
+                <Link to="sell-nft/choose-marketplace">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter3Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Choose your Marketplace" />
+                  </ListItem>
+                </Link>
 
-                  <Link to="/info-nft/important-terminologies">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter4Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Important Terminologies" />
-                    </ListItem>
-                  </Link>
-                </List>
-              </Collapse>
+                <Link to="sell-nft/mint-nft">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter4Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Mint an NFT" />
+                  </ListItem>
+                </Link>
 
-              <Link to="/sell-NFT">
-                <ListItem
-                  button
-                  onClick={() => {
-                    if (open) {
-                      setOpenSellNFTMenu(!openSellNFTMenu);
+                <Link to="sell-nft/list-nft">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter5Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="List an NFT" />
+                  </ListItem>
+                </Link>
+
+                <Link to="sell-nft/promote-nft">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter6Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Promote your NFT" />
+                  </ListItem>
+                </Link>
+
+                <Link to="sell-nft/celebration">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <CakeIcon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Celebration" />
+                  </ListItem>
+                </Link>
+
+                <Link to="sell-nft/gas">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <LocalGasStationIcon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="How to keep track of Gas" />
+                  </ListItem>
+                </Link>
+              </List>
+            </Collapse>
+
+            <Link to="burn-NFT">
+              <ListItem button>
+                <ListItemIcon>
+                  <LocalFireDepartmentIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
                     }
-                    if (openGeneralNFTMenu) {
-                      setOpenGeneralNFTMenu(false);
-                    }
-                    if (openCommunityMenu) {
-                      setOpenCommunityMenu(false);
-                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
                   }}
+                  timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemIcon>
-                    <AddBusinessIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText
-                      primary={"How to Mint and List an NFT"}
-                      primaryTypographyProps={{
-                        style: { whiteSpace: "normal" },
-                      }}
-                    />
-                  </Fade>
-                  {openSellNFTMenu ? (
-                    <ExpandLessIcon />
-                  ) : (
-                    <ExpandLessIcon className="rotate" />
-                  )}
-                </ListItem>
-              </Link>
-              <Collapse in={openSellNFTMenu}>
-                <List component="div" disablePadding>
-                  <Link to="/sell-nft/create-wallet">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter1Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Create your Digital Wallet" />
-                    </ListItem>
-                  </Link>
-
-                  <Link to="/sell-nft/choose-blockchain">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter2Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Choose your Blockchain" />
-                    </ListItem>
-                  </Link>
-
-                  <Link to="/sell-nft/choose-marketplace">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter3Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Choose your Marketplace" />
-                    </ListItem>
-                  </Link>
-
-                  <Link to="/sell-nft/mint-nft">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter4Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Mint an NFT" />
-                    </ListItem>
-                  </Link>
-
-                  <Link to="/sell-nft/list-nft">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter5Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="List an NFT" />
-                    </ListItem>
-                  </Link>
-
-                  <Link to="/sell-nft/promote-nft">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <Filter6Icon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Promote your NFT" />
-                    </ListItem>
-                  </Link>
-
-                  <Link to="/sell-nft/celebration">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <CakeIcon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Celebration" />
-                    </ListItem>
-                  </Link>
-
-                  <Link to="/sell-nft/gas">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <LocalGasStationIcon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="How to keep track of Gas" />
-                    </ListItem>
-                  </Link>
-                </List>
-              </Collapse>
-
-              <Link to="/burn-NFT">
-                <ListItem button>
-                  <ListItemIcon>
-                    <LocalFireDepartmentIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="Burn your NFT" />
-                  </Fade>
-                </ListItem>
-              </Link>
-            </List>
-            <Divider />
-            <List>
-              <Link to="/crypto-exchange">
-                <ListItem button>
-                  <ListItemIcon>
-                    <CurrencyExchangeIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="Crypto Exchange" />
-                  </Fade>
-                </ListItem>
-              </Link>
-
-              <Link to="/community">
-                <ListItem
-                  button
-                  onClick={() => {
-                    if (open) {
-                      setOpenCommunityMenu(!openCommunityMenu);
+                  <ListItemText primary="Burn your NFT" />
+                </Fade>
+              </ListItem>
+            </Link>
+          </List>
+          <Divider />
+          <List>
+            <Link to="crypto-exchange">
+              <ListItem button>
+                <ListItemIcon>
+                  <CurrencyExchangeIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
                     }
-                    if (openGeneralNFTMenu) {
-                      setOpenGeneralNFTMenu(false);
-                    }
-                    if (openSellNFTMenu) {
-                      setOpenSellNFTMenu(false);
-                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
                   }}
+                  timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemIcon>
-                    <MapsHomeWorkIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
+                  <ListItemText primary="Crypto Exchange" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="community">
+              <ListItem
+                button
+                onClick={() => {
+                  if (open) {
+                    setOpenCommunityMenu(!openCommunityMenu);
+                  }
+                  if (openGeneralNFTMenu) {
+                    setOpenGeneralNFTMenu(false);
+                  }
+                  if (openSellNFTMenu) {
+                    setOpenSellNFTMenu(false);
+                  }
+                }}
+              >
+                <ListItemIcon>
+                  <MapsHomeWorkIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Community" />
+                </Fade>
+                {openCommunityMenu ? (
+                  <ExpandLessIcon />
+                ) : (
+                  <ExpandLessIcon className="rotate" />
+                )}
+              </ListItem>
+            </Link>
+
+            <Collapse in={openCommunityMenu}>
+              <List component="div" disablePadding>
+                <Link to="community/terminologies">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <SpeakerNotesIcon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Terminologies" />
+                  </ListItem>
+                </Link>
+
+                <Link to="community/culture">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <FactCheckIcon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Culture" />
+                  </ListItem>
+                </Link>
+              </List>
+            </Collapse>
+
+            <Link to="faq">
+              <ListItem button>
+                <ListItemIcon>
+                  <LiveHelpIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="FAQ" />
+                </Fade>
+              </ListItem>
+            </Link>
+          </List>
+
+          <Divider />
+          <List>
+            <Link to="environment">
+              <ListItem button>
+                <ListItemIcon>
+                  <ParkIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Environment Controversy" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="rec-readings">
+              <ListItem button>
+                <ListItemIcon>
+                  <BookIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Recommended Readings" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="reverse-img-search">
+              <ListItem button>
+                <ListItemIcon>
+                  <ImageSearchIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText
+                    primary="Reverse Image Search Resources"
+                    primaryTypographyProps={{
+                      style: { whiteSpace: "normal" },
                     }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="Community" />
-                  </Fade>
-                  {openCommunityMenu ? (
-                    <ExpandLessIcon />
-                  ) : (
-                    <ExpandLessIcon className="rotate" />
-                  )}
-                </ListItem>
-              </Link>
+                  />
+                </Fade>
+              </ListItem>
+            </Link>
+          </List>
+        </Drawer>
+        <Box component="main" sx={{ flexGrow: 1 }}>
+          <DrawerHeader />
+          <ScrollToTop />
+          <Routes>
+            <Route exact path="/" element={<Welcome />} />
+            <Route path="/database-info" element={<DatabaseInfo />} />
+            <Route path="/introduction" element={<Introduction />} />
+            <Route path="/weeb3dao-scholarship" element={<Scholarship />} />
 
-              <Collapse in={openCommunityMenu}>
-                <List component="div" disablePadding>
-                  <Link to="/community/terminologies">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <SpeakerNotesIcon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Terminologies" />
-                    </ListItem>
-                  </Link>
+            <Route path="/info-nft" element={<InfoNFT />} />
+            <Route path="/info-nft/what-is-nft" element={<WhatIsNFT />} />
+            <Route
+              path="/info-nft/what-is-blockchain"
+              element={<WhatIsBlockchain />}
+            />
+            <Route
+              path="/info-nft/what-is-digital-wallet"
+              element={<WhatIsDigitalWallet />}
+            />
+            <Route
+              path="/info-nft/important-terminologies"
+              element={<ImportantTerminologies />}
+            />
 
-                  <Link to="/community/culture">
-                    <ListItem button sx={{ pl: 4 }}>
-                      <ListItemIcon>
-                        <FactCheckIcon
-                          sx={props.light !== true ? { color: "white" } : null}
-                        />
-                      </ListItemIcon>
-                      <ListItemText primary="Culture" />
-                    </ListItem>
-                  </Link>
-                </List>
-              </Collapse>
+            <Route path="/sell-nft" element={<SellNFT />} />
+            <Route path="/sell-nft/create-wallet" element={<CreateWallet />} />
+            <Route
+              path="/sell-nft/choose-blockchain"
+              element={<ChooseBlockchain />}
+            />
+            <Route
+              path="/sell-nft/choose-marketplace"
+              element={<ChooseMarketplace />}
+            />
+            <Route path="/sell-nft/mint-nft" element={<MintNFT />} />
+            <Route path="/sell-nft/list-nft" element={<ListNFT />} />
+            <Route path="/sell-nft/promote-nft" element={<PromoteNFT />} />
+            <Route path="/sell-nft/celebration" element={<Celebration />} />
+            <Route path="/sell-nft/gas" element={<Gas />} />
 
-              <Link to="/faq">
-                <ListItem button>
-                  <ListItemIcon>
-                    <LiveHelpIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="FAQ" />
-                  </Fade>
-                </ListItem>
-              </Link>
-            </List>
-
-            <Divider />
-            <List>
-              <Link to="/environment">
-                <ListItem button>
-                  <ListItemIcon>
-                    <ParkIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="Environment Controversy" />
-                  </Fade>
-                </ListItem>
-              </Link>
-
-              <Link to="/rec-readings">
-                <ListItem button>
-                  <ListItemIcon>
-                    <BookIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText primary="Recommended Readings" />
-                  </Fade>
-                </ListItem>
-              </Link>
-
-              <Link to="/reverse-img-search">
-                <ListItem button>
-                  <ListItemIcon>
-                    <ImageSearchIcon
-                      sx={props.light !== true ? { color: "white" } : null}
-                    />
-                  </ListItemIcon>
-                  <Fade
-                    in={showText}
-                    easing={{
-                      enter: "cubic-bezier(.99,0,1,1.62)",
-                      exit: "linear",
-                    }}
-                    timeout={{ enter: 666, exit: 0 }}
-                  >
-                    <ListItemText
-                      primary="Reverse Image Search Resources"
-                      primaryTypographyProps={{
-                        style: { whiteSpace: "normal" },
-                      }}
-                    />
-                  </Fade>
-                </ListItem>
-              </Link>
-            </List>
-          </Drawer>
-          <Box component="main" sx={{ flexGrow: 1 }}>
-            <DrawerHeader />
-            <ScrollToTop />
-            <Routes>
-              <Route exact path="/" element={<Welcome />} />
-              <Route path="/database-info" element={<DatabaseInfo />} />
-              <Route path="/introduction" element={<Introduction />} />
-              <Route path="/weeb3dao-scholarship" element={<Scholarship />} />
-
-              <Route path="/info-nft" element={<InfoNFT />} />
-              <Route path="/info-nft/what-is-nft" element={<WhatIsNFT />} />
-              <Route
-                path="/info-nft/what-is-blockchain"
-                element={<WhatIsBlockchain />}
-              />
-              <Route
-                path="/info-nft/what-is-digital-wallet"
-                element={<WhatIsDigitalWallet />}
-              />
-              <Route
-                path="/info-nft/important-terminologies"
-                element={<ImportantTerminologies />}
-              />
-
-              <Route path="/sell-nft" element={<SellNFT />} />
-              <Route
-                path="/sell-nft/create-wallet"
-                element={<CreateWallet />}
-              />
-              <Route
-                path="/sell-nft/choose-blockchain"
-                element={<ChooseBlockchain />}
-              />
-              <Route
-                path="/sell-nft/choose-marketplace"
-                element={<ChooseMarketplace />}
-              />
-              <Route path="/sell-nft/mint-nft" element={<MintNFT />} />
-              <Route path="/sell-nft/list-nft" element={<ListNFT />} />
-              <Route path="/sell-nft/promote-nft" element={<PromoteNFT />} />
-              <Route path="/sell-nft/celebration" element={<Celebration />} />
-              <Route path="/sell-nft/gas" element={<Gas />} />
-
-              <Route path="/burn-nft" element={<BurnNFT />} />
-              <Route path="/crypto-exchange" element={<CryptoExchange />} />
-              <Route path="/community" element={<Community />} />
-              <Route
-                path="/community/terminologies"
-                element={<Terminologies />}
-              />
-              <Route path="/community/culture" element={<Culture />} />
-              <Route path="/faq" element={<FAQ />} />
-              <Route path="/environment" element={<Environment />} />
-              <Route path="/rec-readings" element={<RecReadings />} />
-              <Route
-                path="/reverse-img-search"
-                element={<ReverseImageSearch />}
-              />
-            </Routes>
-          </Box>
+            <Route path="/burn-nft" element={<BurnNFT />} />
+            <Route path="/crypto-exchange" element={<CryptoExchange />} />
+            <Route path="/community" element={<Community />} />
+            <Route
+              path="/community/terminologies"
+              element={<Terminologies />}
+            />
+            <Route path="/community/culture" element={<Culture />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/environment" element={<Environment />} />
+            <Route path="/rec-readings" element={<RecReadings />} />
+            <Route
+              path="/reverse-img-search"
+              element={<ReverseImageSearch />}
+            />
+          </Routes>
         </Box>
-      </Router>
+      </Box>
     </div>
   );
 }

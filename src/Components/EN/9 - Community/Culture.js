@@ -105,8 +105,10 @@ export default function Culture() {
               Socializing
             </Typography>
             <div>
-              Community is the most important thing in NFT so here are some
-              behavior recommendations.
+              <span className="text-pink-600 font-bold">
+                Community is the most important thing in NFT
+              </span>{" "}
+              so here are some behavior recommendations.
             </div>
             <Card
               color="pink"
@@ -236,7 +238,11 @@ export default function Culture() {
                       don't have an established portfolio online.
                     </span>{" "}
                     The more artworks you have in your portfolio, the easier
-                    it'll be to verify your authenticity.
+                    it'll be to verify your{" "}
+                    <span className="text-teal-600 font-bold">
+                      authenticity
+                    </span>
+                    .
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">

@@ -33,8 +33,13 @@ export default function Celebration() {
                   </span>{" "}
                   would be great but{" "}
                   <span className="text-teal-600 font-bold">not mandatory</span>
-                  . Prioritizing your health and having a balanced schedule is
-                  more important.
+                  . Prioritizing your{" "}
+                  <span className="text-teal-600 font-bold">health</span> and
+                  having a{" "}
+                  <span className="text-teal-600 font-bold">
+                    balanced schedule
+                  </span>{" "}
+                  is more important.
                 </li>
                 <li className="mt-1">
                   🙌🎉 Send a message in{" "}

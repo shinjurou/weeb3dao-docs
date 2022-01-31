@@ -87,7 +87,7 @@ export default function FullWidthTabs() {
             Marketplaces for Ethereum:{" "}
             <Link link="https://opensea.io/" title="OpenSea" />,{" "}
             <Link link="https://foundation.app/" title="Foundation" />,{" "}
-            <Link link="https://makersplace.com/" title="MakersPlace" />,
+            <Link link="https://makersplace.com/" title="MakersPlace" />,{" "}
             <Link link="https://knownorigin.io/" title="KnownOrigin" />,{" "}
             <Link link="https://superrare.co/" title="SuperRare" />,{" "}
             <Link link="https://anifty.jp/" title="ANIFTY" />.
@@ -167,7 +167,7 @@ export default function FullWidthTabs() {
                       link="https://www.myetherwallet.com/"
                       title="MEW"
                       light={true}
-                    />
+                    />{" "}
                     as you can buy ETH{" "}
                     <Link
                       link="https://kb.myetherwallet.com/en/swap/buy-eth-via-simplex/"

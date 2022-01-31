@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
@@ -8,7 +8,13 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
 
-import Index from "./Components/EN/0 - Index/Index";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ThemeProvider as CustomThemeProvider } from "./Contexts/CustomTheme";
+import routes from "./routes";
+import IndexEN from "./Components/EN/0 - Index/Index";
+import useCustomTheme from "./Hooks/useCustomTheme";
+import { getIndexPage } from "./utils/router";
+import { useParams } from "react-router-dom";
 
 const themeLight = createTheme({
   palette: {
@@ -138,7 +144,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   position: "fixed",
   float: "right",
   top: 8,
-  right: 20,
+  right: 30,
   overflow: "visible",
   "& .MuiSwitch-switchBase": {
     marginLeft: -7,
@@ -185,11 +191,11 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 function App() {
-  const [light, setLight] = useState(false);
+  const { lightTheme, toggleTheme } = useCustomTheme();
 
   return (
     <div className="App">
-      <ThemeProvider theme={light ? themeLight : themeDark}>
+      <ThemeProvider theme={lightTheme ? themeLight : themeDark}>
         <CssBaseline />
         <FormGroup>
           <FormControlLabel
@@ -197,16 +203,49 @@ function App() {
               <MaterialUISwitch
                 sx={{ m: 1 }}
                 defaultChecked
-                onClick={() => setLight(!light)}
+                onClick={toggleTheme}
               />
             }
             label=""
           />
         </FormGroup>
-        <Index light={light} />
+        <Router>
+          <Routes>
+            <Route path="/:lang/*" element={<PageRouter light={lightTheme} />}>
+              {routes.map((route, index) => {
+                return <Route key={index} path={"*/" + route} />;
+              })}
+            </Route>
+            <Route exact path="/" element={<IndexEN light={lightTheme} />}>
+              {routes.map((route, index) => {
+                return <Route key={index} path={route} />;
+              })}
+            </Route>
+          </Routes>
+        </Router>
       </ThemeProvider>
     </div>
   );
 }
 
-export default App;
+const PageRouter = (lightTheme) => {
+  const { lang } = useParams();
+  return getIndexPage(lang, lightTheme);
+};
+
+const Providers = ({ children }) => {
+  return <CustomThemeProvider>{children}</CustomThemeProvider>;
+};
+
+function withProviders(Component) {
+  const ComponentProviders = (props) => {
+    return (
+      <Providers>
+        <Component {...props} />
+      </Providers>
+    );
+  };
+  return ComponentProviders;
+}
+
+export default withProviders(App);

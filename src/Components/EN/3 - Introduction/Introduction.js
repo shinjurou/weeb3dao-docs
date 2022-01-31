@@ -408,7 +408,8 @@ export default function Introduction() {
             </div>
             <div className="mt-2">
               They are also helping other generative PFP projects created by
-              members from AnifamNFT.
+              members from{" "}
+              <Link link="https://twitter.com/AnifamNft" title="Anifam" />.
             </div>
           </div>
         </div>

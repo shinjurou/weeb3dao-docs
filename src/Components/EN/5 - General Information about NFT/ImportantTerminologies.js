@@ -55,12 +55,6 @@ export default function ImportantTerminologies() {
           </li>
           <li>
             <WordExplain
-              word="Shill"
-              explain="Convince someone to buy something (usually something you own or have vested interest in) - has a bad connotation most of the time."
-            />
-          </li>
-          <li>
-            <WordExplain
               word="Blue Chip"
               explain="An NFT artist or project that is considered significant to the community."
             />
@@ -78,9 +72,6 @@ export default function ImportantTerminologies() {
           </li>
           <li>
             <WordExplain word="XTZ/TEZ" explain="Tezos." />
-          </li>
-          <li>
-            <WordExplain word="ETH" explain="Ethereum." />
           </li>
           <li>
             <WordExplain
