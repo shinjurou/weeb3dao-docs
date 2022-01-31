@@ -386,7 +386,7 @@ export default function Introduction() {
             </div>
             <div className="mt-2">
               また、
-              <Link link="https://twitter.com/AnifamNft" title="Anifam" />
+              <Link link="https://twitter.com/AnifamNft" title="Anifam" />{" "}
               のメンバーが作成したジェネレーティブPFPプロジェクトにも協力しています。
             </div>
           </div>
