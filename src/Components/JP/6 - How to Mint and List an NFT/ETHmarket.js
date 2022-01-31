@@ -546,7 +546,6 @@ export default function FullWidthTabs() {
                     <Link
                       link="https://rare.makersplace.com/2021/09/21/announcing-our-new-smart-token-contract/"
                       title="スマートコントラクトをアップデート"
-                      light={true}
                     />
                     し、NFTの
                     <span className="text-green-600 font-bold">

@@ -356,7 +356,7 @@ export default function FullWidthTabs() {
                   </li>
                   <li className="mt-1">
                     <span className="text-orange-500 font-bold">
-                      hic et Nuncより
+                      hic et nuncより
                     </span>
                     <span className="text-green-600 font-bold">
                       新しいアーティストや作品を発見する
