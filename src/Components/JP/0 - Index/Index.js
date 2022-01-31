@@ -21,6 +21,8 @@ import Fade from "@mui/material/Fade";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import ScrollToTop from "./ScrollToTop";
 import LocaleSelect from "../../Shared/LocaleSelect/LocaleSelect";
+import SVG from "react-inlinesvg";
+import weeb3Logo from "../../../Imgs/weeb3Logo.svg";
 
 // Importing Router
 import { Routes, Route, Link } from "react-router-dom";
@@ -80,7 +82,6 @@ import SpeakerNotesIcon from "@mui/icons-material/SpeakerNotes";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
 import LiveHelpIcon from "@mui/icons-material/LiveHelp";
 import ParkIcon from "@mui/icons-material/Park";
-import BookIcon from "@mui/icons-material/Book";
 import ImageSearchIcon from "@mui/icons-material/ImageSearch";
 
 const headerText = createTheme({
@@ -205,7 +206,10 @@ export default function Index(props) {
 
             <ThemeProvider theme={headerText}>
               <Typography variant="h6" color="inherit" component="div" my={2}>
-                Anime NFT Database
+                <div className="mt-1 mr-3 float-left">
+                  <SVG src={weeb3Logo} height={19} title="weeb3 Logo" />
+                </div>
+                <span className="invisible md:visible">Anime NFT Database</span>
               </Typography>
             </ThemeProvider>
 
@@ -253,7 +257,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Welcome" />
+                  <ListItemText primary="ようこそ" />
                 </Fade>
               </ListItem>
             </Link>
@@ -275,7 +279,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Database Information" />
+                  <ListItemText primary="データベース情報" />
                 </Fade>
               </ListItem>
             </Link>
@@ -297,7 +301,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Introduction" />
+                  <ListItemText primary="メンバー紹介" />
                 </Fade>
               </ListItem>
             </Link>
@@ -319,7 +323,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="weeb3dao Mint Scholarship" />
+                  <ListItemText primary="weeb3dao Mint 奨学金制度" />
                 </Fade>
               </ListItem>
             </Link>
@@ -358,7 +362,7 @@ export default function Index(props) {
                   timeout={{ enter: 666, exit: 0 }}
                 >
                   <ListItemText
-                    primary={"General Information about NFT"}
+                    primary={"NFTについての一般情報"}
                     primaryTypographyProps={{
                       style: { whiteSpace: "normal" },
                     }}
@@ -384,7 +388,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="What is NFT?" />
+                    <ListItemText primary="NFTって何?" />
                   </ListItem>
                 </Link>
 
@@ -399,7 +403,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="What is Blockchain?" />
+                    <ListItemText primary="Blockchainって何?" />
                   </ListItem>
                 </Link>
 
@@ -414,7 +418,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="What is Digital Wallet?" />
+                    <ListItemText primary="Digital Walletって何?" />
                   </ListItem>
                 </Link>
 
@@ -429,7 +433,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Important Terminologies" />
+                    <ListItemText primary="その他の重要な用語についての説明" />
                   </ListItem>
                 </Link>
               </List>
@@ -466,7 +470,7 @@ export default function Index(props) {
                   timeout={{ enter: 666, exit: 0 }}
                 >
                   <ListItemText
-                    primary={"How to Mint and List an NFT"}
+                    primary={"作品の販売について"}
                     primaryTypographyProps={{
                       style: { whiteSpace: "normal" },
                     }}
@@ -492,7 +496,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Create your Digital Wallet" />
+                    <ListItemText primary="デジタルウォレットを作成する" />
                   </ListItem>
                 </Link>
 
@@ -507,7 +511,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Choose your Blockchain" />
+                    <ListItemText primary="ブロックチェーンの選択" />
                   </ListItem>
                 </Link>
 
@@ -522,7 +526,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Choose your Marketplace" />
+                    <ListItemText primary="マーケットプレイスの選択" />
                   </ListItem>
                 </Link>
 
@@ -537,7 +541,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Mint an NFT" />
+                    <ListItemText primary="Mintingしましょう" />
                   </ListItem>
                 </Link>
 
@@ -552,7 +556,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="List an NFT" />
+                    <ListItemText primary="Listingしましょう" />
                   </ListItem>
                 </Link>
 
@@ -567,7 +571,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Promote your NFT" />
+                    <ListItemText primary="NFTのプロモーション" />
                   </ListItem>
                 </Link>
 
@@ -582,7 +586,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Celebration" />
+                    <ListItemText primary="NFTを販売した後" />
                   </ListItem>
                 </Link>
 
@@ -597,7 +601,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="How to keep track of Gas" />
+                    <ListItemText primary="ガス代の管理方法について" />
                   </ListItem>
                 </Link>
               </List>
@@ -620,7 +624,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Burn your NFT" />
+                  <ListItemText primary="NFTをBurnする" />
                 </Fade>
               </ListItem>
             </Link>
@@ -644,7 +648,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Crypto Exchange" />
+                  <ListItemText primary="暗号通過取引所" />
                 </Fade>
               </ListItem>
             </Link>
@@ -679,7 +683,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Community" />
+                  <ListItemText primary="コミュニティ" />
                 </Fade>
                 {openCommunityMenu ? (
                   <ExpandLessIcon />
@@ -702,7 +706,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Terminologies" />
+                    <ListItemText primary="用語解説" />
                   </ListItem>
                 </Link>
 
@@ -717,7 +721,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Culture" />
+                    <ListItemText primary="カルチャー" />
                   </ListItem>
                 </Link>
               </List>
@@ -765,29 +769,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Environment Controversy" />
-                </Fade>
-              </ListItem>
-            </Link>
-
-            <Link to="rec-readings">
-              <ListItem button>
-                <ListItemIcon>
-                  <BookIcon
-                    sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
-                    }
-                  />
-                </ListItemIcon>
-                <Fade
-                  in={showText}
-                  easing={{
-                    enter: "cubic-bezier(.99,0,1,1.62)",
-                    exit: "linear",
-                  }}
-                  timeout={{ enter: 666, exit: 0 }}
-                >
-                  <ListItemText primary="Recommended Readings" />
+                  <ListItemText primary="環境問題" />
                 </Fade>
               </ListItem>
             </Link>
@@ -810,7 +792,7 @@ export default function Index(props) {
                   timeout={{ enter: 666, exit: 0 }}
                 >
                   <ListItemText
-                    primary="Reverse Image Search Resources"
+                    primary="画像検索システム"
                     primaryTypographyProps={{
                       style: { whiteSpace: "normal" },
                     }}
@@ -881,3 +863,28 @@ export default function Index(props) {
     </div>
   );
 }
+
+/*
+<Link to="rec-readings">
+              <ListItem button>
+                <ListItemIcon>
+                  <BookIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Recommended Readings" />
+                </Fade>
+              </ListItem>
+            </Link>
+            
+            */

@@ -12,11 +12,11 @@ export default function ListNFT() {
     <div className="list-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          List an NFT
+          Listingしましょう
         </Typography>
 
-        <Typography variant="h2" color="inherit" component="h2" mt={4}>
-          Guide for Listing Gas
+        <Typography variant="h3" color="inherit" component="h3" mt={4}>
+          Listingする際のガス代のガイド
         </Typography>
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -24,42 +24,38 @@ export default function ListNFT() {
             color="green"
             content={[
               <div>
-                Keeping track of Gas will be{" "}
-                <span className="text-pink-600 font-bold">
-                  very important for listing
-                </span>{" "}
-                and we have{" "}
-                <RouterLink
-                  link="/sell-nft/gas"
-                  title="created a guide here to help."
-                ></RouterLink>
+                ガス代の管理は、出品の際に
+                <span className="text-pink-600 font-bold">非常に重要</span>
+                です。ここでは、そのための
+                <RouterLink link="/sell-nft/gas" title="ガイド"></RouterLink>
+                を作成しました。
               </div>,
             ]}
           />
 
           <div className="mt-8">
             <Typography
-              variant="h2"
+              variant="h3"
               color="inherit"
-              component="h2"
+              component="h3"
               mt={2}
               mb={1}
             >
-              Listing Guides for each Marketplaces
+              各マーケットプレイスのListingガイド
             </Typography>
 
             <Card
               color="green"
               content={[
                 <div>
-                  MakersPlace has created a guide to help creators{" "}
-                  <span className="text-green-600 font-bold">
-                    price their NFTs reasonably
-                  </span>{" "}
+                  MakersPlaceでは、クリエイターがNFTに
+                  <span className="text-green-600 font-bold">適正な価格</span>
+                  を設定するための
                   <Link
                     link="https://makersplace.com/creator-guidelines/"
-                    title="here"
+                    title="ガイド"
                   />
+                  を作成しています。
                 </div>,
               ]}
             />
@@ -68,13 +64,13 @@ export default function ListNFT() {
               <li className="mb-2">
                 <Link
                   link="https://support.opensea.io/hc/en-us/articles/360063498333-How-do-I-sell-an-NFT-"
-                  title="OpenSea (Ethereum Mainnet)"
+                  title="OpenSea (Ethereumメインネット)"
                 />
               </li>
               <li className="mb-2">
                 <Link
                   link="https://support.opensea.io/hc/en-us/articles/4404029357587-How-do-I-create-and-sell-NFTs-on-Polygon-"
-                  title="OpenSea (Polygon Network)"
+                  title="OpenSea (Polygonネットワーク)"
                 />
               </li>
               <li className="mb-2">
@@ -88,37 +84,37 @@ export default function ListNFT() {
                 <span className="relative bottom-0.5 right-0.5">
                   <ArrowRightAltIcon />
                 </span>
-                You can start receiving offers right after minting.
+                mintした直後からオファーを受けることができる。
               </li>
               <li className="mb-2">
                 KnownOrigin{" "}
                 <span className="relative bottom-0.5 right-0.5">
                   <ArrowRightAltIcon />
                 </span>
-                Listing is{" "}
-                <span className="text-orange-500">being done off-chain</span> so
-                it is <span className="text-green-600 font-bold">free</span>.
+                Listingは
+                <span className="text-orange-500 font-bold">オフチェーン</span>
+                で行われているので
+                <span className="text-green-600 font-bold">無料</span>です。
               </li>
               <ul className="list-disc mb-2 ml-6">
                 <li>
                   <Link
                     link="https://docs.knownorigin.io/guide/setting-a-minimum-bid/"
-                    title="Set a minimum bid on your work."
+                    title="​作品の最低落札価格を設定する。"
                   />
                 </li>
                 <li>
                   <Link
                     link="https://docs.knownorigin.io/guide/listing-tokens-from-your-collection/"
-                    title='Set a fixed "buy now" price.'
+                    title="​固定販売価格を設定する。"
                   />
                 </li>
                 <li>
-                  You can also{" "}
                   <Link
                     link="https://docs.knownorigin.io/guide/creating-editions/#scheduling-sale-date"
-                    title="set a scheduled sale date"
-                  />{" "}
-                  for your NFT.
+                    title="NFTの販売日"
+                  />
+                  を設定することも可能。
                 </li>
               </ul>
               <li className="mb-2">
@@ -126,40 +122,37 @@ export default function ListNFT() {
                 <span className="relative bottom-0.5 right-0.5">
                   <ArrowRightAltIcon />
                 </span>
-                You can start receiving offers right after minting. But if you
-                want to{" "}
-                <span className="text-orange-500 font-bold">
-                  start an auction
-                </span>{" "}
-                or <span className="text-orange-500 font-bold">buy now</span>{" "}
-                options then it is available in the{" "}
-                <span className="text-pink-600 font-bold">three dots</span>{" "}
-                here.
+                mint後すぐにオファーを受け始めることができます。しかし、
+                <span className="text-orange-500 font-bold">オークション</span>
+                や<span className="text-orange-500 font-bold">固定価格</span>
+                での販売を開始したい場合は、
+                <span className="text-pink-600 font-bold">下図の箇所</span>
+                から利用することができます。
               </li>
               <figure>
                 <img src={sr} alt="SuperRare's button" className="rounded" />
                 <figcaption className="absolute text-xs -mt-7 text-zinc-700 px-1 ">
                   <div className="bg-slate-500 bg-opacity-25 p-1 rounded">
-                    {" "}
-                    Image from{" "}
                     <Link
                       link="https://www.youtube.com/watch?v=hwNmgnO62hI"
-                      title="How To Set Up An Auction On SuperRare"
+                      title="「How To Set Up An Auction On SuperRare」"
                     />
+                    からの画像
                   </div>
                 </figcaption>
               </figure>
               <li className="my-2">
-                ANIFTY (You will{" "}
-                <span className="text-pink-600">receive the guide</span>{" "}
-                <span className="text-teal-600">
-                  after being accepted to become their verified artist)
+                ANIFTY (
+                <span className="text-teal-600 font-bold">
+                  アーティストとして認定された後
                 </span>
+                、<span className="text-pink-600 font-bold">ガイド</span>
+                を受け取ります)。
               </li>
               <li className="mb-2">
                 <Link
                   link="https://www.youtube.com/watch?v=H8LMWDezlPU"
-                  title="hic et Nunc"
+                  title="hic et nunc"
                 />
               </li>
               <li className="mb-2">OBJKT</li>
@@ -167,13 +160,13 @@ export default function ListNFT() {
                 <li>
                   <Link
                     link="https://www.youtube.com/watch?v=Vpon2AjLRuc"
-                    title='Set a fixed "buy now" price.'
+                    title="​固定販売価格を設定する​。"
                   />
                 </li>
                 <li>
                   <Link
                     link="https://www.youtube.com/watch?v=wMfn1s_b1Eg"
-                    title="Start an auction for your OBJKT"
+                    title="OBJEKTのオークションを開始する。​"
                   />
                 </li>
               </ul>
@@ -185,15 +178,15 @@ export default function ListNFT() {
                 <span className="relative bottom-0.5 right-0.5">
                   <ArrowRightAltIcon />
                 </span>
-                NFT will automatically be listed after you finished minting.
+                NFTはmint後自動で掲載されます。
               </li>
             </ul>
           </div>
         </div>
         <NaviButtons
-          return="Mint an NFT"
+          return="Mintingしましょう"
           returnlink="/sell-nft/mint-nft"
-          next="Promote your NFT"
+          next="NFTのプロモーション"
           nextlink="/sell-nft/promote-nft"
         />
       </div>

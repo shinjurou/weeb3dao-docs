@@ -9,6 +9,7 @@ import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
 import { styled } from "@mui/material/styles";
 import Link from "../0 - Index/Link";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 import TableCheckbox from "./TableCheckbox";
 
@@ -23,21 +24,21 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 }));
 
 const columns = [
-  { id: "name", label: "Name", width: "34%" },
+  { id: "name", label: "アーティスト", width: "34%" },
   {
     id: "twitter",
-    label: "Twitter Link",
+    label: "Twitterリンク",
     width: "20%",
     align: "center",
   },
   {
     id: "fnd",
-    label: "Foundation Link",
+    label: "Foundationリンク",
     width: "20%",
     align: "center",
   },
-  { id: "gas", label: "Gas", width: "13%", align: "center" },
-  { id: "invite", label: "Invite", width: "13%", align: "center" },
+  { id: "gas", label: "ガス", width: "13%", align: "center" },
+  { id: "invite", label: "招待", width: "13%", align: "center" },
 ];
 
 function createData(
@@ -95,7 +96,7 @@ const rows = [
     "https://twitter.com/alliene_rozen",
     "@allienerozen",
     "https://foundation.app/@allienerozen",
-    true,
+    true
   ),
   createData(
     "Anam111 (アナム111)",
@@ -650,7 +651,7 @@ const rows = [
     "https://twitter.com/narusamaa",
     "@Narusama",
     "https://foundation.app/@Narusama",
-    true,
+    true
   ),
   createData(
     "nissanote",
@@ -899,7 +900,7 @@ const rows = [
     "https://twitter.com/PiggSmall",
     "@piggsmall",
     "https://foundation.app/@piggsmall",
-    true,
+    true
   ),
   createData(
     "Suu Takahara (高原スウ)",
@@ -1118,11 +1119,16 @@ export default function StickyHeadTable() {
         component="div"
         count={rows.length}
         rowsPerPage={rowsPerPage}
+        labelRowsPerPage={"ページの行数"}
         page={page}
         onPageChange={handleChangePage}
         onRowsPerPageChange={handleChangeRowsPerPage}
         SelectProps={{
-          IconComponent: () => null,
+          IconComponent: () => (
+            <ArrowDropDownIcon
+              sx={{ marginLeft: -2.75, marginTop: -0.25, paddingRight: 1 }}
+            />
+          ),
         }}
       />
     </Paper>

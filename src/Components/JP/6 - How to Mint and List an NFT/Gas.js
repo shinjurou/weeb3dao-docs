@@ -18,7 +18,7 @@ export default function Gas() {
     <div className="gas">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          How to keep track of Gas
+          ガス代の管理方法について
         </Typography>
 
         <div className="mb-6"></div>
@@ -26,13 +26,11 @@ export default function Gas() {
           color="teal"
           content={[
             <div>
-              An article with explanations for gwei, gas price and gas limit is
-              available{" "}
               <Link
                 link="https://decenter.org/en/what-are-gas-gas-limit-and-gas-price-in-the-ethereum-network"
-                title="here"
+                title="こちら"
               />
-              .
+              ではgwei、ガス料金、ガス上限について解説した記事を掲載しています。
             </div>,
           ]}
         />
@@ -40,30 +38,29 @@ export default function Gas() {
           color="green"
           content={[
             <div>
-              There are certain days with hours in which GWEI is at its{" "}
-              <span className="text-pink-600 font-bold">lowest.</span>
+              GWEIが
+              <span className="text-pink-600 font-bold">最も低くなる</span>
+              曜日と時間帯があります。
               <WordExample
                 notReal={true}
                 explain={[
                   <>
-                    highest of the week is{" "}
-                    <span className="text-pink-600 font-bold">200 GWEI</span>{" "}
-                    and the lowest of the week is{" "}
-                    <span className="text-pink-600 font-bold">30 GWEI.</span>
+                    週の最高値が
+                    <span className="text-pink-600 font-bold">200GWEI</span>
+                    、週の最低値が
+                    <span className="text-pink-600 font-bold">30GWEI</span>。
                   </>,
                 ]}
               />
               <div className="mt-2">
-                As GWEI fluctuates every hour and is inconsistent each week. If
-                you want to avoid spending too much on gas then you can check
-                out these tools to help keep track of gas price.
+                GWEIは1時間ごとに変動し、毎週一貫性がありません。もし、ガス代が高くならないようにしたいのであれば、ガス料金を把握するために、以下のツールをチェックしてみてください。
               </div>
             </div>,
           ]}
         />
 
         <Divider>
-          <Chip label="Gas Tracking Tools" />
+          <Chip label="ガス追跡ツール" />
         </Divider>
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
           <div className="mt-1">
@@ -75,66 +72,40 @@ export default function Gas() {
               mb={1}
             >
               <Link
-                link="https://chrome.google.com/webstore/detail/ethereum-gas-prices/njbclohenpagagafbmdipcdoogfpnfhp?hl=en"
-                title="Ethereum Gas Prices Extension for Chrome"
+                link="https://chrome.google.com/webstore/detail/blocknative-eth-gas-estim/ablbagjepecncofimgjmdpnhnfjiecfm"
+                title="Chrome用のBlocknativeイーサリアムガス推定器"
                 light={true}
               />
             </Typography>
-            <div className="mb-3">
-              The extension shows gas prices for 3 gas tracking websites.
-            </div>
+
             <img
               src={ethgas}
-              alt="MakersPlace Upload Creation button"
+              alt="How to pin the BlockNative extension in Chrome."
               className="rounded mb-2"
             />
             <div className="mb-3">
-              Click on the pin button in order to have it installed in your
-              Chrome browser for easy viewing.
+              ピンをクリックすると、Chromeにインストールされ、かんたんに確認することができます。
             </div>
             <img
               src={ethgaschrome}
-              alt="MakersPlace Upload Creation button"
+              alt="BlockNative extension pinned in Chrome."
               className="rounded mb-2"
             />
             <div className="mb-3">
-              The number that is showing here is from{" "}
-              <Link link="https://etherscan.io/gastracker" title="Etherscan" />{" "}
-              - which is the accurate gas price as they are the{" "}
-              <span className="text-orange-500 font-bold">
-                official website
-              </span>{" "}
-              to track all transactions on the blockchains.
+              ここに表示されている数値は
+              <Link
+                link="https://www.blocknative.com/gas-estimator"
+                title="BlockNative"
+              />
+              のものです。
             </div>
             <div className="mb-3">
-              Clicking on the icon will show you this screen. Clicking on the
-              name will lead you to the corresponding websites.
+              アイコンをクリックすると、この画面が表示されます。
             </div>
-            <ul className="list-disc  ml-6">
-              <li className="mt-1">
-                <Link
-                  link="https://etherscan.io/gastracker"
-                  title="Etherscan"
-                />{" "}
-                will help you see the{" "}
-                <span className="text-pink-600 font-bold">
-                  current gas price.
-                </span>
-              </li>
-              <li className="mt-1">
-                <Link
-                  link="https://www.blocknative.com/gas-estimator"
-                  title="Blocknative"
-                />{" "}
-                will help you able to keep track of the{" "}
-                <span className="text-pink-600 font-bold">
-                  weekly gas prices.
-                </span>
-              </li>
-            </ul>
+
             <img
               src={ethgastable}
-              alt="MakersPlace Upload Creation button"
+              alt="BlockNative Gas Table."
               className="rounded mt-2"
             />
           </div>
@@ -149,16 +120,16 @@ export default function Gas() {
             >
               <Link
                 link="https://www.blocknative.com/gas-estimator"
-                title="Blocknative"
+                title="Blocknativeウェブサイト"
                 light={true}
               />
             </Typography>
             <div className="mb-3">
-              Blocknative has a compilation overview of GWEI prices{" "}
+              Blocknativeは、UTCタイムゾーンで
               <span className="text-orange-500 font-bold">
-                24/7 throughout one week
-              </span>{" "}
-              in UTC Timezone.
+                1週間を通して24時間
+              </span>
+              、GWEI価格の概要をまとめています。
             </div>
             <img
               src={blocknative}
@@ -166,29 +137,23 @@ export default function Gas() {
               className="rounded mb-2"
             />
             <ul className="list-disc  ml-6">
+              <li className="mt-1">グラフの右端が今日のGWEIになります。</li>
+              <li className="mt-1">逆に左端が7日前のGWEIになります。</li>
               <li className="mt-1">
-                Right most in this graph is the current GWEI today.
+                濃い紫色になればなるほどガス代は安くなります。
               </li>
-              <li className="mt-1">Left most was the GWEI 7 days ago.</li>
-              <li className="mt-1">Dark purple shades = Low gas fee</li>
               <li className="mt-1">
-                Lightest purple color = Highest gas fee of the week
+                最も薄い紫色がその週の最も高いガス代となります。
               </li>
             </ul>
             <Card
               color="green"
               content={[
                 <div>
-                  GWEI is usually the{" "}
-                  <span className="text-green-600 font-bold">
-                    lowest on weekends
-                  </span>{" "}
-                  as there are not as much people using it compare to other days
-                  of the week.
+                  <span className="text-green-600 font-bold">週末</span>
+                  は他の曜日と比べて利用者が少ないため、GWEIは最も低くなる傾向があります。
                   <span className="text-pink-600 font-bold">
-                    {" "}
-                    However this also fluctuates and some weekends ended up
-                    being exceptions.
+                    ですが、これはあくまで傾向というだけなので、例外もあります。
                   </span>
                 </div>,
               ]}
@@ -205,25 +170,22 @@ export default function Gas() {
             >
               <Link
                 link="https://top.gg/bot/631048498002919434"
-                title="GasTracker Discord Bot"
+                title="GasTrackerのDiscordボット"
                 light={true}
               />
             </Typography>
             <ul className="list-disc ml-6">
               <li className="mt-1">
-                Most NFT Discord Servers{" "}
+                NFT関連のDiscordサーバーには
                 <span className="text-pink-600 font-bold">
-                  {" "}
-                  will have this bot in their server.
-                </span>{" "}
+                  大抵このbotが入っています
+                </span>
+                。
               </li>
               <li className="mt-1">
-                If you want to invite the bot to your own server then
-                <span className="text-pink-600 font-bold">
-                  {" "}
-                  click "Invite"
-                </span>{" "}
-                to let the bot join your private server
+                自分のサーバーに招待したい場合、
+                <span className="text-pink-600 font-bold">「Invite」</span>
+                をクリックして下さい。
               </li>
             </ul>
             <img
@@ -233,12 +195,9 @@ export default function Gas() {
             />
             <ul className="list-disc ml-6">
               <li className="mt-1">
-                The bot will be available on the{" "}
-                <span className="text-pink-600 font-bold">
-                  {" "}
-                  right tab of Discord
-                </span>{" "}
-                with its status as the current gas prices.
+                ボットはDiscordの
+                <span className="text-pink-600 font-bold">右側にあるタブ</span>
+                にでてくるようになるので、そこから現在のガス代が確認できるようになります。
               </li>
             </ul>
 
@@ -250,9 +209,9 @@ export default function Gas() {
           </div>
         </div>
         <NaviButtons
-          return="Celebration"
+          return="NFTを販売した後"
           returnlink="/sell-nft/celebration"
-          next="Burn your NFT"
+          next="NFTをBurnする"
           nextlink="/burn-NFT"
         />
       </div>

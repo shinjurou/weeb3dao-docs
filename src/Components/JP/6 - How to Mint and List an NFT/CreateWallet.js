@@ -12,17 +12,16 @@ export default function CreateWallet() {
     <div className="create-wallet">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Create your Digital Wallet
+          デジタルウォレットを作成する
         </Typography>
 
         <div className="mt-5">
-          First of all you will need to create a digital wallet. Here is a list
-          of recommended wallets.
+          まず初めにデジタルウォレットを作成する必要があります。ここでは、おすすめのウォレットを紹介します。
         </div>
 
         <Card
           color="green"
-          title="Recommended wallets for each Blockchains"
+          title="各ブロックチェーンに対応しているオススメのウォレット"
           content={[
             <ul className="list-disc ml-4">
               <li className="mt-1">
@@ -39,27 +38,27 @@ export default function CreateWallet() {
 
         <Card
           color="pink"
-          title="Very Important things to know"
+          title="知っておきたい大切なこと"
           content={[
             <div>
               <div className="mb-2">
-                Due to its nature of being a digital software, this means{" "}
-                <span className="text-red-600 font-bold">hacking</span> is
-                highly possible.
+                デジタルソフトという性質上、
+                <span className="text-red-600 font-bold">ハッキング</span>
+                の可能性が高いということです。
               </div>
               <div className="mb-2">
-                Because of this, here are a few things to{" "}
-                <span className="text-red-600 font-bold">NEVER</span> do in
-                order to ensure your safety:
+                このため、安全性を確保するために、
+                <span className="text-red-600 font-bold">絶対に</span>
+                やってはいけないことをいくつか挙げておきます。
               </div>
               <ul className="list-disc ml-4">
                 <li className="mt-1">
-                  <span className="text-red-600 font-bold">NEVER</span> tells
-                  anyone your seed phrase for wallet(s) you own.
+                  <span className="text-red-600 font-bold">絶対に</span>
+                  所有するウォレットのシードフレーズを決して他人に教えないでください。
                 </li>
                 <li className="mt-1">
-                  <span className="text-red-600 font-bold">NEVER</span> click on
-                  any random links sent to you via Twitter or Discord DM.
+                  <span className="text-red-600 font-bold">絶対に</span>
+                  TwitterやDiscordのDMで送られてきたランダムなリンクはクリックしないでください。
                 </li>
               </ul>
             </div>,
@@ -67,30 +66,28 @@ export default function CreateWallet() {
         />
         <Card
           color="green"
-          title="Recommendations"
+          title="おすすめ"
           content={[
             <div>
               <ul className="list-disc ml-4">
                 <li className="mt-1">
-                  Store your seed phrase in a physical method.
+                  シードフレーズは物理的な方法で保存してください。
                 </li>
                 <li className="mt-1">
-                  Ask in{" "}
+                  知らない人からリンクを送られたら{" "}
                   <Link link="https://discord.gg/vktnAzvyNQ" title="Anifam" />{" "}
-                  or{" "}
+                  や{" "}
                   <Link link="https://discord.gg/MSYmemxJt5" title="uwucrew" />{" "}
-                  discord servers if you are sent a link by someone you don't
-                  know.
+                  のDiscordサーバーで聞いてみる。
                 </li>
                 <li className="mt-1">
-                  Use both a hot wallet and cold wallet. Information about both
-                  are available{" "}
+                  ホットウォレットとコールドウォレットの両方を使用する。ホットウォレットとコールドウォレットに関する情報は、
                   <RouterLink
                     link="/info-nft/what-is-digital-wallet"
-                    title="here"
+                    title="こちら"
                     light={true}
                   />
-                  .
+                  で入手できます。
                 </li>
               </ul>
             </div>,
@@ -99,7 +96,7 @@ export default function CreateWallet() {
 
         <Card
           color="pink"
-          title="The following video is highly recommended for artists to watch to protect themselves."
+          title="アーティストが自分の身を守るためにぜひ見ていただきたいのが、次の動画です。"
           content={[
             <div className="content-center sm:h-vidsm md:h-vidmd lg:h-vidlg xl:h-vidxl mt-4">
               <ReactPlayer
@@ -112,9 +109,9 @@ export default function CreateWallet() {
           ]}
         />
         <NaviButtons
-          return="How to Mint and List your NFT"
+          return="作品の販売について"
           returnlink="/sell-NFT"
-          next="Choose your Blockchain"
+          next="ブロックチェーンの選択"
           nextlink="/sell-nft/choose-blockchain"
         />
       </div>

@@ -11,29 +11,24 @@ export default function ChooseMarketplace() {
     <div className="choose-marketplace">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Choose your Marketplace
+          マーケットプレイスの選択
         </Typography>
 
         <Card
           color="pink"
           content={[
             <div>
-              Currently, there is limited information available for some
-              platforms (KnownOrigin, SuperRare and Kalamint). Information will
-              be updated as more anime NFT artists integrate on said platform
-              and we receive more accurate information.{" "}
+              現在、一部のプラットフォーム（KnownOrigin、SuperRare、Kalamint）については、入手できる情報が限られています。情報は、より多くのアニメNFTアーティストがそのプラットフォームに統合され、より正確な情報を入手した時点で更新されます。
               <div className="mt-2 text-pink-600 font-bold">
-                If you have additional information that are not listed here,
-                please contact Shinjurou to provide information and have this
-                list updated.
+                ここに掲載されていない情報をお持ちの方は、Shinjurouまでご連絡いただければ、リストを更新させていただきます。
               </div>
             </div>,
           ]}
         />
 
         <div className="mt-8">
-          <Typography variant="h2" color="inherit" component="h2" mb={2}>
-            Platform Comparison
+          <Typography variant="h3" color="inherit" component="h3" mb={2}>
+            プラットフォームごとの料金比較
           </Typography>
         </div>
 
@@ -42,34 +37,34 @@ export default function ChooseMarketplace() {
 
           <div className="mt-8">
             <Typography
-              variant="h2"
+              variant="h3"
               color="inherit"
-              component="h2"
+              component="h3"
               mt={2}
               mb={1}
             >
-              Ethereum Marketplace
+              Ethereumマーケットプレイス
             </Typography>
             <ETHmarket />
           </div>
 
           <div className="mt-8">
             <Typography
-              variant="h2"
+              variant="h3"
               color="inherit"
-              component="h2"
+              component="h3"
               mt={2}
               mb={1}
             >
-              Tezos Marketplace
+              Tezosマーケットプレイス
             </Typography>
             <XTZmarket />
           </div>
         </div>
         <NaviButtons
-          return="Choose your Blockchain"
+          return="ブロックチェーンの選択"
           returnlink="/sell-nft/choose-blockchain"
-          next="Mint an NFT"
+          next="Mintingしましょう"
           nextlink="/sell-nft/mint-nft"
         />
       </div>

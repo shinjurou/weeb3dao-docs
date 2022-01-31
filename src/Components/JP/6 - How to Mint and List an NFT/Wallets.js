@@ -78,32 +78,33 @@ export default function FullWidthTabs() {
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
           <div className="mb-2">
-            MetaMask is can be used for the{" "}
-            <span className="text-pink-600 font-bold">Ethereum</span> and{" "}
+            MetaMaskは、
+            <span className="text-pink-600 font-bold">Ethereum</span> と{" "}
             <span className="text-pink-600 font-bold">Polygon</span>{" "}
-            blockchains.
+            のブロックチェーンに使用することができます。
           </div>
           <div className="mb-2">
-            Marketplaces for Ethereum:{" "}
-            <Link link="https://opensea.io/" title="OpenSea" />,{" "}
-            <Link link="https://foundation.app/" title="Foundation" />,{" "}
-            <Link link="https://makersplace.com/" title="MakersPlace" />,
-            <Link link="https://knownorigin.io/" title="KnownOrigin" />,{" "}
-            <Link link="https://superrare.co/" title="SuperRare" />,{" "}
+            Ethereumのマーケットプレイス:{" "}
+            <Link link="https://opensea.io/" title="OpenSea" />、
+            <Link link="https://foundation.app/" title="Foundation" />、
+            <Link link="https://makersplace.com/" title="MakersPlace" />、
+            <Link link="https://knownorigin.io/" title="KnownOrigin" />、
+            <Link link="https://superrare.co/" title="SuperRare" />、
             <Link link="https://anifty.jp/" title="ANIFTY" />.
           </div>
           <div className="mb-2">
-            Marketplace for Polygon:{" "}
+            Polygonのマーケットプレイス:{" "}
             <Link link="https://opensea.io/" title="OpenSea" /> (Polygon
-            Network)
+            ネットワーク)
           </div>
           <div className="mb-2">
-            Information about marketplaces are available{" "}
-            <RouterLink link="/sell-nft/choose-marketplace" title="here" />.
+            マーケットプレイスに関する情報は
+            <RouterLink link="/sell-nft/choose-marketplace" title="こちら" />
+            からご覧いただけます。
           </div>
           <Card
             color="teal"
-            title="Guide on how to create a MetaMask wallet"
+            title="MetaMaskウォレットの作成方法に関するガイド"
             light={true}
             content={[
               <div>
@@ -111,68 +112,65 @@ export default function FullWidthTabs() {
                   <li className="mt-1">
                     <Link
                       link="https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-started-with-MetaMask"
-                      title="Install the extension on Chrome, Firefox, Edge, or Brave"
+                      title="Chrome, Firefox, Edge, またはBraveに拡張機能をインストールします。​"
                       light={true}
                     />
                   </li>
                   <li className="mt-1">
                     <Link
                       link="https://www.followchain.org/make-metamask-wallet/"
-                      title="Set up your MetaMask wallet"
+                      title="MetaMask walletをセットアップします。​"
                       light={true}
                     />
                   </li>
                   <li className="mt-1">
-                    Buy ETH for your wallet (
+                    ウォレットのためにETHを購入する (
                     <span className="text-pink-600">
-                      Highly recommend everyone to apply for{" "}
+                      最初のアートワークを作るためにETHを購入する代わりに、{" "}
                       <RouterLink
                         link="/weeb3dao-scholarship"
-                        title="the weeb3dao
-                      scholarship"
+                        title="weeb3dao Mint 奨学金制度"
                       />{" "}
-                      instead of buying ETH to mint your first artwork
+                      に応募することを強くお勧めします
                     </span>
-                    )
+                    )。
                   </li>
                 </ol>
                 <ul className="list-disc ml-10">
                   <li className="mt-1">
                     <Link
                       link="https://metamask.zendesk.com/hc/en-us/articles/360058239311-How-to-buy-ETH"
-                      title="Directly via MetaMask"
+                      title="MetaMask経由で直接。"
                       light={true}
                     />
                   </li>
                   <li className="mt-1">
                     <Link
                       link="https://help.foundation.app/en/articles/4731452-a-complete-guide-to-getting-eth-and-a-wallet-with-metamask"
-                      title="Using Coinbase"
+                      title="Coinbaseの使用。"
                       light={true}
                     />
                   </li>{" "}
                   <li className="mt-1">
-                    If those methods don't work then you can check{" "}
+                    これらの方法がうまくいかない場合は、
                     <Link
                       link="https://ethereum.org/en/get-eth/"
-                      title="the services
-                      available for the country you are in here"
+                      title="こちら"
                       light={true}
                     />
-                    . <br />
+                    であなたの国で利用可能なサービスを確認することができます。
+                    <br />
                     <span className="text-orange-500 font-bold">
-                      Recommendation:
+                      推奨:
                     </span>{" "}
                     <Link
                       link="https://www.myetherwallet.com/"
                       title="MEW"
                       light={true}
-                    />
-                    as you can buy ETH{" "}
+                    />{" "}
                     <Link
                       link="https://kb.myetherwallet.com/en/swap/buy-eth-via-simplex/"
-                      title="using your credit card through
-                      Simplex"
+                      title="(Simplexでクレジットカードを使いETHを購入できるため)。"
                       light={true}
                     />
                   </li>
@@ -183,11 +181,11 @@ export default function FullWidthTabs() {
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
           <div className="mb-2">
-            Kukai is used for the{" "}
-            <span className="text-pink-600 font-bold">Tezos</span> blockchain.
+            Kukaiは <span className="text-pink-600 font-bold">Tezos</span>{" "}
+            のブロックチェーンに使用されています。
           </div>
           <div className="mb-2">
-            Marketplaces for Tezos:{" "}
+            Tezosのマーケットプレイス:{" "}
             <Link link="https://hicetnunc.art/" title="hic et nunc" />,{" "}
             <Link link="https://objkt.com/" title="OBJKT" />,{" "}
             <Link link="https://kalamint.io/" title="Kalamint" />.
@@ -195,7 +193,7 @@ export default function FullWidthTabs() {
 
           <Card
             color="teal"
-            title="Guide on how to create a Kukai wallet"
+            title="Kukaiウォレットの作成方法に関するガイド"
             light={true}
             content={[
               <div>
@@ -203,24 +201,24 @@ export default function FullWidthTabs() {
                   <li className="mt-1">
                     <Link
                       link="https://docs.kukai.app/learn-kukai/new-wallet"
-                      title="Set up your Kukai wallet"
+                      title="Kukaiウォレットをセットアップする。"
                       light={true}
                     />
                   </li>
-                  <li className="mt-1">Buy Tezos for your wallet</li>
+                  <li className="mt-1">ウォレットにTezosを購入。</li>
                 </ol>
                 <ul className="list-disc ml-10">
                   <li className="mt-1">
                     <Link
                       link="https://www.kraken.com/en-gb/learn/buy-tezos-xtz"
-                      title="Using Kraken"
+                      title="Krakenの使用。"
                       light={true}
                     />
                   </li>
                   <li className="mt-1">
                     <Link
                       link="https://wheretobuytezos.com/how-to-buy-tezos-xtz/coinbase"
-                      title="Using Coinbase"
+                      title="Coinbaseの使用。"
                       light={true}
                     />
                   </li>

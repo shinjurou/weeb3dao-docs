@@ -11,51 +11,44 @@ export default function WhatIsBlockchain() {
     <div className="what-is-blockchain">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          What is Blockchain?
+          Blockchainって何?
         </Typography>
 
         <Card
           color="pink"
           content={[
             <div>
-              Please refer to the{" "}
+              詳しい説明は{" "}
               <Link
                 link="https://en.wikipedia.org/wiki/Blockchain"
-                title="Blockchain Wikipedia page"
+                title="Blockchain Wikipediaのページ"
               />{" "}
-              for the full explanation.
+              をご覧ください。
             </div>,
           ]}
         />
 
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
-          Simple explanation
+          簡単な説明
         </Typography>
 
         <WordExplain
           word="Blockchain"
-          explain="This is a
-          system that records all activities that happens online and stores
-          everything on the network."
+          explain="ブロックチェーンとは、オンラインで起こるすべての活動を記録し、ネットワーク上にすべてを保存するシステムです。"
         />
-        <WordExample
-          explain="A
-          financial book for a company with listings of their funds, sales, etc."
-        />
+        <WordExample explain="会社の資金が記載されている財務帳簿、売上高など。" />
 
         <Card
           color="orange"
-          title="Important things to know"
+          title="知っておくべき重要な事項"
           content={[
             <ul className="list-disc ml-4">
-              <li>All records are available for everyone to see.</li>
+              <li>すべての記録は、誰でも見ることができます。</li>
               <li>
-                All records are permanent and no one can change or delete it.
+                すべての記録は永久的であり、誰も変更したり削除したりすることはできません。
               </li>
               <li>
-                The Blockchain records everything that happens online in every
-                wallet available online with no limitation to the individual's
-                identity.
+                ブロックチェーンは、オンラインで利用可能なすべてのウォレットで、個人の身元を制限することなく、オンラインで起こるすべてのことを記録します。
               </li>
             </ul>,
           ]}
@@ -63,28 +56,27 @@ export default function WhatIsBlockchain() {
 
         <Card
           color="green"
-          content="Due to the Blockchain's nature, this helps ensure transparency for every accounts available."
+          content="ブロックチェーンの性質上、利用可能なすべての口座の透明性を確保することができます。"
         />
 
         <Card
           color="purple"
-          title="Why is this important?"
+          title="なぜそれが重要なの?"
           content={[
             <ul className="list-disc ml-4">
               <li>
-                Transparency means no one can hide their illegal activities.
+                透明性とは、誰も違法行為を隠すことができないことを意味します。
               </li>
               <li>
-                This provides collectors the ability to find suspicious
-                activities and help artists from being exploited.
+                これにより、コレクターは疑わしい活動を見つけることができ、アーティストが搾取されるのを防ぐことができるのです。
               </li>
             </ul>,
           ]}
         />
         <NaviButtons
-          return="What is NFT?"
+          return="NFTって何?"
           returnlink="/info-nft/what-is-nft"
-          next="What is Digital Wallet?"
+          next="Digital Walletって何?"
           nextlink="/info-nft/what-is-digital-wallet"
         />
       </div>

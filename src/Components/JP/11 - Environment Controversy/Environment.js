@@ -11,47 +11,37 @@ export default function Environment() {
     <div className="environment">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Environment Controversy
+          環境問題
         </Typography>
         <Card
           color="green"
           title={[
             <>
-              The analysis is discussed in depth in{" "}
+              この分析については、
               <Link
                 link="https://sterlingcrispin.blogspot.com/2021/02/crypto-art-sky-is-not-falling.html?m=1"
-                title="this blog post."
+                title="このブログ記事"
               />
+              で詳しく解説しています。
             </>,
           ]}
         />
         <Card
           color="pink"
-          title="Summary from the blog post"
+          title="概要 (これは上記のブログ記事から引用しました)"
           content={[
             <div>
-              The problem of crypto currencies is an unsolved one, but it’s a
-              known problem that experts are working on solving. NFT’s need to
-              move from Proof of Work to Proof of Stake and Ethereum itself is
-              also in that transition. However,{" "}
+              暗号通貨の問題は未解決の問題ですが、専門家が解決に向けて取り組んでいる既知の問題でもあります。NFTはProof
+              of WorkからProof of
+              Stakeに移行する必要があり、Ethereum自体もその移行期にあります。
               <span className="text-pink-600 font-bold">
-                if every article written about Bitcoin’s 0.07% negative effects
-                instead was about how meat is 15% of our annual CO2 output (24),
-                and convinced someone to go vegetarian 3-4 times a week, or was
-                instead about ending fossil fuel subsidies, it would have a
-                thousand times more positive impact.
-              </span>{" "}
-              Again, attention is a finite resource, and outrage is a type of
-              attention. We should focus our efforts where it actually matters
-              and at an appropriate scale.
+                もし、ビットコインの0.07%のマイナス効果について書かれた記事のすべてが、肉が私たちの年間CO2排出量の15%を占めていることや、誰かを週に3-4回ベジタリアンするよう説得するもの、化石燃料補助金の終了について書かれていたら、それは千倍以上のプラスの影響を与えるでしょう
+              </span>
+              。繰り返しになりますが、注意は有限な資源であり、怒りは注意の一種です。私たちは、実際に重要なところに、適切な規模で努力を集中すべきです。
               <div className="mt-5">
                 <span className="text-green-600 font-bold">
-                  For artists and collectors: I’d encourage everyone selling
-                  NFT’s to dedicate 5-10% of their income to charities you think
-                  matter. Give back to the environment. Give back to communities
-                  struggling. This is a new system for buying and selling art
-                  and there’s an opportunity to be more equitable and charitable
-                  than the old system.
+                  アーティストやコレクターへ:
+                  NFTを販売している皆さんには、収入の5％から10％を重要だと思うチャリティーに寄付することをお勧めします。環境に還元したり、困難な状況にある地域社会に還元する。これはアートを売買するための新しいシステムであり、旧来のシステムよりも公平で慈善的な行いをするチャンスです。
                 </span>
               </div>
             </div>,
@@ -66,25 +56,23 @@ export default function Environment() {
           <figcaption className="absolute text-xs -mt-7 text-zinc-700 px-1 ">
             <div className="bg-slate-500 bg-opacity-25 p-1 rounded">
               {" "}
-              Image from{" "}
               <Link
                 link="https://sterlingcrispin.blogspot.com/2021/02/crypto-art-sky-is-not-falling.html?m=1"
-                title="NFTs and Crypto Art: The Sky is not Falling"
+                title="「NFTs and Crypto Art: The Sky is not Falling」"
               />
+              からの画像
             </div>
           </figcaption>
           <Card
             color="pink"
             content={[
               <div>
-                A chart about sources of energy consumptions between
-                cryptocurrencies and other areas in 2017.{" "}
+                2017年の暗号通貨とその他の分野のエネルギー消費源についてのグラフです。
                 <span className="relative bottom-0.5">
                   <ArrowRightAltIcon />
                 </span>{" "}
                 <span className="text-pink-600 font-bold">
-                  Cryptocurrency energy consumption is not as significant as
-                  other areas listed here.
+                  暗号通貨のエネルギー消費は、ここに挙げた他の分野ほど大きくはない。
                 </span>
               </div>,
             ]}
@@ -93,8 +81,8 @@ export default function Environment() {
         <NaviButtons
           return="FAQ"
           returnlink="/faq"
-          next="Recommended Readings"
-          nextlink="/rec-readings"
+          next="画像検索システム"
+          nextlink="/reverse-img-search"
         />
       </div>
     </div>

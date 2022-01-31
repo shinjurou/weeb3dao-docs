@@ -9,11 +9,11 @@ export default function Culture() {
     <div className="culture">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Culture
+          カルチャー
         </Typography>
         <Card
           color="red"
-          title="NFT is not a quick get rich scheme. If you are in the community just to make money then high chances are you will end up quitting after a short time frame."
+          title="NFTは一攫千金を狙うようなものではありません。もし、あなたがお金を稼ぐためだけにコミュニティに参加しているのなら、短期間でやめてしまう可能性が高いでしょう。"
         />
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -23,73 +23,55 @@ export default function Culture() {
               <ul className="list-disc ml-4">
                 <li className="mt-1">
                   <span className="text-pink-600 font-bold">
-                    The value of an artwork depends on the collector and not the
-                    artist.
-                  </span>{" "}
-                  Value usually depends on{" "}
-                  <span className="text-teal-600 font-bold">
-                    the artist as the person, the meaning of their artworks,
-                    their skills or their contributions to the community.
+                    アート作品の価値は、アーティストではなくコレクターに決定します
                   </span>
+                  。アート作品の価値は、通常、
+                  <span className="text-teal-600 font-bold">
+                    アーティストという人間、作品の意味、あるいはコミュニティへの貢献度に基づいて
+                  </span>
+                  決定されます。
                 </li>
                 <li className="mt-1">
                   <span className="text-pink-600 font-bold">
-                    Artists with a large following on Twitter have spent years
-                    creating meaning for their artworks already and it is
-                    already ingrained in their fans.
+                    Twitterで多くのフォロワーを持つアーティストは、すでに何年もかけて作品の意味を作り、それがファンに浸透している
+                  </span>
+                  のでフォロワーの少ないアーティストに比べ、売れやすい。
+                </li>
+                <li className="mt-1">
+                  <span className="text-pink-600 font-bold">
+                    アートは技術だけでなく、見る人に感動を与えることが重要です。技術に磨きをかけた作品は、より早く人の心をつかむことができます
+                  </span>
+                  。ですが、小さなアーティストがNFTのコミュニティーに居場所がないわけではありません。
+                </li>
+                <li className="mt-1">
+                  <span className="text-pink-600 font-bold">
+                    コミュニティと関われば関わるほど、より印象に残ります
+                  </span>
+                  。その結果、
+                  <span className="text-green-600 font-bold">
+                    コレクターが作品のスキルではなく、あなたという人間をみて作品を集めるケースが生まれるのです
                   </span>{" "}
                   <span className="relative bottom-0.5">
                     <ArrowRightAltIcon />
                   </span>{" "}
-                  Hence why their sales are made easier compared to artists with
-                  a lower following.
+                  つまり、多くのファンを持たない状態でスタートした場合は、努力が必要ですが、コミュニティで成功できないというわけではありません。
                 </li>
                 <li className="mt-1">
-                  <span className="text-pink-600 font-bold">
-                    Art is not just about the skills but also about the emotions
-                    it brings to the spectators.
-                  </span>{" "}
-                  Artworks with polished skills will be able to capture a
-                  person's heart faster, but that doesn't mean that small
-                  artists don't have a place in the NFT community.
-                </li>
-                <li className="mt-1">
-                  <span className="text-pink-600 font-bold">
-                    The more you engage with the community, the more memorable
-                    you will be.
-                  </span>{" "}
+                  アニメ作品の価値を理解できない人がいるように、あるアートスタイルの価値を理解できない人もいるはずです。だからといって、無理にそのアートスタイルを好きになる必要はなく、
                   <span className="text-green-600 font-bold">
-                    This will create cases where collectors will collect your
-                    artworks not for your art skills, but for you as person.
-                  </span>{" "}
-                  <span className="relative bottom-0.5">
-                    <ArrowRightAltIcon />
-                  </span>{" "}
-                  This means you will need to work hard if you start out as an
-                  artist without a large following, but it doesn't mean you will
-                  not be able to succeed in this community.
-                </li>
-                <li className="mt-1">
-                  Similar to how there will be people who do not understand the
-                  value of anime artworks, we will also not be able to
-                  understand the value of certain art styles. This doesn't mean
-                  we have to force ourselves to like said art styles, but
-                  <span className="text-green-600 font-bold">
-                    {" "}
-                    we need to stay courteous and be respectful to others' taste
-                    and values.
-                  </span>{" "}
-                  Art is{" "}
-                  <span className="text-pink-600 font-bold">
-                    subjective
-                  </span>{" "}
-                  and as such there will always be someone who will find meaning
-                  on an artwork.{" "}
+                    他の人の趣味や価値観を尊重し、礼儀正しくあることが必要です。
+                  </span>
+                  アートは
+                  <span className="text-pink-600 font-bold">主観的</span>
+                  なものであり、作品に意味を見出す人は必ずいます。
                   <span className="text-orange-500 font-bold">
-                    It is in someone's rights to feel happy with the type of
-                    artworks that they wish to possess.
-                  </span>{" "}
-                  Granted that they are not doing anything illegal.
+                    自分の好きな芸術作品を所有することに喜びを感じることは、
+                  </span>
+                  違法行為でない限り、
+                  <span className="text-orange-500 font-bold">
+                    その人の権利です
+                  </span>
+                  。
                 </li>
               </ul>,
             ]}
@@ -102,99 +84,105 @@ export default function Culture() {
               mt={2}
               mb={1}
             >
-              Socializing
+              社交性
             </Typography>
             <div>
-              Community is the most important thing in NFT so here are some
-              behavior recommendations.
+              <span className="text-pink-600 font-bold">
+                NFTで最も重要なのはコミュニティ
+              </span>
+              なので、以下は行動を推奨しています。
             </div>
             <Card
               color="pink"
               content={[
                 <div>
-                  You will{" "}
-                  <span className="text-pink-600">
-                    not need to fulfill everything
-                  </span>{" "}
-                  in the Good behaviors but{" "}
+                  <span className="text-green-600 font-bold">「良い行動」</span>
+                  を<span className="text-pink-600 font-bold">完璧</span>
+                  にこなす必要はありませんが、
                   <span className="text-red-600 font-bold">
-                    Inappropriate behaviors must be avoided.
+                    「悪い行動」は避けなければなりません
                   </span>
+                  。
                 </div>,
               ]}
             />
             <Card
               color="green"
-              title="Good behaviors"
+              title="良い行動"
               content={[
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      Always be respectful and kind to others.
+                      常に相手を尊重し、親切であること
                     </span>
+                    。
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      Authentic engagements.
+                      本物の関わりを持つこと
                     </span>
-                  </li>
-                  <li className="mt-1">Say GM.</li>
-                  <li className="mt-1">Chat and hang out in Discord servers</li>
-                  <li className="mt-1">Shill only in the allowed areas.</li>
-                  <li className="mt-1">
-                    <span className="text-green-600 font-bold">
-                      Help others
-                    </span>{" "}
-                    when they ask questions.
+                    。
                   </li>
                   <li className="mt-1">
-                    <span className="text-green-600 font-bold">
-                      Respect others for their taste in arts.
-                    </span>{" "}
-                    There are many art styles out there and it is best{" "}
-                    <span className="text-red-600 font-bold">
-                      not to say anything negative
-                    </span>{" "}
-                    about them in public spaces such as Twitter.
+                    GMと言うこと（きちんと挨拶をすること)。
+                  </li>
+                  <li className="mt-1">
+                    Discordサーバーでチャットしたり遊んだりすること。
+                  </li>
+                  <li className="mt-1">宣伝は許可された所でのみすること。</li>
+                  <li className="mt-1">
+                    他の人が質問したら
+                    <span className="text-green-600 font-bold">助ける</span>。
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      Report to Discord Servers' moderators about suspicious
-                      individuals or inappropriate behaviors.
+                      他の人の芸術の趣味を尊重すること
                     </span>
+                    。世の中には様々なアートスタイルがありますが、Twitterのような公共の場では
+                    <span className="text-red-600 font-bold">否定的</span>
+                    なことは言わない方が良いでしょう。
+                  </li>
+                  <li className="mt-1">
+                    <span className="text-green-600 font-bold">
+                      不審な人物や不適切な行動を見かけたらDiscordサーバーのモデレーターに報告すること
+                    </span>
+                    。
                   </li>
                 </ul>,
               ]}
             />
             <Card
               color="red"
-              title="Inappropriate behaviors"
+              title="悪い行動"
               content={[
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Make death threat jokes.
+                      殺害予告のジョークを言う
                     </span>
+                    。
                   </li>
                   <li className="mt-1">
-                    <span className="text-red-600 font-bold">Name-calling</span>{" "}
-                    others.
+                    <span className="text-red-600 font-bold">他人を名指し</span>
+                    で罵る。
                   </li>
+
                   <li className="mt-1">
-                    <span className="text-red-600 font-bold">Insult</span>{" "}
-                    others.
+                    <span className="text-red-600 font-bold">他人を侮辱</span>
+                    する。
                   </li>
-                  <li className="mt-1">
-                    <span className="text-red-600 font-bold">Deflame</span> or{" "}
-                    <span className="text-red-600 font-bold">slander</span>{" "}
-                    others.
-                  </li>
-                  <li className="mt-1">Shill in general chat areas.</li>
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Send malicious links
-                    </span>{" "}
-                    to others.
+                      他人の名誉を傷つけたり、誹謗中傷すること
+                    </span>
+                    。
+                  </li>
+                  <li className="mt-1">general chatなどで宣伝をしない。</li>
+                  <li className="mt-1">
+                    <span className="text-red-600 font-bold">
+                      悪意のあるリンク
+                    </span>
+                    を他人に送信する。
                   </li>
                 </ul>,
               ]}
@@ -208,60 +196,60 @@ export default function Culture() {
               mt={2}
               mb={1}
             >
-              Art-related
+              アート関連
             </Typography>
             <Card
               color="pink"
               content={[
                 <div>
-                  You will{" "}
-                  <span className="text-pink-600">
-                    not need to fulfill everything
-                  </span>{" "}
-                  in the Good behaviors but{" "}
+                  <span className="text-green-600 font-bold">「良い行動」</span>
+                  を<span className="text-pink-600 font-bold">完璧</span>
+                  にこなす必要はありませんが、
                   <span className="text-red-600 font-bold">
-                    Inappropriate behaviors must be avoided.
+                    「悪い行動」は避けなければなりません
                   </span>
+                  。
                 </div>,
               ]}
             />
             <Card
               color="green"
-              title="Good behaviors"
+              title="良い行動"
               content={[
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      Share your artworks and WIPs whenever possible if you
-                      don't have an established portfolio online.
-                    </span>{" "}
-                    The more artworks you have in your portfolio, the easier
-                    it'll be to verify your authenticity.
+                      可能な限り作品やWIPを共有する
+                    </span>
+                    ポートフォリオに作品が多ければ多いほど、あなたの
+                    <span className="text-teal-600 font-bold">真偽</span>
+                    を確認しやすくなります
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      Help report cases of art theft, plagiarism, etc.
+                      盗用や盗作などの報告にも協力しましょう
                     </span>
+                    。
                   </li>
                 </ul>,
               ]}
             />
             <Card
               color="red"
-              title="Inappropriate behaviors"
+              title="悪い行動"
               content={[
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Sell another person's art
-                    </span>{" "}
-                    as NFT.
+                      他人の芸術作品をNFTとして販売すること
+                    </span>
+                    。
                   </li>
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Plagiarize/Trace/Heavily reference
-                    </span>{" "}
-                    someone's art.
+                      他人の芸術作品を盗用、トレース、大量に参照すること
+                    </span>
+                    。
                   </li>
                 </ul>,
               ]}
@@ -269,7 +257,7 @@ export default function Culture() {
           </div>
         </div>
         <NaviButtons
-          return="Terminologies"
+          return="用語解説"
           returnlink="/community/terminologies"
           next="FAQ"
           nextlink="/faq"

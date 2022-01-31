@@ -9,50 +9,56 @@ export default function Celebration() {
     <div className="celebration">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Celebration
+          NFTを販売した後
         </Typography>
 
         <div className="mb-6"></div>
         <Card
           color="green"
-          title="Congratulations on your first collected NFT! Remember to be grateful to your collector and those who have helped you!"
+          title="最初に収集したNFTおめでとうございます！コレクターやお世話になった方に感謝の気持ちを持ちましょう!"
           content={[
             <div>
               <ul className="list-disc ml-5">
                 <li className="mt-1">
-                  💟{" "}
+                  💟 売却後、
                   <span className="text-green-600 font-bold">
-                    Send a thank you message to your collector
-                  </span>{" "}
-                  after the transaction.
+                    コレクターにお礼のメッセージを送りましょう
+                  </span>
+                  。
                 </li>
                 <li className="mt-1">
                   💝{" "}
                   <span className="text-green-600 font-bold">
-                    Draw a gift for the collector
-                  </span>{" "}
-                  would be great but{" "}
-                  <span className="text-teal-600 font-bold">not mandatory</span>
-                  . Prioritizing your health and having a balanced schedule is
-                  more important.
+                    コレクターへのプレゼントを描く
+                  </span>
+                  と良いですが、
+                  <span className="text-teal-600 font-bold">
+                    必須ではありません
+                  </span>
+                  。<span className="text-teal-600 font-bold">健康</span>
+                  を優先し、
+                  <span className="text-teal-600 font-bold">
+                    バランスの取れたスケジュール
+                  </span>
+                  を組むことの方が重要です。
                 </li>
                 <li className="mt-1">
-                  🙌🎉 Send a message in{" "}
+                  🙌🎉{" "}
                   <Link
                     link="https://discord.gg/vktnAzvyNQ"
-                    title="Anifriends Discord Server's #congratsu
-              channel"
-                  />{" "}
-                  so we can congratulate you! 💖
+                    title="AnifriendsのDiscordサーバーの「#congratsu」
+                    チャネル"
+                  />
+                  に投稿するとお祝いしてもらえますよ! 💖
                 </li>
               </ul>
             </div>,
           ]}
         />
         <NaviButtons
-          return="Promote your NFT"
+          return="NFTのプロモーション"
           returnlink="/sell-nft/promote-nft"
-          next="How to keep track of Gas"
+          next="ガス代の管理方法について"
           nextlink="/sell-nft/gas"
         />
       </div>

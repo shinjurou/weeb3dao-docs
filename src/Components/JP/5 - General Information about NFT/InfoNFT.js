@@ -8,41 +8,39 @@ export default function InfoNFT() {
     <div className="info-NFT">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          General Information about NFT
+          NFTについての一般情報
         </Typography>
-        There is a large amount of information available online explaining about
-        everything relating to NFT. So we have compiled the most common
-        questions with simpler explanations here for easier understanding.
+        インターネット上ではNFTに関連する膨大な量の情報が提供されています。そこで、よくあるご質問をわかりやすく解説していきます。
         <ol className="list-decimal ml-14 mt-4 text-blue-500 font-bold">
           <li className="my-2">
-            <RouterLink link="/info-nft/what-is-nft" title="What is NFT?" />
+            <RouterLink link="/info-nft/what-is-nft" title="NFTって何?" />
           </li>
 
           <li className="my-2">
             <RouterLink
               link="/info-nft/what-is-blockchain"
-              title="What is Blockchain?"
+              title="Blockchainって何?"
             />
           </li>
 
           <li className="my-2">
             <RouterLink
               link="/info-nft/what-is-digital-wallet"
-              title="What is Digital Wallet?"
+              title="Digital Walletって何?"
             />
           </li>
 
           <li className="my-2">
             <RouterLink
               link="/info-nft/important-terminologies"
-              title="Explanations for Important Terminologies"
+              title="その他の重要な用語についての説明"
             />
           </li>
         </ol>
         <NaviButtons
-          return="weeb3dao Mint Scholarship"
+          return="weeb3dao Mint 奨学金制度"
           returnlink="/weeb3dao-scholarship"
-          next="What is NFT?"
+          next="NFTって何?"
           nextlink="/info-nft/what-is-nft"
         />
       </div>

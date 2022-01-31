@@ -10,25 +10,20 @@ export default function BurnNFT() {
     <div className="burn-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Burn your NFT
+          NFTをBurnする
         </Typography>
 
         <Card
           color="pink"
           content={[
             <div>
-              If you ever want to{" "}
+              説明文を間違えたり、販売したくなくなったり、作品を限定して保管したいなどの理由で、
               <span className="text-pink-600 font-bold">
-                {" "}
-                remove an NFT from any marketplaces
-              </span>{" "}
-              due to certain reasons: made a typo within the description, you no
-              longer want to sell the NFT, you want to keep your works limited.
-              You can check our the guides below to help you learn about the
-              process of{" "}
-              <span className="text-teal-600 font-bold">
-                Burning (Deleting) your NFT from the blockchain.
+                NFTをマーケットプレイスから削除したい場合
               </span>
+              は、次のようにします。NFTをブロックチェーンからBurn（削除）する
+              <span className="text-teal-600 font-bold">手順</span>
+              については、以下のガイドをご覧ください。
             </div>,
           ]}
         />
@@ -42,22 +37,19 @@ export default function BurnNFT() {
               mt={2}
               mb={1}
             >
-              Guide for Burning Gas
+              Burnする際のガス代について
             </Typography>
             <Card
               color="green"
               content={[
                 <div>
-                  Burning NFT{" "}
+                  NFTのバーニングは、
                   <span className="text-pink-600 font-bold">
-                    does not cost as much gas as Minting or Listing the artwork
+                    MintやListingの時ほどガス代はかかりません
                   </span>
-                  , but{" "}
-                  <RouterLink
-                    link="/sell-nft/gas"
-                    title="you can still check our previous guide for
-                  reference on how to keep track of gas."
-                  />
+                  ガス代の把握の仕方については、前回の
+                  <RouterLink link="/sell-nft/gas" title="ガイド" />
+                  を参考にしてください。
                 </div>,
               ]}
             />
@@ -70,14 +62,14 @@ export default function BurnNFT() {
               mt={2}
               mb={1}
             >
-              Burning Guides for each Marketplaces
+              マーケットプレイスごとのBurnガイド
             </Typography>
 
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
                 <Link
                   link="https://www.youtube.com/watch?v=XvA-EWlv14Q"
-                  title="OpenSea (Ethereum Mainnet & Polygon Network)"
+                  title="OpenSea (EthereumメインネットとPolygonネットワーク)"
                 />
               </li>
             </ul>
@@ -85,13 +77,12 @@ export default function BurnNFT() {
               color="orange"
               content={[
                 <div>
-                  This is only for NFTs{" "}
                   <span className="text-orange-500 font-bold">
-                    minted on OpenSea storefront.
-                  </span>{" "}
-                  To burn other NFTs on OpenSea, simply{" "}
+                    OpenSeaでmintされたNFTのみ
+                  </span>
+                  が対象です。OpenSeaで他のNFTをBurnするには、
                   <span className="text-pink-600 font-bold">
-                    transfer it to 0x000000000000000000000000000000000000dead.
+                    0x000000000000000000000000000000000000deadに転送してください。
                   </span>
                 </div>,
               ]}
@@ -112,7 +103,7 @@ export default function BurnNFT() {
               <li className="mb-2">
                 <Link
                   link="https://github.com/hicetnunc2000/hicetnunc/wiki/How-to-burn-%F0%9F%94%A5"
-                  title="hic et Nunc"
+                  title="hic et nunc"
                 />
               </li>
             </ul>
@@ -120,23 +111,20 @@ export default function BurnNFT() {
               color="pink"
               content={[
                 <div>
-                  Other marketplaces do not have guides available but the
-                  process should be simple enough with either a{" "}
-                  <span className="text-pink-600 font-bold">"Burn"</span> or{" "}
-                  <span className="text-pink-600 font-bold">"Delete"</span>{" "}
-                  button in{" "}
-                  <span className="text-pink-600 font-bold">
-                    their options.
-                  </span>
+                  他のマーケットプレイスにはガイドはありませんが、オプションで
+                  <span className="text-pink-600 font-bold">「Burn」</span>
+                  または
+                  <span className="text-pink-600 font-bold">「Delete」</span>
+                  ボタンがあるので、手続きは簡単です。
                 </div>,
               ]}
             />
           </div>
         </div>
         <NaviButtons
-          return="How to keep track of Gas"
+          return="ガス代の管理方法について"
           returnlink="/sell-nft/gas"
-          next="Crypto Exchange"
+          next="暗号通過取引所"
           nextlink="/crypto-exchange"
         />
       </div>

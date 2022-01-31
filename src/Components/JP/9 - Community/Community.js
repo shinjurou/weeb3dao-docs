@@ -10,7 +10,7 @@ export default function Community() {
     <div className="community">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Community
+          コミュニティ
         </Typography>
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -22,17 +22,18 @@ export default function Community() {
               mt={2}
               mb={1}
             >
-              Terminologies
+              用語解説
             </Typography>
             <Card
               color="green"
               content={[
                 <div>
                   <span className="text-green-600 font-bold">
-                    Commonly used slangs and abbreviations
-                  </span>{" "}
-                  within the community are listed{" "}
-                  <RouterLink link="/community/terminologies" title="here." />
+                    コミュニティ内でよく使われるスラングや略語
+                  </span>
+                  を
+                  <RouterLink link="/community/terminologies" title="こちら" />
+                  に掲載しています。
                 </div>,
               ]}
             />
@@ -45,17 +46,17 @@ export default function Community() {
               mt={2}
               mb={1}
             >
-              Culture
+              カルチャー
             </Typography>
             <Card
               color="green"
               content={[
                 <div>
-                  <span className="text-green-600 font-bold">
-                    Best practices
-                  </span>{" "}
-                  within the community are listed{" "}
-                  <RouterLink link="/community/culture" title="here." />
+                  コミュニティ内の
+                  <span className="text-green-600 font-bold">ベストな方法</span>
+                  を
+                  <RouterLink link="/community/culture" title="こちら" />
+                  に掲載しています。
                 </div>,
               ]}
             />
@@ -63,9 +64,9 @@ export default function Community() {
         </div>
 
         <NaviButtons
-          return="Crypto Exchange"
+          return="暗号通過取引所"
           returnlink="/crypto-exchange"
-          next="Terminologies"
+          next="用語解説"
           nextlink="/community/terminologies"
         />
       </div>

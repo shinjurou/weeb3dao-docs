@@ -11,110 +11,98 @@ export default function ChooseBlockchain() {
     <div className="choose-blockchain">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Choose your Blockchain
+          ブロックチェーンの選択
         </Typography>
 
         <div className="mt-5">
-          There is a full list of blockchains information available on this{" "}
+          ブロックチェーンの情報はこちらの
           <Link
             link="https://github.com/memo/eco-nft"
-            title="Github page"
+            title="Github ページ"
             light={true}
           />
-          , but we will only be covering the popular blockchains currently being
-          used by anime NFT artists.
+          から一覧を確認できるようになっていますが、ここでは現在アニメNFTのアーティストが利用している人気のブロックチェーンだけを取り上げます。
         </div>
 
         <Card
           color="purple"
-          title="Why is it important to understand the types of blockchains?"
+          title="なぜブロックチェーンの種類を理解することが重要なのか？"
           content={[
             <ul className="list-disc ml-4">
               <li className="mt-1">
-                Each blockchains have their own marketplaces. Currently, most
-                marketplaces only have{" "}
-                <span className="text-pink-600 font-bold">one</span> blockchain
-                integrated on their website (with exception for OpenSea).
+                各ブロックチェーンはそれぞれマーケットプレイスを持っています。現在、ほとんどのマーケットプレイスに対し、
+                <span className="text-pink-600 font-bold">1つ</span>
+                のブロックチェーンしかウェブサイトに対応していません。（OpenSeaは例外）
               </li>
               <li className="mt-1">
-                Choosing the blockchain to mint your NFT(s) on{" "}
+                NFTをmintするブロックチェーンを選択することで、
                 <span className="text-orange-500 font-bold">
-                  might have an impact
-                </span>{" "}
-                on your sales. As your sales will depend on the number of
-                collectors who are using said blockchain to purchase your
-                artworks. A collector who only uses Ethereum won't be able to
-                purchase your works from Tezos if they do not possess Tezos{" "}
+                  売上に影響がでる可能性があります
+                </span>
+                。なぜなら、売上はそのブロックチェーンを使用してアート作品を購入するコレクターの数に依存するからです。例えば、Ethereumしか使用していないコレクターがTezosを持っていない場合、Tezosで出品されている作品を購入することはできないからです。{" "}
                 <span className="relative bottom-0.5 right-0.5">
                   <ArrowRightAltIcon />
                 </span>
-                This will{" "}
+                コレクターが作品を購入する際、
                 <span className="text-red-600 font-bold">
-                  cause inconveniences
-                </span>{" "}
-                for collectors to purchase your artwork(s).
+                  不便に感じてしまう
+                </span>
+                。
               </li>
             </ul>,
           ]}
         />
         <Blockchains />
         <div className="mt-8">
-          <Typography variant="h2" color="inherit" component="h2" mb={2}>
-            Conclusion
+          <Typography variant="h3" color="inherit" component="h3" mb={2}>
+            まとめ
           </Typography>
 
           <Card
             color="purple"
-            title="Which blockchain is the best?"
+            title="どのブロックチェーンが一番いいのか?"
             content={[
               <>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    There is{" "}
-                    <span className="text-orange-500">
-                      no "best" blockchain
-                    </span>{" "}
-                    as each have{" "}
+                    ブロックチェーンはそれぞれ
                     <span className="text-purple-700">
-                      different functionalities
-                    </span>{" "}
-                    and <span className="text-purple-700">audiences</span>.
-                    There will always be collectors for your works on each
-                    blockchain as long as you work hard.
+                      機能性や利用者が異なる
+                    </span>
+                    ため、
+                    <span className="text-orange-500">「一番いい」</span>
+                    というものはありません。あなたが努力する限り、各ブロックチェーンにあなたの作品のコレクターが必ず存在します。
                   </li>
                   <li className="mt-1">
-                    The only reason choosing a blockchain is considered to be
-                    important is to be able to{" "}
-                    <span className="text-orange-500">
-                      fulfill your goal(s)
-                    </span>{" "}
-                    according to your priorities.
+                    ブロックチェーンを選択することが重要であると考えられている理由は、あなたの優先順位に従って
+                    <span className="text-orange-500">あなたの目標</span>
+                    を達成することができるようにするためだけです。
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      Examples of priorities
+                      優先順位の例
                     </span>
                   </li>
                 </ul>
                 <ul className="list-disc ml-10">
                   <li className="mt-1">
-                    Selling <span className="text-orange-500">1/1</span> at a
-                    higher price than editions: Ethereum.
+                    <span className="text-orange-500">1/1</span>
+                    をエディションをより高く売る: Ethereum。
                   </li>
                   <li className="mt-1">
-                    Selling <span className="text-orange-500">editions</span> in
-                    order to have your work(s) collected by many collectors:
-                    Tezos.
+                    多くのコレクターに集めてもらうため、
+                    <span className="text-orange-500">エディション</span>
+                    を販売する: Polygon、Tezos。
                   </li>
                   <li className="mt-1">
-                    Selling on an eco-friendly{" "}
-                    <span className="text-orange-500">blockchain</span>:
-                    Polygon, Tezos.
+                    環境に優しい
+                    <span className="text-orange-500">ブロックチェーン</span>
+                    で販売する: Polygon、Tezos。
                   </li>
                   <li className="mt-1">
-                    Selling your artworks as a{" "}
-                    <span className="text-orange-500">collection</span>:
-                    Ethereum, Polygon, Tezos.
+                    作品を
+                    <span className="text-orange-500">コレクション</span>
+                    として販売する: Ethereum、Polygon、Tezos。
                   </li>
                 </ul>
               </>,
@@ -126,47 +114,38 @@ export default function ChooseBlockchain() {
             content={[
               <ul className="list-disc ml-4">
                 <li className="mt-1">
-                  Settling for only one blockchain is unnecessary as you can
-                  <span className="text-green-600 font-bold">
-                    use multiples at the same time
-                  </span>{" "}
-                  and use{" "}
-                  <span className="text-orange-500">
-                    different types of artworks
-                  </span>{" "}
-                  on each marketplace(s) and each blockchain(s).
+                  各マーケットプレイスごとに複数のブロックチェーンを
+                  <span className="text-green-600 font-bold">同時に使用</span>
+                  し、
+                  <span className="text-orange-500">異なる種類の作品</span>
+                  を扱うことができるため、1つのブロックチェーンにのみ設定する必要はありません。
                 </li>
 
                 <li className="mt-1">
-                  <span className="text-green-600 font-bold">Example</span>
+                  <span className="text-green-600 font-bold">例</span>
                 </li>
 
                 <ul className="list-disc ml-6">
                   <li className="mt-1">
-                    Minting your 1/1 works with high attention to details on
-                    Ethereum and simpler versions of artworks on Polygon or
-                    Tezos.{" "}
-                    <span className="relative bottom-0.5 right-0.5">
+                    Ethereumでは細部にまでこだわった1/1の作品を、PolygonやTezosではよりシンプルな作品を造形する。
+                    <span className="relative bottom-0.5 right-1">
                       <ArrowRightAltIcon />
-                    </span>{" "}
-                    This will require you to use multiple wallets and convert
-                    the currencies, but it will help you be able to utilizes all
-                    the good points on each blockchain.
+                    </span>
+                    この場合、複数のウォレットを使い、通貨を変換する必要がありますが、各ブロックチェーンの良いところを全て活用することができるようになります。
                   </li>
                 </ul>
 
                 <li className="mt-1">
                   <span className="text-pink-600">
-                    Conversion between Ethereum and Polygon are easier
-                  </span>{" "}
-                  compare to converting Tezos to either of the other 2
-                  blockchains.{" "}
-                  <span className="relative bottom-0.5 right-0.5">
+                    イーサリアムとポリゴンの変換は、
+                  </span>
+                  テゾスと他の2つのブロックチェーンの変換に比べて
+                  <span className="text-pink-600 font-bold">簡単</span>です。
+                  <span className="relative bottom-0.5 right-1.5">
                     <ArrowRightAltIcon />
                   </span>
                   <span className="text-pink-600 font-bold">
-                    It is recommended use Ethereum and Polygon if you wish to
-                    use multiple blockchains at the same time.
+                    複数のブロックチェーンを同時に利用する場合は、イーサリアムとポリゴンの利用を推奨します。
                   </span>
                 </li>
               </ul>,
@@ -174,9 +153,9 @@ export default function ChooseBlockchain() {
           />
         </div>
         <NaviButtons
-          return="Create your Digital Wallet"
+          return="デジタルウォレットを作成する"
           returnlink="/sell-nft/create-wallet"
-          next="Choose your Marketplace"
+          next="マーケットプレイスの選択"
           nextlink="/sell-nft/choose-marketplace"
         />
       </div>

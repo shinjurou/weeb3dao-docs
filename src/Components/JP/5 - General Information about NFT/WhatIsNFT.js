@@ -11,64 +11,57 @@ export default function WhatIsNFT() {
     <div className="what-is-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          What is NFT?
+          NFTって何?
         </Typography>
 
         <div className="mt-5">
-          NFT is the abbreviation for{" "}
-          <span className="text-orange-500">Non-fungible tokens</span>.
+          NFTとは、
+          <span className="text-orange-500">
+            Non-fungible tokens（非可食性トークン）
+          </span>
+          の略称です。
         </div>
         <Card
           color="pink"
           content={[
             <div>
-              Please refer to the{" "}
+              詳しい説明は{" "}
               <Link
                 link="https://en.wikipedia.org/wiki/Non-fungible_token"
-                title="NFT Wikipedia page"
+                title="NFT Wikipediaのページ"
               />{" "}
-              for the full explanation.
+              をご覧ください。
             </div>,
           ]}
         />
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
-          Simple explanation
+          簡単な説明
         </Typography>
         <WordExplain
           word="Non-fungible"
-          explain="Unique, the only one of it's kind and cannot be replaced."
+          explain="唯一無二の存在であり、他の追随を許さない存在。"
         />
-        <WordExample
-          explain="You as an individual cannot be replaced by your high school math
-          teacher."
-        />
+        <WordExample explain="高校生のあなたは、高校の数学の先生の代わりにはなれない。" />
 
         <WordExplain
           word="Token"
-          explain="A virtual
-          currency that the holder will be able to trade online through the
-          blockchain."
+          explain="ブロックチェーンを通じてオンラインで取引できるようになる仮想通貨です。"
         />
-        <WordExample explain="Coins we use everyday representing money to be exchanged for goods." />
+        <WordExample explain="私たちが日常的に使っている紙幣はただの紙ですが、商品と交換されるお金という価値が付加されています。" />
 
         <Card
           color="orange"
           content={[
             <div>
-              This means that once you turn your artwork(s) into NFT(s) then it
-              will be available on the blockchain forever with no way of
-              deleting or duplicating it.
-              <div className="mt-1">
-                After that you can use it to trade with others via the
-                blockchain.
-              </div>
+              つまり、一度NFTに変換されたアートワークは、ブロックチェーン上で永遠に利用可能であり、削除や複製は不可能です。
+              その後、ブロックチェーンを介して他の人と取引するために使用することができます。
             </div>,
           ]}
         />
         <NaviButtons
-          return="General Information about NFT"
+          return="NFTについての一般情報"
           returnlink="/info-NFT"
-          next="What is Blockchain?"
+          next="Blockchainって何?"
           nextlink="/info-nft/what-is-blockchain"
         />
       </div>

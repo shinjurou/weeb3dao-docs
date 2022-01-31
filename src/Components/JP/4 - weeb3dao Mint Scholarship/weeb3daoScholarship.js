@@ -10,7 +10,7 @@ export default function weeb3daoScholarship() {
     <div className="weeb3dao-scholarship">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          weeb3dao Mint Scholarship
+          weeb3dao Mint 奨学金制度
         </Typography>
         <Widget
           id="rifISQzR"
@@ -18,17 +18,17 @@ export default function weeb3daoScholarship() {
           className="my-form"
         />
         <Typography variant="h3" color="inherit" component="h3" mt={3} mb={2}>
-          List of Artists received the weeb3dao's Mint Scholarship
+          weeb3dao's Mint 奨学金受賞者リスト
         </Typography>
         <Card
           color="green"
-          title="The following artists have received help from weeb3dao, either with the Mint Scholarship or Onboarding Support"
+          title="以下のアーティストは、ミント・スカラシップまたはオンボーディング・サポートで、weeb3daoの支援を受けています。"
         />
         <ScholarshipList />
         <NaviButtons
-          return="Introduction"
+          return="メンバー紹介"
           returnlink="/introduction"
-          next="General Information about NFT"
+          next="NFTについての一般情報"
           nextlink="/info-NFT"
         />
       </div>

@@ -11,237 +11,230 @@ export default function Terminologies() {
     <div className="terminologies">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Terminologies
+          用語解説
         </Typography>
         <Card
           color="green"
           content={[
             <div>
-              A more extensive list for{" "}
-              <span className="text-green-600 font-bold">
-                Common Terminologies used in communities
-              </span>{" "}
-              and{" "}
               <RouterLink
                 link="/info-nft/important-terminologies"
-                title="not just for selling your NFT."
+                title="NFTを販売するためのガイド"
               />
+              だけではなく、
+              <span className="text-green-600 font-bold">
+                コミュニティでよく使用されるスラング
+              </span>
+              などのリストも充実させました。
             </div>,
           ]}
         />
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="GM" explain="Good Morning." />
+            <WordExplain word="GM" explain="おはよう。" />
           </li>
           <li>
-            <WordExplain word="GN" explain="Good Night." />
+            <WordExplain word="GN" explain="おやすみ。" />
           </li>
           <li>
-            <WordExplain word="NGMI" explain="Not going to make it." />
+            <WordExplain word="NGMI" explain="失敗するでしょう。" />
           </li>
           <li>
-            <WordExplain word="GMI" explain="Going to make it." />
+            <WordExplain word="GMI" explain="成功するでしょう。" />
           </li>
           <li>
-            <WordExplain word="WAGMI" explain="We're all going to make it." />
+            <WordExplain
+              word="WAGMI"
+              explain="私たち全員が成功するでしょう。"
+            />
           </li>
           <li>
-            <WordExplain word="DYOR" explain="Do your own research." />
+            <WordExplain word="DYOR" explain="自身の研究をしてください。" />
           </li>
           <li>
-            <WordExplain word="FOMO" explain="Fear of missing out." />
+            <WordExplain
+              word="FOMO"
+              explain="楽しいことなどを経験しそこなう。"
+            />
           </li>
           <li>
-            <WordExplain word="FUD" explain="Fear, uncertainty, and doubt." />
+            <WordExplain word="FUD" explain="恐れ、不確実性、そして疑い。" />
           </li>
           <li>
             <WordExplain
               word="HODL"
-              explain="Hold on to dear life (Keep your NFT and not sell it)."
+              explain="死ぬまで待って（NFTを売らずに持ち続けること)。"
             />
           </li>
           <li>
-            <WordExplain
-              word="Rekt"
-              explain="Someone who lost a lot of money from a bad trade."
-            />
+            <WordExplain word="Rekt" explain="下手なトレードで大損した人。" />
           </li>
           <li>
-            <WordExplain word="PFP" explain="Profile Picture." />
+            <WordExplain word="PFP" explain="プロフィールのアイコン。" />
           </li>
           <li>
             <WordExplain
               word="Paper Hands"
-              explain="People who quickly sell their NFT(s) asset."
+              explain="NFTをすぐに売ってしまう人たち。"
             />
           </li>
           <li>
             <WordExplain
               word="Diamond Hands"
-              explain="People who hold NFT(s) for a project long term through its up and down prices."
+              explain="プロジェクトのためにNFTを長期的に保有する人たち。"
             />
           </li>
           <li>
             <WordExplain
               word="Whale"
-              explain="Someone who has a lot of ETH and purchasing a large number of assets."
+              explain="ETHを大量に持ち、大量のアセットを購入している人たち。"
             />
           </li>
           <li>
-            <WordExplain word="Bag" explain="NFT assets a person holds." />
+            <WordExplain word="Bag" explain="保有するNFT資産。" />
           </li>
           <li>
             <WordExplain
               word="Bagholder"
               explain={[
                 <span>
-                  An investor who holds for too long that the asset's value
-                  dropped.{" "}
-                  <span className="relative bottom-0.5">
+                  長期保有しすぎて資産価値が下がった投資家。
+                  <span className="relative bottom-0.5 right-1.5">
                     <ArrowRightAltIcon />
-                  </span>{" "}
-                  huge loss
+                  </span>
+                  巨額の損失
                 </span>,
               ]}
             />
           </li>
           <li>
-            <WordExplain
-              word="Shitcoin"
-              explain="A crypto currency with no value or purpose."
-            />
+            <WordExplain word="Shitcoin" explain="価値や目的のない暗号通貨。" />
           </li>
           <li>
             <WordExplain
               word="Memecoin"
-              explain="Cryptocurrency based on a meme."
+              explain="ミームをもとにした暗号通貨。"
             />
           </li>
           <li>
             <WordExplain
               word="Apeing In"
-              explain="Spending a lot of ETH for a project."
+              explain="プロジェクトのために多くのETHを使うこと。"
             />
           </li>
           <li>
             <WordExplain
               word="Pumping"
-              explain="Raising an NFT asset price quickly."
+              explain="NFT資産価格を早く引き上げること。"
             />
           </li>
           <li>
             <WordExplain
               word="Pump and dump"
-              explain="Buying a large amount of NFTs from a project to inflate its price, then resell them at peak to make quick money."
+              explain="プロジェクトのNFTを大量に購入して価格をつり上げ、ピーク時に転売して手っ取り早く儲けること。"
             />
           </li>
           <li>
             <WordExplain
               word="Alpha"
-              explain="The intel someone posesses that no one has found out yet."
+              explain="まだ誰も知らない、誰かが持っている情報のこと。"
             />
           </li>
           <li>
-            <WordExplain
-              word="Floor"
-              explain="Lowest price available in a project."
-            />
+            <WordExplain word="Floor" explain="プロジェクト内の最安値。" />
           </li>
           <li>
             <WordExplain
               word="Sweep the floor"
-              explain="Buy all the NFTs at floor price to raise the project's price immediately."
+              explain="フロアプライスでNFTを全量買い取り、プロジェクトの価格を引き上げること。"
             />
           </li>
           <li>
-            <WordExplain word="Flex" explain="Show off." />
+            <WordExplain word="Flex" explain="見せびらかすこと。" />
           </li>
           <li>
-            <WordExplain word="Wen" explain="When." />
+            <WordExplain word="Wen" explain="いつ。" />
           </li>
           <li>
             <WordExplain
               word="DAO"
-              explain="Decentralized autonomous organization = a community with a shared bank account."
+              explain="Decentralized autonomous organization = 口座を共有するコミュニティ。"
             />
           </li>
           <li>
-            <WordExplain word="Ser" explain="Sir." />
+            <WordExplain word="Ser" explain="サー。" />
           </li>
           <li>
             <WordExplain
               word="Probably Nothing"
-              explain="The phrase is used sarcastically."
+              explain="皮肉を言うときに使います。"
             />
           </li>
           <li>
-            <WordExplain word="Fren" explain="Friend." />
+            <WordExplain word="Fren" explain="友達。" />
           </li>
           <li>
             <WordExplain
               word="McDonalds"
-              explain="Backup plan for when we NGMI."
+              explain="NGMI時のバックアッププラン。"
             />
           </li>
           <li>
             <WordExplain
               word="Generative Art"
-              explain="Art created algorithmically on the blockchain when minted using a specific set of assets."
+              explain="特定のアセットを使ってmintされたときに、ブロックチェーン上でアルゴリズム的に作成されるアート。"
             />
           </li>
           <li>
             <WordExplain
               word="Looks Rare"
-              explain="Rarity is important in NFT, this phrase is used sarcastically."
+              explain="NFTではレアリティが重要であるという言葉を皮肉った人が言った言葉。"
             />
           </li>
           <li>
-            <WordExplain word="IRL" explain="In Real Life." />
+            <WordExplain word="IRL" explain="実生活。" />
           </li>
           <li>
             <WordExplain
               word="Liquidity"
-              explain="Available ETH to buy NFTs."
+              explain="NFTの購入に利用可能なETH。"
             />
           </li>
           <li>
-            <WordExplain word="Lambo" explain="Become rich." />
+            <WordExplain word="Lambo" explain="金持ちになる。" />
           </li>
           <li>
-            <WordExplain
-              word="Wen Lambo?"
-              explain="When are we going to get rich?"
-            />
+            <WordExplain word="Wen Lambo?" explain="いつ金持ちになるの？" />
           </li>
           <li>
             <WordExplain
               word="No-coiner"
-              explain="People who are skeptical of crypto or don't have any coin."
+              explain="暗号資産に懐疑的な人、コインを持っていない人。"
             />
           </li>
           <li>
-            <WordExplain word="Noob/Newb" explain="Inexperienced people." />
+            <WordExplain word="Noob/Newb" explain="初心者、未経験者。" />
           </li>
           <li>
-            <WordExplain word="LFG" explain="Let's f*cking go." />
+            <WordExplain word="LFG" explain="行くぞー！" />
           </li>
           <li>
             <WordExplain
               word="Gas wars"
-              explain="Large number of people minting same project causing gas to increase significantly."
+              explain="同一プロジェクトの大量mintによりガスが大幅に増加すること。"
             />
           </li>
           <li>
-            <WordExplain word="Ded" explain="Dead." />
+            <WordExplain word="Ded" explain="死。" />
           </li>
           <li>
             <WordExplain
               word="Rug"
-              explain="Creators running away from a project."
+              explain="プロジェクトに逃げ込むクリエイター。"
             />
           </li>
           <li>
-            <WordExplain word="Derivative" explain="Fanart." />
+            <WordExplain word="Derivative" explain="ファンアート。" />
           </li>
           <li>
             <WordExplain
@@ -252,31 +245,28 @@ export default function Terminologies() {
                   <span className="relative bottom-0.5">
                     <ArrowRightAltIcon />
                   </span>{" "}
-                  People who are early.
+                  創立メンバー、元祖。
                 </span>,
               ]}
             />
           </li>
           <li>
-            <WordExplain
-              word="Seems legit"
-              explain="Has excellent prospects."
-            />
+            <WordExplain word="Seems legit" explain="将来性があること。" />
           </li>
           <li>
-            <WordExplain word="NFA" explain="Not financial advice." />
+            <WordExplain word="NFA" explain="財政的なアドバイスではない。" />
           </li>
           <li>
             <WordExplain
               word="Airdrop"
-              explain="Owner sends free NFT to someone."
+              explain="オーナーがNFTを無料で贈ること。"
             />
           </li>
         </ul>
         <NaviButtons
-          return="Community"
+          return="コミュニティ"
           returnlink="/community"
-          next="Culture"
+          next="カルチャー"
           nextlink="/community/culture"
         />
       </div>

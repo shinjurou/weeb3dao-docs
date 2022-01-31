@@ -75,17 +75,15 @@ export default function Gas() {
               mb={1}
             >
               <Link
-                link="https://chrome.google.com/webstore/detail/ethereum-gas-prices/njbclohenpagagafbmdipcdoogfpnfhp?hl=en"
-                title="Ethereum Gas Prices Extension for Chrome"
+                link="https://chrome.google.com/webstore/detail/blocknative-eth-gas-estim/ablbagjepecncofimgjmdpnhnfjiecfm"
+                title="Blocknative ETH Gas Estimator for Chrome"
                 light={true}
               />
             </Typography>
-            <div className="mb-3">
-              The extension shows gas prices for 3 gas tracking websites.
-            </div>
+
             <img
               src={ethgas}
-              alt="MakersPlace Upload Creation button"
+              alt="How to pin the BlockNative extension in Chrome."
               className="rounded mb-2"
             />
             <div className="mb-3">
@@ -94,47 +92,24 @@ export default function Gas() {
             </div>
             <img
               src={ethgaschrome}
-              alt="MakersPlace Upload Creation button"
+              alt="BlockNative extension pinned in Chrome."
               className="rounded mb-2"
             />
             <div className="mb-3">
-              The number that is showing here is from{" "}
-              <Link link="https://etherscan.io/gastracker" title="Etherscan" />{" "}
-              - which is the accurate gas price as they are the{" "}
-              <span className="text-orange-500 font-bold">
-                official website
-              </span>{" "}
-              to track all transactions on the blockchains.
+              The number that is showing here is the current GWEI from{" "}
+              <Link
+                link="https://www.blocknative.com/gas-estimator"
+                title="BlockNative"
+              />
+              .
             </div>
             <div className="mb-3">
-              Clicking on the icon will show you this screen. Clicking on the
-              name will lead you to the corresponding websites.
+              Clicking on the icon will show you this screen.
             </div>
-            <ul className="list-disc  ml-6">
-              <li className="mt-1">
-                <Link
-                  link="https://etherscan.io/gastracker"
-                  title="Etherscan"
-                />{" "}
-                will help you see the{" "}
-                <span className="text-pink-600 font-bold">
-                  current gas price.
-                </span>
-              </li>
-              <li className="mt-1">
-                <Link
-                  link="https://www.blocknative.com/gas-estimator"
-                  title="Blocknative"
-                />{" "}
-                will help you able to keep track of the{" "}
-                <span className="text-pink-600 font-bold">
-                  weekly gas prices.
-                </span>
-              </li>
-            </ul>
+
             <img
               src={ethgastable}
-              alt="MakersPlace Upload Creation button"
+              alt="BlockNative Gas Table."
               className="rounded mt-2"
             />
           </div>
@@ -149,7 +124,7 @@ export default function Gas() {
             >
               <Link
                 link="https://www.blocknative.com/gas-estimator"
-                title="Blocknative"
+                title="Blocknative Website"
                 light={true}
               />
             </Typography>

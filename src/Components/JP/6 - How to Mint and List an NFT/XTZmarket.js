@@ -79,20 +79,18 @@ export default function FullWidthTabs() {
         <TabPanel value={value} index={0} dir={theme.direction}>
           <Card
             color="orange"
-            title="Important Note"
+            title="重要な情報"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    hic et nunc was the most popular marketplace on Tezos; has
-                    been discontinued on 12 November 2021 by its creator.
-                    Currently the website available here is a mirror preserved
-                    by the original{" "}
+                    hic et
+                    nuncはTezosで最も人気のあるマーケットプレイスでしたが、2021年11月12日に作者により廃止されました。現在、ここで公開されているウェブサイトは、
                     <span className="text-orange-500 font-bold">
-                      hic et nunc's developers and community
+                      オリジナルのhic et nuncの開発者とコミュニティ
                     </span>
-                    .
+                    によって保存されているミラーです。
                   </li>
                 </ul>
               </div>,
@@ -100,53 +98,50 @@ export default function FullWidthTabs() {
           />
           <Card
             color="green"
-            title="Pros"
+            title="長所"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    <span className="text-green-600 font-bold">
-                      Open for everyone to use.
-                    </span>{" "}
-                    Anyone can make an account and start using Hic et Nunc
-                    without needing to go through an application process.
+                    アカウントを作れば、
+                    <span className="text-green-600 font-bold">誰でも</span>
+                    申請手続きなしでhic et nuncを使い始めることができます。
                   </li>
                   <li className="mt-1">
-                    You can{" "}
-                    <span className="text-green-600 font-bold">
-                      start minting instantly
-                    </span>{" "}
-                    after{" "}
                     <span className="text-orange-500 font-bold">
-                      connecting your wallet
+                      ウォレットを接続すれば
                     </span>
-                    .
+                    、
+                    <span className="text-green-600 font-bold">すぐにmint</span>
+                    することができます。
                   </li>
                   <li className="mt-1">
-                    NFTs{" "}
                     <span className="text-teal-600 font-bold">
-                      minted on Hic et Nunc
-                    </span>{" "}
-                    will{" "}
-                    <span className="text-green-600 font-bold">
-                      also show up on OBJKT
+                      hic et nuncでmintされたNFT
                     </span>
-                    .
+                    は、
+                    <span className="text-green-600 font-bold">
+                      OBJKTにも表示されます
+                    </span>
+                    。
                   </li>
                   <li className="mt-1">
-                    hic et nunc is{" "}
-                    <span className="text-green-600 font-bold">
-                      a very good marketplace on the Tezos blockchain for
-                      artworks with editions.
+                    hic et nuncは、
+                    <span className="text-teal-600 font-bold">
+                      Tezosブロックチェーン上
                     </span>
+                    でエディション作品を販売するには
+                    <span className="text-green-600 font-bold">
+                      非常に優れたマーケットプレイス
+                    </span>
+                    です。
                   </li>
                   <li className="mt-1">
-                    You can{" "}
                     <span className="text-green-600 font-bold">
-                      set the royalty fee for secondary sale according to your
-                      preference.
+                      二次販売時のロイヤリティを好みに応じて設定することができます
                     </span>
+                    。
                   </li>
                 </ul>
               </div>,
@@ -154,30 +149,31 @@ export default function FullWidthTabs() {
           />
           <Card
             color="red"
-            title="Cons"
+            title="短所"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Needs major improvement on their UI experience.
+                      UIに大きな改善が必要
                     </span>
                   </li>
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Tags for NFT is not available.
+                      NFTのタグは使用できません
                     </span>
                   </li>
                   <li className="mt-1">
+                    作品検索が
                     <span className="text-red-600 font-bold">
-                      Almost impossible
-                    </span>{" "}
-                    to search for artworks on here so{" "}
+                      ほとんどできない
+                    </span>
+                    ので、
                     <span className="text-pink-600 font-bold">
-                      you will need to promote your artworks on Twitter and
-                      Discord.
+                      TwitterやDiscordで作品をアピールする必要がある
                     </span>
+                    。
                   </li>
                 </ul>
               </div>,
@@ -186,24 +182,25 @@ export default function FullWidthTabs() {
 
           <Card
             color="teal"
-            title="General Information"
+            title="一般情報"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    hic et nunc currently only has{" "}
-                    <span className="text-orange-500 font-bold">1 system</span>{" "}
-                    available for selling NFT(s)
+                    hic et nuncでは現在、NFTを販売する際に
+                    <span className="text-orange-500 font-bold">
+                      1つのシステム
+                    </span>
+                    のみが利用可能です。
                   </li>
 
                   <ul className="list-disc ml-6">
                     <li className="mt-1">
-                      Set a{" "}
                       <span className="text-pink-600 font-bold">
-                        fixed "buy now" price
+                        固定価格での販売
                       </span>
-                      .
+                      。
                     </li>
                   </ul>
                 </ul>
@@ -215,51 +212,52 @@ export default function FullWidthTabs() {
         <TabPanel value={value} index={1} dir={theme.direction}>
           <Card
             color="green"
-            title="Pros"
+            title="長所"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
+                    アカウントを作れば、
                     <span className="text-green-600 font-bold">
-                      Open for everyone to use.
-                    </span>{" "}
-                    Anyone can make an account and start using Hic et Nunc
-                    without needing to go through an application process.
+                      誰でも申請手続きなし
+                    </span>
+                    でOBJKTを使い始めることができます。
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      The equivalent of OpenSea for the Tezos blockchain.
+                      TezosブロックチェーンにおけるOpenSeaのようなポジション
                     </span>
+                    。
                   </li>
                   <li className="mt-1">
                     <span className="text-orange-500 font-bold">
-                      Better than hic et Nunc
-                    </span>{" "}
-                    for{" "}
-                    <span className="text-green-600 font-bold">
-                      discovering new artists and artworks.
+                      hic et nuncより
                     </span>
+                    <span className="text-green-600 font-bold">
+                      新しいアーティストや作品を発見する
+                    </span>
+                    のに優れています。
                   </li>
                   <li className="mt-1">
-                    You can{" "}
                     <span className="text-green-600 font-bold">
-                      set the royalty fee for secondary sale according to your
-                      preference.
+                      二次販売時のロイヤリティを好みに応じて設定することができます
                     </span>
+                    。
                   </li>
                   <li className="mt-1">
-                    Has a{" "}
+                    将来的に実装予定の機能についての
                     <Link
                       link="https://roadmap.objkt.com/"
-                      title="roadmap for future features."
-                    />{" "}
+                      title="ロードマップがある"
+                    />
+                    。
                   </li>
                   <li className="mt-1">
-                    You can apply to{" "}
                     <span className="text-green-600 font-bold">
-                      mint using your own smart contract.
+                      独自のスマートコントラクト
                     </span>
+                    でmintできる。
                   </li>
                 </ul>
               </div>,
@@ -267,28 +265,24 @@ export default function FullWidthTabs() {
           />
           <Card
             color="red"
-            title="Cons"
+            title="短所"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    You are{" "}
-                    <span className="text-red-600 font-bold">
-                      required to create a collection
-                    </span>{" "}
-                    before being able to{" "}
                     <span className="text-orange-500 font-bold">
-                      mint your artwork.
-                    </span>{" "}
-                    This will{" "}
-                    <span className="text-red-600 font-bold">
-                      require a gas fee.
+                      作品を出品する前に
                     </span>
+                    、コレクションを
+                    <span className="text-red-600 font-bold">作成</span>
+                    する必要があり、作成する際に
+                    <span className="text-red-600 font-bold">ガス代</span>
+                    がかかります。
                   </li>
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Tags for NFT is not available.
+                      NFTのタグは使用できません
                     </span>
                   </li>
                 </ul>
@@ -297,47 +291,46 @@ export default function FullWidthTabs() {
           />
           <Card
             color="teal"
-            title="General Information"
+            title="一般情報"
             light={true}
             content={[
               <div>
-                OBJKT has{" "}
-                <span className="text-orange-500 font-bold">4 systems</span>{" "}
-                available for selling NFT(s) in which you can choose depending
-                on your preference:
+                OBJKTでは、NFTの販売方法として
+                <span className="text-orange-500 font-bold">4つのシステム</span>
+                を用意しており、好みに応じて選択することができます。
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    Set a{" "}
                     <span className="text-pink-600 font-bold">
-                      fixed "buy now" price
+                      固定価格での販売
                     </span>
-                    .
+                    。
                   </li>
                   <li className="mt-1">
-                    There are{" "}
                     <span className="text-orange-500 font-bold">
-                      2 types of timed auctions
-                    </span>{" "}
-                    available.
+                      時間制オークションには2つのタイプ
+                    </span>
+                    があります。
                   </li>
                   <ul className="list-disc ml-6">
                     <li className="mt-1">
                       <span className="text-pink-600 font-bold">
-                        Sell to the highest bidder.
+                        最高入札者に販売するオークション
                       </span>
+                      。
                     </li>
                     <li className="mt-1">
                       <span className="text-pink-600 font-bold">
-                        Sell with declining price(Dutch auction).
+                        販売価格が下落していくオークション(ダッチオークション)
                       </span>
+                      。
                     </li>
                   </ul>
 
                   <li className="mt-1">
                     <span className="text-pink-600 font-bold">
-                      Accept offers
-                    </span>{" "}
-                    from others.
+                      他者からのオファー
+                    </span>
+                    を受ける。
                   </li>
                 </ul>
               </div>,
@@ -348,59 +341,58 @@ export default function FullWidthTabs() {
         <TabPanel value={value} index={2} dir={theme.direction}>
           <Card
             color="green"
-            title="Pros"
+            title="長所"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      Has an application process to verify artists
-                    </span>{" "}
-                    (not curation based). This will help collectors to be able
-                    to collect from verified artists for{" "}
-                    <span className="text-green-600 font-bold">safety.</span>
+                      アーティストを認証するための申請プロセスがあります
+                    </span>
+                    。(キュレーションベースではない）これにより、コレクターは検証されたアーティストから
+                    <span className="text-green-600 font-bold">安全</span>
+                    に収集することができます。
                   </li>
                   <li className="mt-1">
                     <span className="text-orange-500 font-bold">
-                      Better than hic et Nunc
-                    </span>{" "}
-                    for{" "}
-                    <span className="text-green-600 font-bold">
-                      discovering new artists and artworks.
+                      hic et Nuncより
                     </span>
+                    <span className="text-green-600 font-bold">
+                      新しいアーティストや作品を発見する
+                    </span>
+                    のに優れています。
                   </li>
                   <li className="mt-1">
-                    Generally, artists set their artworks at around{" "}
-                    <span className="text-orange-500 font-bold">5 TEZ</span>,
-                    which is{" "}
+                    一般的に、アーティストは作品を
+                    <span className="text-orange-500 font-bold">5TEZ</span>
+                    前後に設定しており、
                     <span className="text-pink-600 font-bold">
-                      higher than the average price in Hic et Nunc.
+                      hic et nuncの平均価格より高い。
                     </span>
                   </li>
                   <li className="mt-1">
-                    Currently has the{" "}
+                    現在、
                     <span className="text-green-600 font-bold">
-                      best UI experience for the Tezos blockchain.
+                      Tezosブロックチェーンでは最も優れたUI
                     </span>
+                    です。
                   </li>
                   <li className="mt-1">
-                    NFTs{" "}
                     <span className="text-teal-600 font-bold">
-                      minted on Kalamint
-                    </span>{" "}
-                    will{" "}
-                    <span className="text-green-600 font-bold">
-                      also show up on OBJKT
+                      KalamintでmintされたNFT
                     </span>
-                    .
+                    は、
+                    <span className="text-green-600 font-bold">
+                      OBJKTにも表示されます
+                    </span>
+                    。
                   </li>
                   <li className="mt-1">
-                    You can{" "}
                     <span className="text-green-600 font-bold">
-                      set the royalty fee for secondary sale according to your
-                      preference.
+                      二次販売時のロイヤリティを好みに応じて設定することができます
                     </span>
+                    。
                   </li>
                 </ul>
               </div>,
@@ -408,35 +400,38 @@ export default function FullWidthTabs() {
           />
           <Card
             color="red"
-            title="Cons"
+            title="短所"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Lack of written guides
-                    </span>{" "}
-                    on their website.
-                  </li>
-                  <li className="mt-1">
-                    <span className="text-red-600 font-bold">
-                      Tags for NFT is not available.
+                      ガイドはありません
                     </span>
+                    。
                   </li>
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Has a storage fee of 0.5 TEZ per NFT edition.
+                      NFTのタグは使用できません
                     </span>
+                    。
                   </li>
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">
-                      Sales will be rare due to lack of anime collectors
-                    </span>{" "}
-                    on the platform, but{" "}
+                      1つのエディションにつき0.5TEZの保管料がかかる
+                    </span>
+                    。
+                  </li>
+                  <li className="mt-1">
+                    <span className="text-red-600 font-bold">
+                      アニメコレクターが少ないため、販売数は少ない
+                    </span>
+                    が、販売時の利益は
                     <span className="text-orange-500 font-bold">
-                      profit will be higher than Hic et Nunc at sale.
+                      hic et nunc atより高くなる
                     </span>
+                    。
                   </li>
                 </ul>
               </div>,
@@ -444,45 +439,48 @@ export default function FullWidthTabs() {
           />
           <Card
             color="teal"
-            title="General Information"
+            title="一般情報"
             light={true}
             content={[
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    The approximate{" "}
-                    <span className="text-orange-500 font-bold">
-                      cost to mint each edition
-                    </span>{" "}
-                    will be{" "}
+                    各エディションをmintするための
+                    <span className="text-orange-500 font-bold">ガス代</span>
+                    は、
                     <span className="text-pink-600 font-bold">
-                      anywhere between 0.05 to 0.3 TEZ.
+                      0.05から0.3TEZ
                     </span>
+                    程度です。
                   </li>
                   <li className="mt-1">
-                    Kalamint has{" "}
-                    <span className="text-orange-500 font-bold">2 systems</span>{" "}
-                    available for selling NFT(s) in which you can choose
-                    depending on your preference:
+                    Kalamintでは、NFTの販売方法として
+                    <span className="text-orange-500 font-bold">
+                      2つのシステム
+                    </span>
+                    を用意しており、好みに応じて選択することができます。
                   </li>
                   <ul className="list-disc ml-6">
                     <li className="mt-1">
-                      Set a{" "}
                       <span className="text-pink-600 font-bold">
-                        fixed "buy now" price
+                        固定価格での販売
                       </span>
-                      .
+                      。
                     </li>
                     <li className="mt-1">
-                      Set a{" "}
+                      オークションの
                       <span className="text-pink-600 font-bold">
-                        base price and time frame for auction
+                        基準価格とタイマーを設定
                       </span>
-                      . Creator can{" "}
+                      し、
                       <span className="text-teal-600 font-bold">
-                        settle the auction any time they want or highest bidder
-                        to settle the auction after timer ends.
+                        任意のタイミング
                       </span>
+                      でオークションを終了させることができる。
+                      <span className="text-teal-600 font-bold">
+                        最高入札者はタイマーが終了次第
+                      </span>
+                      、オークションを終了させることができます。
                     </li>
                   </ul>
                 </ul>

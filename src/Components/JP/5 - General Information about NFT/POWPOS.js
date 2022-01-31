@@ -75,7 +75,12 @@ export default function FullWidthTabs() {
         onChangeIndex={handleChangeIndex}
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
-          <Card color="orange" title="Blockchain" light={true} content="ETH" />
+          <Card
+            color="orange"
+            title="ブロックチェーン"
+            light={true}
+            content="ETH"
+          />
           <Card
             color="green"
             title="Pros"
@@ -83,10 +88,7 @@ export default function FullWidthTabs() {
             content={[
               <div>
                 <ul className="list-disc">
-                  <li className="mt-1">
-                    Used by majority of current artists and marketplaces so
-                    reduce the need to bridge between crypto currencies
-                  </li>
+                  <li className="mt-1">アーティストの大半が使用。</li>
                 </ul>
               </div>,
             ]}
@@ -98,13 +100,9 @@ export default function FullWidthTabs() {
             content={[
               <div>
                 <ul className="list-disc">
-                  <li className="mt-1">High gas fee</li>
-                  <li className="mt-1">
-                    Need significant amounts of electricity
-                  </li>{" "}
-                  <li className="mt-1">
-                    Limited in the number of processing transactions
-                  </li>
+                  <li className="mt-1">ガス代が高い。</li>
+                  <li className="mt-1">大量の電力を必要とする。</li>
+                  <li className="mt-1">処理件数に制限がある。</li>
                 </ul>
               </div>,
             ]}
@@ -113,13 +111,13 @@ export default function FullWidthTabs() {
         <TabPanel value={value} index={1} dir={theme.direction}>
           <Card
             color="orange"
-            title="Blockchains"
+            title="ブロックチェーン"
             light={true}
             content={[
               <div>
                 Polygon
                 <br /> XTZ
-                <br /> All eco-friendly blockchains
+                <br /> すべての環境にやさしいブロックチェーン
               </div>,
             ]}
           />
@@ -130,8 +128,8 @@ export default function FullWidthTabs() {
             content={[
               <div>
                 <ul className="list-disc">
-                  <li className="mt-1">Eco-friendly</li>
-                  <li className="mt-1">Low gas fee</li>
+                  <li className="mt-1">環境にやさしい。</li>
+                  <li className="mt-1">ガス代が安い。</li>
                 </ul>
               </div>,
             ]}
@@ -144,9 +142,7 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc">
                   <li className="mt-1">
-                    Other than Polygon which is popular for Japanese artists,
-                    not a lot of artists are using other blockchains as majority
-                    are on ETH
+                    日本のアーティストに人気のあるPolygon以外は、ETHが主流で、他のブロックチェーンを利用しているアーティストはあまり多くない。
                   </li>
                 </ul>
               </div>,

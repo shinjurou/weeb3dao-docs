@@ -13,11 +13,11 @@ export default function MintNFT() {
     <div className="mint-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Mint an NFT
+          Mintingしましょう
         </Typography>
 
-        <Typography variant="h2" color="inherit" component="h2" mt={4}>
-          Guide for Minting Gas
+        <Typography variant="h3" color="inherit" component="h2" mt={4}>
+          Mintingの際に発生するガス代のガイド
         </Typography>
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -25,14 +25,12 @@ export default function MintNFT() {
             color="green"
             content={[
               <div>
-                Keeping track of Gas will be{" "}
-                <span className="text-pink-600 font-bold">
-                  very important for minting
-                </span>{" "}
-                and we have{" "}
+                mintした際のガス代を記録しておくことは、
+                <span className="text-pink-600 font-bold">とても重要</span>
+                なことです。ですので、
                 <RouterLink
                   link="/sell-nft/gas"
-                  title="created a guide here to help."
+                  title="ここではそのためのガイドを作成しました。"
                 ></RouterLink>
               </div>,
             ]}
@@ -40,13 +38,13 @@ export default function MintNFT() {
 
           <div className="mt-8">
             <Typography
-              variant="h2"
+              variant="h3"
               color="inherit"
               component="h2"
               mt={2}
               mb={1}
             >
-              Minting Guides for each Marketplaces
+              各マーケットプレイスにおけるMintingガイド
             </Typography>
 
             <Card
@@ -54,30 +52,29 @@ export default function MintNFT() {
               content={[
                 <RouterLink
                   link="/weeb3dao-scholarship"
-                  title="Remember to apply for weeb3dao Mint Scholarship if it is your first time minting."
+                  title="初めてmintを行う場合、weeb3dao Mint Scholarshipに応募することを忘れないようにして下さい。"
                 />,
               ]}
             />
 
             <Card
               color="red"
-              title="IMPORTANT"
+              title="重要なこと"
               content={[
                 <>
                   <ul className="list-disc ml-4">
                     <li className="mt-1">
                       <span className="text-red-600">
-                        <span className="font-bold">DON'T</span> mint the same
-                        piece of work on different blockchains or even different
-                        marketplaces.
+                        <span className="font-bold">同じ作品</span>
+                        を異なるブロックチェーン、あるいは異なるマーケットプレイスでmintしないでください。
                       </span>
                     </li>
                     <li className="mt-1">
-                      If you must convert, you can{" "}
-                      <span className="text-red-600">burn the piece first</span>{" "}
-                      (assuming it hasn't already sold), and then{" "}
+                      どうしてもコンバートしたい場合は、
+                      <span className="text-red-600">まず作品をburnした上</span>
+                      で(まだ売れていない場合)、
                       <span className="text-orange-500">
-                        remint it on the new marketplace or blockchain.
+                        新しいマーケットプレイスやブロックチェーンで再びmintすることができます。
                       </span>
                     </li>
                   </ul>
@@ -89,37 +86,34 @@ export default function MintNFT() {
               color="green"
               content={[
                 <div>
-                  MakersPlace has created a good creator guidelines{" "}
+                  MakersPlaceが作成したクリエイターガイドラインを読むと、
+                  <span className="text-green-600 font-bold">作品を選ぶ際</span>
+                  の
                   <Link
                     link="https://makersplace.com/creator-guidelines/"
-                    title="here"
-                  />{" "}
-                  which you can read to know the best practices for{" "}
-                  <span className="text-green-600 font-bold">
-                    choosing artworks to mint.
-                  </span>
+                    title="最善の方法"
+                  />
+                  を知ることができます。
                 </div>,
               ]}
             />
             <div>
-              Each Marketplace have their own system and methods for Minting.
-              You can check out the individual guide pages here.
+              各マーケットプレイスでは、それぞれ独自のシステム、方法でMintingを行っています。それぞれのガイドページは以下の通りです。
             </div>
             <Card
               color="pink"
               content={[
                 <div>
-                  Remember that the{" "}
-                  <span className="text-red-600 font-bold">
-                    initial gas fee
-                  </span>{" "}
-                  for OpenSea is{" "}
-                  <span className="text-red-600 font-bold">
-                    approximately x2 GWEI gas price
-                  </span>{" "}
+                  OpenSeaの
+                  <span className="text-red-600 font-bold">初期ガス代</span>
+                  は、
                   <span className="text-orange-500 font-bold">
-                    at the time of transaction.
+                    取引時に発生する
                   </span>
+                  <span className="text-red-600 font-bold">
+                    ガス代の2倍程度
+                  </span>
+                  と覚えておきましょう。
                 </div>,
               ]}
             />
@@ -128,14 +122,14 @@ export default function MintNFT() {
               <li className="mb-2">
                 <Link
                   link="https://support.opensea.io/hc/en-us/articles/360063498313-How-do-I-create-an-NFT-"
-                  title="OpenSea (Ethereum Mainnet)"
+                  title="OpenSea (Ethereumメインネット)"
                 />
               </li>
               <ul className="list-disc mb-2 ml-6">
                 <li>
                   <Link
                     link="https://www.youtube.com/watch?v=NrDnEiadkTk"
-                    title="Creates multiple copies of your NFT"
+                    title="NFTのエディションを作成します。"
                   />
                 </li>
               </ul>
@@ -143,26 +137,26 @@ export default function MintNFT() {
 
             <Card
               color="purple"
-              title="Why is minting on Ethereum Network (after the initial gas fee)
-            is free on OpenSea but not the other marketplaces?"
+              title="OpenSeaではガス代が無料なのに、他のマーケットプレイスでは無料ではないのか？"
               content={[
                 <div>
-                  The process of minting on OpenSea is called{" "}
+                  OpenSeaでのミンティングのプロセスは
                   <Link
                     link="https://opensea.io/blog/announcements/introducing-the-collection-manager/"
-                    title='"Lazy Minting"'
+                    title="「Lazy Minting」"
                   />
-                  .{" "}
-                  <span className="relative bottom-0.5 right-0.5">
+                  と呼ばれています。
+                  <span className="relative bottom-0.5 right-1">
                     <ArrowRightAltIcon />
                   </span>
-                  The NFT{" "}
+                  NFTは<span className="text-red-600 font-bold">購入</span>
+                  されるか、他のウォレットに
+                  <span className="text-red-600 font-bold">転送</span>
+                  された後にのみ
                   <span className="text-teal-600 font-bold">
-                    will only be minted onto the blockchain
-                  </span>{" "}
-                  <span className="text-red-600 font-bold">
-                    after they are purchased or transferred to another wallet.
+                    ブロックチェーン上
                   </span>
+                  にmintされる仕組み。
                 </div>,
               ]}
             />
@@ -171,7 +165,7 @@ export default function MintNFT() {
               <li className="mb-2">
                 <Link
                   link="https://support.opensea.io/hc/en-us/articles/4404029357587-How-do-I-create-and-sell-NFTs-on-Polygon-"
-                  title="OpenSea (Polygon Network)"
+                  title="OpenSea (Polygonネットワーク)"
                 />
               </li>
             </ul>
@@ -180,18 +174,19 @@ export default function MintNFT() {
               color="green"
               content={[
                 <div>
-                  <span className="text-teal-600">
-                    Minting on the Polygon Network
-                  </span>{" "}
-                  is{" "}
-                  <span className="text-green-600 font-bold">
-                    completely free
-                  </span>{" "}
-                  and{" "}
+                  <span className="text-teal-600 font-bold">
+                    ポリゴンネットワークでのmint
+                  </span>
+                  は<span className="text-green-600 font-bold">完全に無料</span>
+                  であり、
                   <span className="text-orange-500 font-bold">
-                    all transactions
-                  </span>{" "}
-                  are <span className="text-green-600 font-bold">gasless</span>.
+                    すべての取引
+                  </span>
+                  は
+                  <span className="text-green-600 font-bold">
+                    ガス代が掛かりません
+                  </span>
+                  。
                 </div>,
               ]}
             />
@@ -208,12 +203,12 @@ export default function MintNFT() {
                   link="https://docs.knownorigin.io/guide/creating-editions/#scheduling-sale-date"
                   title="KnownOrigin"
                 />{" "}
-                (Includes{" "}
+                (
                 <Link
                   link="https://docs.knownorigin.io/guide/unlockable-content/"
-                  title="Unlockable Content"
+                  title="「アンロック可能なコンテンツ」"
                 />
-                )
+                を追加する)
               </li>
               <li className="mb-2">
                 <Link
@@ -256,17 +251,16 @@ export default function MintNFT() {
               mt={2}
               mb={1}
             >
-              Minting Guide for MakersPlace
+              MakersPlaceでMintするためのガイド
             </Typography>
             <Card
               color="orange"
               content={[
                 <div>
-                  MakersPlace currently{" "}
-                  <span className="text-red-600 font-bold">does not</span> have
-                  a guide for their minting process but{" "}
+                  MakersPlaceではmintするためのガイドは
+                  <span className="text-red-600 font-bold">ありません</span>が、
                   <span className="text-green-600 font-bold">
-                    their minting page is very straightforward and easy to use.
+                    mintする際のページは非常にわかりやすく使いやすい仕様になっています。
                   </span>
                 </div>,
               ]}
@@ -275,16 +269,14 @@ export default function MintNFT() {
               color="pink"
               content={[
                 <div>
-                  The process of setting up can be confusing for new artists. So
-                  if you have any problems{" "}
+                  新規アーティストにとって、セットアップのプロセスがわからなくなる場合がありますが、
                   <span className="text-pink-600 font-bold">
-                    please either contact MakersPlace's support or send a
-                    message to Shinjurou in the{" "}
+                    もし何かあれば、MakersPlaceのサポートに連絡するか、
                     <Link
                       link="https://discord.gg/vktnAzvyNQ"
-                      title="Anifriends Discord Server"
-                    />{" "}
-                    for support.
+                      title="AnifriendsのDiscordサーバー"
+                    />
+                    のShinjurouにメッセージを送ってサポートを求めてください。
                   </span>
                 </div>,
               ]}
@@ -292,11 +284,11 @@ export default function MintNFT() {
 
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
-                Select{" "}
+                ログイン後、ページ上部の
                 <span className="text-orange-500 font-bold">
-                  "Upload Creation"
-                </span>{" "}
-                at the top of the webpage after you logged in.
+                  「Upload Creation」
+                </span>
+                を選択します。
               </li>
               <img
                 src={mp1}
@@ -304,9 +296,9 @@ export default function MintNFT() {
                 className="rounded"
               />
               <li className="my-2">
-                Upload your creation and click{" "}
-                <span className="text-orange-500 font-bold">"Publish"</span> and
-                just pay the gas fee that pops up and you're done!
+                作品をアップロードして
+                <span className="text-orange-500 font-bold">「Publish」</span>
+                をクリックし、ポップアップするガス代を支払えば完了です。
               </li>
               <img
                 src={mp2}
@@ -317,9 +309,9 @@ export default function MintNFT() {
           </div>
         </div>
         <NaviButtons
-          return="Choose your Marketplace"
+          return="マーケットプレイスの選択"
           returnlink="/sell-nft/choose-marketplace"
-          next="List an NFT"
+          next="Listingしましょう"
           nextlink="/sell-nft/list-nft"
         />
       </div>

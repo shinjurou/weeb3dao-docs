@@ -8,56 +8,58 @@ export default function SellNFT() {
     <div className="sell-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          How to Mint and List your NFT
+          作品の販売について
         </Typography>
-        Here are the steps you will need to do in order to start selling your
-        artwork(s) as NFT(s).
+        NFTとして作品を販売するために必要な手続きは以下のとおりです。
         <ol className="list-decimal ml-14 mt-4 text-blue-500 font-bold">
           <li className="my-2">
             <RouterLink
               link="/sell-nft/create-wallet"
-              title="Create your Digital Wallet"
+              title="デジタルウォレットを作成する"
             />
           </li>
 
           <li className="my-2">
             <RouterLink
               link="/sell-nft/choose-blockchain"
-              title="Choose your Blockchain"
+              title="ブロックチェーンの選択"
             />
           </li>
 
           <li className="my-2">
             <RouterLink
               link="/sell-nft/choose-marketplace"
-              title="Choose your Marketplace"
+              title="マーケットプレイスの選択"
             />
           </li>
 
           <li className="my-2">
-            <RouterLink link="/sell-nft/mint-nft" title="Mint an NFT" />
+            <RouterLink link="/sell-nft/mint-nft" title="Mintingしましょう" />
           </li>
 
           <li className="my-2">
-            <RouterLink link="/sell-nft/list-nft" title="List an NFT" />
+            <RouterLink link="/sell-nft/list-nft" title="Listingしましょう" />
           </li>
 
           <li className="my-2">
-            <RouterLink link="/sell-nft/promote-nft" title="Promote your NFT" />
+            <RouterLink
+              link="/sell-nft/promote-nft"
+              title="NFTのプロモーション"
+            />
           </li>
 
           <li className="my-2">
-            <RouterLink link="/sell-nft/celebration" title="Celebration" />
+            <RouterLink link="/sell-nft/celebration" title="NFTを販売した後" />
           </li>
 
           <li className="my-2">
-            <RouterLink link="/sell-nft/gas" title="How to keep track of Gas" />
+            <RouterLink link="/sell-nft/gas" title="ガス代の管理方法について" />
           </li>
         </ol>
         <NaviButtons
-          return="Important Terminologies"
+          return="その他の重要な用語についての説明"
           returnlink="/info-nft/important-terminologies"
-          next="Create your Digital Wallet"
+          next="デジタルウォレットを作成する"
           nextlink="/sell-nft/create-wallet"
         />
       </div>

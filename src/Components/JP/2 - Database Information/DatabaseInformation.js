@@ -10,70 +10,66 @@ export default function DatabaseInfo() {
     <div className="database-info">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Database Information
+          データベース情報
         </Typography>
 
         <Card
           color="orange"
           content={[
             <div>
-              All information available on this website were gathered{" "}
-              <span className="text-pink-600">from the internet</span> and
-              thanks to the{" "}
-              <span className="text-pink-600">information provided</span> by{" "}
-              <span className="text-orange-500">artists</span> and{" "}
-              <span className="text-orange-500">collectors</span> in{" "}
-              <Link link="https://discord.gg/vktnAzvyNQ" title="Anifriends" />
+              本サイトに掲載されている情報は、
+              <span className="text-pink-600">インターネット</span>や
+              <Link link="https://discord.gg/vktnAzvyNQ" title="Anifriends" />の
+              <span className="text-orange-500">アーティスト</span>並びに
+              <span className="text-orange-500">コレクター</span>
+              から提供された情報をもとにまとめたものです。
             </div>,
           ]}
         />
 
         <div className="contributors my-12 lg:ml-12 md:ml-6 sm:ml-2">
           <Typography variant="h3" color="inherit" component="h3">
-            <span className="text-orange-500">Contributors</span>
+            <span className="text-orange-500">提供者</span>
           </Typography>
           <ul className="list-disc mt-3 ml-5">
             <li className="my-2 ">
               <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
-                Author & Website Developer:
+                著者とウェブデベロッパー:
               </span>{" "}
               <Link link="https://twitter.com/shinjuroukai" title="Shinjurou" />
             </li>
+
             <li className="my-2 ">
               <span className="bg-sky-600 text-gray-800 p-0.5 rounded-sm">
-                Website Editor:
+                ウェブサイトの提供者:
               </span>{" "}
+              <Link link="https://twitter.com/ligaratus_" title="ligaratus" />,{" "}
               <Link link="https://twitter.com/shiomueth" title="Shiomu" />
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
-                Proofreaders:
+                校正者:
               </span>{" "}
-              <Link link="https://twitter.com/Feireina" title="Fei" />,{" "}
-              <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link
                 link="https://twitter.com/morellostorment"
                 title="morello"
               />
               , <Link link="https://twitter.com/ligaratus_" title="ligaratus" />
-              ,{" "}
+              , <Link link="https://twitter.com/Feireina" title="Fei" />,{" "}
+              <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link link="https://twitter.com/PausePLayed" title="PausePlay" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                Japanese Translator:
+                日本語翻訳者:
               </span>{" "}
-              <Link
-                link="https://twitter.com/0TL_"
-                title="どげざちゃん/Dogeza-chan"
-              />
+              <Link link="https://twitter.com/0TL_" title="どげざちゃん" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                Korean Translator:
+                韓国語翻訳者:
               </span>{" "}
-              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />,{" "}
-              <Link link="https://twitter.com/poopeetuna" title="Tuna" />
+              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />
             </li>
           </ul>
         </div>
@@ -82,32 +78,31 @@ export default function DatabaseInfo() {
           color="green"
           content={[
             <div>
-              If you wish to report any typo, correct an information, provide
-              new information or provide translation into another language to be
-              added onto the database then{" "}
+              誤字脱字の報告、情報の修正、新しい情報の提供、他言語への翻訳をデータベースに追加したい場合は、
               <span className="text-pink-600">
-                please send a message to Shinjurou via Twitter or Discord.
+                TwitterまたはDiscordでShinjurou
               </span>
+              にメッセージを送ってください。
             </div>,
           ]}
         />
 
         <div className="release-notes mt-7 lg:ml-12 md:ml-6 sm:ml-2">
           <Typography variant="h3" color="inherit" component="h3">
-            <span className="text-teal-600">Release Notes</span>
+            <span className="text-teal-600">リリース情報</span>
           </Typography>
           <Checkbox
             checked={true}
             label={[
               <span className="text-violet-600">8 December 2021</span>,
-              " The start of the Database Compilation",
+              " データベースのコンパイル開始",
             ]}
           />
           <Checkbox
             checked={true}
             label={[
               <span className="text-violet-500">9 December 2021</span>,
-              " Database's Domain Registration",
+              " データベースのドメイン登録",
             ]}
           />
           <Checkbox
@@ -115,15 +110,15 @@ export default function DatabaseInfo() {
             label={[
               <span className="text-violet-500">17 December 2021</span>,
               " ",
-              <span className="text-red-600 font-bold">Version 1.0</span>,
-              " English Version is released",
+              <span className="text-red-600 font-bold">バージョン 1.0</span>,
+              " 英語版リリース",
             ]}
           />
           <Checkbox
             checked={true}
             label={[
               <span className="text-violet-500">9 January 2022</span>,
-              " Migration and rebuilding start",
+              " ウェブサイトの移行と再構築開始",
             ]}
           />
           <Checkbox
@@ -131,31 +126,49 @@ export default function DatabaseInfo() {
             label={[
               <span className="text-violet-500">12 January 2022</span>,
               " ",
-              <span className="text-red-600 font-bold">Version 2.0</span>,
-              " Migrated from Gitbook and rebuilt the Database to become its own individual website",
+              <span className="text-red-600 font-bold">バージョン 2.0</span>,
+              " Gitbookから移行し、データベースを再構築して独自のウェブサイトにしました",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">19 January 2022</span>,
+              " ",
+              " 日本語版は翻訳されています",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">30 January 2022</span>,
+              " ",
+
+              " 日本語版を付け加え開始",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">31 January 2022</span>,
+              " ",
+              <span className="text-red-600 font-bold">バージョン 3.0</span>,
+              " 日本語版を付け加えました",
             ]}
           />
           <Checkbox
             checked={false}
             label={[
-              <span className="text-violet-500">(In Progress)</span>,
+              <span className="text-violet-500">(予定)</span>,
               " ",
-              " Japanese Version is translated",
-            ]}
-          />
-          <Checkbox
-            checked={false}
-            label={[
-              <span className="text-violet-500">(In Progress)</span>,
-              " ",
-              " Korean Version is translated",
+              " 韓国語版については現在翻訳中です",
             ]}
           />
         </div>
         <NaviButtons
-          return="Welcome"
+          return="ようこそ"
           returnlink="/"
-          next="Introduction"
+          next="メンバー紹介"
           nextlink="/introduction"
         />
       </div>

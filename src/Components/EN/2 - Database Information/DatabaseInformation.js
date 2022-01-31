@@ -41,39 +41,35 @@ export default function DatabaseInfo() {
             </li>
             <li className="my-2 ">
               <span className="bg-sky-600 text-gray-800 p-0.5 rounded-sm">
-                Website Editor:
+                Website Collaborators:
               </span>{" "}
+              <Link link="https://twitter.com/ligaratus_" title="ligaratus" />,{" "}
               <Link link="https://twitter.com/shiomueth" title="Shiomu" />
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
                 Proofreaders:
               </span>{" "}
-              <Link link="https://twitter.com/Feireina" title="Fei" />,{" "}
-              <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link
                 link="https://twitter.com/morellostorment"
                 title="morello"
               />
               , <Link link="https://twitter.com/ligaratus_" title="ligaratus" />
-              ,{" "}
+              , <Link link="https://twitter.com/Feireina" title="Fei" />,{" "}
+              <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link link="https://twitter.com/PausePLayed" title="PausePlay" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
                 Japanese Translator:
               </span>{" "}
-              <Link
-                link="https://twitter.com/0TL_"
-                title="どげざちゃん/Dogeza-chan"
-              />
+              <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
                 Korean Translator:
               </span>{" "}
-              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />,{" "}
-              <Link link="https://twitter.com/poopeetuna" title="Tuna" />
+              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />
             </li>
           </ul>
         </div>
@@ -136,11 +132,29 @@ export default function DatabaseInfo() {
             ]}
           />
           <Checkbox
-            checked={false}
+            checked={true}
             label={[
-              <span className="text-violet-500">(In Progress)</span>,
+              <span className="text-violet-500">19 January 2022</span>,
               " ",
-              " Japanese Version is translated",
+              " Japanese Version translation is finished",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">30 January 2022</span>,
+              " ",
+
+              " Start adding the Japanese Version to the Database",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">31 January 2022</span>,
+              " ",
+              <span className="text-red-600 font-bold">Version 3.0</span>,
+              " Japanese Version is added",
             ]}
           />
           <Checkbox

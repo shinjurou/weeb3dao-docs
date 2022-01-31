@@ -9,102 +9,102 @@ export default function CryptoExchange() {
     <div className="crypto-exchange">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Crypto Exchange
+          暗号通過取引所
         </Typography>
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
           <div>
             <Typography
-              variant="h2"
+              variant="h3"
               color="inherit"
-              component="h2"
+              component="h3"
               mt={2}
               mb={1}
             >
-              Fiat Currency to CryptoCurrency
+              不換紙幣（現金）から暗号通貨へ
             </Typography>
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
                 <RouterLink
                   link="/sell-nft/create-wallet"
-                  title="FIAT to ETH"
+                  title="現金からETHへ"
                 />
               </li>
               <li className="mb-2">
                 <RouterLink
                   link="/sell-nft/create-wallet"
-                  title="FIAT to XTZ (TEZ)"
+                  title="現金からXTZ (TEZ)へ"
                 />
               </li>
             </ul>
           </div>
           <div className="mt-8">
             <Typography
-              variant="h2"
+              variant="h3"
               color="inherit"
-              component="h2"
+              component="h3"
               mt={2}
               mb={1}
             >
-              Swap between Cryptocurrencies
+              暗号通貨間のSwap
             </Typography>
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
                 <Link
                   link="https://support.opensea.io/hc/en-us/articles/1500012881642-How-do-I-transfer-ETH-from-Ethereum-to-Polygon-"
-                  title="ETH to Polygon ETH (OpenSea)"
+                  title="ETHからPolygon ETH (OpenSea)へ"
                 />
               </li>
               <li className="mb-2">
                 <Link
                   link="https://app.1inch.io/#/137/swap/ETH/MATIC"
-                  title="ETH to MATIC"
+                  title="ETHからMATICへ"
                 />
               </li>
               <li className="mb-2">
                 <Link
                   link="https://app.1inch.io/#/137/swap/MATIC/ETH"
-                  title="MATIC to ETH"
+                  title="MATICからETHへ"
                 />
               </li>
               <li className="mb-2">
                 <Link
                   link="https://www.youtube.com/watch?v=YzJ6xkJpeUk&t=990s"
-                  title="XTZ (TEZ) to ETH"
+                  title="XTZ(TEZ)からETHへ"
                 />
               </li>
             </ul>
           </div>
           <div className="mt-8">
             <Typography
-              variant="h2"
+              variant="h3"
               color="inherit"
-              component="h2"
+              component="h3"
               mt={2}
               mb={1}
             >
-              Cryptocurrency to Fiat Currency
+              暗号通貨から不換紙幣（現金）
             </Typography>
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
                 <Link
                   link="https://www.youtube.com/watch?v=BrL4P2wEHbg"
-                  title="Using Binance"
+                  title="Binanceの使用"
                 />
               </li>
               <li className="mb-2">
                 <Link
                   link="https://www.youtube.com/watch?v=Xg5i7LKsfHg"
-                  title="Using Coinbase"
+                  title="Coinbaseの使用"
                 />
               </li>
             </ul>
           </div>
         </div>
         <NaviButtons
-          return="Burn your NFT"
+          return="NFTをBurnする"
           returnlink="/burn-NFT"
-          next="Community"
+          next="コミュニティ"
           nextlink="/community"
         />
       </div>

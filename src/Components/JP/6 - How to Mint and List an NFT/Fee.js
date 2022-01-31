@@ -20,22 +20,22 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 }));
 
 const columns = [
-  { id: "marketplace", label: "Marketplace", width: "25%" },
+  { id: "marketplace", label: "マーケットプレイス", width: "25%" },
   {
     id: "fee",
-    label: "Platform Fee",
+    label: "マーケット利用料",
     width: "25%",
     align: "center",
   },
   {
     id: "royalty",
-    label: "Secondary Sale Royalty",
+    label: "二次販売ロイヤリティ",
     width: "25%",
     align: "center",
   },
   {
     id: "price",
-    label: "Minimum Price",
+    label: "最低価格設定",
     width: "25%",
     align: "center",
   },

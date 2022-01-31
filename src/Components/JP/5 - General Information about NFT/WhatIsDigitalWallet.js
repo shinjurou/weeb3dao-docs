@@ -13,34 +13,33 @@ export default function WhatIsDigitalWallet() {
     <div className="what-is-digital-wallet">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          What is Digital Wallet?
+          Digital Walletって何?
         </Typography>
 
         <Card
           color="pink"
           content={[
-            "Please refer to the ",
+            "詳しい説明は ",
             <Link
               link="https://en.wikipedia.org/wiki/Digital_wallet"
-              title="Digital Wallet Wikipedia page"
+              title="Digital Wallet Wikipediaのページ"
             />,
-            " for the full explanation.",
+            " をご覧ください。",
           ]}
         />
 
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
-          Simple explanation
+          簡単な説明
         </Typography>
         <WordExplain
           word="Digital Wallet"
-          explain="This is a
-          software that can store all your digital assets on the Blockchain."
+          explain="デジタルウォレットは、ブロックチェーン上にすべてのデジタル資産を保存することができるソフトウェアです。"
         />
-        <WordExample explain="Your wallet storing your paper money and credit cards." />
+        <WordExample explain="あなたの財布には紙幣やクレジットカードが収納されています。" />
 
         <Card
           color="orange"
-          content="All transactions made in your wallet will be recorded and available for everyone to see on the Blockchain."
+          content="あなたのウォレットで行われたすべての取引は、ブロックチェーン上に記録され、誰もが見ることができるようになります。"
         />
 
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
@@ -48,24 +47,24 @@ export default function WhatIsDigitalWallet() {
         </Typography>
         <HotColdWalletTable />
         <div className="my-4">
-          An indepth comparison is available{" "}
+          詳細な比較は
           <Link
             link="https://www.gemini.com/cryptopedia/crypto-wallets-hot-cold"
-            title="here"
-          />{" "}
-          for further reading.
+            title="こちら"
+          />
+          でご覧いただけますので、ご参考にしてください。
         </div>
 
         <Card
           color="orange"
-          title="Which wallet should I use?"
+          title="どのウォレットを使えばいいのですか？"
           content={[
             <div>
-              Both have its perks so using both would be the most ideal.
+              どちらにも利点があるので、両方使うのが一番理想的でしょう。
               <br />
               <Link
                 link="https://www.gemini.com/cryptopedia/crypto-wallets-hot-cold#section-best-of-both-wallet-worlds"
-                title="This section have good examples on how to utilize both wallet types"
+                title="こちらに、両方のウォレットを使用する方法についての良い例があります。"
               />
             </div>,
           ]}
@@ -73,31 +72,32 @@ export default function WhatIsDigitalWallet() {
 
         <Card
           color="green"
-          title="Recommended Wallets"
+          title="おすすめのウォレット"
           content={[
             <ul className="list-disc ml-4">
               <li>
-                <span className="font-bold">Hot wallet:</span> The list of
-                recommendations for hot wallets are available{" "}
-                <RouterLink link="/sell-nft/create-wallet" title="here" />.
+                <span className="font-bold">Hot wallet:</span> Hot
+                walletのオススメ一覧は
+                <RouterLink link="/sell-nft/create-wallet" title="こちら" />。
               </li>
               <li>
-                <span className="font-bold">Cold wallet:</span> The best cold
-                wallet is currently{" "}
+                <span className="font-bold">Cold wallet:</span> Cold
+                walletは現在{" "}
                 <Link
                   link="https://shop.ledger.com/products/ledger-nano-s"
                   title="Ledger Nano S"
                 />{" "}
-                (Nano X has bluetooth so the chances of being attacked is
-                higher) and <Link link="https://trezor.io/" title="Trezor" />.
+                と <Link link="https://trezor.io/" title="Trezor" />{" "}
+                がベストです。
+                (NanoXはbluetoothがあるので攻撃される可能性が高い)
               </li>
             </ul>,
           ]}
         />
         <NaviButtons
-          return="What is Blockchain?"
+          return="Blockchainって何?"
           returnlink="/info-nft/what-is-blockchain"
-          next="Important Terminologies"
+          next="その他の重要な用語についての説明"
           nextlink="/info-nft/important-terminologies"
         />
       </div>

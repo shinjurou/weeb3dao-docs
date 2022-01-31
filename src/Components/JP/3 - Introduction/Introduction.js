@@ -102,19 +102,18 @@ export default function Introduction() {
     <div className="introduction-info">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Introduction
+          メンバー紹介
         </Typography>
 
         <Card
           color="pink"
           content={[
-            "Who are ",
             <Link link="https://twitter.com/weeb3dao" title="weeb3dao" />,
-            ", ",
+            "、",
             <Link link="https://twitter.com/AnifamNft" title="Anifam" />,
-            " and ",
+            "、",
             <Link link="https://twitter.com/uwucrewnft" title="uwucrew" />,
-            " ?",
+            " ってだれ?",
           ]}
         />
 
@@ -161,28 +160,27 @@ export default function Introduction() {
         <Card
           color="green"
           content={[
-            "2 out of 3 artworks from ",
             <Link
               link="https://foundation.app/@NaokiSaito"
-              title="Naoki Saito's <GESTURES> collection "
+              title="Naoki Saito's（さいとう なおき氏） <GESTURES> コレクション "
             />,
-            'forming the letters "NFT" were collected by: ',
+            ' から"NFT" の文字を持つ3作品のうち2作品を落札したのは ',
             <Link link="https://twitter.com/weeb3dao" title="weeb3dao" />,
-            " and ",
+            " と ",
             <Link link="https://twitter.com/uwucrewnft" title="uwucrew" />,
-            ".",
+            " です。",
             <br />,
-            "While the remaining artwork was collected by ",
+            "残りの1作品については ",
+            <Link
+              link="https://discord.gg/vktnAzvyNQ"
+              title="AnifriendsのDiscordサーバー"
+            />,
+            " で活躍されている ",
             <Link
               link="https://twitter.com/kaijuking779"
               title="KaijuKing779"
             />,
-            " who is an active member of ",
-            <Link
-              link="https://discord.gg/vktnAzvyNQ"
-              title="Anifriends Discord Server"
-            />,
-            ".",
+            " 氏が所有されています。",
           ]}
         />
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -196,32 +194,30 @@ export default function Introduction() {
             </Typography>
             <img src={weeb3dao} alt="weeb3dao" />
             <div className="mt-3">
-              <Link link="https://twitter.com/weeb3dao" title="weeb3dao" /> came
-              from <Link link="https://twitter.com/Weeb3NFT" title="weeb3" />,
-              which is an NFT project created by{" "}
+              <Link link="https://twitter.com/weeb3dao" title="weeb3dao" /> は{" "}
               <Link
                 link="https://twitter.com/SaltSeaCake"
                 title="SaltSeaCake"
-              />
-              .
+              />{" "}
+              氏が作成したNFTプロジェクトである{" "}
+              <Link link="https://twitter.com/Weeb3NFT" title="weeb3" />{" "}
+              から生まれました。
             </div>
             <div className="mt-2">
-              Now, we became a small group of collectors and artists (which also
-              belong in AnifamNFT and uwucrew) who wants to help new artists
-              integrate into the NFT community.
+              そして今、私たちは新規参入したアーティストがNFTのコミュニティーに馴染むためのサポートをする為に、コレクターとアーティスト（AnifamNFTとuwucrewにも所属）の小規模なグループとなりました。
             </div>
 
             <Card
               color="green"
               content={[
-                "The most notable artwork to have been collected by weeb3dao is ",
+                "weeb3daoが収集した作品の中で最も注目すべき作品は、",
                 <Link
                   link="https://foundation.app/@NaokiSaito/~/103625"
-                  title="the 3rd artwork from Naoki Saito's <GESTURES> collection on Foundation"
+                  title="Naoki Saito（さいとうなおき氏）がFoundationに出品された <GESTURES> コレクションの３作品目"
                 />,
-                " which had a ",
+                "です。",
                 <span className="text-green-600 font-bold">
-                  winning bid of 12.69 ETH.
+                  こちらの落札価格は12.69ETHでした。
                 </span>,
               ]}
             />
@@ -230,31 +226,23 @@ export default function Introduction() {
               color="orange"
               content={[
                 <div>
-                  We have a{" "}
+                  私たちは、新進アーティストを支援するために、ガス費用が高額となるプラットフォーム（例：Foundation、MakersPlaceなど）で最初の作品をmintするためのガス代を提供する
                   <span className="text-pink-600 font-bold">
-                    Scholarship Program
-                  </span>{" "}
-                  to help new emerging artists by{" "}
-                  <span className="text-orange-500">
-                    providing them the gas fee
-                  </span>{" "}
-                  to mint their first artwork on a high gas platform (example:
-                  Foundation, MakersPlace, etc.)
+                    Scholarship Program (奨学金制度)
+                  </span>
+                  を設けています。
                   <div className="text-pink-600 font-bold mt-2">
                     <span className="relative bottom-0.5">
                       <ArrowRightAltIcon />
                     </span>{" "}
-                    If you are interested then please{" "}
+                    興味のある方は、
                     <RouterLink
                       link="/weeb3dao-scholarship"
-                      title="click this link and apply for the program"
+                      title="こちらのリンクから是非応募してください。"
                     />
                   </div>
                   <div className="text-violet-500 mt-2">
-                    (For Japanese and Korean artists please select the
-                    corresponding links for the translations if you are
-                    struggling with the English version of the Scholarship
-                    website which will be available at a later date)
+                    (日本語と韓国語のアーティストについては、近日公開予定の翻訳版を選択してください。)
                   </div>
                 </div>,
               ]}
@@ -264,17 +252,15 @@ export default function Introduction() {
               color="red"
               content={[
                 <div className="font-bold">
-                  weeb3dao will{" "}
-                  <span className="text-red-600 font-bold">never</span> ask for
-                  any{" "}
+                  また、weeb3daoはアーティストを支援致しますが、
+                  <span className="text-red-600 font-bold">金銭的な報酬</span>
+                  や、
+                  <span className="text-red-600 font-bold">成功報酬</span>
+                  を求めることは
                   <span className="text-red-600 font-bold">
-                    monetary compensation
-                  </span>{" "}
-                  or{" "}
-                  <span className="text-red-600 font-bold">
-                    contingency fee
-                  </span>{" "}
-                  for any help we provide for artists.
+                    決してございません
+                  </span>
+                  。
                 </div>,
               ]}
             />
@@ -290,71 +276,64 @@ export default function Introduction() {
             <img src={anifam} alt="anifam" />
 
             <div className="mt-3">
-              <Link link="https://twitter.com/AnifamNft" title="Anifam" /> was
-              founded by{" "}
-              <Link link="https://twitter.com/LooonaLou" title="LooonaLou" />,
-              <Link link="https://twitter.com/GreyRadian" title="GreyRadian" />,
-              and <Link link="https://twitter.com/rocielart" title="Rociel" />{" "}
-              in May 2021. The group then became the first anime NFT artists
-              group to be created.
+              <Link link="https://twitter.com/AnifamNft" title="Anifam" /> は{" "}
+              <Link link="https://twitter.com/LooonaLou" title="LooonaLou" />、
+              <Link link="https://twitter.com/GreyRadian" title="GreyRadian" />
+              、
+              <Link link="https://twitter.com/rocielart" title="Rociel" />{" "}
+              の3人によって初のアニメNFTアーティストグループとして2021年5月に設立されました。
             </div>
             <div className="mt-2">
-              Many Anifam artists have established themselves in the NFT world
-              and continuing to strive forward.
+              多くのAnifamアーティストがNFTの世界で地位を確立し、前進する努力を日々続けています。
             </div>
 
             <Card
               color="green"
               content={[
                 <div>
-                  The most notable artist in Anifam is{" "}
+                  Anifamで最も注目されているアーティストは、
                   <Link
                     link="https://twitter.com/seerlight"
                     title="SeerLight"
                   />{" "}
-                  who is now considered a blue chip artist in the general NFT
-                  Community, aside from Anime NFT Community. Seer currently has
+                  氏です。SeerLight氏は一般のNFTコミュニティでは今やブルーチップアーティストと呼ばれており、
                   <Link
                     link="https://twitter.com/seerlight/status/1451367288498651137"
-                    title=" an ATH sale of 125 ETH."
+                    title="現在125ETHの過去最高の売上実績を持っています。"
                   />
                 </div>,
               ]}
             />
 
             <div className="mt-3">
-              Currently there are 1k+ members in the{" "}
+              現在、
               <Link
                 link="https://discord.gg/vktnAzvyNQ"
-                title="Anifriends Discord Server"
+                title="AnifriendsのDiscordサーバー"
               />
-              . Many collectors and artists who in weeb3 and uwucrew are also in
-              the discord server and Anifriends has become a hub for fellow
-              anime artists.
+              には一千人以上のメンバーがいます。weeb3やuwucrewにいる多くのコレクターやアーティストもこのディスコードサーバーに参加しており、Anifriendsはアニメアーティスト仲間のハブとなっています。
             </div>
             <div className="mt-2">
-              The discord server also has channels for{" "}
-              <span className="text-green-600">Korean</span> and{" "}
-              <span className="text-green-600">Japanese</span> artists. The
-              server also has channels to provide helpful information along with
-              a Q&A channel for new artists.
+              Discordサーバーには、
+              <span className="text-green-600">韓国</span>と
+              <span className="text-green-600">日本</span>
+              で活動されているアーティスト向けのチャンネルもあり、新人アーティストのためのQ&Aチャンネルや、役立つ情報を提供するチャンネルも用意されています。
             </div>
 
             <Card
               color="green"
               content={[
                 <div>
-                  The most notable artist in Anifriends is the Japanese artist{" "}
+                  Anifriendsで最も注目されている日本のアーティストは{" "}
                   <Link
                     link="https://twitter.com/_NaokiSaito"
-                    title="Naoki Saito"
-                  />{" "}
-                  who paved a strong way for Japanese artists to join NFT in
-                  Japan.
+                    title="Naoki Saito（さいとう なおき氏）"
+                  />
+                  です。彼は日本のアーティストがNFTに参加するための道を切り開いてくれました。
                   <br />
                   <Link
                     link="https://en.wikipedia.org/wiki/Naoki_Saito"
-                    title="Read more about Naoki Saito on his Wikipedia webpage."
+                    title="Naoki Saito（さいとう なおき氏）についての詳細はWikipediaのページでご確認ください。​"
                   />
                 </div>,
               ]}
@@ -371,51 +350,51 @@ export default function Introduction() {
             <img src={uwucrew} alt="uwucrew" />
 
             <div className="mt-3">
-              <Link link="https://twitter.com/uwucrewnft" title="uwucrew" /> is
-              a prominent generative NFT project led by a female artist (
+              <Link link="https://twitter.com/uwucrewnft" title="uwucrew" />
+              は女性アーティスト (
               <Link link="https://twitter.com/fungibleartist" title="laur" />
-              ). uwucrew has the most active members with its supportive and fun
-              community. They also founded{" "}
-              <Link link="https://twitter.com/daowocapital" title="daowo" /> and
-              previously collected various artworks from NFT artists within the
-              community.
+              )が率いる有名なジェネレーティブNFTプロジェクトです。uwucrewは、そのサポート力と楽しめるコミュニティ運営力で最もアクティブなメンバー数を持っています。また、彼らは{" "}
+              <Link
+                link="https://twitter.com/daowocapital"
+                title="daowo"
+              />{" "}
+              を設立し、以前はコミュニティ内のNFTアーティストから様々なアートワークを集めていました。
             </div>
 
             <Card
               color="green"
               content={[
-                "The most notable artwork to have been collected by daowo is ",
+                "daowoが収集した作品の中で最も注目すべきは、",
                 <Link
                   link="https://foundation.app/@NaokiSaito/~/98535"
-                  title="Naoki Saito's Genesis NFT on Foundation"
+                  title="Naoki Saito（さいとう なおき氏）がFoundationに出品された <GESTURES> コレクションの１作品目"
                 />,
-                " which had a ",
+                "で、",
                 <span className="text-green-600 font-bold">
-                  winning bid of 13.69 ETH.
+                  13.69ETHの落札価格を記録しています。
                 </span>,
               ]}
             />
 
             <div className="mt-3">
-              Currently there are 5.39k members in their{" "}
+              現在、
               <Link
                 link="https://discord.gg/MSYmemxJt5"
-                title="Discord Server"
+                title="uwucrewのDiscordサーバー"
               />
-              . There are a lot of anime collectors, developers, and artists
-              here, which makes this a great place to meet new fellow artists or
-              talk to collectors.
+              には5390人以上のメンバーがおり、アニメNFTのコレクターや開発者、アーティストが多く、新しい出会いやコレクターとの会話に最適な場となっています。
             </div>
             <div className="mt-2">
-              They are also helping other generative PFP projects created by
-              members from AnifamNFT.
+              また、
+              <Link link="https://twitter.com/AnifamNft" title="Anifam" />
+              のメンバーが作成したジェネレーティブPFPプロジェクトにも協力しています。
             </div>
           </div>
         </div>
         <NaviButtons
           return="Database Information"
           returnlink="/database-info"
-          next="weeb3dao Scholarship"
+          next="weeb3dao Mint 奨学金制度"
           nextlink="/weeb3dao-scholarship"
         />
       </div>

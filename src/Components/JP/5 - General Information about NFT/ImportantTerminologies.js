@@ -13,79 +13,70 @@ export default function ImportantTerminologies() {
     <div className="important-terminologies">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Important Terminologies
+          その他の重要な用語についての説明
         </Typography>
 
         <ul className="list-disc mt-5 ml-6">
           <li>
             <WordExplain
               word="Shill"
-              explain="Convince someone to buy something (usually something you own or have vested interest in) - has a bad connotation most of the time."
+              explain="誰かに何かを買うように説得すること（通常、自分が所有しているか、既得権益を持っているもの） - ほとんどの場合、悪い意味合いを持つ。"
             />
           </li>
           <li>
             <WordExplain
               word="ATH"
-              explain="All time high (highest price sold for an NFT from an artist or project)."
+              explain="オールタイムハイ（あるアーティストやプロジェクトのNFTの最高販売価格)。"
             />
           </li>
           <li>
             <WordExplain
               word="Floor"
-              explain="Lowest price of NFT from an artist or project."
+              explain="アーティストまたはプロジェクトのNFTの最低価格。"
             />
           </li>
           <li>
             <WordExplain
               word="Moon"
-              explain="An NFT artist or project that has their NFT price and volume go up high."
+              explain="NFTのアーティストやプロジェクトで、そのNFTの価格や出来高が高くなるもの。"
             />
           </li>
           <li>
             <WordExplain
               word="Bear market"
-              explain="NFT market being at its worst and low NFT prices."
+              explain="NFT市場が最悪の状態にあり、NFT価格が低い状態。"
             />
           </li>
           <li>
             <WordExplain
               word="Bull market"
-              explain="NFT market being at its top form and high NFT prices."
-            />
-          </li>
-          <li>
-            <WordExplain
-              word="Shill"
-              explain="Convince someone to buy something (usually something you own or have vested interest in) - has a bad connotation most of the time."
+              explain="NFT市場が絶好調で、NFT価格が高い状態。"
             />
           </li>
           <li>
             <WordExplain
               word="Blue Chip"
-              explain="An NFT artist or project that is considered significant to the community."
+              explain="NFTのアーティストやプロジェクトで、コミュニティにとって重要だと思われるもの。"
             />
           </li>
         </ul>
 
         <Card
           color="teal"
-          content="All the terminologies above are very commonly used in the community."
+          content="上記の用語はすべて、コミュニティでごく普通に使われているものです。"
         />
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="ETH" explain="Ethereum." />
+            <WordExplain word="ETH" explain="Ethereum(イーサリアム)。" />
           </li>
           <li>
-            <WordExplain word="XTZ/TEZ" explain="Tezos." />
-          </li>
-          <li>
-            <WordExplain word="ETH" explain="Ethereum." />
+            <WordExplain word="XTZ/TEZ" explain="Tezos(テゾス)。" />
           </li>
           <li>
             <WordExplain
               word="MATIC"
-              explain="The currency for Polygon's blockchain."
+              explain="Polygonのブロックチェーン用通貨。"
             />
           </li>
         </ul>
@@ -93,19 +84,19 @@ export default function ImportantTerminologies() {
         <Card
           color="teal"
           content={[
-            "ETH, XTZ and Polygon are types of blockchains currently available which are used by a lot of current anime NFT artists. There are more information about other blockchains available to read ",
+            "ETH、XTZ、Polygonは、現在利用可能なブロックチェーンの一種で、アニメNFTのアーティストが多く利用しているブロックチェーンです。その他のブロックチェーンについては、",
             <Link
               link="https://github.com/memo/eco-nft"
-              title="here"
+              title="こちら"
               light={true}
             />,
-            ".",
+            "で詳しく解説しています。",
           ]}
         />
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="Mint" explain="Create an NFT." />
+            <WordExplain word="Mint" explain="NFTを作成すること。" />
           </li>
         </ul>
 
@@ -113,15 +104,14 @@ export default function ImportantTerminologies() {
           color="teal"
           content={[
             <div>
-              Each digital creation needs to be minted in order to become an
-              NFT.
+              NFTにするためには、それぞれの創作物をmintする必要があります。
               <div className="ml-16">
                 <ul className="list-disc">
                   <li className="mt-1">
-                    One mint = One NFT (costs x1 gas fee)
+                    One mint = 1 NFT (ガス代が1回分掛かります)
                   </li>
                   <li className="mt-1">
-                    Ten mints = Ten NFTs (costs x10 gas fee)
+                    Ten mints = 10 NFTs (ガス代が10回分掛かります)
                   </li>
                 </ul>
               </div>
@@ -131,23 +121,30 @@ export default function ImportantTerminologies() {
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="POW" explain="Proof of Work." />
+            <WordExplain
+              word="POW"
+              explain="プルーフ・オブ・ワーク(Proof of Work)。"
+            />
           </li>
           <li>
-            <WordExplain word="POS" explain="Proof of Stake." />
+            <WordExplain
+              word="POS"
+              explain="プルーフ・オブ・ステーク(Proof of Stake)。"
+            />
           </li>
           <li>
             <WordExplain
               word="Gas Fee"
-              explain="The fee you will need to pay in order for each transaction to be processed on the blockchain."
+              explain="ガス代。各取引がブロックチェーン上で処理されるために必要な手数料です。
+              "
             />
-            <WordExample explain="Paying for your car's gas in order to have it run." />
+            <WordExample explain="車を走らせるために、ガソリン代を払うこと。" />
           </li>
         </ul>
 
         <Card
           color="teal"
-          content="Both POW and POS are the model of mechanisms used by blockchains in order to turn your digital creation into NFT."
+          content="POWもPOSも、あなたの創作物をNFTにするために、ブロックチェーンの仕組みの1つです。"
         />
 
         <POWPOS />
@@ -156,22 +153,22 @@ export default function ImportantTerminologies() {
           color="teal"
           content={[
             <div>
-              ETH is currently in development to{" "}
+              ETHは、
               <span className="text-pink-600 font-bold">
-                model ETH after POS
+                POSをモデルに現在開発中
               </span>
-              . Their current plan is to{" "}
+              で、
               <span className="text-green-600 font-bold">
-                have ETH2 implemented in 2022
+                2022年にはETH2が実装される予定
               </span>
-              .
+              となっています。
             </div>,
           ]}
         />
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="GWEI" explain="Gigawei." />
+            <WordExplain word="GWEI" explain="ギガウェイ(gigawei)。" />
           </li>
         </ul>
 
@@ -179,12 +176,11 @@ export default function ImportantTerminologies() {
           color="teal"
           content={[
             <div>
-              GWEI is the measure unit for the gas price for all transactions on
-              ETH based blockchains (including Polygon).
+              GWEIは、ETHベースのブロックチェーン（Polygonを含む）上のすべてのトランザクションのガス代の測定単位である。
               <div className="ml-8">
                 <ul className="list-disc">
-                  <li className="mt-1">High GWEI = High gas fee</li>
-                  <li className="mt-1">Low GWEI = Low gas fee </li>
+                  <li className="mt-1">High GWEI = ガス代が高い</li>
+                  <li className="mt-1">Low GWEI = ガス代が安い</li>
                 </ul>
               </div>
             </div>,
@@ -195,7 +191,7 @@ export default function ImportantTerminologies() {
           <li>
             <WordExplain
               word="Smart Contract"
-              explain="A program that runs on the blockchain."
+              explain="ブロックチェーン上で実行されるプログラム。"
             />
           </li>
         </ul>
@@ -204,15 +200,10 @@ export default function ImportantTerminologies() {
           color="teal"
           content={[
             <div>
-              Smart contract can let you mint new NFT(s) from a PFP project
-              without the need for the team to manually upload each NFT(s) to
-              the blockchain.
-              <div>
-                <span className="text-pink-600 font-bold">
-                  You can deploy your own smart contract on Foundation and
-                  Manifold for your own collection(s).
-                </span>
-              </div>
+              スマートコントラクトは、チームが各NFTをブロックチェーンに手動でアップロードしなくても、PFPプロジェクトから新しいNFT（複数可）をミントできるようにすることができます。
+              <span className="text-pink-600 font-bold">
+                コレクション用に独自のスマートコントラクトをFoundation上に展開することができます。または、Manifoldもスマートコントラクトを展開することができます。
+              </span>
             </div>,
           ]}
         />
@@ -221,49 +212,49 @@ export default function ImportantTerminologies() {
           <li>
             <WordExplain
               word="Dutch auction"
-              explain="The price of a NFT starts at a starting price then dropped periodically until it hits the lowest price."
+              explain="NFTの価格が最高値から最安値になるまで定期的に下げられていくオークション。"
             />
             <WordExample
               notReal={true}
-              explain="The NFT starts at 0.2 ETH and drops to 0 ETH after 2 days."
+              explain="0.2ETHでオークションが開始し、2日後に0ETHまで下がりした。"
             />
           </li>
           <li>
             <WordExplain
               word="Layer 2 (L2)"
-              explain="A solution developing to resolve the issue of high gas fees and slow transaction speeds on ETH blockchain."
+              explain="ETHブロックチェーンにおけるガス代の高さと取引速度の遅さの問題を解決するために開発されたソリューション。"
             />
           </li>
           <li>
             <WordExplain
               word="Burn"
-              explain="Delete your NFT from the blockchain."
+              explain="ブロックチェーンからNFTを削除すること。"
             />
           </li>
           <li>
             <WordExplain
               word="WETH"
-              explain='You can wrap your ETH token into "Wrapped Ether" to be exchanged with other ETH-based tokens.'
+              explain="ETHを「Wrapped Ether」にラップして、他のETHベースのトークンと交換することができる。"
             />
           </li>
           <li>
             <WordExplain
               word="Transaction"
-              explain="Any activity of selling, buying or trading occurs on the blockchain."
+              explain="売買や取引のあらゆるやり取り。ブロックチェーン上で売買が行われる。"
             />
           </li>
           <li>
             <WordExplain
               word="ENS"
-              explain="Ethereum Name Service is a naming system based on the Ethereum blockchain which can replace your wallet address into a shortened registered name."
+              explain="Ethereum Name Serviceは、Ethereumブロックチェーンに基づく命名システムで、ウォレットアドレスを短縮された登録名に置き換えることができます。"
             />
             <WordExample notReal={true} explain="doraemon.eth" />
           </li>
         </ul>
         <NaviButtons
-          return="What is Digital Wallet?"
+          return="Digital Walletって何?"
           returnlink="/info-nft/what-is-digital-wallet"
-          next="How to Mint and List your NFT"
+          next="作品の販売について"
           nextlink="/sell-NFT"
         />
       </div>

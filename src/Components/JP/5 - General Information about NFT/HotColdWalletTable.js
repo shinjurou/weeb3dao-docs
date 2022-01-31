@@ -19,7 +19,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 }));
 
 const columns = [
-  { id: "wallet", label: "Wallet Type", width: "20%" },
+  { id: "wallet", label: "種類", width: "20%" },
   {
     id: "hot",
     label: "Hot Wallet",
@@ -39,14 +39,10 @@ function createData(name, hot, cold) {
 }
 
 const rows = [
-  createData(
-    "Explanation",
-    "Online digital wallet",
-    "Physical device (hardware wallet)"
-  ),
-  createData("Connect to the internet", "Yes", "No"),
-  createData("Pros", "Convenient", "Secure"),
-  createData("Cons", "Vulnerable to online attacks", "Inconvenient"),
+  createData("説明", "オンラインデジタルウォレット", "物理デバイス"),
+  createData("インターネットに接続されている", "はい", "いいえ"),
+  createData("長所", "利便性が良い", "セキュリティ性が高い"),
+  createData("短所", "オンライン攻撃に弱い", "不便"),
 ];
 
 export default function StickyHeadTable() {

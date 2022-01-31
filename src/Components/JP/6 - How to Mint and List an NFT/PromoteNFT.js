@@ -9,13 +9,13 @@ export default function PromoteNFT() {
     <div className="promote-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Promote your NFT
+          NFTのプロモーション
         </Typography>
 
         <div className="mb-6"></div>
         <Card
           color="pink"
-          title="Highly recommended to only shill your NFT or project under the specified tweets on Twitter or specified channels in Discord Servers."
+          title="NFTやプロジェクトの宣伝は、Twitterの特定のツイートや、Discordサーバーの特定のチャンネルのみで行うことを強く推奨します。"
         />
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -35,38 +35,36 @@ export default function PromoteNFT() {
                 <div>
                   <ul className="list-disc ml-5">
                     <li className="mt-1">
-                      Use{" "}
                       <span className="text-orange-500 font-bold">
-                        search function
-                      </span>{" "}
-                      to{" "}
-                      <span className="text-pink-600 font-bold">
-                        find tweets which allow shilling under them.
+                        検索機能
                       </span>
+                      を使って、
+                      <span className="text-pink-600 font-bold">
+                        宣伝が可能なツイートを探してください
+                      </span>
+                      。
                     </li>
 
                     <li className="mt-1">
-                      <span className="text-orange-500 font-bold">
-                        Examples
-                      </span>
+                      <span className="text-orange-500 font-bold">例</span>
                     </li>
                     <ul className="list-disc ml-6">
                       <li className="mt-1">
-                        Search words{" "}
+                        検索ワード{" "}
                         <Link
                           link="https://twitter.com/search?q=shill%20your%20NFT&src=typed_query"
                           title='"shill your NFT"'
                         />
                       </li>
                       <li className="mt-1">
-                        Search words{" "}
+                        検索ワード{" "}
                         <Link
                           link="https://twitter.com/search?q=buy%20NFT&src=typed_query&f=top"
                           title='"buy NFT"'
                         />
                       </li>
                       <li className="mt-1">
-                        Search words{" "}
+                        検索ワード{" "}
                         <Link
                           link="https://twitter.com/search?q=drop%20your%20NFT&src=typed_query&f=top"
                           title='"drop your NFT"'
@@ -79,9 +77,7 @@ export default function PromoteNFT() {
             />
             <Card
               color="red"
-              title="Do not shill under tweets which are not asking for you to show
-              your NFT as this may result in you being blocked by that
-              person."
+              title="NFTの宣伝を求められていないツイートで宣伝をすると、相手からブロックされる可能性があります。"
             />
           </div>
           <div className="mt-8">
@@ -100,24 +96,28 @@ export default function PromoteNFT() {
                 <div>
                   <ul className="list-disc ml-5">
                     <li className="mt-1">
-                      <span className="text-orange-500 font-bold">Shill</span>{" "}
-                      in the{" "}
                       <span className="text-pink-600 font-bold">
-                        correct channels
+                        正しいチャンネル
                       </span>
-                      . Example:{" "}
+                      で
+                      <span className="text-orange-500 font-bold">
+                        宣伝をします
+                      </span>
+                      。例:{" "}
                       <span className="text-green-600 font-bold">
                         #nft-drops
                       </span>
                     </li>
 
                     <li className="mt-1">
-                      <span className="text-orange-500 font-bold">Post</span>{" "}
-                      your artworks in{" "}
                       <span className="text-pink-600 font-bold">
-                        correct channels
+                        正しいチャンネル
                       </span>
-                      . Example:{" "}
+                      で
+                      <span className="text-orange-500 font-bold">
+                        作品を投稿して下さい
+                      </span>
+                      。例:{" "}
                       <span className="text-green-600 font-bold">
                         #artshare
                       </span>
@@ -128,11 +128,11 @@ export default function PromoteNFT() {
             />
             <Card
               color="red"
-              title="Do not shill in general channels as this may result in you being banned by the server."
+              title="一般的なチャンネルで宣伝をするとサーバーからBANされる恐れがあるので辞めましょう。"
             />
             <Card
               color="green"
-              title="Discord Servers"
+              title="Discordサーバー"
               content={[
                 <ul className="list-disc ml-5">
                   <li className="mt-1">
@@ -187,7 +187,7 @@ export default function PromoteNFT() {
                   <li className="mt-1">
                     <Link
                       link="https://discord.com/invite/SFfxEsr9"
-                      title="hic et Nunc"
+                      title="hic et nunc"
                       light={true}
                     />
                   </li>
@@ -223,22 +223,22 @@ export default function PromoteNFT() {
               color="green"
               content={[
                 <div>
-                  <span className="text-green-600 font-bold">
-                    Have genuine engagement with others in the community
-                  </span>{" "}
-                  and{" "}
-                  <span className="text-teal-600">
-                    they will go view your artworks on their own accords.
+                  そのコミュニティに所属している人たちと
+                  <span className="text-green-600 font-bold">真の関わり</span>
+                  を持つことで、彼らは
+                  <span className="text-teal-600 font-bold">
+                    自発的にあなたの作品
                   </span>
+                  を見に来てくれるでしょう。
                 </div>,
               ]}
             />
           </div>
         </div>
         <NaviButtons
-          return="List an NFT"
+          return="Listingしましょう"
           returnlink="/sell-nft/list-nft"
-          next="Celebration"
+          next="NFTを販売した後"
           nextlink="/sell-nft/celebration"
         />
       </div>

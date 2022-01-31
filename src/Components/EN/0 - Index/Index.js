@@ -21,6 +21,8 @@ import Fade from "@mui/material/Fade";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import ScrollToTop from "./ScrollToTop";
 import LocaleSelect from "../../Shared/LocaleSelect/LocaleSelect";
+import SVG from "react-inlinesvg";
+import weeb3Logo from "../../../Imgs/weeb3Logo.svg";
 
 // Importing Router
 import { Routes, Route, Link } from "react-router-dom";
@@ -205,7 +207,10 @@ export default function Index(props) {
 
             <ThemeProvider theme={headerText}>
               <Typography variant="h6" color="inherit" component="div" my={2}>
-                Anime NFT Database
+                <div className="mt-1 mr-3 float-left">
+                  <SVG src={weeb3Logo} height={19} title="weeb3 Logo" />
+                </div>
+                <span className="invisible md:visible">Anime NFT Database</span>
               </Typography>
             </ThemeProvider>
 

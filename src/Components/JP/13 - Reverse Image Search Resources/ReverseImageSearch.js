@@ -9,24 +9,24 @@ export default function ReverseImageSearch() {
     <div className="reverse-image-search">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Reverse Image Search Resources
+          画像検索システム
         </Typography>
         <Card
           color="green"
           content={[
             <div>
-              <Link link="https://twitter.com/shiomueth" title="shiomu" /> has
-              provided various resources to help the process of reverse image
-              search in order to{" "}
+              <Link link="https://twitter.com/shiomueth" title="shiomu" />
+              は美術品の
               <span className="text-green-600 font-bold">
-                verify authenticity and locate original source of artworks.
+                を確認するための検索に役立つ様々なリソースを提供しています
               </span>
+              。
             </div>,
           ]}
         />
         <Card
           color="red"
-          title="Some of these sites will show NSFW search results."
+          title="これらのサイトの中には、NSFWの検索結果が表示されるものもあります。"
         />
 
         <ul className="list-disc mt-2 ml-6">
@@ -36,8 +36,8 @@ export default function ReverseImageSearch() {
               title="https://iqdb.org/"
               light={true}
             />{" "}
-            (aggregator: danbooru, konachan, yande.re, gelbooru, sankaku,
-            e-shuushuu, zerochan, anime-pictures)
+            (アグリゲーター：danbooru、konachan、yande.re、gelbooru、sankaku、
+            e-shuushuu、zerochan、anime-pictures)
           </li>
           <li className="mb-2">
             <Link
@@ -45,7 +45,7 @@ export default function ReverseImageSearch() {
               title="https://trace.moe/"
               light={true}
             />{" "}
-            (search scenes from anime)
+            (アニメのシーン検索)
           </li>
           <li className="mb-2">
             <Link
@@ -67,7 +67,7 @@ export default function ReverseImageSearch() {
               title="https://www.google.com/imghp"
               light={true}
             />{" "}
-            (Good old google reverse image search)
+            (古き良きグーグル逆画像検索)
           </li>
           <li className="mb-2">
             <Link
@@ -75,7 +75,7 @@ export default function ReverseImageSearch() {
               title="https://yandex.com/"
               light={true}
             />{" "}
-            (good for flipped/cropped images)
+            (反転やトリミングされた画像に適しています)
           </li>
           <li className="mb-2">
             <Link
@@ -90,25 +90,25 @@ export default function ReverseImageSearch() {
               title="https://3d.iqdb.org/"
               light={true}
             />{" "}
-            (for searching cosplay, idols, models)
+            (コスプレやアイドル、モデルの検索に)
           </li>
         </ul>
         <Card
           color="teal"
-          title="Reverse Image Search process"
+          title="画像検索の方法"
           content={[
             <ol className="list-decimal ml-6">
-              <li className="mt-1">Search with the image you have, might lead you straight to original source</li>
+              <li className="mt-1">手持ちの画像で検索。</li>
               <li className="mt-1">
-                Else look for a higher res/un-flipped/uncropped version elsewhere
+                他の場所で高解像度や、反転、トリミングされていないものを探す。
               </li>
-              <li className="mt-1">Use full image to search for the actual source</li>
+              <li className="mt-1">実際の出典を検索するために使用する。</li>
             </ol>,
           ]}
         />
         <NaviButtons
-          return="Recommended Readings"
-          returnlink="/rec-readings"
+          return="環境問題"
+          returnlink="/environment"
           next=""
           nextlink=""
         />

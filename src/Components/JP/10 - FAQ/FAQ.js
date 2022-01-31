@@ -22,20 +22,24 @@ export default function FAQ() {
               mt={2}
               mb={1}
             >
-              Multiple Editions or 1/1?
-              <br /> Why is my artwork not selling?
-              <br /> How to sell my artwork faster?
-              <br /> How to become successful in the NFT space?
+              <div className="mb-2">
+                マルチエディションか1/1のどちらで出すべきか？
+              </div>
+
+              <div className="mb-2">なぜ私の作品は売れないのか？</div>
+              <div className="mb-2"> 作品を早く売るには？</div>
+              <div className="mb-2"> NFTの分野で成功するには？</div>
             </Typography>
             <Card
               color="green"
               title={[
                 <div>
-                  Please read the article I have written{" "}
+                  私が
                   <Link
                     link="https://mirror.xyz/shinjurou.eth/uIq__DaPcJ_Y3ku41N8_EGM7fZ8EIe1MwSYA3Q-ZMnA"
-                    title="here."
-                  />{" "}
+                    title="書いた記事"
+                  />
+                  を読んでください。
                 </div>,
               ]}
             />
@@ -48,72 +52,56 @@ export default function FAQ() {
               mt={2}
               mb={1}
             >
-              Fanart or Original?
+              ファンアート（二次創作）を投稿してもいいのか？
             </Typography>
             <Card
               color="purple"
               content={[
                 <div>
                   <div>
-                    <span className="text-purple-700 font-bold">
-                      Short answer:
-                    </span>{" "}
-                    Original
+                    <span className="text-purple-700 font-bold">短い回答:</span>{" "}
+                    オリジナル（一次創作）のみにして下さい。
                   </div>
                   <div>
-                    <span className="text-purple-700 font-bold">
-                      Long answer:
-                    </span>{" "}
+                    <span className="text-purple-700 font-bold">長い回答:</span>{" "}
                   </div>
                   <ul className="list-disc ml-4">
                     <li>
-                      Fanart is in{" "}
+                      ファンアートは非常に
                       <span className="text-red-600 font-bold">
-                        a very grey area
+                        グレーゾーン
                       </span>
-                      . Japanese companies don't usually pursue copyright
-                      lawsuits. Due to fanart being a way for the company to
-                      promote their copyrighted works while also letting their
-                      fans explore their creativity. But there have been cases
-                      where{" "}
+                      です。日本の企業は通常、著作権訴訟を起こしません。なぜかと言うとファンアートは、企業が自社の著作物を宣伝するための手段であると同時に、ファンの創造性を発揮させるものでもあるからです。しかし、そのファンアートがあまりにも人気を博し、企業の注目を浴びるようになると、
                       <span className="text-red-600 font-bold">
-                        lawsuits happened; when the work got too popular and
-                        gained attention from said companies.
-                      </span>{" "}
+                        訴訟に発展するケース
+                      </span>
+                      もあります。最も顕著な例は、
                       <Link
                         link="https://www.comipress.com/news/2007/02/04/1456.html"
-                        title="Most notable example is the case of a Doraemon doujinshi
-                      which got sued by Shogakukan."
-                      />{" "}
-                      General rule of thumb would be{" "}
+                        title="Dドラえもんの同人誌が小学館に訴えられたケースです"
+                      />
+                      。
                       <span className="text-red-600 font-bold">
-                        as long as the fanart does not obtain a significant
-                        amount of profits then it will be safe from copyright
-                        lawsuit.
-                      </span>{" "}
-                      <span className="relative bottom-0.5">
+                        一般的な経験則では、ファンアートが多額の利益を得なければ、著作権訴訟を起こされることはありません
+                      </span>
+                      。
+                      <span className="relative bottom-0.5 right-1">
                         <ArrowRightAltIcon />
-                      </span>{" "}
-                      Which isn't the case for NFT due to the possibility of
-                      large amount of profits can be made from a single sale.
+                      </span>
+                      ですが、NFTは一度の販売で多額の利益を得る可能性があるため、その限りではありません。
                     </li>
                     <li>
-                      After the fanart is sold, the artist is free from
-                      responsibility if the company only files a lawsuit against
-                      the owner of the NFT.{" "}
+                      ファンアートが販売された後、企業がNFTの所有者に対して訴訟を起こすだけで、作家は責任を負わない。
                       <span className="relative bottom-0.5">
                         <ArrowRightAltIcon />
                       </span>{" "}
                       <span className="text-red-600 font-bold">
-                        High chances the NFT will be deleted at the major loss
-                        for the collector.
+                        コレクターに大きな損失を与えてNFTが削除される可能性が高い。
                       </span>
                     </li>
                     <li>
                       <span className="text-pink-600 font-bold">
-                        Various collectors within the community have been asked
-                        this question to which they haven taken more interest in
-                        Original artworks.
+                        このような質問をされたコレクターの方々は、アニメの原画に興味を持たれたようです。
                       </span>
                     </li>
                   </ul>
@@ -122,7 +110,7 @@ export default function FAQ() {
             />
             <Card
               color="green"
-              title="Original will keep you and the collectors safe while also promoting your own individuality and creativity."
+              title="オリジナルは、あなたとコレクターの安全を守ると同時に、あなた自身の個性と創造性を促進します。"
             />
           </div>
           <div className="mt-8">
@@ -133,11 +121,11 @@ export default function FAQ() {
               mt={2}
               mb={1}
             >
-              Commission for NFT?
+              依頼した作品をNFTにしても大丈夫?
             </Typography>
             <Card
               color="red"
-              title="Commissioning someone else for artworks, then use said artworks to sell as your own NFTs without asking the artist for permission is heavily frowned upon and should not be done."
+              title="他人にアートワークを依頼し、そのアートワークを使用して、アーティストの許可を得ずに自分のNFTとして販売することは、非常に嫌われる行為であり、行ってはいけません。"
             />
             <Card
               color="orange"
@@ -145,39 +133,41 @@ export default function FAQ() {
                 <div>
                   <ul className="list-disc ml-4">
                     <li>
-                      If you want to sell the commissioned work as NFT then{" "}
+                      委託された作品をNFTとして販売したい場合、
                       <span className="text-red-600 font-bold">
-                        ask the artist's permission prior to minting said work.
+                        その作品をmintする前にアーティストの許可を得てください
                       </span>
+                      。
                     </li>
                     <li>
-                      Commission works which will be used to be sold as NFTs
-                      should be{" "}
+                      NFTとして販売されるコミッションワークは、
                       <span className="text-red-600 font-bold">
-                        priced using commercial rates.
+                        商業利用も踏まえた相場
                       </span>
+                      で価格を設定する必要があります。
                     </li>
                     <li>
                       <span className="text-red-600 font-bold">
-                        DO NOT mint an artwork without an artist's permission.
+                        アーティストの許可なく作品の鋳造を行わないでください
                       </span>
+                      。
                     </li>
                     <li>
-                      Discuss with the artist properly about{" "}
                       <span className="text-pink-600 font-bold">
-                        commission price, royalties, artwork rights and
-                        permissions, etc.
+                        コミッション価格、ロイヤリティ、アートワークの権利と許可
                       </span>
+                      などについて、アーティストと適切に話し合ってください。
                     </li>
                     <li>
-                      Make sure{" "}
+                      アーティストが
                       <span className="text-pink-600 font-bold">
-                        they understand how NFT works
-                      </span>{" "}
-                      and{" "}
-                      <span className="text-red-600 font-bold">
-                        not using their lack of knowledge to your advantage.
+                        NFTの仕組みを理解していることを確認
                       </span>
+                      し、
+                      <span className="text-red-600 font-bold">
+                        その知識のなさを悪用しないこと
+                      </span>
+                      。
                     </li>
                   </ul>
                 </div>,
@@ -187,19 +177,18 @@ export default function FAQ() {
               color="green"
               content={[
                 <div>
-                  It is better to not use commissioned works as NFTs but the
-                  rights to an artwork will{" "}
                   <span className="text-pink-600 font-bold">
-                    depend on the agreement between the commissioner and artist.
+                    依頼した作品はNFTとして使用しない方が良いが、
                   </span>
+                  アートワークの権利は委託者とアーティストの間の契約によって異なる。
                   <div>
                     <span className="text-green-600 font-bold">
                       <span className="relative bottom-0.5">
                         <ArrowRightAltIcon />
                       </span>{" "}
-                      It is best for both to come to an agreement and discuss
-                      carefully about this.
+                      この点については、両者で合意し、慎重に話し合うのがベストです
                     </span>
+                    。
                   </div>
                 </div>,
               ]}
@@ -207,9 +196,9 @@ export default function FAQ() {
           </div>
         </div>
         <NaviButtons
-          return="Culture"
+          return="カルチャー"
           returnlink="/community/culture"
-          next="Environment Controversy"
+          next="環境問題"
           nextlink="/environment"
         />
       </div>

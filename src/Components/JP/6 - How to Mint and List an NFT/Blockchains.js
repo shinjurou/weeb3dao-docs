@@ -80,11 +80,11 @@ export default function FullWidthTabs() {
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
           <div className="mb-2">
-            The{" "}
+            執筆時点でアニメNFTのアーティストに
             <span className="text-pink-600 font-bold">
-              most popular blockchain
-            </span>{" "}
-            for anime NFT artists at the current time of writing.
+              最も人気のあるブロックチェーン
+            </span>
+            です。
           </div>
 
           <Card
@@ -92,17 +92,21 @@ export default function FullWidthTabs() {
             light={true}
             content={[
               <div>
-                Information about marketplaces are available{" "}
-                <RouterLink link="/sell-nft/choose-marketplace" title="here" />.
+                マーケットプレイスに関する情報は
+                <RouterLink
+                  link="/sell-nft/choose-marketplace"
+                  title="こちら"
+                />
+                からご覧いただけます。
               </div>,
             ]}
           />
           <div className="mb-2">
-            Marketplaces for Ethereum:{" "}
+            Ethereumのマーケットプレイス:{" "}
             <Link link="https://opensea.io/" title="OpenSea" />,{" "}
             <Link link="https://foundation.app/" title="Foundation" />{" "}
-            (currently the main hub for anime-inspired artists),{" "}
-            <Link link="https://makersplace.com/" title="MakersPlace" />,
+            (現在、アニメ系アーティストの中心的な拠点),{" "}
+            <Link link="https://makersplace.com/" title="MakersPlace" />,{" "}
             <Link link="https://knownorigin.io/" title="KnownOrigin" />,{" "}
             <Link link="https://superrare.co/" title="SuperRare" />,{" "}
             <Link link="https://anifty.jp/" title="ANIFTY" />.
@@ -110,17 +114,16 @@ export default function FullWidthTabs() {
 
           <Card
             color="green"
-            title="Pros"
+            title="長所"
             light={true}
             content={[
               <>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    Widely used for all NFT creators + collectors
+                    全てのNFTクリエイターとコレクターに広く利用されている。
                   </li>
                   <li className="mt-1">
-                    Have the highest volume and average sale value in terms of
-                    USD
+                    米ドル換算で最も販売量が多く、平均販売額も高い。
                   </li>
                 </ul>
               </>,
@@ -129,13 +132,13 @@ export default function FullWidthTabs() {
 
           <Card
             color="red"
-            title="Cons"
+            title="短所"
             light={true}
             content={[
               <>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    High gas fees for each transaction on the network
+                    ネットワーク上の各取引にかかるガス代が高い。
                   </li>
                 </ul>
               </>,
@@ -144,57 +147,50 @@ export default function FullWidthTabs() {
 
           <Card
             color="orange"
-            title="Important information"
+            title="重要な情報"
             light={true}
             content={[
               <>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    All transactions on ETH will incur a gas fee based on the
-                    GWEI at the time of usage. (GWEI and gas fee explanations
-                    are available{" "}
+                    ETHのすべての取引には、利用時のGWEIに基づくガス代が発生します。(GWEIおよびガス代の説明は
                     <RouterLink
                       link="/info-nft/important-terminologies"
-                      title="here"
+                      title="こちら"
                       light={true}
                     />
-                    )
+                    をご覧ください)。
                   </li>
                   <li className="mt-1">
-                    Examples for gas fee price for minting on{" "}
                     <Link
                       link="https://foundation.app/"
                       title="Foundation"
                       light={true}
                     />
-                    :
+                    でmintする際のガス料金の例:
                   </li>
 
                   <ul className="list-disc ml-6">
                     <li className="mt-1">
                       1 ETH = USD $3000{" "}
-                      <span className="relative bottom-0.5 right-0.5">
+                      <span className="relative bottom-0.5 right-0.25">
                         <ArrowRightAltIcon />
                       </span>{" "}
-                      50 GWEI = approximately USD $40~$60
+                      50 GWEI = 約USD $40~$60
                     </li>
                     <li className="mt-1">
                       1 ETH = USD $4000{" "}
-                      <span className="relative bottom-0.5 right-0.5">
+                      <span className="relative bottom-0.5 right-0.25">
                         <ArrowRightAltIcon />
                       </span>{" "}
-                      50 GWEI = approximately USD $60~$80
+                      50 GWEI = 約USD $60~$80
                     </li>
                   </ul>
                   <li className="mt-1">
-                    <span className="text-pink-600 font-bold">
-                      Each gas fee
-                    </span>{" "}
-                    is for{" "}
-                    <span className="text-pink-600 font-bold">
-                      each transaction
-                    </span>
-                    . If you mint x2 artworks then it will cost x2 gas fees.
+                    <span className="text-pink-600 font-bold">ガス代</span>
+                    は、
+                    <span className="text-pink-600 font-bold">1回の取引</span>
+                    ごとに発生します。もし、2つの作品を作った場合、2つのガス代がかかることになります。
                   </li>
                 </ul>
               </>,
@@ -203,15 +199,13 @@ export default function FullWidthTabs() {
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
           <div className="mb-2">
-            Ethereum and Polygon are the{" "}
+            記事執筆時点で、EthereumとPolygonが
+            <span className="text-pink-600 font-bold">日本の</span>
+            アニメNFTアーティストに
             <span className="text-pink-600 font-bold">
-              most popular blockchains
-            </span>{" "}
-            for{" "}
-            <span className="text-pink-600 font-bold">
-              Japanese anime NFT artists
-            </span>{" "}
-            at the current time of writing.
+              最も人気のブロックチェーン
+            </span>
+            です。
           </div>
 
           <Card
@@ -219,51 +213,49 @@ export default function FullWidthTabs() {
             light={true}
             content={[
               <div>
-                Many{" "}
                 <span className="text-pink-600 font-bold">
-                  Japanese anime NFT artists
-                </span>{" "}
-                prefer to use Polygon instead of Ethereum for its{" "}
+                  日本のアニメNFTアーティスト
+                </span>
+                の多くは、取引にかかる
                 <span className="text-green-600 font-bold">
-                  very low gas fees
-                </span>{" "}
-                for transactions and blockchain is also{" "}
-                <span className="text-green-600 font-bold">eco-friendly</span>.
+                  ガス代が非常に安く
+                </span>
+                、ブロックチェーンが
+                <span className="text-green-600 font-bold">環境にも優しい</span>
+                ことから、EthereumではなくPolygonを好んで使っています。
               </div>,
             ]}
           />
 
           <div className="mb-2">
-            Marketplace for Polygon:{" "}
+            Polygonのマーケットプレイス:{" "}
             <Link link="https://opensea.io/" title="OpenSea" /> (Polygon
-            Network)
+            ネットワーク)
           </div>
 
           <Card
             color="green"
-            title="Pros"
+            title="長所"
             light={true}
             content={[
               <>
                 <ul className="list-disc ml-4">
-                  <li className="mt-1">Eco-friendly</li>
+                  <li className="mt-1">環境に優しい。</li>
                   <li className="mt-1">
-                    No gas fee for any sale or purchase (on OpenSea){" "}
-                    <span className="relative bottom-0.5 right-0.5">
+                    販売・購入時のガス代が無料（Openseaの場合）
+                    <span className="relative bottom-0.5 right-1">
                       <ArrowRightAltIcon />
-                    </span>{" "}
-                    Therefore Polygon is better for lower priced collections
+                    </span>
+                    そのため、低価格帯のコレクションにはPolygonが向いている。
                   </li>
                   <li className="mt-1">
-                    Collectors on ETH main net can convert to Polygon ETH on
-                    OpenSea and able to purchase your artwork(s) easily
+                    ETHメインのコレクターは、OpenSeaでPolygon
+                    ETHに変換し、簡単に作品を購入することができる。
                   </li>
                   <li className="mt-1">
-                    Can be used to airdrop tokens or NFTs for a very low cost
+                    低コストでトークンやNFTをエアドロップすることが可能。
                   </li>
-                  <li className="mt-1">
-                    Can be exchanged into FIAT at almost the same value as ETH
-                  </li>
+                  <li className="mt-1">ETHとほぼ同じ価値でFIATに交換可能。</li>
                 </ul>
               </>,
             ]}
@@ -271,31 +263,27 @@ export default function FullWidthTabs() {
 
           <Card
             color="red"
-            title="Cons"
+            title="短所"
             light={true}
             content={[
               <>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    Needs bridging/conversion between Ethereum network and
-                    Polygon network for usage
+                    利用するにあたって、EthereumネットワークとPolygonネットワークのブリッジが必要。
                   </li>
                   <li className="mt-1">
-                    OpenSea hides Polygon airdrops and filters "Activity" tab to
-                    only Ethereum by default
+                    OpenSeaではデフォルトでPolygonでのエアドロップがhiddenタブにいくようにフィルタリングされている。
                   </li>
                   <li className="mt-1">
-                    Commonly used to send spam or advertisement NFTs as well as
-                    art thieves due to the low gas costs, which hurt the
-                    popularity and legitimacy of Polygon NFTs as a whole.{" "}
-                    <span className="relative bottom-0.5 right-0.5">
+                    ガス代が安いため、スパムや広告NFTの送信によく使われるほか、美術品泥棒にも使われ、Polygon
+                    NFT全体の人気と正当性を損ねた
+                    <span className="relative bottom-0.5 right-0.25">
                       <ArrowRightAltIcon />
-                    </span>{" "}
-                    Due to this, a lot of collectors still prefer NFTs on ETH
-                    Mainnet despite higher gas fees
+                    </span>
+                    このため、多くのコレクターが、ガス代が高くてもETHメインネット上のNFTを好んでいる。
                   </li>
                   <li className="mt-1">
-                    Volume and average sale price on polygon tend to be lower
+                    ポリゴンの出来高と平均販売価格は低い傾向にある
                   </li>
                 </ul>
               </>,
@@ -304,11 +292,11 @@ export default function FullWidthTabs() {
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
           <div className="mb-2">
-            An alternative to Polygon for{" "}
+            Polygonに代わる
             <span className="text-green-600 font-bold">
-              eco-friendly blockchain
+              環境配慮型ブロックチェーン
             </span>
-            .
+            。
           </div>
 
           <Card
@@ -316,14 +304,14 @@ export default function FullWidthTabs() {
             light={true}
             content={[
               <div>
-                <Link link="https://opensea.io/" title="OpenSea" /> have plans
-                to add Tezos to their list of blockchains.
+                <Link link="https://opensea.io/" title="OpenSea" />
+                はTezosをブロックチェーンのリストに追加する予定がある。
               </div>,
             ]}
           />
 
           <div className="mb-2">
-            Marketplaces for Tezos:{" "}
+            Tezosのマーケットプレイス:{" "}
             <Link link="https://hicetnunc.art/" title="hic et nunc" />,{" "}
             <Link link="https://objkt.com/" title="OBJKT" />,{" "}
             <Link link="https://kalamint.io/" title="Kalamint" />.
@@ -331,22 +319,18 @@ export default function FullWidthTabs() {
 
           <Card
             color="green"
-            title="Pros"
+            title="長所"
             light={true}
             content={[
               <>
                 <ul className="list-disc ml-4">
-                  <li className="mt-1">Eco-friendly</li>
+                  <li className="mt-1">環境に優しい。</li>
+                  <li className="mt-1">各取引にかかるガス代が非常に安い。</li>
                   <li className="mt-1">
-                    Very low cost gas for each transaction
+                    1/1ではなく、マルチエディションとして作品を販売したい場合には、非常に良い選択肢。
                   </li>
                   <li className="mt-1">
-                    Very good option if you want to sell your artworks as
-                    multiple editions instead of 1/1
-                  </li>
-                  <li className="mt-1">
-                    Collectors and fellow artists will be able to collect your
-                    artwork(s) easily due to its low prices.
+                    低価格なので、コレクターやアーティスト仲間も気軽に作品を集めることができる。
                   </li>
                 </ul>
               </>,
@@ -355,15 +339,15 @@ export default function FullWidthTabs() {
 
           <Card
             color="red"
-            title="Cons"
+            title="短所"
             light={true}
             content={[
               <>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    Doesn't have as much collectors as ETH blockchain
+                    ETHブロックチェーンほどのコレクターはいない。
                   </li>
-                  <li className="mt-1">Low FIAT value</li>
+                  <li className="mt-1">FIAT値が低い。</li>
                 </ul>
               </>,
             ]}
