@@ -24,7 +24,7 @@ const LocaleSelect = () => {
     if (!locale) {
       navigate("/en" + location.pathname, { replace: true });
     }
-  }, [locale])
+  }, [locale, navigate, location.pathname])
 
   return (
     <>
