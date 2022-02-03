@@ -76,9 +76,18 @@ const rows = [
     "Aguno (アグノ)",
     "@Aguno_",
     "https://twitter.com/Aguno_",
-    "@Sivao",
-    "https://foundation.app/@Sivao",
+    "@Aguno",
+    "https://foundation.app/@Aguno",
     false,
+    true
+  ),
+  createData(
+    "Akane",
+    "@AKANEzz2314",
+    "https://twitter.com/AKANEzz2314",
+    "@akanezz2314",
+    "https://foundation.app/@akanezz2314",
+    true,
     true
   ),
   createData(
@@ -96,7 +105,7 @@ const rows = [
     "https://twitter.com/alliene_rozen",
     "@allienerozen",
     "https://foundation.app/@allienerozen",
-    true
+    true,
   ),
   createData(
     "Anam111 (アナム111)",
@@ -218,6 +227,24 @@ const rows = [
     true
   ),
   createData(
+    "chione",
+    "@chionnera",
+    "https://twitter.com/chionnera",
+    "@chionnera",
+    "https://foundation.app/@chionnera",
+    false,
+    true
+  ),
+  createData(
+    "Choco Feline",
+    "@Pinkmug315",
+    "https://twitter.com/Pinkmug315",
+    "@vtlchoco.feline",
+    "https://foundation.app/@vtlchoco.feline",
+    true,
+    true
+  ),
+  createData(
     "Comuno (コムノ)",
     "@Poireau_13",
     "https://twitter.com/Poireau_13",
@@ -260,6 +287,14 @@ const rows = [
     "@diyokama",
     "https://foundation.app/@diyokama",
     true,
+    true
+  ),
+  createData(
+    "EDENJB",
+    "@Eden_JB000",
+    "https://twitter.com/Eden_JB000",
+    "@edenjbnft",
+    "https://foundation.app/@edenjbnft",
     true
   ),
   createData(
@@ -402,10 +437,18 @@ const rows = [
   ),
   createData(
     "JokiYoh",
-    "@aldarsign",
-    "https://twitter.com/aldarsign",
+    "@_k_i_i______",
+    "https://twitter.com/_k_i_i______",
     "@aldarsign",
     "https://foundation.app/@aldarsign",
+    true
+  ),
+  createData(
+    "Kaedi",
+    "@ementea",
+    "https://twitter.com/ementea",
+    "@Monstera__Tea",
+    "https://foundation.app/@Monstera__Tea",
     true
   ),
   createData(
@@ -431,6 +474,14 @@ const rows = [
     "https://twitter.com/Khun_nonart",
     "@Khun_nonart",
     "https://foundation.app/@Khun_nonart",
+    true
+  ),
+  createData(
+    "Kinyopoi",
+    "@kinyonyotabi",
+    "https://twitter.com/kinyonyotabi",
+    "@Kinyo",
+    "https://foundation.app/@Kinyo",
     true
   ),
   createData(
@@ -464,6 +515,22 @@ const rows = [
     "https://twitter.com/YuuLaika",
     "@yuulaika",
     "https://foundation.app/@yuulaika",
+    true
+  ),
+  createData(
+    "Lee Benaza",
+    "@lesleebee_art",
+    "https://twitter.com/lesleebee_art",
+    "@lesleebee_art",
+    "https://foundation.app/@lesleebee_art",
+    true
+  ),
+  createData(
+    "LewdLily69",
+    "@LewdLily66",
+    "https://twitter.com/LewdLily66",
+    "@lewdlily69",
+    "https://foundation.app/@lewdlily69",
     true
   ),
   createData(
@@ -578,6 +645,15 @@ const rows = [
     true
   ),
   createData(
+    "MistMsg",
+    "@MistMsg",
+    "https://twitter.com/MistMsg",
+    "@MistMsg",
+    "https://foundation.app/@MistMsg",
+    false,
+    true
+  ),
+  createData(
     "MIZUmoi",
     "@nuemizumoi",
     "https://twitter.com/nuemizumoi",
@@ -637,6 +713,15 @@ const rows = [
     true
   ),
   createData(
+    "Namaki",
+    "@ki_nama",
+    "https://twitter.com/ki_nama",
+    "@Namakiz",
+    "https://foundation.app/@Namakiz",
+    true,
+    true
+  ),
+  createData(
     "Nana Nanaken (七剣なな)",
     "@7th_knights",
     "https://twitter.com/7th_knights",
@@ -651,7 +736,7 @@ const rows = [
     "https://twitter.com/narusamaa",
     "@Narusama",
     "https://foundation.app/@Narusama",
-    true
+    true,
   ),
   createData(
     "nissanote",
@@ -681,6 +766,32 @@ const rows = [
     true
   ),
   createData(
+    "Ohi Uii",
+    "@OhiUii",
+    "https://twitter.com/OhiUii",
+    "@OhiUii",
+    "https://foundation.app/@OhiUii",
+    true
+  ),
+  createData(
+    "Orendi Laran",
+    "@LaranOrendi",
+    "https://twitter.com/LaranOrendi",
+    "@orendilaran",
+    "https://foundation.app/@orendilaran",
+    false,
+    true
+  ),
+  createData(
+    "osan",
+    "@osan_artworks",
+    "https://twitter.com/osan_artworks",
+    "@osanartworks",
+    "https://foundation.app/@osanartworks",
+    true,
+    true
+  ),
+  createData(
     "Palette",
     "@Palette_Jay",
     "https://twitter.com/Palette_Jay",
@@ -690,12 +801,29 @@ const rows = [
     true
   ),
   createData(
+    "Panithan",
+    "@panithan_pnt",
+    "https://twitter.com/panithan_pnt",
+    "@panithan",
+    "https://foundation.app/@panithan",
+    false,
+    true
+  ),
+  createData(
     "patch_oxxo",
     "@Patch_NFT",
     "https://twitter.com/Patch_NFT",
     "@patch_oxxo",
     "https://foundation.app/@patch_oxxo",
     false,
+    true
+  ),
+  createData(
+    "pipipi (ぴぴぴ)",
+    "@pipipipikyomu",
+    "https://twitter.com/pipipipikyomu",
+    "@pipipipikyomu",
+    "https://foundation.app/@pipipipikyomu",
     true
   ),
   createData(
@@ -782,6 +910,14 @@ const rows = [
     "https://twitter.com/RxndeerC",
     "@rexndeer_art",
     "https://foundation.app/@rexndeer_art",
+    true
+  ),
+  createData(
+    "RhoXifer",
+    "@RhoXifer",
+    "https://twitter.com/RhoXifer",
+    "@RhoXifer",
+    "https://foundation.app/@RhoXifer",
     true
   ),
   createData(
@@ -900,7 +1036,7 @@ const rows = [
     "https://twitter.com/PiggSmall",
     "@piggsmall",
     "https://foundation.app/@piggsmall",
-    true
+    true,
   ),
   createData(
     "Suu Takahara (高原スウ)",
@@ -989,12 +1125,39 @@ const rows = [
     true
   ),
   createData(
+    "YAN (やん)",
+    "@bltyann",
+    "https://twitter.com/bltyann",
+    "@bltyann",
+    "https://foundation.app/@bltyann",
+    false,
+    true
+  ),
+  createData(
+    "YEERU",
+    "@yeerunam",
+    "https://twitter.com/yeerunam",
+    "@yeeru",
+    "https://foundation.app/@yeeru",
+    false,
+    true
+  ),
+  createData(
     "YU (游)",
     "@stdio_nameraka",
     "https://twitter.com/stdio_nameraka",
     "@stdio_nameraka",
     "https://foundation.app/@stdio_nameraka",
     false,
+    true
+  ),
+  createData(
+    "Yugito",
+    "@Yugitotj",
+    "https://twitter.com/Yugitotj",
+    "@yugitotj",
+    "https://foundation.app/@yugitotj",
+    true,
     true
   ),
   createData(
@@ -1013,6 +1176,15 @@ const rows = [
     "@yuki_azuma",
     "https://foundation.app/@yuki_azuma",
     false,
+    true
+  ),
+  createData(
+    "ZAK",
+    "@ZAK_NFT",
+    "https://twitter.com/ZAK_NFT",
+    "@zak_reshaes",
+    "https://foundation.app/@zak_reshaes",
+    true,
     true
   ),
   createData(
