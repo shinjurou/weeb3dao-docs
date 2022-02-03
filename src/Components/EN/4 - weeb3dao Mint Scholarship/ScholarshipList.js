@@ -105,7 +105,7 @@ const rows = [
     "https://twitter.com/alliene_rozen",
     "@allienerozen",
     "https://foundation.app/@allienerozen",
-    true,
+    true
   ),
   createData(
     "Anam111 (アナム111)",
@@ -736,7 +736,7 @@ const rows = [
     "https://twitter.com/narusamaa",
     "@Narusama",
     "https://foundation.app/@Narusama",
-    true,
+    true
   ),
   createData(
     "nissanote",
@@ -1036,7 +1036,7 @@ const rows = [
     "https://twitter.com/PiggSmall",
     "@piggsmall",
     "https://foundation.app/@piggsmall",
-    true,
+    true
   ),
   createData(
     "Suu Takahara (高原スウ)",
