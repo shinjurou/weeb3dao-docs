@@ -31,7 +31,7 @@ export default function Environment() {
           title="概要 (これは上記のブログ記事から引用しました)"
           content={[
             <div>
-              暗号通貨の問題は未解決の問題ですが、専門家が解決に向けて取り組んでいる既知の問題でもあります。NFTはProof
+              暗号資産の問題は未解決の問題ですが、専門家が解決に向けて取り組んでいる既知の問題でもあります。NFTはProof
               of WorkからProof of
               Stakeに移行する必要があり、Ethereum自体もその移行期にあります。
               <span className="text-pink-600 font-bold">
@@ -67,12 +67,12 @@ export default function Environment() {
             color="pink"
             content={[
               <div>
-                2017年の暗号通貨とその他の分野のエネルギー消費源についてのグラフです。
+                2017年の暗号資産とその他の分野のエネルギー消費源についてのグラフです。
                 <span className="relative bottom-0.5">
                   <ArrowRightAltIcon />
                 </span>{" "}
                 <span className="text-pink-600 font-bold">
-                  暗号通貨のエネルギー消費は、ここに挙げた他の分野ほど大きくはない。
+                  暗号資産のエネルギー消費は、ここに挙げた他の分野ほど大きくはない。
                 </span>
               </div>,
             ]}

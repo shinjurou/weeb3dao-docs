@@ -648,7 +648,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="暗号通過取引所" />
+                  <ListItemText primary="暗号資産取引所" />
                 </Fade>
               </ListItem>
             </Link>

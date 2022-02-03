@@ -64,7 +64,7 @@ export default function Community() {
         </div>
 
         <NaviButtons
-          return="暗号通過取引所"
+          return="暗号資産取引所"
           returnlink="/crypto-exchange"
           next="用語解説"
           nextlink="/community/terminologies"
