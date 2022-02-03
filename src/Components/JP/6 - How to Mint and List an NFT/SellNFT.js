@@ -57,7 +57,7 @@ export default function SellNFT() {
           </li>
         </ol>
         <NaviButtons
-          return="その他の重要な用語についての説明"
+          return="重要な用語についての説明"
           returnlink="/info-nft/important-terminologies"
           next="デジタルウォレットを作成する"
           nextlink="/sell-nft/create-wallet"

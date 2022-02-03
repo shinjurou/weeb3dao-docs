@@ -33,7 +33,7 @@ export default function InfoNFT() {
           <li className="my-2">
             <RouterLink
               link="/info-nft/important-terminologies"
-              title="その他の重要な用語についての説明"
+              title="重要な用語についての説明"
             />
           </li>
         </ol>
