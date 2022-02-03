@@ -17,7 +17,7 @@ export default function WhatIsNFT() {
         <div className="mt-5">
           NFTとは、
           <span className="text-orange-500">
-            Non-fungible tokens（非可食性トークン）
+            Non-fungible tokens（非代替性トークン）
           </span>
           の略称です。
         </div>
@@ -45,7 +45,7 @@ export default function WhatIsNFT() {
 
         <WordExplain
           word="Token"
-          explain="ブロックチェーンを通じてオンラインで取引できるようになる仮想通貨です。"
+          explain="ブロックチェーンを通じてオンラインで取引できるようになるデジタルデータです。"
         />
         <WordExample explain="私たちが日常的に使っている紙幣はただの紙ですが、商品と交換されるお金という価値が付加されています。" />
 

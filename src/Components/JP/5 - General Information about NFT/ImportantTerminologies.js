@@ -13,7 +13,7 @@ export default function ImportantTerminologies() {
     <div className="important-terminologies">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          その他の重要な用語についての説明
+          重要な用語についての説明
         </Typography>
 
         <ul className="list-disc mt-5 ml-6">
@@ -32,25 +32,25 @@ export default function ImportantTerminologies() {
           <li>
             <WordExplain
               word="Floor"
-              explain="アーティストまたはプロジェクトのNFTの最低価格。"
+              explain="アーティストまたはプロジェクトのNFTの最低販売価格。"
             />
           </li>
           <li>
             <WordExplain
               word="Moon"
-              explain="NFTのアーティストやプロジェクトで、そのNFTの価格や出来高が高くなるもの。"
+              explain="NFTのアーティストやプロジェクトで、そのNFTの価格や出来高が高くなること。"
             />
           </li>
           <li>
             <WordExplain
               word="Bear market"
-              explain="NFT市場が最悪の状態にあり、NFT価格が低い状態。"
+              explain="NFT市場が弱気の状態にあり、NFTの相場が低迷している状態。"
             />
           </li>
           <li>
             <WordExplain
               word="Bull market"
-              explain="NFT市場が絶好調で、NFT価格が高い状態。"
+              explain="NFT市場が強気の状態にあり、NFTの相場が高騰している状態。"
             />
           </li>
           <li>
@@ -144,7 +144,7 @@ export default function ImportantTerminologies() {
 
         <Card
           color="teal"
-          content="POWもPOSも、あなたの創作物をNFTにするために、ブロックチェーンの仕組みの1つです。"
+          content="POWもPOSも、あなたの創作物をNFTにするために使用されている、ブロックチェーンの仕組みの一種です。"
         />
 
         <POWPOS />
@@ -155,11 +155,11 @@ export default function ImportantTerminologies() {
             <div>
               ETHは、
               <span className="text-pink-600 font-bold">
-                POSをモデルに現在開発中
+                POWからPOSに移行する開発が進行中
               </span>
               で、
               <span className="text-green-600 font-bold">
-                2022年にはETH2が実装される予定
+                2022年に導入される見込み
               </span>
               となっています。
             </div>,
@@ -176,7 +176,7 @@ export default function ImportantTerminologies() {
           color="teal"
           content={[
             <div>
-              GWEIは、ETHベースのブロックチェーン（Polygonを含む）上のすべてのトランザクションのガス代の測定単位である。
+              GWEIは、ETHベースのブロックチェーン（Polygonを含む）上のすべてのトランザクションのガス代の測定単位です。
               <div className="ml-8">
                 <ul className="list-disc">
                   <li className="mt-1">High GWEI = ガス代が高い</li>
@@ -202,7 +202,7 @@ export default function ImportantTerminologies() {
             <div>
               スマートコントラクトは、チームが各NFTをブロックチェーンに手動でアップロードしなくても、PFPプロジェクトから新しいNFT（複数可）をミントできるようにすることができます。
               <span className="text-pink-600 font-bold">
-                コレクション用に独自のスマートコントラクトをFoundation上に展開することができます。または、Manifoldもスマートコントラクトを展開することができます。
+                FoundationやManifoldといったサービスを利用することで、あなたが作るコレクション用の独自スマートコントラクトをブロックチェーン上に実装することができます。
               </span>
             </div>,
           ]}
@@ -212,7 +212,7 @@ export default function ImportantTerminologies() {
           <li>
             <WordExplain
               word="Dutch auction"
-              explain="NFTの価格が最高値から最安値になるまで定期的に下げられていくオークション。"
+              explain="NFTの販売価格が、出品者が設定した最高値から最低値になるまで、時間が経つにつれて徐々に下がっていくオークション。"
             />
             <WordExample
               notReal={true}
@@ -240,7 +240,7 @@ export default function ImportantTerminologies() {
           <li>
             <WordExplain
               word="Transaction"
-              explain="売買や取引のあらゆるやり取り。ブロックチェーン上で売買が行われる。"
+              explain="ブロックチェーン上で行われる、売買や取引等のあらゆるやり取りのこと。"
             />
           </li>
           <li>

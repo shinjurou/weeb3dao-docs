@@ -48,7 +48,7 @@ export default function DatabaseInfo() {
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
-                Proofreaders:
+                English Proofreaders:
               </span>{" "}
               <Link
                 link="https://twitter.com/morellostorment"
@@ -64,6 +64,15 @@ export default function DatabaseInfo() {
                 Japanese Translator:
               </span>{" "}
               <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />
+            </li>
+            <li className="my-2">
+              <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
+                Japanese Proofreaders:
+              </span>{" "}
+              <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />
+              , <Link link="https://twitter.com/piprycto" title="Fao" />,{" "}
+              <Link link="https://twitter.com/PigThePersona" title="ranbuta" />
+              , <Link link="https://twitter.com/WakiyamaP" title="WakiyamaP" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">

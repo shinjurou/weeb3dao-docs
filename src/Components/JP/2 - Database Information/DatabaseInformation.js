@@ -48,7 +48,7 @@ export default function DatabaseInfo() {
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
-                校正者:
+                英語版校正者:
               </span>{" "}
               <Link
                 link="https://twitter.com/morellostorment"
@@ -64,6 +64,15 @@ export default function DatabaseInfo() {
                 日本語翻訳者:
               </span>{" "}
               <Link link="https://twitter.com/0TL_" title="どげざちゃん" />
+            </li>
+            <li className="my-2">
+              <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
+                日本語版校正者:
+              </span>{" "}
+              <Link link="https://twitter.com/0TL_" title="どげざちゃん" />
+              , <Link link="https://twitter.com/piprycto" title="ファオ" />,{" "}
+              <Link link="https://twitter.com/PigThePersona" title="らんぶた" />
+              , <Link link="https://twitter.com/WakiyamaP" title="脇P(jinP)" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">

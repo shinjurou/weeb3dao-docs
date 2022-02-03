@@ -433,7 +433,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="その他の重要な用語についての説明" />
+                    <ListItemText primary="重要な用語についての説明" />
                   </ListItem>
                 </Link>
               </List>

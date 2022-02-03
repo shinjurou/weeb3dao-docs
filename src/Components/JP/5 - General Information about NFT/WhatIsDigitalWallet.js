@@ -97,7 +97,7 @@ export default function WhatIsDigitalWallet() {
         <NaviButtons
           return="Blockchainって何?"
           returnlink="/info-nft/what-is-blockchain"
-          next="その他の重要な用語についての説明"
+          next="重要な用語についての説明"
           nextlink="/info-nft/important-terminologies"
         />
       </div>
