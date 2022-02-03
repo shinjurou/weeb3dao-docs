@@ -108,12 +108,12 @@ export default function Terminologies() {
             />
           </li>
           <li>
-            <WordExplain word="Shitcoin" explain="価値や目的のない暗号通貨。" />
+            <WordExplain word="Shitcoin" explain="価値や目的のない暗号資産。" />
           </li>
           <li>
             <WordExplain
               word="Memecoin"
-              explain="ミームをもとにした暗号通貨。"
+              explain="ミームをもとにした暗号資産。"
             />
           </li>
           <li>

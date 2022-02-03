@@ -9,7 +9,7 @@ export default function CryptoExchange() {
     <div className="crypto-exchange">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          暗号通過取引所
+          暗号資産取引所
         </Typography>
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -21,7 +21,7 @@ export default function CryptoExchange() {
               mt={2}
               mb={1}
             >
-              不換紙幣（現金）から暗号通貨へ
+              不換紙幣（現金）から暗号資産へ
             </Typography>
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
@@ -46,7 +46,7 @@ export default function CryptoExchange() {
               mt={2}
               mb={1}
             >
-              暗号通貨間のSwap
+              暗号資産間のSwap
             </Typography>
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
@@ -83,7 +83,7 @@ export default function CryptoExchange() {
               mt={2}
               mb={1}
             >
-              暗号通貨から不換紙幣（現金）
+              暗号資産から不換紙幣（現金）
             </Typography>
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
