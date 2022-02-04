@@ -53,7 +53,10 @@ export default function SellNFT() {
           </li>
 
           <li className="my-2">
-            <RouterLink link="/sell-nft/gas" title="ガス代の管理方法について" />
+            <RouterLink
+              link="/sell-nft/gas"
+              title="ガス代の相場を調べる方法について"
+            />
           </li>
         </ol>
         <NaviButtons

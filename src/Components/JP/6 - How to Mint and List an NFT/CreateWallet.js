@@ -44,7 +44,7 @@ export default function CreateWallet() {
               <div className="mb-2">
                 デジタルソフトという性質上、
                 <span className="text-red-600 font-bold">ハッキング</span>
-                の可能性が高いということです。
+                に遭う可能性が常につきまといます。
               </div>
               <div className="mb-2">
                 このため、安全性を確保するために、
@@ -54,7 +54,7 @@ export default function CreateWallet() {
               <ul className="list-disc ml-4">
                 <li className="mt-1">
                   <span className="text-red-600 font-bold">絶対に</span>
-                  所有するウォレットのシードフレーズを決して他人に教えないでください。
+                  所有するウォレットのシードフレーズ(リカバリーフレーズとも)や秘密鍵を他人に教えないでください。
                 </li>
                 <li className="mt-1">
                   <span className="text-red-600 font-bold">絶対に</span>

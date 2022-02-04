@@ -140,14 +140,14 @@ export default function FullWidthTabs() {
                   <li className="mt-1">
                     <Link
                       link="https://metamask.zendesk.com/hc/en-us/articles/360058239311-How-to-buy-ETH"
-                      title="MetaMask経由で直接。"
+                      title="MetaMask経由で直接購入"
                       light={true}
                     />
                   </li>
                   <li className="mt-1">
                     <Link
                       link="https://help.foundation.app/en/articles/4731452-a-complete-guide-to-getting-eth-and-a-wallet-with-metamask"
-                      title="Coinbaseの使用。"
+                      title="Coinbase(最大手暗号資産取引所)で購入"
                       light={true}
                     />
                   </li>{" "}
@@ -211,14 +211,14 @@ export default function FullWidthTabs() {
                   <li className="mt-1">
                     <Link
                       link="https://www.kraken.com/en-gb/learn/buy-tezos-xtz"
-                      title="Krakenの使用。"
+                      title="Krakenで購入"
                       light={true}
                     />
                   </li>
                   <li className="mt-1">
                     <Link
                       link="https://wheretobuytezos.com/how-to-buy-tezos-xtz/coinbase"
-                      title="Coinbaseの使用。"
+                      title="Coinbase(最大手暗号資産取引所)で購入"
                       light={true}
                     />
                   </li>

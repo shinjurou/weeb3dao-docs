@@ -30,22 +30,22 @@ export default function ChooseBlockchain() {
           content={[
             <ul className="list-disc ml-4">
               <li className="mt-1">
-                各ブロックチェーンはそれぞれマーケットプレイスを持っています。現在、ほとんどのマーケットプレイスに対し、
+                各ブロックチェーンにはそれぞれいくつかのNFTマーケットプレイスがあります。現在、ほとんどのマーケットプレイスは、
                 <span className="text-pink-600 font-bold">1つ</span>
-                のブロックチェーンしかウェブサイトに対応していません。（OpenSeaは例外）
+                のブロックチェーンにしか対応していません。（OpenSeaは例外）
               </li>
               <li className="mt-1">
-                NFTをmintするブロックチェーンを選択することで、
+                NFTをmintするブロックチェーンの選択が、
                 <span className="text-orange-500 font-bold">
-                  売上に影響がでる可能性があります
+                  売上に影響を及ぼす可能性があります
                 </span>
-                。なぜなら、売上はそのブロックチェーンを使用してアート作品を購入するコレクターの数に依存するからです。例えば、Ethereumしか使用していないコレクターがTezosを持っていない場合、Tezosで出品されている作品を購入することはできないからです。{" "}
+                。なぜなら、NFTの売上は、そのブロックチェーンを使用してアート作品を購入するコレクターの数に影響されるからです。例えば、コレクターがEthereumしか使用しておらずTezosを持っていない場合、Tezosで出品されている作品を購入しようとはしないでしょう。{" "}
                 <span className="relative bottom-0.5 right-0.5">
                   <ArrowRightAltIcon />
                 </span>
-                コレクターが作品を購入する際、
+                コレクターが作品を購入しようとしても、
                 <span className="text-red-600 font-bold">
-                  不便に感じてしまう
+                  とても不便に感じてしまうからです
                 </span>
                 。
               </li>
@@ -74,9 +74,8 @@ export default function ChooseBlockchain() {
                     というものはありません。あなたが努力する限り、各ブロックチェーンにあなたの作品のコレクターが必ず存在します。
                   </li>
                   <li className="mt-1">
-                    ブロックチェーンを選択することが重要であると考えられている理由は、あなたの優先順位に従って
-                    <span className="text-orange-500">あなたの目標</span>
-                    を達成することができるようにするためだけです。
+                    <span className="text-orange-500">あなたの目的</span>
+                    を達成できるようにするためには、優先順位に従ってブロックチェーンを選ぶことがとても重要です。
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
@@ -86,23 +85,23 @@ export default function ChooseBlockchain() {
                 </ul>
                 <ul className="list-disc ml-10">
                   <li className="mt-1">
-                    <span className="text-orange-500">1/1</span>
-                    をエディションをより高く売る: Ethereum。
+                    <span className="text-orange-500">一点ものの作品(1/1)</span>
+                    を複数のエディションがある作品より高く売る: Ethereum
                   </li>
                   <li className="mt-1">
-                    多くのコレクターに集めてもらうため、
-                    <span className="text-orange-500">エディション</span>
-                    を販売する: Polygon、Tezos。
+                    多くのコレクターに購入してもらうため、
+                    <span className="text-orange-500">複数のエディション</span>
+                    を販売する: Polygon、Tezos
                   </li>
                   <li className="mt-1">
                     環境に優しい
                     <span className="text-orange-500">ブロックチェーン</span>
-                    で販売する: Polygon、Tezos。
+                    で販売する: Polygon、Tezos
                   </li>
                   <li className="mt-1">
                     作品を
                     <span className="text-orange-500">コレクション</span>
-                    として販売する: Ethereum、Polygon、Tezos。
+                    として販売する: Ethereum、Polygon、Tezos
                   </li>
                 </ul>
               </>,
@@ -114,11 +113,13 @@ export default function ChooseBlockchain() {
             content={[
               <ul className="list-disc ml-4">
                 <li className="mt-1">
-                  各マーケットプレイスごとに複数のブロックチェーンを
-                  <span className="text-green-600 font-bold">同時に使用</span>
-                  し、
-                  <span className="text-orange-500">異なる種類の作品</span>
-                  を扱うことができるため、1つのブロックチェーンにのみ設定する必要はありません。
+                  異なるブロックチェーンをいくつか
+                  <span className="text-green-600 font-bold">
+                    同時並行で使うことができます
+                  </span>
+                  し、ブロックチェーンごと、NFTマーケットプレイスごとに、
+                  <span className="text-orange-500">異なるタイプの作品</span>
+                  を発行して販売することもできるため、一つのブロックチェーンだけで活動する必要はありません。
                 </li>
 
                 <li className="mt-1">
