@@ -58,7 +58,7 @@ export default function Celebration() {
         <NaviButtons
           return="NFTのプロモーション"
           returnlink="/sell-nft/promote-nft"
-          next="ガス代の管理方法について"
+          next="ガス代の相場を調べる方法について"
           nextlink="/sell-nft/gas"
         />
       </div>

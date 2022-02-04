@@ -122,7 +122,7 @@ export default function BurnNFT() {
           </div>
         </div>
         <NaviButtons
-          return="ガス代の管理方法について"
+          return="ガス代の相場を調べる方法について"
           returnlink="/sell-nft/gas"
           next="暗号資産取引所"
           nextlink="/crypto-exchange"

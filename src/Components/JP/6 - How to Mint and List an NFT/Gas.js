@@ -18,7 +18,7 @@ export default function Gas() {
     <div className="gas">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          ガス代の管理方法について
+          ガス代の相場を調べる方法について
         </Typography>
 
         <div className="mb-6"></div>

@@ -601,7 +601,12 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="ガス代の管理方法について" />
+                    <ListItemText
+                      primary="ガス代の相場を調べる方法について"
+                      primaryTypographyProps={{
+                        style: { whiteSpace: "normal" },
+                      }}
+                    />
                   </ListItem>
                 </Link>
               </List>
