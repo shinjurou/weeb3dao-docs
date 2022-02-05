@@ -159,7 +159,7 @@ export default function ListNFT() {
               <li className="mb-2">
                 <Link
                   link="https://www.youtube.com/watch?v=H8LMWDezlPU"
-                  title="hic et Nunc"
+                  title="Teia"
                 />
               </li>
               <li className="mb-2">OBJKT</li>

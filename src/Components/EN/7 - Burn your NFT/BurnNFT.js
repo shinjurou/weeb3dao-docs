@@ -112,7 +112,7 @@ export default function BurnNFT() {
               <li className="mb-2">
                 <Link
                   link="https://github.com/hicetnunc2000/hicetnunc/wiki/How-to-burn-%F0%9F%94%A5"
-                  title="hic et Nunc"
+                  title="Teia"
                 />
               </li>
             </ul>
