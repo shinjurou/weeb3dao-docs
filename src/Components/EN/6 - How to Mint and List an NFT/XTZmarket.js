@@ -66,7 +66,7 @@ export default function FullWidthTabs() {
           variant="fullWidth"
           aria-label="full width tabs example"
         >
-          <Tab label="hic et nunc" {...a11yProps(0)} />
+          <Tab label="Teia" {...a11yProps(0)} />
           <Tab label="OBJKT" {...a11yProps(1)} />
           <Tab label="Kalamint" {...a11yProps(2)} />
         </Tabs>
@@ -90,9 +90,9 @@ export default function FullWidthTabs() {
                     Currently the website available here is a mirror preserved
                     by the original{" "}
                     <span className="text-orange-500 font-bold">
-                      hic et nunc's developers and community
-                    </span>
-                    .
+                      developers and the community
+                    </span>{" "}
+                    and has now rebranded the name to Teia.
                   </li>
                 </ul>
               </div>,
@@ -109,8 +109,8 @@ export default function FullWidthTabs() {
                     <span className="text-green-600 font-bold">
                       Open for everyone to use.
                     </span>{" "}
-                    Anyone can make an account and start using Hic et Nunc
-                    without needing to go through an application process.
+                    Anyone can make an account and start using Teia without
+                    needing to go through an application process.
                   </li>
                   <li className="mt-1">
                     You can{" "}
@@ -126,7 +126,7 @@ export default function FullWidthTabs() {
                   <li className="mt-1">
                     NFTs{" "}
                     <span className="text-teal-600 font-bold">
-                      minted on Hic et Nunc
+                      minted on Teia
                     </span>{" "}
                     will{" "}
                     <span className="text-green-600 font-bold">
@@ -135,7 +135,7 @@ export default function FullWidthTabs() {
                     .
                   </li>
                   <li className="mt-1">
-                    hic et nunc is{" "}
+                    Teia is{" "}
                     <span className="text-green-600 font-bold">
                       a very good marketplace on the Tezos blockchain for
                       artworks with editions.
@@ -192,7 +192,7 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    hic et nunc currently only has{" "}
+                    Teia currently only has{" "}
                     <span className="text-orange-500 font-bold">1 system</span>{" "}
                     available for selling NFT(s)
                   </li>
@@ -224,8 +224,8 @@ export default function FullWidthTabs() {
                     <span className="text-green-600 font-bold">
                       Open for everyone to use.
                     </span>{" "}
-                    Anyone can make an account and start using Hic et Nunc
-                    without needing to go through an application process.
+                    Anyone can make an account and start using Teia without
+                    needing to go through an application process.
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
@@ -234,7 +234,7 @@ export default function FullWidthTabs() {
                   </li>
                   <li className="mt-1">
                     <span className="text-orange-500 font-bold">
-                      Better than hic et Nunc
+                      Better than Teia
                     </span>{" "}
                     for{" "}
                     <span className="text-green-600 font-bold">
@@ -363,7 +363,7 @@ export default function FullWidthTabs() {
                   </li>
                   <li className="mt-1">
                     <span className="text-orange-500 font-bold">
-                      Better than hic et Nunc
+                      Better than Teia
                     </span>{" "}
                     for{" "}
                     <span className="text-green-600 font-bold">
@@ -375,7 +375,7 @@ export default function FullWidthTabs() {
                     <span className="text-orange-500 font-bold">5 TEZ</span>,
                     which is{" "}
                     <span className="text-pink-600 font-bold">
-                      higher than the average price in Hic et Nunc.
+                      higher than the average price in Teia.
                     </span>
                   </li>
                   <li className="mt-1">
@@ -435,7 +435,7 @@ export default function FullWidthTabs() {
                     </span>{" "}
                     on the platform, but{" "}
                     <span className="text-orange-500 font-bold">
-                      profit will be higher than Hic et Nunc at sale.
+                      profit will be higher than Teia at sale.
                     </span>
                   </li>
                 </ul>

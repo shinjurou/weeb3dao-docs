@@ -312,7 +312,7 @@ export default function FullWidthTabs() {
 
           <div className="mb-2">
             Tezosのマーケットプレイス:{" "}
-            <Link link="https://hicetnunc.art/" title="hic et nunc" />,{" "}
+            <Link link="https://teia.art/" title="Teia" />,{" "}
             <Link link="https://objkt.com/" title="OBJKT" />,{" "}
             <Link link="https://kalamint.io/" title="Kalamint" />.
           </div>

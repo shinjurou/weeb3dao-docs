@@ -230,7 +230,7 @@ export default function MintNFT() {
               <li className="mb-2">
                 <Link
                   link="https://www.youtube.com/watch?v=MdnpVQJ-vdk&t=2m37s"
-                  title="hic et nunc"
+                  title="Teia"
                 />
               </li>
               <li className="mb-2">

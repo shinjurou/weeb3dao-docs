@@ -64,13 +64,7 @@ const rows = [
   ),
   createData("SuperRare", "https://superrare.co/", "15%", "10%", "-"),
   createData("ANIFTY", "https://anifty.jp/", "5% or 10%", "N/A", "0.02 ETH"),
-  createData(
-    "hic et nunc",
-    "https://hicetnunc.art/",
-    "2.5%",
-    "10 - 25%",
-    "0 XTZ"
-  ),
+  createData("Teia", "https://teia.art/", "2.5%", "10 - 25%", "0 XTZ"),
   createData("OBJKT", "https://objkt.com/", "2.5%", "N/A", "0.0011 XTZ"),
   createData(
     "Kalamint",

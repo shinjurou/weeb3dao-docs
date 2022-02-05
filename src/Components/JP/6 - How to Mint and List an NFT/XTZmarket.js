@@ -66,7 +66,7 @@ export default function FullWidthTabs() {
           variant="fullWidth"
           aria-label="full width tabs example"
         >
-          <Tab label="hic et nunc" {...a11yProps(0)} />
+          <Tab label="Teia" {...a11yProps(0)} />
           <Tab label="OBJKT" {...a11yProps(1)} />
           <Tab label="Kalamint" {...a11yProps(2)} />
         </Tabs>
@@ -88,9 +88,9 @@ export default function FullWidthTabs() {
                     hic et
                     nuncはTezosで最も人気のあるマーケットプレイスでしたが、2021年11月12日に作者により廃止されました。現在、ここで公開されているウェブサイトは、
                     <span className="text-orange-500 font-bold">
-                      オリジナルのhic et nuncの開発者とコミュニティ
+                      オリジナルの開発者とコミュニティ
                     </span>
-                    によって保存されているミラーです。
+                    によって保存されているミラーです。現在は名前をTeiaに変更しました。
                   </li>
                 </ul>
               </div>,
@@ -106,7 +106,7 @@ export default function FullWidthTabs() {
                   <li className="mt-1">
                     アカウントを作れば、
                     <span className="text-green-600 font-bold">誰でも</span>
-                    申請手続きなしでhic et nuncを使い始めることができます。
+                    申請手続きなしでTeiaを使い始めることができます。
                   </li>
                   <li className="mt-1">
                     <span className="text-orange-500 font-bold">
@@ -118,7 +118,7 @@ export default function FullWidthTabs() {
                   </li>
                   <li className="mt-1">
                     <span className="text-teal-600 font-bold">
-                      hic et nuncでmintされたNFT
+                      TeiaでmintされたNFT
                     </span>
                     は、
                     <span className="text-green-600 font-bold">
@@ -127,7 +127,7 @@ export default function FullWidthTabs() {
                     。
                   </li>
                   <li className="mt-1">
-                    hic et nuncは、
+                    Teiaは、
                     <span className="text-teal-600 font-bold">
                       Tezosブロックチェーン上
                     </span>
@@ -188,7 +188,7 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    hic et nuncでは現在、NFTを販売する際に
+                    Teiaでは現在、NFTを販売する際に
                     <span className="text-orange-500 font-bold">
                       1つのシステム
                     </span>
@@ -231,9 +231,7 @@ export default function FullWidthTabs() {
                     。
                   </li>
                   <li className="mt-1">
-                    <span className="text-orange-500 font-bold">
-                      hic et nuncより
-                    </span>
+                    <span className="text-orange-500 font-bold">Teiaより</span>
                     <span className="text-green-600 font-bold">
                       新しいアーティストや作品を発見する
                     </span>
@@ -355,9 +353,7 @@ export default function FullWidthTabs() {
                     に収集することができます。
                   </li>
                   <li className="mt-1">
-                    <span className="text-orange-500 font-bold">
-                      hic et nuncより
-                    </span>
+                    <span className="text-orange-500 font-bold">Teiaより</span>
                     <span className="text-green-600 font-bold">
                       新しいアーティストや作品を発見する
                     </span>
@@ -368,7 +364,7 @@ export default function FullWidthTabs() {
                     <span className="text-orange-500 font-bold">5TEZ</span>
                     前後に設定しており、
                     <span className="text-pink-600 font-bold">
-                      hic et nuncの平均価格より高い。
+                      Teiaの平均価格より高い。
                     </span>
                   </li>
                   <li className="mt-1">
@@ -429,7 +425,7 @@ export default function FullWidthTabs() {
                     </span>
                     が、販売時の利益は
                     <span className="text-orange-500 font-bold">
-                      hic et nunc atより高くなる
+                      Teia atより高くなる
                     </span>
                     。
                   </li>

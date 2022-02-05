@@ -187,7 +187,7 @@ export default function PromoteNFT() {
                   <li className="mt-1">
                     <Link
                       link="https://discord.com/invite/SFfxEsr9"
-                      title="hic et nunc"
+                      title="Teia"
                       light={true}
                     />
                   </li>
