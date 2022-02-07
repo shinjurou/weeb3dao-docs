@@ -172,7 +172,7 @@ export default function PromoteNFT() {
                   </li>
                   <li className="mt-1">
                     <Link
-                      link="https://discord.gg/pGeAWrP"
+                      link="https://discord.gg/HYB4YKZbga"
                       title="SuperRare"
                       light={true}
                     />
@@ -186,7 +186,7 @@ export default function PromoteNFT() {
                   </li>
                   <li className="mt-1">
                     <Link
-                      link="https://discord.com/invite/SFfxEsr9"
+                      link="https://discord.com/invite/US8gMfEkM2"
                       title="Teia"
                       light={true}
                     />
