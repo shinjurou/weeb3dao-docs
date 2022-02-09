@@ -1,0 +1,954 @@
+[
+  {
+    "name": "Ackerly",
+    "twitter": "@4ckerly",
+    "fnd": "@ackerly",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Adumakei (あづま京)",
+    "twitter": "@adumakei",
+    "fnd": "@adumakei",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Aguno (アグノ)",
+    "twitter": "@Aguno_",
+    "fnd": "@Aguno",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Akane",
+    "twitter": "@AKANEzz2314",
+    "fnd": "@akanezz2314",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Akki",
+    "twitter": "@akki_q",
+    "fnd": "@akki",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Alliene.Rozen",
+    "twitter": "@alliene_rozen",
+    "fnd": "@allienerozen",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Anam111 (アナム111)",
+    "twitter": "@uloobuloo",
+    "fnd": "@anam111",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Anemone (アネモネ)",
+    "twitter": "@anemone_kisumi",
+    "fnd": "@anemone_kisumi",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "AnTi",
+    "twitter": "@anti3024",
+    "fnd": "@anti3024",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Arisse",
+    "twitter": "@x_arisse",
+    "fnd": "@_arisse_",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Aru",
+    "twitter": "@_Aruiu",
+    "fnd": "@Aruiu",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Asagon",
+    "twitter": "@gooooon007",
+    "fnd": "@asagon",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Azen (あぜん)",
+    "twitter": "@mntimcczgrtn",
+    "fnd": "@azen_",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "BetaAlpha (有葉米太)",
+    "twitter": "@BetaAlpha_1998",
+    "fnd": "@BetaAlpha_1998",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "bq",
+    "twitter": "@bqscmq69",
+    "fnd": "@record_iing",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Cattonoz",
+    "twitter": "@cattonozworld",
+    "fnd": "@cattonozworld",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "CCroissant",
+    "twitter": "@CosCroissant",
+    "fnd": "@ccroissant",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "CharNim",
+    "twitter": "@FancyCharNim",
+    "fnd": "@CharNim",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Chesswalkers",
+    "twitter": "@ChesswalkersNFT",
+    "fnd": "@Chesswalkers",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Chiel",
+    "twitter": "@LinenZ311",
+    "fnd": "@Chiel.311",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "chione",
+    "twitter": "@chionnera",
+    "fnd": "@chionnera",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Choco Feline",
+    "twitter": "@Pinkmug315",
+    "fnd": "@vtlchoco.feline",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Comuno (コムノ)",
+    "twitter": "@Poireau_13",
+    "fnd": "@comuno",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Cozy U (こじゆう)",
+    "twitter": "@cozyu_",
+    "fnd": "@cozyu_",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "CYI",
+    "twitter": "@cyicheng",
+    "fnd": "@cyi",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Darkzmonsty",
+    "twitter": "@darkzmonsty1",
+    "fnd": "@darkzmonsty",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Dyo",
+    "twitter": "@diyokama",
+    "fnd": "@diyokama",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "EDENJB",
+    "twitter": "@Eden_JB000",
+    "fnd": "@edenjbnft",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Einelace",
+    "twitter": "@EinelaceArt",
+    "fnd": "@einelace",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "ENAchan",
+    "twitter": "@enabeleno",
+    "fnd": "@enabeleno",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "ETA",
+    "twitter": "@etahoshi",
+    "fnd": "@ETA",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Gengoya",
+    "twitter": "@gengoya_club",
+    "fnd": "@gengoya.club",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Gensui_Hime (元帥姫)",
+    "twitter": "@Gensui_Hime",
+    "fnd": "@gensui_hime",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Gesyutaruto (ゲシュタルト崩壊フラグ)",
+    "twitter": "@furagu2525",
+    "fnd": "@furagu2525",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Haiter Bomb",
+    "twitter": "@HaiterBomb",
+    "fnd": "@Haiterbomb",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Hamilton",
+    "twitter": "@hamikunart",
+    "fnd": "@hamikunart",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Harukagi",
+    "twitter": "@Harukagit",
+    "fnd": "@harukagi",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "haruyu (はるユ)",
+    "twitter": "@ha_ru_ha_ru1192",
+    "fnd": "@haruyu",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "HONE",
+    "twitter": "@HONE54407970",
+    "fnd": "@HONEART",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Hoppy",
+    "twitter": "@hoppyNFT",
+    "fnd": "@hoppyNFT",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "HoshiUsagi",
+    "twitter": "@hoshiusagi1",
+    "fnd": "@hoshiusagi",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Inkyhma",
+    "twitter": "@Inkyhma",
+    "fnd": "@inkyhma",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Inntary",
+    "twitter": "@inntary",
+    "fnd": "@inntary",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Jeloy",
+    "twitter": "@Jeloy_Inkblood",
+    "fnd": "@jeloyinkblood_nft",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "JokiYoh",
+    "twitter": "@_k_i_i______",
+    "fnd": "@aldarsign",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Kaedi",
+    "twitter": "@ementea",
+    "fnd": "@Monstera__Tea",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Kai (海)",
+    "twitter": "@JHC_Kai",
+    "fnd": "@JHC_Kai",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Kazadi",
+    "twitter": "@Kazadi777",
+    "fnd": "@kazadi777",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Khun non",
+    "twitter": "@Khun_nonart",
+    "fnd": "@Khun_nonart",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Kinyopoi",
+    "twitter": "@kinyonyotabi",
+    "fnd": "@Kinyo",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Kittisuda",
+    "twitter": "@XanDerAlexxx",
+    "fnd": "@XanDerAlexxx",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Kurimochi Chizuru",
+    "twitter": "@c2tiduru",
+    "fnd": "@c2tiduru",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Kurona Ken (黒奈 研)",
+    "twitter": "@Kuronaken1",
+    "fnd": "@Kuronaken",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Laika",
+    "twitter": "@YuuLaika",
+    "fnd": "@yuulaika",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Lee Benaza",
+    "twitter": "@lesleebee_art",
+    "fnd": "@lesleebee_art",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "LewdLily69",
+    "twitter": "@LewdLily66",
+    "fnd": "@lewdlily69",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Losee",
+    "twitter": "@lose_0818",
+    "fnd": "@VINCEart",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Maa (マー)",
+    "twitter": "@wichhhma",
+    "fnd": "@wichhhma",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Makarony (마카로니/マカロニ)",
+    "twitter": "@Makarony69",
+    "fnd": "@makarony",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Maneromin (まねろみん0",
+    "twitter": "@maneromin",
+    "fnd": "@maneromin",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "MAY (メイ)",
+    "twitter": "@may_0608",
+    "fnd": "@MAY_0608",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "M.B",
+    "twitter": "@yo_draw",
+    "fnd": "@m.bart",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Mellogony (芳醇療法室)",
+    "twitter": "@Mellogony",
+    "fnd": "@mellogony",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Memekko (めめっこ)",
+    "twitter": "@_mm2k_",
+    "fnd": "@_mm2k_",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "mirakuru☆momoka (みらくる☆桃香)",
+    "twitter": "@kanamomoka5",
+    "fnd": "@mirakuru_momoka",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Rit (りっと)",
+    "twitter": "@ritmo_misato",
+    "fnd": "@ritmomisato",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "migume",
+    "twitter": "@migume000",
+    "fnd": "@migume",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Mirei Yume",
+    "twitter": "@MireiYume",
+    "fnd": "@mirei_yume",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "MisterMaze",
+    "twitter": "@maze_mister",
+    "fnd": "@MrMaze",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "MistMsg",
+    "twitter": "@MistMsg",
+    "fnd": "@MistMsg",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "MIZUmoi",
+    "twitter": "@nuemizumoi",
+    "fnd": "@MIZUmoi",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Monope",
+    "twitter": "@monoprx",
+    "fnd": "@monope",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "moon cate",
+    "twitter": "@_meowyen_",
+    "fnd": "@_meowyen_",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Mr.Caphat",
+    "twitter": "@MrCaphat_99NFT",
+    "fnd": "@Caphat99NFT",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Muyu Kanzaki (神崎むゆ)",
+    "twitter": "@kanzaki_muyu",
+    "fnd": "@muyu",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Myrica",
+    "twitter": "@Myricreepa",
+    "fnd": "@myrica",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Nad",
+    "twitter": "@nadhsan_NFT",
+    "fnd": "@nadhsan",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Namaki",
+    "twitter": "@ki_nama",
+    "fnd": "@Namakiz",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Nana Nanaken (七剣なな)",
+    "twitter": "@7th_knights",
+    "fnd": "@7th_knights",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "narusamaa (ナルサマ)",
+    "twitter": "@narusamaa",
+    "fnd": "@Narusama",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "nissanote",
+    "twitter": "@nissanote_",
+    "fnd": "@nissanote",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Noukyo (のうきょう)",
+    "twitter": "@Noukyo_illust19",
+    "fnd": "@Noukyo",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Nue",
+    "twitter": "@nuebunny",
+    "fnd": "@NueBunny",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Ohi Uii",
+    "twitter": "@OhiUii",
+    "fnd": "@OhiUii",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Orendi Laran",
+    "twitter": "@LaranOrendi",
+    "fnd": "@orendilaran",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "osan",
+    "twitter": "@osan_artworks",
+    "fnd": "@osanartworks",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Palette",
+    "twitter": "@Palette_Jay",
+    "fnd": "@palette_jay",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Panithan",
+    "twitter": "@panithan_pnt",
+    "fnd": "@panithan",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "patch_oxxo",
+    "twitter": "@Patch_NFT",
+    "fnd": "@patch_oxxo",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "pipipi (ぴぴぴ)",
+    "twitter": "@pipipipikyomu",
+    "fnd": "@pipipipikyomu",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Pokke",
+    "twitter": "@smurtz_art",
+    "fnd": "@smurtzz",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Porcountry",
+    "twitter": "@porcountry35",
+    "fnd": "@porcountry",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Praxh",
+    "twitter": "@Praxh_u",
+    "fnd": "@praxh_u",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Qilin",
+    "twitter": "@qilin_artz",
+    "fnd": "@qilin",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Qiqi (琪琪)",
+    "twitter": "@cryingqiqi",
+    "fnd": "@cryingqiqi",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "R31",
+    "twitter": "@Ray_pepper12",
+    "fnd": "@r3i",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Ranvellion",
+    "twitter": "@Ranvellion",
+    "fnd": "@ranvellion",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Rarana (ららな)",
+    "twitter": "@_rarana_",
+    "fnd": "@rarana",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Renku",
+    "twitter": "@koy_renku02",
+    "fnd": "@renku",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Rexndeer (レンディア)",
+    "twitter": "@RxndeerC",
+    "fnd": "@rexndeer_art",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "RhoXifer",
+    "twitter": "@RhoXifer",
+    "fnd": "@RhoXifer",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Rimuu (リム)",
+    "twitter": "@rimuuarts",
+    "fnd": "@_rimuffin",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "RieN",
+    "twitter": "@NeitRien",
+    "fnd": "@rienneit",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Riuki",
+    "twitter": "@riukioki",
+    "fnd": "@riuki",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "RokuMori",
+    "twitter": "@Lazy_Mori",
+    "fnd": "@lazy_mori",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "ꜱᴀᴍᴊᴏᴋᴏ//",
+    "twitter": "@samjoko__",
+    "fnd": "@samjoko__",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Sansaki (△崎)",
+    "twitter": "@s_sk_1875",
+    "fnd": "@Sansaki",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "SAWARI",
+    "twitter": "@SawariART",
+    "fnd": "@sawari",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "SEIRO_ART",
+    "twitter": "@NFT_SEIRO",
+    "fnd": "@seiro_art",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Sejin",
+    "twitter": "@SejinDoesArt",
+    "fnd": "@sejindoesart",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Sergej Fel",
+    "twitter": "@sergejfelart",
+    "fnd": "@sergejfel",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Shigure_S",
+    "twitter": "@soumashigure",
+    "fnd": "@shiguresouma",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "shishiart",
+    "twitter": "@shishiart",
+    "fnd": "@shishi",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "SimaEnaga (しまエナガ)",
+    "twitter": "@enaga392",
+    "fnd": "@SimaEnaga",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Sully Piggsmall",
+    "twitter": "@PiggSmall",
+    "fnd": "@piggsmall",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Suu Takahara (高原スウ)",
+    "twitter": "@suu_illust",
+    "fnd": "@takaharasuu",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Tawanrat",
+    "twitter": "@gardenmoon23",
+    "fnd": "@aionatchan",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Tifa",
+    "twitter": "@tiplouuf_",
+    "fnd": "@Tifa",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Tuna",
+    "twitter": "@poopeetuna",
+    "fnd": "@PooPeeTuna",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Tya (茶。)",
+    "twitter": "@u_ron_tya",
+    "fnd": "@u_ron_tya",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Wan1",
+    "twitter": "@Wan1artz",
+    "fnd": "@wan1",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "wind flour (바람꽃)",
+    "twitter": "@wind_flour",
+    "fnd": "@wind_flour",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "wollacce",
+    "twitter": "@wollacce_NFT",
+    "fnd": "@wollacce",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Xinmal",
+    "twitter": "@BendydL",
+    "fnd": "@XINMAl_xx",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "xiran",
+    "twitter": "@xiran_art",
+    "fnd": "@xiran",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "YAN (やん)",
+    "twitter": "@bltyann",
+    "fnd": "@bltyann",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "YEERU",
+    "twitter": "@yeerunam",
+    "fnd": "@yeeru",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "YU (游)",
+    "twitter": "@stdio_nameraka",
+    "fnd": "@stdio_nameraka",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Yugito",
+    "twitter": "@Yugitotj",
+    "fnd": "@yugitotj",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "YuiCube (由比きゅーぶ)",
+    "twitter": "@cube_8492",
+    "fnd": "@cube8492",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Yuki Azuma (あずまゆき)",
+    "twitter": "@yuki_azuma",
+    "fnd": "@yuki_azuma",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "ZAK",
+    "twitter": "@ZAK_NFT",
+    "fnd": "@zak_reshaes",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Zeras",
+    "twitter": "@Z_Zerafinos",
+    "fnd": "@Zerafinos",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "ZINERYL",
+    "twitter": "@ZINERYL",
+    "fnd": "@zineryl",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Zuiren",
+    "twitter": "@zuirenist",
+    "fnd": "@zuirenist",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Zyadousa",
+    "twitter": "@zyadousa",
+    "fnd": "@Zyadousa",
+    "gas": false,
+    "invite": true
+  }
+]
