@@ -1,5 +1,4 @@
 import React from "react";
-import GoogleDocsViewer from "react-google-docs-viewer";
 
 export default function AirdropNFT() {
   return (
