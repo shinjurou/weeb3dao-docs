@@ -47,6 +47,7 @@ import PromoteNFT from "../6 - How to Mint and List an NFT/PromoteNFT";
 import Celebration from "../6 - How to Mint and List an NFT/Celebration";
 import Gas from "../6 - How to Mint and List an NFT/Gas";
 
+import AirdropNFT from "../8.1 - How to Airdrop an NFT/Airdrop";
 import BurnNFT from "../7 - Burn your NFT/BurnNFT";
 import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
 
@@ -75,6 +76,7 @@ import Filter6Icon from "@mui/icons-material/Filter6";
 import CakeIcon from "@mui/icons-material/Cake";
 import LocalGasStationIcon from "@mui/icons-material/LocalGasStation";
 import AddBusinessIcon from "@mui/icons-material/AddBusiness";
+import SendIcon from "@mui/icons-material/Send";
 import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
 import MapsHomeWorkIcon from "@mui/icons-material/MapsHomeWork";
@@ -629,6 +631,28 @@ export default function Index(props) {
                 </Fade>
               </ListItem>
             </Link>
+
+            <Link to="airdrop-NFT">
+              <ListItem button>
+                <ListItemIcon>
+                  <SendIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="How to Airdrop an NFT" />
+                </Fade>
+              </ListItem>
+            </Link>
           </List>
           <Divider />
           <List>
@@ -865,6 +889,7 @@ export default function Index(props) {
             <Route path="/sell-nft/celebration" element={<Celebration />} />
             <Route path="/sell-nft/gas" element={<Gas />} />
 
+            <Route path="/airdrop-nft" element={<AirdropNFT />} />
             <Route path="/burn-nft" element={<BurnNFT />} />
             <Route path="/crypto-exchange" element={<CryptoExchange />} />
             <Route path="/community" element={<Community />} />
