@@ -30,19 +30,6 @@ export default function RecReadings() {
             <ul className="list-disc mt-2 ml-6">
               <li className="mb-2">
                 <Link
-                  link="https://foundation.app/community-guidelines"
-                  title="Community Guidelines"
-                  light={true}
-                />{" "}
-                - by{" "}
-                <Link
-                  link="https://twitter.com/withFND"
-                  title="@withFND"
-                  light={true}
-                />
-              </li>
-              <li className="mb-2">
-                <Link
                   link="https://mirror.xyz/shinjurou.eth/uIq__DaPcJ_Y3ku41N8_EGM7fZ8EIe1MwSYA3Q-ZMnA"
                   title="thoughts as an artist (january 2022)"
                   light={true}
@@ -82,7 +69,7 @@ export default function RecReadings() {
               </li>
               <li className="mb-2">
                 <Link
-                  link="https://mirror.xyz/rwx.eth/oZAVzydqTHSn-2K3-MxwoWjizt4ZRc1WEV3KoX5dozE"
+                  link="https://twitter.com/_JustAziz_/status/1465610478663737344"
                   title='Comments for "thoughts as a collector (november 2021)"'
                   light={true}
                 />{" "}
@@ -90,6 +77,19 @@ export default function RecReadings() {
                 <Link
                   link="https://twitter.com/_JustAziz_/"
                   title="@_JustAziz_"
+                  light={true}
+                />
+              </li>
+              <li className="mb-2">
+                <Link
+                  link="https://twitter.com/curvethots/status/1493490323183579137"
+                  title='Comments about Shilling Threads"'
+                  light={true}
+                />{" "}
+                - by{" "}
+                <Link
+                  link="https://twitter.com/curvethots"
+                  title="@curvethots"
                   light={true}
                 />
               </li>
