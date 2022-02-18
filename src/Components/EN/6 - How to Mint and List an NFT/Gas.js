@@ -6,12 +6,14 @@ import NaviButtons from "../0 - Index/NaviButtons";
 import WordExample from "../0 - Index/WordExample";
 import Divider from "@mui/material/Divider";
 import Chip from "@mui/material/Chip";
+
 import ethgas from "../../../Imgs/ethgas.png";
 import ethgaschrome from "../../../Imgs/ethgaschrome.png";
 import ethgastable from "../../../Imgs/ethgastable.png";
 import blocknative from "../../../Imgs/blocknative.png";
 import gasbotgg from "../../../Imgs/gasbotgg.png";
 import gasbot from "../../../Imgs/gasbot.png";
+import gwei from "../../../Imgs/gwei.png";
 
 export default function Gas() {
   return (
@@ -66,6 +68,18 @@ export default function Gas() {
           <Chip label="Gas Tracking Tools" />
         </Divider>
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
+          <div className="mt-1">
+            <Typography
+              variant="h2"
+              color="inherit"
+              component="h2"
+              mt={3}
+              mb={1}
+            >
+              <Link link="https://www.gwei.at/" title="GWEI" light={true} />
+            </Typography>
+            <img src={gwei} alt="Gwei website" className="rounded mb-2" />
+          </div>
           <div className="mt-1">
             <Typography
               variant="h2"
