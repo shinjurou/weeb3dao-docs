@@ -83,7 +83,7 @@ export default function RecReadings() {
               <li className="mb-2">
                 <Link
                   link="https://twitter.com/curvethots/status/1493490323183579137"
-                  title='Comments about Shilling Threads"'
+                  title="Comments about shilling threads"
                   light={true}
                 />{" "}
                 - by{" "}
