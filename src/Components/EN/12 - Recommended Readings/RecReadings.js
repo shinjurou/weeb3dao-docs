@@ -108,19 +108,6 @@ export default function RecReadings() {
               </li>
               <li className="mb-2">
                 <Link
-                  link="https://mirror.xyz/rwx.eth/oZAVzydqTHSn-2K3-MxwoWjizt4ZRc1WEV3KoX5dozE"
-                  title="thoughts as a collector (november 2021)"
-                  light={true}
-                />{" "}
-                - by{" "}
-                <Link
-                  link="https://twitter.com/robek_world"
-                  title="@robek_world"
-                  light={true}
-                />
-              </li>
-              <li className="mb-2">
-                <Link
                   link="https://robekworld.com/h3h3-productions-why-you-should-care-about-copyright-reform-ea0698c02faa"
                   title="H3H3, Copyright Reform and You(Tube) The History of Copyright"
                   light={true}
