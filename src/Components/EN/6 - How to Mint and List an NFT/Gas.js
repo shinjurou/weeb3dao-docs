@@ -78,9 +78,9 @@ export default function Gas() {
             >
               <Link link="https://www.gwei.at/" title="GWEI" light={true} />
             </Typography>
-            <img src={gwei} alt="Gwei website" className="rounded mb-2" />
+            <img src={gwei} alt="Gwei website" className="rounded mt-2" />
           </div>
-          <div className="mt-1">
+          <div className="mt-8">
             <Typography
               variant="h2"
               color="inherit"
@@ -154,7 +154,7 @@ export default function Gas() {
               alt="Blocknative Gas Table"
               className="rounded mb-2"
             />
-            <ul className="list-disc  ml-6">
+            <ul className="list-disc ml-6">
               <li className="mt-1">
                 Right most in this graph is the current GWEI today.
               </li>
