@@ -60,7 +60,7 @@ export default function Environment() {
         <figure>
           <img
             src={environmentchart}
-            alt="SuperRare's button"
+            alt="Environment Chart"
             className="rounded"
           />
           <figcaption className="absolute text-xs -mt-7 text-zinc-700 px-1 ">

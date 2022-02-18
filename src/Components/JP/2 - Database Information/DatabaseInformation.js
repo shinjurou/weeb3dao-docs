@@ -34,9 +34,9 @@ export default function DatabaseInfo() {
           <ul className="list-disc mt-3 ml-5">
             <li className="my-2 ">
               <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
-                著者とウェブデベロッパー:
+                主著者とウェブデベロッパー:
               </span>{" "}
-              <Link link="https://twitter.com/shinjuroukai" title="Shinjurou" />
+              <Link link="https://twitter.com/shinjuroukai" title="shinjurou" />
             </li>
 
             <li className="my-2 ">
@@ -44,7 +44,13 @@ export default function DatabaseInfo() {
                 ウェブサイトの提供者:
               </span>{" "}
               <Link link="https://twitter.com/ligaratus_" title="ligaratus" />,{" "}
-              <Link link="https://twitter.com/shiomueth" title="Shiomu" />
+              <Link link="https://twitter.com/shiomueth" title="shiomu" />
+            </li>
+            <li className="my-2 ">
+              <span className="bg-purple-400 text-gray-800 p-0.5 rounded-sm">
+                著者:
+              </span>{" "}
+              <Link link="https://twitter.com/chionnera" title="Chione" />
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
@@ -70,7 +76,10 @@ export default function DatabaseInfo() {
                 日本語版校正者:
               </span>{" "}
               <Link link="https://twitter.com/0TL_" title="どげざちゃん" />
-              , <Link link="https://twitter.com/piprycto" title="ファオ" />,{" "}
+              , <Link
+                link="https://twitter.com/piprycto"
+                title="ファオ"
+              />,{" "}
               <Link link="https://twitter.com/PigThePersona" title="らんぶた" />
               , <Link link="https://twitter.com/WakiyamaP" title="脇P(jinP)" />
             </li>
@@ -103,21 +112,21 @@ export default function DatabaseInfo() {
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-600">8 December 2021</span>,
+              <span className="text-violet-600">2021年12月8日</span>,
               " データベースのコンパイル開始",
             ]}
           />
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">9 December 2021</span>,
+              <span className="text-violet-500">2021年12月9日</span>,
               " データベースのドメイン登録",
             ]}
           />
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">17 December 2021</span>,
+              <span className="text-violet-500">2021年12月17日</span>,
               " ",
               <span className="text-red-600 font-bold">バージョン 1.0</span>,
               " 英語版リリース",
@@ -126,14 +135,14 @@ export default function DatabaseInfo() {
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">9 January 2022</span>,
+              <span className="text-violet-500">2022年1月9日</span>,
               " ウェブサイトの移行と再構築開始",
             ]}
           />
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">12 January 2022</span>,
+              <span className="text-violet-500">2022年1月12日</span>,
               " ",
               <span className="text-red-600 font-bold">バージョン 2.0</span>,
               " Gitbookから移行し、データベースを再構築して独自のウェブサイトにしました",
@@ -142,7 +151,7 @@ export default function DatabaseInfo() {
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">19 January 2022</span>,
+              <span className="text-violet-500">2022年1月19日</span>,
               " ",
               " 日本語版は翻訳されています",
             ]}
@@ -150,7 +159,7 @@ export default function DatabaseInfo() {
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">30 January 2022</span>,
+              <span className="text-violet-500">2022年1月30日</span>,
               " ",
 
               " 日本語版を付け加え開始",
@@ -159,10 +168,19 @@ export default function DatabaseInfo() {
           <Checkbox
             checked={true}
             label={[
-              <span className="text-violet-500">31 January 2022</span>,
+              <span className="text-violet-500">2022年1月31日</span>,
               " ",
               <span className="text-red-600 font-bold">バージョン 3.0</span>,
               " 日本語版を付け加えました",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">2022年2月18日</span>,
+              " ",
+              <span className="text-red-600 font-bold">バージョン 3.1</span>,
+              " NFT Airdropの送り方を付け加えました",
             ]}
           />
           <Checkbox

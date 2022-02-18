@@ -15,7 +15,7 @@ export default function ReverseImageSearch() {
           color="green"
           content={[
             <div>
-              <Link link="https://twitter.com/shiomueth" title="Shiomu" /> has
+              <Link link="https://twitter.com/shiomueth" title="shiomu" /> has
               provided various resources to help the process of reverse image
               search in order to{" "}
               <span className="text-green-600 font-bold">

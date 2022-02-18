@@ -47,7 +47,7 @@ import PromoteNFT from "../6 - How to Mint and List an NFT/PromoteNFT";
 import Celebration from "../6 - How to Mint and List an NFT/Celebration";
 import Gas from "../6 - How to Mint and List an NFT/Gas";
 
-import AirdropNFT from "../8.1 - How to Airdrop an NFT/Airdrop";
+import AirdropNFT from "../7.1 - How to Airdrop an NFT/Airdrop";
 import BurnNFT from "../7 - Burn your NFT/BurnNFT";
 import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
 

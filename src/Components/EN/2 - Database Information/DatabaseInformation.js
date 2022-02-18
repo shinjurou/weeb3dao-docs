@@ -23,7 +23,7 @@ export default function DatabaseInfo() {
               <span className="text-pink-600">information provided</span> by{" "}
               <span className="text-orange-500">artists</span> and{" "}
               <span className="text-orange-500">collectors</span> in{" "}
-              <Link link="https://discord.gg/vktnAzvyNQ" title="Anifriends" />
+              <Link link="https://discord.gg/vktnAzvyNQ" title="Anifriends" />.
             </div>,
           ]}
         />
@@ -35,16 +35,22 @@ export default function DatabaseInfo() {
           <ul className="list-disc mt-3 ml-5">
             <li className="my-2 ">
               <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
-                Author & Website Developer:
+                Main author & Website Developer:
               </span>{" "}
-              <Link link="https://twitter.com/shinjuroukai" title="Shinjurou" />
+              <Link link="https://twitter.com/shinjuroukai" title="shinjurou" />
             </li>
             <li className="my-2 ">
               <span className="bg-sky-600 text-gray-800 p-0.5 rounded-sm">
                 Website Collaborators:
               </span>{" "}
               <Link link="https://twitter.com/ligaratus_" title="ligaratus" />,{" "}
-              <Link link="https://twitter.com/shiomueth" title="Shiomu" />
+              <Link link="https://twitter.com/shiomueth" title="shiomu" />
+            </li>
+            <li className="my-2 ">
+              <span className="bg-purple-400 text-gray-800 p-0.5 rounded-sm">
+                Authors
+              </span>{" "}
+              <Link link="https://twitter.com/chionnera" title="Chione" />
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
@@ -164,6 +170,15 @@ export default function DatabaseInfo() {
               " ",
               <span className="text-red-600 font-bold">Version 3.0</span>,
               " Japanese Version is added",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">18 February 2022</span>,
+              " ",
+              <span className="text-red-600 font-bold">Version 3.1</span>,
+              " Guide on how to airdrop an NFT is added",
             ]}
           />
           <Checkbox

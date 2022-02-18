@@ -15,7 +15,7 @@ export default function ReverseImageSearch() {
           color="green"
           content={[
             <div>
-              <Link link="https://twitter.com/shiomueth" title="Shiomu" />
+              <Link link="https://twitter.com/shiomueth" title="shiomu" />
               は美術品の
               <span className="text-green-600 font-bold">
                 を確認するための検索に役立つ様々なリソースを提供しています
