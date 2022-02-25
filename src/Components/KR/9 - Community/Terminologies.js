@@ -4,7 +4,6 @@ import Card from "../0 - Index/Card";
 import RouterLink from "../0 - Index/RouterLink";
 import NaviButtons from "../0 - Index/NaviButtons";
 import WordExplain from "../0 - Index/WordExplain";
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
 export default function Terminologies() {
   return (
