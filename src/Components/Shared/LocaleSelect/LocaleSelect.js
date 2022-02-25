@@ -5,10 +5,12 @@ import { locales } from "../../../utils/locales";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import TranslateIcon from "@mui/icons-material/Translate";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import useApp from "../../../Hooks/useApp";
 
 const LocaleSelect = () => {
   let navigate = useNavigate();
   let location = useLocation();
+  let { setAppLocale } = useApp();
   const params = useParams();
   const locale = params.lang;
 
@@ -24,7 +26,9 @@ const LocaleSelect = () => {
     if (!locale) {
       navigate("/en" + location.pathname, { replace: true });
     }
-  }, [locale, navigate, location.pathname])
+
+    setAppLocale(locale);
+  }, [locale, navigate, location.pathname, setAppLocale])
 
   return (
     <>
