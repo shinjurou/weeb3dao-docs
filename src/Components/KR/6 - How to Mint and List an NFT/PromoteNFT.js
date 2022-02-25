@@ -9,7 +9,7 @@ export default function PromoteNFT() {
     <div className="promote-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Promote your NFT
+          여러분들의 NFT를 홍보하기
         </Typography>
 
         <div className="mb-6"></div>
@@ -236,7 +236,7 @@ export default function PromoteNFT() {
           </div>
         </div>
         <NaviButtons
-          return="List an NFT"
+          return="여러분들의 작품을 List 하기"
           returnlink="/sell-nft/list-nft"
           next="Celebration"
           nextlink="/sell-nft/celebration"

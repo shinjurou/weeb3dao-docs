@@ -29,7 +29,7 @@ export default function WhatIsDigitalWallet() {
         />
 
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
-          Simple explanation
+          쉬운 설명
         </Typography>
         <WordExplain
           word="Digital Wallet"
@@ -40,11 +40,11 @@ export default function WhatIsDigitalWallet() {
 
         <Card
           color="orange"
-          content="All transactions made in your wallet will be recorded and available for everyone to see on the Blockchain."
+          content="암호화폐 지갑에서 발생하는 모든 거래내역들은 블록체인에 기록되고 모두가 볼 수 있습니다."
         />
 
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
-          Hot Wallet vs. Cold Wallet
+          Hot Wallet(소프트웨어 지갑) vs Cold Wallet(하드웨어 지갑)
         </Typography>
         <HotColdWalletTable />
         <div className="my-4">
@@ -58,7 +58,7 @@ export default function WhatIsDigitalWallet() {
 
         <Card
           color="orange"
-          title="Which wallet should I use?"
+          title="어떤 암호화폐 지갑을 써야할까요?"
           content={[
             <div>
               Both have its perks so using both would be the most ideal.
@@ -73,7 +73,7 @@ export default function WhatIsDigitalWallet() {
 
         <Card
           color="green"
-          title="Recommended Wallets"
+          title="추천 암호화폐 지갑"
           content={[
             <ul className="list-disc ml-4">
               <li>

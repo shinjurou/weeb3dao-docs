@@ -9,7 +9,7 @@ export default function ReverseImageSearch() {
     <div className="reverse-image-search">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Reverse Image Search Resources
+          이미지 역 추적 방법
         </Typography>
         <Card
           color="green"
@@ -113,8 +113,8 @@ export default function ReverseImageSearch() {
           ]}
         />
         <NaviButtons
-          return="Recommended Readings"
-          returnlink="/rec-readings"
+          return="환경 오염 논란"
+          returnlink="/environment"
           next=""
           nextlink=""
         />

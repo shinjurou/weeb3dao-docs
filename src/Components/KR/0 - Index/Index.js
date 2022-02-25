@@ -499,7 +499,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Create your Digital Wallet" />
+                    <ListItemText primary="암호화폐 지갑 만들기" />
                   </ListItem>
                 </Link>
 
@@ -514,7 +514,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Choose your Blockchain" />
+                    <ListItemText primary="블록체인 네트워크 선택하기" />
                   </ListItem>
                 </Link>
 
@@ -529,7 +529,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Choose your Marketplace" />
+                    <ListItemText primary="NFT 마켓플레이스 선택하기" />
                   </ListItem>
                 </Link>
 
@@ -544,7 +544,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Mint an NFT" />
+                    <ListItemText primary="여러분들의 작품을 Mint하기" />
                   </ListItem>
                 </Link>
 
@@ -559,7 +559,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="List an NFT" />
+                    <ListItemText primary="여러분들의 작품을 List 하기" />
                   </ListItem>
                 </Link>
 
@@ -574,7 +574,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Promote your NFT" />
+                    <ListItemText primary="여러분들의 NFT를 홍보하기" />
                   </ListItem>
                 </Link>
 
@@ -604,7 +604,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="How to keep track of Gas" />
+                    <ListItemText primary="Gas Fee를 모니터링 하는 방법" />
                   </ListItem>
                 </Link>
               </List>
@@ -627,7 +627,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Burn your NFT" />
+                  <ListItemText primary="NFT 소각하기" />
                 </Fade>
               </ListItem>
             </Link>
@@ -649,7 +649,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="How to Airdrop an NFT" />
+                  <ListItemText primary="NFT Airdrop 하는 법" />
                 </Fade>
               </ListItem>
             </Link>
@@ -673,7 +673,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Crypto Exchange" />
+                  <ListItemText primary="암호화폐 거래하기" />
                 </Fade>
               </ListItem>
             </Link>
@@ -708,7 +708,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Community" />
+                  <ListItemText primary="NFT 커뮤니티" />
                 </Fade>
                 {openCommunityMenu ? (
                   <ExpandLessIcon />
@@ -731,7 +731,7 @@ export default function Index(props) {
                         }
                       />
                     </ListItemIcon>
-                    <ListItemText primary="Terminologies" />
+                    <ListItemText primary="커뮤니티 용어집" />
                   </ListItem>
                 </Link>
 
@@ -794,7 +794,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Environment Controversy" />
+                  <ListItemText primary="환경 오염 논란" />
                 </Fade>
               </ListItem>
             </Link>
@@ -817,7 +817,7 @@ export default function Index(props) {
                   timeout={{ enter: 666, exit: 0 }}
                 >
                   <ListItemText
-                    primary="Reverse Image Search Resources"
+                    primary="이미지 역 추적 방법"
                     primaryTypographyProps={{
                       style: { whiteSpace: "normal" },
                     }}

@@ -9,11 +9,11 @@ export default function Culture() {
     <div className="culture">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Culture
+          NFT 커뮤니티의 문화
         </Typography>
         <Card
           color="red"
-          title="NFT is not a quick get rich scheme. If you are in the community just to make money then high chances are you will end up quitting after a short time frame."
+          title="NFT는 빠르게 돈을 벌기 위한 수단이 아닙니다. 만약 여러분이 단순히 돈을 빠르게 벌기 위해 커뮤니티에 참가한다면 빠르게 그만둘 확률이 높습니다."
         />
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -275,7 +275,7 @@ export default function Culture() {
           </div>
         </div>
         <NaviButtons
-          return="Terminologies"
+          return="커뮤니티 용어집"
           returnlink="/community/terminologies"
           next="FAQ"
           nextlink="/faq"

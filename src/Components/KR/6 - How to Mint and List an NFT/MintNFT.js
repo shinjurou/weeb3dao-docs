@@ -13,7 +13,7 @@ export default function MintNFT() {
     <div className="mint-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Mint an NFT
+          여러분들의 작품을 Mint하기
         </Typography>
 
         <Typography variant="h2" color="inherit" component="h2" mt={4}>
@@ -317,9 +317,9 @@ export default function MintNFT() {
           </div>
         </div>
         <NaviButtons
-          return="Choose your Marketplace"
+          return="NFT 마켓플레이스 선택하기"
           returnlink="/sell-nft/choose-marketplace"
-          next="List an NFT"
+          next="여러분들의 작품을 List 하기"
           nextlink="/sell-nft/list-nft"
         />
       </div>

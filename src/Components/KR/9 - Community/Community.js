@@ -10,7 +10,7 @@ export default function Community() {
     <div className="community">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Community
+          NFT 커뮤니티
         </Typography>
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
@@ -22,7 +22,7 @@ export default function Community() {
               mt={2}
               mb={1}
             >
-              Terminologies
+              커뮤니티 용어집
             </Typography>
             <Card
               color="green"
@@ -45,7 +45,7 @@ export default function Community() {
               mt={2}
               mb={1}
             >
-              Culture
+              NFT 커뮤니티의 문화
             </Typography>
             <Card
               color="green"
@@ -63,9 +63,9 @@ export default function Community() {
         </div>
 
         <NaviButtons
-          return="Crypto Exchange"
+          return="암호화폐 거래하기"
           returnlink="/crypto-exchange"
-          next="Terminologies"
+          next="커뮤니티 용어집"
           nextlink="/community/terminologies"
         />
       </div>

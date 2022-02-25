@@ -10,13 +10,13 @@ export default function SellNFT() {
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
           How to Mint and List your NFT
         </Typography>
-        Here are the steps you will need to do in order to start selling your
-        artwork(s) as NFT(s).
+        여러분들의 작품을 NFT로 판매하기 위해서는 다음과 같은 과정을 거쳐야
+        합니다.
         <ol className="list-decimal ml-14 mt-4 text-blue-500 font-bold">
           <li className="my-2">
             <RouterLink
               link="/sell-nft/create-wallet"
-              title="Create your Digital Wallet"
+              title="암호화폐 지갑 만들기"
             />
           </li>
 
@@ -57,7 +57,7 @@ export default function SellNFT() {
         <NaviButtons
           return="Important Terminologies"
           returnlink="/info-nft/important-terminologies"
-          next="Create your Digital Wallet"
+          next="암호화폐 지갑 만들기"
           nextlink="/sell-nft/create-wallet"
         />
       </div>

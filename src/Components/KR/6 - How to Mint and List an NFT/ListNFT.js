@@ -12,7 +12,7 @@ export default function ListNFT() {
     <div className="list-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          List an NFT
+          여러분들의 작품을 List 하기
         </Typography>
 
         <Typography variant="h2" color="inherit" component="h2" mt={4}>
@@ -191,9 +191,9 @@ export default function ListNFT() {
           </div>
         </div>
         <NaviButtons
-          return="Mint an NFT"
+          return="여러분들의 작품을 Mint하기"
           returnlink="/sell-nft/mint-nft"
-          next="Promote your NFT"
+          next="여러분들의 NFT를 홍보하기"
           nextlink="/sell-nft/promote-nft"
         />
       </div>

@@ -136,8 +136,8 @@ export default function BurnNFT() {
         <NaviButtons
           return="How to keep track of Gas"
           returnlink="/sell-nft/gas"
-          next="Crypto Exchange"
-          nextlink="/crypto-exchange"
+          next="How to Airdrop an NFT"
+          nextlink="/airdrop-nft"
         />
       </div>
     </div>

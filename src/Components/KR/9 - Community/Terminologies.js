@@ -11,7 +11,7 @@ export default function Terminologies() {
     <div className="terminologies">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Terminologies
+          커뮤니티 용어집
         </Typography>
         <Card
           color="green"
@@ -31,252 +31,241 @@ export default function Terminologies() {
         />
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="GM" explain="Good Morning." />
+            <WordExplain word="GM" explain="굿모닝 (좋은 아침)." />
           </li>
           <li>
-            <WordExplain word="GN" explain="Good Night." />
+            <WordExplain word="GN" explain="굿나잇 (잘 자)." />
           </li>
           <li>
-            <WordExplain word="NGMI" explain="Not going to make it." />
+            <WordExplain word="NGMI" explain="아마 성공 못할거야..." />
           </li>
           <li>
-            <WordExplain word="GMI" explain="Going to make it." />
+            <WordExplain word="GMI" explain="성공할 수 있어." />
           </li>
           <li>
-            <WordExplain word="WAGMI" explain="We're all going to make it." />
+            <WordExplain word="WAGMI" explain="우리는 모두 성공할 거야!" />
           </li>
           <li>
-            <WordExplain word="DYOR" explain="Do your own research." />
+            <WordExplain word="DYOR" explain="스스로 검색하고 조사해봐라." />
           </li>
           <li>
-            <WordExplain word="FOMO" explain="Fear of missing out." />
+            <WordExplain
+              word="FOMO"
+              explain="(매우 좋은 기회를) 놓칠까봐 너무 두려움."
+            />
           </li>
           <li>
-            <WordExplain word="FUD" explain="Fear, uncertainty, and doubt." />
+            <WordExplain
+              word="FUD"
+              explain="두려움, 불확실성, 의심을 일으키기 위한 가짜 정보."
+            />
           </li>
           <li>
             <WordExplain
               word="HODL"
-              explain="Hold on to dear life (Keep your NFT and not sell it)."
+              explain="(HOLD의 오타가 유명해진 경우)절대 팔지 마라."
             />
           </li>
           <li>
             <WordExplain
               word="Rekt"
-              explain="Someone who lost a lot of money from a bad trade."
+              explain="좋지 않은 암호화폐 거래로 돈을 크게 잃은 사람."
             />
           </li>
           <li>
-            <WordExplain word="PFP" explain="Profile Picture." />
+            <WordExplain word="PFP" explain="프로필 사진 용 이미지." />
           </li>
           <li>
             <WordExplain
               word="Paper Hands"
-              explain="People who quickly sell their NFT(s) asset."
+              explain="믿음이 없어, 자신이 가진 NFT를 빠르게 파는 사람들."
             />
           </li>
           <li>
             <WordExplain
               word="Diamond Hands"
-              explain="People who hold NFT(s) for a project long term through its up and down prices."
+              explain="강한 믿음을 기반으로, NFT를 장기간동안 들고 있는 사람들."
             />
           </li>
           <li>
             <WordExplain
               word="Whale"
-              explain="Someone who has a lot of ETH and purchasing a large number of assets."
+              explain="많은 ETH를 보유하고 크게 크게 돈을 쓰는 사람."
             />
           </li>
           <li>
-            <WordExplain word="Bag" explain="NFT assets a person holds." />
+            <WordExplain word="Bag" explain="보유하고 있는 NFT 자산들." />
           </li>
           <li>
             <WordExplain
               word="Bagholder"
-              explain={[
-                <span>
-                  An investor who holds for too long that the asset's value
-                  dropped.{" "}
-                  <span className="relative bottom-0.5">
-                    <ArrowRightAltIcon />
-                  </span>{" "}
-                  huge loss
-                </span>,
-              ]}
+              explain="암호 화폐 자산을 너무 오래 들고 있었다가, 그 가치가 떨어져 큰 손해를 본 투자자"
             />
           </li>
           <li>
             <WordExplain
               word="Shitcoin"
-              explain="A crypto currency with no value or purpose."
+              explain="내재적 가치가 없는 암호화폐."
             />
           </li>
           <li>
-            <WordExplain
-              word="Memecoin"
-              explain="Cryptocurrency based on a meme."
-            />
+            <WordExplain word="Memecoin" explain="밈에서 유래한 암호화폐." />
           </li>
           <li>
             <WordExplain
               word="Apeing In"
-              explain="Spending a lot of ETH for a project."
+              explain="한 프로젝트에 많은 ETH를 쏟아붓는 것."
             />
           </li>
           <li>
             <WordExplain
               word="Pumping"
-              explain="Raising an NFT asset price quickly."
+              explain="NFT 자산의 가격이 빠르게 올라가는 것."
             />
           </li>
           <li>
             <WordExplain
               word="Pump and dump"
-              explain="Buying a large amount of NFTs from a project to inflate its price, then resell them at peak to make quick money."
+              explain="많은 양의 한 프로젝트의 NFT를 구매하며, 가격을 올린 다음 한번에 팔아버려서 가격을 박살내는 행위."
             />
           </li>
           <li>
             <WordExplain
               word="Alpha"
-              explain="The intel someone posesses that no one has found out yet."
+              explain="내부자 정보와 같은, 아직 풀리지 않은 고급 정보."
             />
           </li>
           <li>
-            <WordExplain
-              word="Floor"
-              explain="Lowest price available in a project."
-            />
+            <WordExplain word="Floor" explain="NFT 프로젝트의 현재 최저가." />
           </li>
           <li>
             <WordExplain
               word="Sweep the floor"
-              explain="Buy all the NFTs at floor price to raise the project's price immediately."
+              explain="프로젝트의 Floor 가격을 높이기 위해, 최저가에 나온 NFT를 쓸어담는 것."
             />
           </li>
           <li>
-            <WordExplain word="Flex" explain="Show off." />
+            <WordExplain word="Flex" explain="자랑하기." />
           </li>
           <li>
-            <WordExplain word="Wen" explain="When." />
+            <WordExplain word="Wen" explain="언제(When)의 줄임말." />
           </li>
           <li>
             <WordExplain
               word="DAO"
-              explain="Decentralized autonomous organization = a community with a shared bank account."
+              explain="공유된 지갑 주소를 사용하는 탈중앙화된 익명 조직."
             />
           </li>
           <li>
-            <WordExplain word="Ser" explain="Sir." />
+            <WordExplain word="Ser" explain="sir의 은어(높여부르는 존칭)." />
           </li>
           <li>
             <WordExplain
               word="Probably Nothing"
-              explain="The phrase is used sarcastically."
+              explain="아마도 아무것도 아닐 것이다(빈정거리는, 비꼬는 말투)."
             />
           </li>
           <li>
-            <WordExplain word="Fren" explain="Friend." />
+            <WordExplain word="Fren" explain="친구(Friend)." />
           </li>
           <li>
             <WordExplain
               word="McDonalds"
-              explain="Backup plan for when we NGMI."
+              explain="암호 화폐에 미래를 맡긴 사람들이 망했을 때 찾아가는 아르바이트."
             />
           </li>
           <li>
             <WordExplain
               word="Generative Art"
-              explain="Art created algorithmically on the blockchain when minted using a specific set of assets."
+              explain="조합되는 이미지를 준비해서, 알고리즘 조합을 통해서 무작위로 조합한 아트."
             />
           </li>
           <li>
             <WordExplain
               word="Looks Rare"
-              explain="Rarity is important in NFT, this phrase is used sarcastically."
+              explain="레어도가 높아보인다(레어도는 NFT에서 중요한 가치, 가끔 비꼬기 위해 사용합니다.)."
             />
           </li>
           <li>
-            <WordExplain word="IRL" explain="In Real Life." />
+            <WordExplain word="IRL" explain="현실 인생에서." />
           </li>
           <li>
             <WordExplain
               word="Liquidity"
-              explain="Available ETH to buy NFTs."
+              explain="NFT들을 사기 위해, 현재 사용할 수 있는 ETH."
             />
           </li>
           <li>
-            <WordExplain word="Lambo" explain="Become rich." />
+            <WordExplain word="Lambo" explain="부자가 되다." />
           </li>
           <li>
             <WordExplain
               word="Wen Lambo?"
-              explain="When are we going to get rich?"
+              explain="언제쯤 (프로젝트가 성공해서)우리가 부자가 될까?"
             />
           </li>
           <li>
             <WordExplain
               word="No-coiner"
-              explain="People who are skeptical of crypto or don't have any coin."
+              explain="코인을 들고 있지 않거나, 암호화폐 자체를 비판적으로 생각하는 사람들."
             />
           </li>
           <li>
-            <WordExplain word="Noob/Newb" explain="Inexperienced people." />
+            <WordExplain
+              word="Noob/Newb"
+              explain="NFT나 암호화폐에 경험이 없는 사람들."
+            />
           </li>
           <li>
-            <WordExplain word="LFG" explain="Let's f*cking go." />
+            <WordExplain word="LFG" explain="드가자~" />
           </li>
           <li>
             <WordExplain
               word="Gas wars"
-              explain="Large number of people minting same project causing gas to increase significantly."
+              explain="많은 사람들이 똑같은 컨트렉트에 참가해서 Gas fee가 매우 올라간 상태."
             />
           </li>
           <li>
-            <WordExplain word="Ded" explain="Dead." />
+            <WordExplain word="Ded" explain="죽은(Dead)." />
           </li>
           <li>
             <WordExplain
               word="Rug"
-              explain="Creators running away from a project."
+              explain="프로젝트의 제작자들이 프로젝트를 버리고 도망가는 경우."
             />
           </li>
           <li>
-            <WordExplain word="Derivative" explain="Fanart." />
+            <WordExplain word="Derivative" explain="팬아트." />
           </li>
           <li>
             <WordExplain
               word="OG"
-              explain={[
-                <span>
-                  Original gangster{" "}
-                  <span className="relative bottom-0.5">
-                    <ArrowRightAltIcon />
-                  </span>{" "}
-                  People who are early.
-                </span>,
-              ]}
+              explain="오리지널 갱스터(프로젝트의 매우 초반부터 참가했던 사람들)."
             />
           </li>
           <li>
             <WordExplain
               word="Seems legit"
-              explain="Has excellent prospects."
+              explain="뛰어난 면을 가지고 있음."
             />
           </li>
           <li>
-            <WordExplain word="NFA" explain="Not financial advice." />
+            <WordExplain
+              word="NFA"
+              explain="재정적 조언이 아니니, 따라하지 마라."
+            />
           </li>
           <li>
             <WordExplain
               word="Airdrop"
-              explain="Owner sends free NFT to someone."
+              explain="NFT의 주인이 다른 사람들에게 무료로 NFT를 보내주는 행위."
             />
           </li>
         </ul>
         <NaviButtons
           return="Community"
           returnlink="/community"
-          next="Culture"
+          next="NFT 커뮤니티의 문화"
           nextlink="/community/culture"
         />
       </div>

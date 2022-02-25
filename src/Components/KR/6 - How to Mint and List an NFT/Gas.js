@@ -20,7 +20,7 @@ export default function Gas() {
     <div className="gas">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          How to keep track of Gas
+          Gas Fee를 모니터링 하는 방법
         </Typography>
 
         <div className="mb-6"></div>
@@ -241,7 +241,7 @@ export default function Gas() {
         <NaviButtons
           return="Celebration"
           returnlink="/sell-nft/celebration"
-          next="Burn your NFT"
+          next="NFT 소각하기"
           nextlink="/burn-NFT"
         />
       </div>

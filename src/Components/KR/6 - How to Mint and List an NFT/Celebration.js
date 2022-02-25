@@ -55,9 +55,9 @@ export default function Celebration() {
           ]}
         />
         <NaviButtons
-          return="Promote your NFT"
+          return="여러분들의 NFT를 홍보하기"
           returnlink="/sell-nft/promote-nft"
-          next="How to keep track of Gas"
+          next="Gas Fee를 모니터링 하는 방법"
           nextlink="/sell-nft/gas"
         />
       </div>

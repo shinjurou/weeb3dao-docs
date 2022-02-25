@@ -2,6 +2,7 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 import img1 from "../../../Imgs/PolygonAirdrop/1.png";
 import img2 from "../../../Imgs/PolygonAirdrop/2.png";
@@ -274,6 +275,12 @@ export default function AirdropNFT() {
                   <Link link="https://twitter.com/chionnera" title="Chione" />
                 </>,
               ]}
+            />
+            <NaviButtons
+              return="Burn your NFT"
+              returnlink="/burn-nft"
+              next="Crypto Exchange"
+              nextlink="/crypto-exchange"
             />
           </div>
         </div>

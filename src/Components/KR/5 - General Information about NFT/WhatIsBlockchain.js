@@ -29,7 +29,7 @@ export default function WhatIsBlockchain() {
         />
 
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
-          Simple explanation
+          쉬운 설명
         </Typography>
 
         <WordExplain
@@ -45,17 +45,17 @@ export default function WhatIsBlockchain() {
 
         <Card
           color="orange"
-          title="Important things to know"
+          title="블록체인에 대해서 알아야 할 중요한 것들"
           content={[
             <ul className="list-disc ml-4">
-              <li>All records are available for everyone to see.</li>
+              <li>블록체에 작성된 기록은 모두가 볼 수 있습니다</li>
               <li>
-                All records are permanent and no one can change or delete it.
+                작성된 기록들은 영원히 존재하며, 아무도 지우거나 바꿀 수
+                없습니다.
               </li>
               <li>
-                The Blockchain records everything that happens online in every
-                wallet available online with no limitation to the individual's
-                identity.
+                블록체인은 접근 제한 없이 온라인에서 접근가능한 모든 암호화폐
+                지갑의 활동들을 기록합니다.
               </li>
             </ul>,
           ]}
@@ -63,20 +63,20 @@ export default function WhatIsBlockchain() {
 
         <Card
           color="green"
-          content="Due to the Blockchain's nature, this helps ensure transparency for every accounts available."
+          content="이러한 블록체인의 특성 때문에, 모든 계정들의 투명성을 보장할 수 있습니다."
         />
 
         <Card
           color="purple"
-          title="Why is this important?"
+          title="왜 블록체인의 특성 중요한가요?"
           content={[
             <ul className="list-disc ml-4">
               <li>
-                Transparency means no one can hide their illegal activities.
+                투명성의 보장은 불법적인 행동을 숨길 수 없다는 것을 뜻합니다.
               </li>
               <li>
-                This provides collectors the ability to find suspicious
-                activities and help artists from being exploited.
+                블록체인의 투명성은 콜렉터들이 아티스트들에게 가해지는 위협들을
+                파악할 수 있고, 위협에서 벗어 날 수 있도록 도울 수 있습니다.
               </li>
             </ul>,
           ]}

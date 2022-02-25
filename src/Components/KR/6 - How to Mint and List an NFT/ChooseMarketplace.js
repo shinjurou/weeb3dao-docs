@@ -11,21 +11,20 @@ export default function ChooseMarketplace() {
     <div className="choose-marketplace">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Choose your Marketplace
+          NFT 마켓플레이스 선택하기
         </Typography>
 
         <Card
           color="pink"
           content={[
             <div>
-              Currently, there is limited information available for some
-              platforms (KnownOrigin, SuperRare and Kalamint). Information will
-              be updated as more anime NFT artists integrate on said platform
-              and we receive more accurate information.{" "}
+              현재, KnownOrigin, SuperRare, Kalamint 와 같은 플랫폼에 대한
+              정보는 제한적입니다. 관련 정보들은 Anime NFT 아티스트들이 해당
+              플랫폼들은 더 빈번하게 사용하게 되는 경우, 정확한 정보를 수집하여
+              제공할 예정입니다.
               <div className="mt-2 text-pink-600 font-bold">
-                If you have additional information that are not listed here,
-                please contact Shinjurou to provide information and have this
-                list updated.
+                만약 기재된 정보들 중 누락된 내용이 있다면, Shinjurou에게
+                연락해주세요. 정보를 취합하여 향후 업데이트가 이뤄질 것입니다.
               </div>
             </div>,
           ]}
@@ -33,7 +32,7 @@ export default function ChooseMarketplace() {
 
         <div className="mt-8">
           <Typography variant="h2" color="inherit" component="h2" mb={2}>
-            Platform Comparison
+            플랫폼 간 비교
           </Typography>
         </div>
 
@@ -67,9 +66,9 @@ export default function ChooseMarketplace() {
           </div>
         </div>
         <NaviButtons
-          return="Choose your Blockchain"
+          return="블록체인 네트워크 선택하기"
           returnlink="/sell-nft/choose-blockchain"
-          next="Mint an NFT"
+          next="여러분들의 작품을 Mint하기"
           nextlink="/sell-nft/mint-nft"
         />
       </div>

@@ -16,8 +16,26 @@ import useApp from "./Hooks/useApp";
 import { getIndexPage } from "./utils/router";
 import { useParams } from "react-router-dom";
 
-const themeLight = (locale) =>
-  createTheme({
+const themeLight = (locale) => {
+  let hFont;
+  if (locale === "en") {
+    hFont = "'Bebas Neue', cursive";
+  } else if (locale === "jp") {
+    hFont = "'Murecho', sans-serif";
+  } else if (locale === "kr") {
+    hFont = "'Do Hyeon', sans-serif;";
+  }
+
+  let bodyFont;
+  if (locale === "en") {
+    bodyFont = "'Noto Sans', sans-serif";
+  } else if (locale === "jp") {
+    bodyFont = "'Noto Sans JP', sans-serif";
+  } else if (locale === "kr") {
+    bodyFont = "'Noto Sans KR', sans-serif";
+  }
+
+  return createTheme({
     palette: {
       type: "light",
       action: {
@@ -55,66 +73,31 @@ const themeLight = (locale) =>
 
     typography: {
       h1: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 70,
       },
       h2: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 50,
       },
       h3: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 36,
       },
       h4: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 30,
       },
       h5: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 24,
       },
       h6: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 20,
       },
       body1: {
-        fontFamily:
-          locale === "en"
-            ? "'Noto Sans', sans-serif"
-            : "jp"
-            ? "'Noto Sans JP', sans-serif;"
-            : "'Noto Sans KR', sans-serif;",
+        fontFamily: bodyFont,
         fontSize: 16,
         fontWeightLight: 300,
         fontWeightRegular: 400,
@@ -122,9 +105,28 @@ const themeLight = (locale) =>
       },
     },
   });
+};
 
-const themeDark = (locale) =>
-  createTheme({
+const themeDark = (locale) => {
+  let hFont;
+  if (locale === "en") {
+    hFont = "'Bebas Neue', cursive";
+  } else if (locale === "jp") {
+    hFont = "'Murecho', sans-serif";
+  } else if (locale === "kr") {
+    hFont = "'Do Hyeon', sans-serif;";
+  }
+
+  let bodyFont;
+  if (locale === "en") {
+    bodyFont = "'Noto Sans', sans-serif";
+  } else if (locale === "jp") {
+    bodyFont = "'Noto Sans JP', sans-serif";
+  } else if (locale === "kr") {
+    bodyFont = "'Noto Sans KR', sans-serif";
+  }
+
+  return createTheme({
     palette: {
       type: "dark",
       action: {
@@ -164,66 +166,31 @@ const themeDark = (locale) =>
 
     typography: {
       h1: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 70,
       },
       h2: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 50,
       },
       h3: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 36,
       },
       h4: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 30,
       },
       h5: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 24,
       },
       h6: {
-        fontFamily:
-          locale === "en"
-            ? "'Bebas Neue', cursive"
-            : "jp"
-            ? "'Murecho', sans-serif;"
-            : "'Gugi', cursive;",
+        fontFamily: hFont,
         fontSize: 20,
       },
       body1: {
-        fontFamily:
-          locale === "en"
-            ? "'Noto Sans', sans-serif"
-            : "jp"
-            ? "'Noto Sans JP', sans-serif;"
-            : "'Noto Sans KR', sans-serif;",
+        fontFamily: bodyFont,
         fontSize: 16,
         fontWeightLight: 300,
         fontWeightRegular: 400,
@@ -231,6 +198,7 @@ const themeDark = (locale) =>
       },
     },
   });
+};
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   zIndex: 2000,

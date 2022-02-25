@@ -20,63 +20,63 @@ export default function ImportantTerminologies() {
           <li>
             <WordExplain
               word="Shill"
-              explain="Convince someone to buy something (usually something you own or have vested interest in) - has a bad connotation most of the time."
+              explain="자신 또는 다른 사람, 프로젝트를 남에게 홍보하는 행위."
             />
           </li>
           <li>
             <WordExplain
               word="ATH"
-              explain="All time high (highest price sold for an NFT from an artist or project)."
+              explain="All time high의 약어 (아티스트나 프로젝트 NFT의 역대 최고가)."
             />
           </li>
           <li>
             <WordExplain
               word="Floor"
-              explain="Lowest price of NFT from an artist or project."
+              explain="아티스트나 프로젝트 NFT의 최저가."
             />
           </li>
           <li>
             <WordExplain
               word="Moon"
-              explain="An NFT artist or project that has their NFT price and volume go up high."
+              explain="NFT의 가격과 거래량이 높게 올라가는 현상."
             />
           </li>
           <li>
             <WordExplain
               word="Bear market"
-              explain="NFT market being at its worst and low NFT prices."
+              explain="하락장(시장 자체가 전체적으로 하락하는 상태)."
             />
           </li>
           <li>
             <WordExplain
               word="Bull market"
-              explain="NFT market being at its top form and high NFT prices."
+              explain="상승장(시장 자체가 전체적으로 상승하는 상태)."
             />
           </li>
           <li>
             <WordExplain
               word="Blue Chip"
-              explain="An NFT artist or project that is considered significant to the community."
+              explain="성장 가능성이 매우 높아 커뮤니티에서 주목받는 아티스트 또는 프로젝트."
             />
           </li>
         </ul>
 
         <Card
           color="teal"
-          content="All the terminologies above are very commonly used in the community."
+          content="위에 적힌 용어들은 많은 커뮤니티에서 자주 사용되는 표현들입니다."
         />
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="ETH" explain="Ethereum." />
+            <WordExplain word="ETH" explain="이더리움 코인(Ethereum)." />
           </li>
           <li>
-            <WordExplain word="XTZ/TEZ" explain="Tezos." />
+            <WordExplain word="XTZ/TEZ" explain="테조스 코인(Tezos)." />
           </li>
           <li>
             <WordExplain
               word="MATIC"
-              explain="The currency for Polygon's blockchain."
+              explain="폴리곤 네트워크의 기축 암호화폐."
             />
           </li>
         </ul>
@@ -96,7 +96,10 @@ export default function ImportantTerminologies() {
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="Mint" explain="Create an NFT." />
+            <WordExplain
+              word="Mint"
+              explain="디지털 창작물을 NFT로 만드는 과정 또는 행위."
+            />
           </li>
         </ul>
 
@@ -122,23 +125,23 @@ export default function ImportantTerminologies() {
 
         <ul className="list-disc mt-5 ml-6">
           <li>
-            <WordExplain word="POW" explain="Proof of Work." />
+            <WordExplain word="POW" explain="작업 증명." />
           </li>
           <li>
-            <WordExplain word="POS" explain="Proof of Stake." />
+            <WordExplain word="POS" explain="지분 증명." />
           </li>
           <li>
             <WordExplain
               word="Gas Fee"
-              explain="The fee you will need to pay in order for each transaction to be processed on the blockchain."
+              explain="블록체인 상에서 구매, 판매, 민트 요청과 같은 행동을 요청할 때, 필요한 비용"
             />
-            <WordExample explain="Paying for your car's gas in order to have it run." />
+            <WordExample explain=" 자동차를 운행하기 위해서는 기름이 필요한 것과 비슷합니다." />
           </li>
         </ul>
 
         <Card
           color="teal"
-          content="Both POW and POS are the model of mechanisms used by blockchains in order to turn your digital creation into NFT."
+          content="POW와 POS는 블록체인 상에서 디지털 작업물을 NFT로 바꿀 때 사용되는 메커니즘 모델을 말합니다."
         />
 
         <POWPOS />
@@ -170,12 +173,12 @@ export default function ImportantTerminologies() {
           color="teal"
           content={[
             <div>
-              GWEI is the measure unit for the gas price for all transactions on
-              ETH based blockchains (including Polygon).
+              GWEI는 블록체인에서 트랜젝션을 보내는데 필요한 가스 비용의
+              단위입니다.
               <div className="ml-8">
                 <ul className="list-disc">
-                  <li className="mt-1">High GWEI = High gas fee</li>
-                  <li className="mt-1">Low GWEI = Low gas fee </li>
+                  <li className="mt-1">High GWEI = 높은 gas fee</li>
+                  <li className="mt-1">Low GWEI = 낮은 gas fee</li>
                 </ul>
               </div>
             </div>,
@@ -186,7 +189,7 @@ export default function ImportantTerminologies() {
           <li>
             <WordExplain
               word="Smart Contract"
-              explain="A program that runs on the blockchain."
+              explain="블록체인 상에서 돌아가는 프로그램."
             />
           </li>
         </ul>

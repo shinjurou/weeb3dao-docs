@@ -32,7 +32,7 @@ export default function WhatIsNFT() {
           ]}
         />
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
-          Simple explanation
+          쉬운 설명
         </Typography>
         <WordExplain
           word="Non-fungible"

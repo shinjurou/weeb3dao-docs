@@ -11,7 +11,7 @@ export default function ChooseBlockchain() {
     <div className="choose-blockchain">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Choose your Blockchain
+          블록체인 네트워크 선택하기
         </Typography>
 
         <div className="mt-5">
@@ -174,9 +174,9 @@ export default function ChooseBlockchain() {
           />
         </div>
         <NaviButtons
-          return="Create your Digital Wallet"
+          return="암호화폐 지갑 만들기"
           returnlink="/sell-nft/create-wallet"
-          next="Choose your Marketplace"
+          next="NFT 마켓플레이스 선택하기"
           nextlink="/sell-nft/choose-marketplace"
         />
       </div>

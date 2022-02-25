@@ -12,7 +12,7 @@ export default function CreateWallet() {
     <div className="create-wallet">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Create your Digital Wallet
+          암호화폐 지갑 만들기
         </Typography>
 
         <div className="mt-5">
@@ -114,7 +114,7 @@ export default function CreateWallet() {
         <NaviButtons
           return="How to Mint and List your NFT"
           returnlink="/sell-NFT"
-          next="Choose your Blockchain"
+          next="블록체인 네트워크 선택하기"
           nextlink="/sell-nft/choose-blockchain"
         />
       </div>

@@ -10,7 +10,7 @@ export default function BurnNFT() {
     <div className="burn-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Burn your NFT
+          NFT 소각하기
         </Typography>
 
         <Card
@@ -134,10 +134,10 @@ export default function BurnNFT() {
           </div>
         </div>
         <NaviButtons
-          return="How to keep track of Gas"
+          return="Gas Fee를 모니터링 하는 방법"
           returnlink="/sell-nft/gas"
-          next="Crypto Exchange"
-          nextlink="/crypto-exchange"
+          next="NFT Airdrop(에어드랍, 선물) 하는 법"
+          nextlink="/airdrop-nft"
         />
       </div>
     </div>

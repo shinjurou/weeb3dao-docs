@@ -11,7 +11,7 @@ export default function Environment() {
     <div className="environment">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          Environment Controversy
+          환경 오염 논란
         </Typography>
         <Card
           color="green"
@@ -46,12 +46,12 @@ export default function Environment() {
               and at an appropriate scale.
               <div className="mt-5">
                 <span className="text-green-600 font-bold">
-                  For artists and collectors: I’d encourage everyone selling
-                  NFT’s to dedicate 5-10% of their income to charities you think
-                  matter. Give back to the environment. Give back to communities
-                  struggling. This is a new system for buying and selling art
-                  and there’s an opportunity to be more equitable and charitable
-                  than the old system.
+                  아티스트와 수집가들에게: 저는 NFT를 판매하는 모든 사람들에게,
+                  수익의 5 ~ 10%를 세상을 더 낫게 만드는 자선 단체에 기부하는
+                  것을 권장합니다. 환경을 더 낫게 만드는데 노력하고, 어려움을
+                  겪고 있는 커뮤니티에 돌려주세요. NFT는 예술품을 사고 파는
+                  새로운 시스템이며, 우리가 이미 누리고 있는 시스템보다 더
+                  공평하고 자선할 수 있는 기회를 만들어줍니다
                 </span>
               </div>
             </div>,
@@ -93,8 +93,8 @@ export default function Environment() {
         <NaviButtons
           return="FAQ"
           returnlink="/faq"
-          next="Recommended Readings"
-          nextlink="/rec-readings"
+          next="이미지 역 추적 방법"
+          nextlink="/reverse-img-search"
         />
       </div>
     </div>

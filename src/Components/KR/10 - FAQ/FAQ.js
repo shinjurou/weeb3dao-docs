@@ -48,22 +48,18 @@ export default function FAQ() {
               mt={2}
               mb={1}
             >
-              Fanart or Original?
+              팬아트를 그릴까요, 아니면 제 자신만의 작품을 그릴까요?
             </Typography>
             <Card
               color="purple"
               content={[
                 <div>
                   <div>
-                    <span className="text-purple-700 font-bold">
-                      Short answer:
-                    </span>{" "}
-                    Original
+                    <span className="text-purple-700 font-bold">결론:</span>{" "}
+                    자신만의 작품을 그리세요
                   </div>
                   <div>
-                    <span className="text-purple-700 font-bold">
-                      Long answer:
-                    </span>{" "}
+                    <span className="text-purple-700 font-bold">긴 답변:</span>{" "}
                   </div>
                   <ul className="list-disc ml-4">
                     <li>
@@ -122,7 +118,7 @@ export default function FAQ() {
             />
             <Card
               color="green"
-              title="Original will keep you and the collectors safe while also promoting your own individuality and creativity."
+              title="여러분들의 독창적인 작품들은 여러분과 콜렉터들을 안전하게 지켜주며, 당신만의 독창성과 창의력을 보여줄 수 있습니다."
             />
           </div>
           <div className="mt-8">
@@ -133,11 +129,11 @@ export default function FAQ() {
               mt={2}
               mb={1}
             >
-              Commission for NFT?
+              NFT를 만들기 위한 커미션?
             </Typography>
             <Card
               color="red"
-              title="Commissioning someone else for artworks, then use said artworks to sell as your own NFTs without asking the artist for permission is heavily frowned upon and should not be done."
+              title="커미션을 통해서 작품을 만든 다음, 그것을 원작자의 의견도 묻지 않고 NFT로 만들어 판매하는 것은 매우 잘못된 일이며 비난 받을 일입니다."
             />
             <Card
               color="orange"
@@ -207,9 +203,9 @@ export default function FAQ() {
           </div>
         </div>
         <NaviButtons
-          return="Culture"
+          return="NFT 커뮤니티"
           returnlink="/community/culture"
-          next="Environment Controversy"
+          next="환경 오염 논란"
           nextlink="/environment"
         />
       </div>
