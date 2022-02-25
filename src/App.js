@@ -16,137 +16,221 @@ import useApp from "./Hooks/useApp";
 import { getIndexPage } from "./utils/router";
 import { useParams } from "react-router-dom";
 
-const themeLight = createTheme({
-  palette: {
-    type: "light",
-    action: {
-      disabledBackground: "#E2E2E2",
-      disabled: "#CDCDCD",
+const themeLight = (locale) =>
+  createTheme({
+    palette: {
+      type: "light",
+      action: {
+        disabledBackground: "#E2E2E2",
+        disabled: "#CDCDCD",
+      },
+      primary: {
+        main: "#D3D3D3",
+      },
+      secondary: {
+        main: "#d50000",
+      },
+      success: {
+        main: "#388e3c",
+      },
+      background: {
+        default: "#E5E5E5",
+        paper: "#dedede",
+      },
+      divider: "rgba(100,100,100,0.12)",
+      error: {
+        main: "#b71c1c",
+      },
+      warning: {
+        main: "#f57c00",
+      },
+      info: {
+        main: "#1565c0",
+      },
+      text: {
+        primary: "rgba(20,20,20,0.87)",
+        secondary: "rgba(40,40,40,0.87)",
+      },
     },
-    primary: {
-      main: "#D3D3D3",
-    },
-    secondary: {
-      main: "#d50000",
-    },
-    success: {
-      main: "#388e3c",
-    },
-    background: {
-      default: "#f1f1f1",
-      paper: "#dedede",
-    },
-    divider: "rgba(100,100,100,0.12)",
-    error: {
-      main: "#b71c1c",
-    },
-    warning: {
-      main: "#f57c00",
-    },
-    info: {
-      main: "#1565c0",
-    },
-    text: {
-      primary: "rgba(20,20,20,0.87)",
-      secondary: "rgba(40,40,40,0.87)",
-    },
-  },
 
-  typography: {
-    h1: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 70,
+    typography: {
+      h1: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 70,
+      },
+      h2: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 50,
+      },
+      h3: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 36,
+      },
+      h4: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 30,
+      },
+      h5: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 24,
+      },
+      h6: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 20,
+      },
+      body1: {
+        fontFamily:
+          locale === "en"
+            ? "'Noto Sans', sans-serif"
+            : "jp"
+            ? "'Noto Sans JP', sans-serif;"
+            : "'Noto Sans KR', sans-serif;",
+        fontSize: 16,
+        fontWeightLight: 300,
+        fontWeightRegular: 400,
+        fontWeightMedium: 500,
+      },
     },
-    h2: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 50,
-    },
-    h3: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 36,
-    },
-    body1: {
-      fontFamily: '"Noto Sans", "Helvetica", "Arial", sans-serif',
-      fontSize: 16,
-      fontWeightLight: 300,
-      fontWeightRegular: 400,
-      fontWeightMedium: 500,
-    },
-  },
-});
+  });
 
-const themeDark = createTheme({
-  palette: {
-    type: "dark",
-    action: {
-      disabledBackground: "#1C1C1C",
-      disabled: "#292929",
+const themeDark = (locale) =>
+  createTheme({
+    palette: {
+      type: "dark",
+      action: {
+        disabledBackground: "#1C1C1C",
+        disabled: "#292929",
+      },
+      primary: {
+        main: "#202020",
+        contrastText: "#c5c5c5",
+        light: "#4e4e4e",
+      },
+      secondary: {
+        main: "#970F47",
+      },
+      success: {
+        main: "#388e3c",
+      },
+      background: {
+        default: "#1a1a1a",
+        paper: "#222222",
+      },
+      divider: "rgba(113,113,113,0.12)",
+      error: {
+        main: "#b71c1c",
+      },
+      warning: {
+        main: "#f57c00",
+      },
+      info: {
+        main: "#1565c0",
+      },
+      text: {
+        primary: "#c5c5c5",
+        secondary: "rgba(212,212,212,0.7)",
+      },
     },
-    primary: {
-      main: "#202020",
-      contrastText: "#c5c5c5",
-      light: "#4e4e4e",
-    },
-    secondary: {
-      main: "#970F47",
-    },
-    success: {
-      main: "#388e3c",
-    },
-    background: {
-      default: "#1a1a1a",
-      paper: "#222222",
-    },
-    divider: "rgba(113,113,113,0.12)",
-    error: {
-      main: "#b71c1c",
-    },
-    warning: {
-      main: "#f57c00",
-    },
-    info: {
-      main: "#1565c0",
-    },
-    text: {
-      primary: "#c5c5c5",
-      secondary: "rgba(212,212,212,0.7)",
-    },
-  },
 
-  typography: {
-    h1: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 70,
+    typography: {
+      h1: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 70,
+      },
+      h2: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 50,
+      },
+      h3: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 36,
+      },
+      h4: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 30,
+      },
+      h5: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 24,
+      },
+      h6: {
+        fontFamily:
+          locale === "en"
+            ? "'Bebas Neue', cursive"
+            : "jp"
+            ? "'Murecho', sans-serif;"
+            : "'Gugi', cursive;",
+        fontSize: 20,
+      },
+      body1: {
+        fontFamily:
+          locale === "en"
+            ? "'Noto Sans', sans-serif"
+            : "jp"
+            ? "'Noto Sans JP', sans-serif;"
+            : "'Noto Sans KR', sans-serif;",
+        fontSize: 16,
+        fontWeightLight: 300,
+        fontWeightRegular: 400,
+        fontWeightMedium: 500,
+      },
     },
-    h2: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 50,
-    },
-    h3: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 36,
-    },
-    h4: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 30,
-    },
-    h5: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 24,
-    },
-    h6: {
-      fontFamily: '"Bebas Neue", cursive',
-      fontSize: 20,
-    },
-    body1: {
-      fontFamily: '"Noto Sans", "Helvetica", "Arial", sans-serif',
-      fontSize: 16,
-      fontWeightLight: 300,
-      fontWeightRegular: 400,
-      fontWeightMedium: 500,
-    },
-  },
-});
+  });
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   zIndex: 2000,
@@ -204,11 +288,12 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 function App() {
   const { lightTheme, toggleTheme, appLocale } = useApp();
-  console.log("LOCALE:", appLocale)
 
   return (
     <div className="App">
-      <ThemeProvider theme={lightTheme ? themeLight : themeDark}>
+      <ThemeProvider
+        theme={lightTheme ? themeLight(appLocale) : themeDark(appLocale)}
+      >
         <CssBaseline />
         <FormGroup>
           <FormControlLabel
@@ -247,9 +332,7 @@ const PageRouter = (lightTheme) => {
 };
 
 const Providers = ({ children }) => {
-  return <AppProvider>
-    {children}
-  </AppProvider>;
+  return <AppProvider>{children}</AppProvider>;
 };
 
 function withProviders(Component) {
