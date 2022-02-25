@@ -9,10 +9,10 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ThemeProvider as CustomThemeProvider } from "./Contexts/CustomTheme";
+import { AppProvider } from "./Contexts/App";
 import routes from "./routes";
 import IndexEN from "./Components/EN/0 - Index/Index";
-import useCustomTheme from "./Hooks/useCustomTheme";
+import useApp from "./Hooks/useApp";
 import { getIndexPage } from "./utils/router";
 import { useParams } from "react-router-dom";
 
@@ -203,7 +203,8 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 function App() {
-  const { lightTheme, toggleTheme } = useCustomTheme();
+  const { lightTheme, toggleTheme, appLocale } = useApp();
+  console.log("LOCALE:", appLocale)
 
   return (
     <div className="App">
@@ -246,7 +247,9 @@ const PageRouter = (lightTheme) => {
 };
 
 const Providers = ({ children }) => {
-  return <CustomThemeProvider>{children}</CustomThemeProvider>;
+  return <AppProvider>
+    {children}
+  </AppProvider>;
 };
 
 function withProviders(Component) {
