@@ -1,4 +1,1 @@
-export const locales = [
-  'en',
-  'jp'
-]
+export const locales = ["en", "jp", "kr"];

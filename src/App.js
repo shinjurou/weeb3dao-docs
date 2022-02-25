@@ -65,6 +65,18 @@ const themeLight = createTheme({
       fontFamily: '"Bebas Neue", cursive',
       fontSize: 36,
     },
+    h4: {
+      fontFamily: '"Bebas Neue", cursive',
+      fontSize: 30,
+    },
+    h5: {
+      fontFamily: '"Bebas Neue", cursive',
+      fontSize: 24,
+    },
+    h6: {
+      fontFamily: '"Bebas Neue", cursive',
+      fontSize: 20,
+    },
     body1: {
       fontFamily: '"Noto Sans", "Helvetica", "Arial", sans-serif',
       fontSize: 16,
