@@ -2,6 +2,7 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
+import NaviButtons from "../0 - Index/NaviButtons";
 
 import img1 from "../../../Imgs/PolygonAirdrop/1.png";
 import img2 from "../../../Imgs/PolygonAirdrop/2.png";
@@ -265,6 +266,12 @@ export default function AirdropNFT() {
                   です。
                 </>,
               ]}
+            />
+            <NaviButtons
+              return="NFTをBurnする"
+              returnlink="/burn-NFT"
+              next="暗号資産取引所"
+              nextlink="/crypto-exchange"
             />
           </div>
         </div>

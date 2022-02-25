@@ -11,12 +11,13 @@ export default function WhatIsNFT() {
     <div className="what-is-nft">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          What is NFT?
+          NFT는 무엇인가요?'
         </Typography>
 
         <div className="mt-5">
-          NFT is the abbreviation for{" "}
-          <span className="text-orange-500">Non-fungible tokens</span>.
+          NFT는 '대체 불가능한 토큰(
+          <span className="text-orange-500">Non-fungible tokens</span>)'의
+          약자입니다.
         </div>
         <Card
           color="pink"
@@ -55,20 +56,19 @@ export default function WhatIsNFT() {
           color="orange"
           content={[
             <div>
-              This means that once you turn your artwork(s) into NFT(s) then it
-              will be available on the blockchain forever with no way of
-              deleting or duplicating it.
+              즉, 여러분들의 창작물을 NFT로 바꾸는 순간, 블록체인 위에서 영원히
+              남게되며, 지우거나 복제할 방법이 없습니다.
               <div className="mt-1">
-                After that you can use it to trade with others via the
-                blockchain.
+                NFT로 바꾼 이후, 블록체인 상에서 다른 사람들과 거래를 할 수
+                있습니다.
               </div>
             </div>,
           ]}
         />
         <NaviButtons
-          return="General Information about NFT"
+          return="NFT 관련 일반적인 정보"
           returnlink="/info-NFT"
-          next="What is Blockchain?"
+          next="블록체인은 무엇인가요?'"
           nextlink="/info-nft/what-is-blockchain"
         />
       </div>

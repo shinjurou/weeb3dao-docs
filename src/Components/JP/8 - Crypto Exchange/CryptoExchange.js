@@ -102,8 +102,8 @@ export default function CryptoExchange() {
           </div>
         </div>
         <NaviButtons
-          return="NFTをBurnする"
-          returnlink="/burn-NFT"
+          return="NFTをAirdropする"
+          returnlink="/airdrop-NFT"
           next="コミュニティ"
           nextlink="/community"
         />
