@@ -1,5 +1,12 @@
 [
   {
+    "name": "29hyeon_",
+    "twitter": "@29hyeon_",
+    "fnd": "@29hyeon_",
+    "gas": true,
+    "invite": true
+  },
+  {
     "name": "Ackerly",
     "twitter": "@4ckerly",
     "fnd": "@ackerly",
@@ -21,6 +28,13 @@
     "invite": true
   },
   {
+    "name": "akamikko (あかみっこ)",
+    "twitter": "@akamikkoNFT",
+    "fnd": "@akamikko",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Akane",
     "twitter": "@AKANEzz2314",
     "fnd": "@akanezz2314",
@@ -35,9 +49,23 @@
     "invite": true
   },
   {
+    "name": "Alienaut015",
+    "twitter": "@Alienaut0155",
+    "fnd": "@Alienaut15",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Alliene.Rozen",
     "twitter": "@alliene_rozen",
     "fnd": "@allienerozen",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "ana",
+    "twitter": "@anafei119",
+    "fnd": "@anafei119",
     "gas": true,
     "invite": false
   },
@@ -95,6 +123,13 @@
     "twitter": "@BetaAlpha_1998",
     "fnd": "@BetaAlpha_1998",
     "gas": false,
+    "invite": true
+  },
+  {
+    "name": "blue.let",
+    "twitter": "@blue_let11",
+    "fnd": "@blue.let",
+    "gas": true,
     "invite": true
   },
   {
@@ -217,6 +252,41 @@
     "invite": false
   },
   {
+    "name": "Evan",
+    "twitter": "@EvanB0T",
+    "fnd": "@EvanB0T",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "fallein",
+    "twitter": "@fallein_e",
+    "fnd": "@fallein_e",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Fio",
+    "twitter": "@fioreeza",
+    "fnd": "@fioreeza",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "farid santoso",
+    "twitter": "@Fraids__",
+    "fnd": "@farids",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "GENESIS",
+    "twitter": "@GENESISARTIST7",
+    "fnd": "@GENESISHANXIU",
+    "gas": true,
+    "invite": true
+  },
+  {
     "name": "Gengoya",
     "twitter": "@gengoya_club",
     "fnd": "@gengoya.club",
@@ -252,6 +322,13 @@
     "invite": true
   },
   {
+    "name": "HARUDAI",
+    "twitter": "@Chachir_",
+    "fnd": "@harudai",
+    "gas": true,
+    "invite": true
+  },
+  {
     "name": "Harukagi",
     "twitter": "@Harukagit",
     "fnd": "@harukagi",
@@ -263,6 +340,27 @@
     "twitter": "@ha_ru_ha_ru1192",
     "fnd": "@haruyu",
     "gas": false,
+    "invite": true
+  },
+  {
+    "name": "HikaruKouno (光野ひかる)",
+    "twitter": "@HikaruKouno",
+    "fnd": "@HikaruKouno",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Hiro Kuguhara (くぐはらひろ)",
+    "twitter": "@kghr16",
+    "fnd": "@kghr16",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "HJ",
+    "twitter": "@hj_63_",
+    "fnd": "@cobra_hlj",
+    "gas": true,
     "invite": true
   },
   {
@@ -287,6 +385,13 @@
     "invite": true
   },
   {
+    "name": "ichizon (일존/一存)",
+    "twitter": "@ichizon7",
+    "fnd": "@ichizon",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Inkyhma",
     "twitter": "@Inkyhma",
     "fnd": "@inkyhma",
@@ -301,9 +406,23 @@
     "invite": true
   },
   {
+    "name": "Jack The Undying",
+    "twitter": "@JackTheUndying",
+    "fnd": "@JackTheUndying",
+    "gas": true,
+    "invite": true
+  },
+  {
     "name": "Jeloy",
     "twitter": "@Jeloy_Inkblood",
     "fnd": "@jeloyinkblood_nft",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "joao",
+    "twitter": "@drawjoao1",
+    "fnd": "@draw_joao",
     "gas": true,
     "invite": false
   },
@@ -322,10 +441,31 @@
     "invite": false
   },
   {
+    "name": "josh (ジョシュ)",
+    "twitter": "@joshu7_",
+    "fnd": "@joshu7",
+    "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Kaedi",
+    "twitter": "@ementea",
+    "fnd": "@Monstera__Tea",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Kai (海)",
     "twitter": "@JHC_Kai",
     "fnd": "@JHC_Kai",
     "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Kairita",
+    "twitter": "@kakakairitttta",
+    "fnd": "@kairita0704",
+    "gas": true,
     "invite": true
   },
   {
@@ -392,6 +532,20 @@
     "invite": false
   },
   {
+    "name": "LightFai",
+    "twitter": "@light_fai",
+    "fnd": "@LightFai",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "LimDH (큰뱀)",
+    "twitter": "@zmsqoa95",
+    "fnd": "@zmsqoa95",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Losee",
     "twitter": "@lose_0818",
     "fnd": "@VINCEart",
@@ -413,7 +567,7 @@
     "invite": false
   },
   {
-    "name": "Maneromin (まねろみん0",
+    "name": "Maneromin (まねろみん)",
     "twitter": "@maneromin",
     "fnd": "@maneromin",
     "gas": false,
@@ -425,6 +579,13 @@
     "fnd": "@MAY_0608",
     "gas": false,
     "invite": true
+  },
+  {
+    "name": "mayuneaw",
+    "twitter": "@mayuneawNFT",
+    "fnd": "@mayuneaw",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "M.B",
@@ -448,16 +609,9 @@
     "invite": false
   },
   {
-    "name": "mirakuru☆momoka (みらくる☆桃香)",
-    "twitter": "@kanamomoka5",
-    "fnd": "@mirakuru_momoka",
-    "gas": true,
-    "invite": false
-  },
-  {
-    "name": "Rit (りっと)",
-    "twitter": "@ritmo_misato",
-    "fnd": "@ritmomisato",
+    "name": "Meru",
+    "twitter": "@Meru_rumi",
+    "fnd": "@Meru",
     "gas": true,
     "invite": true
   },
@@ -465,6 +619,13 @@
     "name": "migume",
     "twitter": "@migume000",
     "fnd": "@migume",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "mirakuru☆momoka (みらくる☆桃香)",
+    "twitter": "@kanamomoka5",
+    "fnd": "@mirakuru_momoka",
     "gas": true,
     "invite": false
   },
@@ -553,6 +714,13 @@
     "invite": true
   },
   {
+    "name": "Nana Tsukimi",
+    "twitter": "@NanaTuki_",
+    "fnd": "@NanaTuki_",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "narusamaa (ナルサマ)",
     "twitter": "@narusamaa",
     "fnd": "@Narusama",
@@ -609,10 +777,24 @@
     "invite": true
   },
   {
+    "name": "Pamiee",
+    "twitter": "@pamieecutie",
+    "fnd": "@pamiee",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Panithan",
     "twitter": "@panithan_pnt",
     "fnd": "@panithan",
     "gas": false,
+    "invite": true
+  },
+  {
+    "name": "PastelRollz",
+    "twitter": "@KomoRiz",
+    "fnd": "@PastelRollz",
+    "gas": true,
     "invite": true
   },
   {
@@ -647,6 +829,13 @@
     "name": "Praxh",
     "twitter": "@Praxh_u",
     "fnd": "@praxh_u",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "qilin",
+    "twitter": "@luckyqilin",
+    "fnd": "@luckyqilin",
     "gas": true,
     "invite": true
   },
@@ -708,8 +897,8 @@
   },
   {
     "name": "Rimuu (リム)",
-    "twitter": "@rimuuarts",
-    "fnd": "@_rimuffin",
+    "twitter": "@_rimuffin",
+    "fnd": "@rimuu",
     "gas": false,
     "invite": true
   },
@@ -719,6 +908,20 @@
     "fnd": "@rienneit",
     "gas": true,
     "invite": false
+  },
+  {
+    "name": "RINKO",
+    "twitter": "@RINKOzNFT",
+    "fnd": "@rinkozdesu",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Rit (りっと)",
+    "twitter": "@ritmo_misato",
+    "fnd": "@ritmomisato",
+    "gas": true,
+    "invite": true
   },
   {
     "name": "Riuki",
@@ -731,6 +934,20 @@
     "name": "RokuMori",
     "twitter": "@Lazy_Mori",
     "fnd": "@lazy_mori",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "RuriRuri",
+    "twitter": "@Rurikart",
+    "fnd": "@ruriruri",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "ryuudog (龍犬)",
+    "twitter": "@ryuudog2",
+    "fnd": "@ryuudog",
     "gas": true,
     "invite": false
   },
@@ -812,6 +1029,20 @@
     "invite": true
   },
   {
+    "name": "Tamamugi (みゃぉ)",
+    "twitter": "@Ayeon_Chan",
+    "fnd": "@Tamamugi",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Tawan",
+    "twitter": "@natpon2547",
+    "fnd": "@Natapol_yothin",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Tawanrat",
     "twitter": "@gardenmoon23",
     "fnd": "@aionatchan",
@@ -826,6 +1057,13 @@
     "invite": true
   },
   {
+    "name": "Tsurkanov Alexey",
+    "twitter": "@RAOnft",
+    "fnd": "@RealArtOnly",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Tuna",
     "twitter": "@poopeetuna",
     "fnd": "@PooPeeTuna",
@@ -838,6 +1076,27 @@
     "fnd": "@u_ron_tya",
     "gas": false,
     "invite": true
+  },
+  {
+    "name": "Usapuppy",
+    "twitter": "@usapu_ppy",
+    "fnd": "@usapuppy",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Vito",
+    "twitter": "@NFTVito",
+    "fnd": "@CalmVito",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "VT",
+    "twitter": "@VT_RKGK",
+    "fnd": "@VT.RKGK",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "Wan1",
@@ -934,6 +1193,20 @@
     "name": "ZINERYL",
     "twitter": "@ZINERYL",
     "fnd": "@zineryl",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "ZōN",
+    "twitter": "@ZoNisART",
+    "fnd": "@zon",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Zrex",
+    "twitter": "@Zireksu_dayo",
+    "fnd": "@zireksu_dayo",
     "gas": true,
     "invite": false
   },
