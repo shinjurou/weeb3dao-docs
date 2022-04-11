@@ -295,9 +295,8 @@ export default function Introduction() {
               <Link link="https://twitter.com/LooonaLou" title="LooonaLou" />{" "}
               and{" "}
               <Link link="https://twitter.com/GreyRadian" title="GreyRadian" />{" "}
-              in May 1st 2021, and was given the name by{" "}
-              <Link link="https://twitter.com/rocielart" title="Rociel" />. The
-              group then became the first anime NFT artists group to be created.
+              in May 1st 2021. The group then became the first anime NFT artists
+              group to be created.
             </div>
             <div className="mt-2">
               Many Anifam artists have established themselves in the NFT world
