@@ -292,11 +292,12 @@ export default function Introduction() {
             <div className="mt-3">
               <Link link="https://twitter.com/AnifamNft" title="Anifam" /> was
               founded by{" "}
-              <Link link="https://twitter.com/LooonaLou" title="LooonaLou" />,
-              <Link link="https://twitter.com/GreyRadian" title="GreyRadian" />,
-              and <Link link="https://twitter.com/rocielart" title="Rociel" />{" "}
-              in May 2021. The group then became the first anime NFT artists
-              group to be created.
+              <Link link="https://twitter.com/LooonaLou" title="LooonaLou" />{" "}
+              and{" "}
+              <Link link="https://twitter.com/GreyRadian" title="GreyRadian" />{" "}
+              in May 1st 2021, and was given the name by{" "}
+              <Link link="https://twitter.com/rocielart" title="Rociel" />. The
+              group then became the first anime NFT artists group to be created.
             </div>
             <div className="mt-2">
               Many Anifam artists have established themselves in the NFT world
