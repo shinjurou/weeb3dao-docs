@@ -1405,7 +1405,14 @@
     "fnd": "@Zerafinos",
     "gas": true,
     "invite": true
-  
+  },
+  {
+    "name": "ZINERYL",
+    "twitter": "@ZINERYL",
+    "fnd": "@zineryl",
+    "gas": true,
+    "invite": false
+  },
   {
     "name": "zinut",
     "twitter": "@zinutkun",
