@@ -199,7 +199,7 @@ export default function MintNFT() {
             <ul className="list-disc mt-5 ml-6">
               <li className="mb-2">
                 <Link
-                  link="https://help.foundation.app/en/articles/4742869-a-complete-guide-to-minting-an-nft"
+                  link="https://help.foundation.app/hc/en-us/articles/4419002081051-A-complete-guide-to-creating-a-Collection-and-minting-an-NFT"
                   title="Foundation"
                 />
               </li>
