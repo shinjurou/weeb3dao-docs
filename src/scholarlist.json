@@ -1,5 +1,12 @@
 [
   {
+    "name": "13aht",
+    "twitter": "@13aht_",
+    "fnd": "@13aht",
+    "gas": true,
+    "invite": true
+  },
+  {
     "name": "29hyeon_",
     "twitter": "@29hyeon_",
     "fnd": "@29hyeon_",
@@ -49,6 +56,13 @@
     "invite": true
   },
   {
+    "name": "Alex-Xander",
+    "twitter": "@XanDerAlexxx",
+    "fnd": "@XanDerAlexxx",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Alienaut015",
     "twitter": "@Alienaut0155",
     "fnd": "@Alienaut15",
@@ -91,6 +105,13 @@
     "invite": false
   },
   {
+    "name": "Archellia",
+    "twitter": "@Archellia_",
+    "fnd": "@archellia",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Arisse",
     "twitter": "@x_arisse",
     "fnd": "@_arisse_",
@@ -116,6 +137,13 @@
     "twitter": "@mntimcczgrtn",
     "fnd": "@azen_",
     "gas": false,
+    "invite": true
+  },
+  {
+    "name": "Berry_R(e Art)",
+    "twitter": "@Berry_R25",
+    "fnd": "@Berry_R25",
+    "gas": true,
     "invite": true
   },
   {
@@ -185,6 +213,13 @@
     "name": "Choco Feline",
     "twitter": "@Pinkmug315",
     "fnd": "@vtlchoco.feline",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "coco阿",
+    "twitter": "@lfm83_NFT",
+    "fnd": "@lfm.83",
     "gas": true,
     "invite": true
   },
@@ -259,6 +294,13 @@
     "invite": false
   },
   {
+    "name": "e v e",
+    "twitter": "@eveap_nft",
+    "fnd": "@pinkneontouch",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "fallein",
     "twitter": "@fallein_e",
     "fnd": "@fallein_e",
@@ -276,6 +318,20 @@
     "name": "farid santoso",
     "twitter": "@Fraids__",
     "fnd": "@farids",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Florets",
+    "twitter": "@FloretsF",
+    "fnd": "@Forest_of_Florets",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "FranBerry",
+    "twitter": "@franberry29",
+    "fnd": "@FranBerry29",
     "gas": true,
     "invite": false
   },
@@ -306,6 +362,13 @@
     "fnd": "@furagu2525",
     "gas": true,
     "invite": false
+  },
+  {
+    "name": "Gyurii",
+    "twitter": "@GyuriiF__",
+    "fnd": "@Gyurii",
+    "gas": true,
+    "invite": true
   },
   {
     "name": "Haiter Bomb",
@@ -353,6 +416,13 @@
     "name": "Hiro Kuguhara (くぐはらひろ)",
     "twitter": "@kghr16",
     "fnd": "@kghr16",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Hitomi 瞳",
+    "twitter": "@HitomimiArt",
+    "fnd": "@HitomimiArt",
     "gas": true,
     "invite": false
   },
@@ -469,6 +539,13 @@
     "invite": true
   },
   {
+    "name": "Kanade Chizuru",
+    "twitter": "@kanadechiii",
+    "fnd": "@kanadechiii",
+    "gas": true,
+    "invite": true
+  },
+  {
     "name": "Kazadi",
     "twitter": "@Kazadi777",
     "fnd": "@kazadi777",
@@ -490,13 +567,6 @@
     "invite": false
   },
   {
-    "name": "Kittisuda",
-    "twitter": "@XanDerAlexxx",
-    "fnd": "@XanDerAlexxx",
-    "gas": true,
-    "invite": false
-  },
-  {
     "name": "Kurimochi Chizuru",
     "twitter": "@c2tiduru",
     "fnd": "@c2tiduru",
@@ -509,6 +579,13 @@
     "fnd": "@Kuronaken",
     "gas": true,
     "invite": false
+  },
+  {
+    "name": "Kyu",
+    "twitter": "@kyumi_00",
+    "fnd": "@kyumi",
+    "gas": true,
+    "invite": true
   },
   {
     "name": "Laika",
@@ -547,8 +624,15 @@
   },
   {
     "name": "Losee",
-    "twitter": "@lose_0818",
-    "fnd": "@VINCEart",
+    "twitter": "@LuxureveFND",
+    "fnd": "@luxureve",
+    "gas": true,
+    "invite": true
+  },
+  {
+    "name": "Lux",
+    "twitter": "@_meowyen_",
+    "fnd": "@_meowyen_",
     "gas": true,
     "invite": true
   },
@@ -571,6 +655,13 @@
     "twitter": "@maneromin",
     "fnd": "@maneromin",
     "gas": false,
+    "invite": true
+  },
+  {
+    "name": "MAUMIE",
+    "twitter": "@maumiey",
+    "fnd": "@Maumiey",
+    "gas": true,
     "invite": true
   },
   {
@@ -651,11 +742,25 @@
     "invite": true
   },
   {
+    "name": "Mitsunaka_Beppu",
+    "twitter": "@b_beppu",
+    "fnd": "@Mitsunaka_NFT",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "MIZUmoi",
     "twitter": "@nuemizumoi",
     "fnd": "@MIZUmoi",
     "gas": true,
     "invite": true
+  },
+  {
+    "name": "momofhiki (ももヒき)",
+    "twitter": "@momofhiki",
+    "fnd": "@momofhiki",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "Monope",
@@ -665,11 +770,25 @@
     "invite": false
   },
   {
+    "name": "moochi",
+    "twitter": "@moochi__06",
+    "fnd": "@moochi",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "moon cate",
     "twitter": "@_meowyen_",
     "fnd": "@_meowyen_",
     "gas": true,
     "invite": true
+  },
+  {
+    "name": "moumoku (盲目)",
+    "twitter": "@Blind_rk",
+    "fnd": "@blind_1208",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "Mr.Caphat",
@@ -833,6 +952,13 @@
     "invite": true
   },
   {
+    "name": "pseudocamouflage",
+    "twitter": "@pseudocamou",
+    "fnd": "@pseudocamouflage",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "qilin",
     "twitter": "@luckyqilin",
     "fnd": "@luckyqilin",
@@ -875,6 +1001,13 @@
     "invite": true
   },
   {
+    "name": "Reina",
+    "twitter": "@AyumiAika_",
+    "fnd": "@ayumiaika",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Renku",
     "twitter": "@koy_renku02",
     "fnd": "@renku",
@@ -892,6 +1025,13 @@
     "name": "RhoXifer",
     "twitter": "@RhoXifer",
     "fnd": "@RhoXifer",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Ria",
+    "twitter": "@Yun_Aria55",
+    "fnd": "@yun_aria55",
     "gas": true,
     "invite": false
   },
@@ -934,6 +1074,13 @@
     "name": "RokuMori",
     "twitter": "@Lazy_Mori",
     "fnd": "@lazy_mori",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "rtx.xyz",
+    "twitter": "@RtxXyz",
+    "fnd": "@rtx.xyz",
     "gas": true,
     "invite": false
   },
@@ -994,6 +1141,13 @@
     "invite": false
   },
   {
+    "name": "shae",
+    "twitter": "@shbelex",
+    "fnd": "@shbelex",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Shigure_S",
     "twitter": "@soumashigure",
     "fnd": "@shiguresouma",
@@ -1015,11 +1169,46 @@
     "invite": true
   },
   {
+    "name": "solarica",
+    "twitter": "@solarica_eth",
+    "fnd": "@Solarica.eth",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "sophia",
+    "twitter": "@sophiaincrypto",
+    "fnd": "@0xsofy",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Soranori",
+    "twitter": "@Soranoriart",
+    "fnd": "@soranori",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "suisa (水sa)",
+    "twitter": "@suisa_ra",
+    "fnd": "@suisa_ra",
+    "gas": false,
+    "invite": true
+  },
+  {
     "name": "Sully Piggsmall",
     "twitter": "@PiggSmall",
     "fnd": "@piggsmall",
     "gas": true,
     "invite": false
+  },
+  {
+    "name": "Surathin",
+    "twitter": "@Surathin_999",
+    "fnd": "@surathin999",
+    "gas": true,
+    "invite": true
   },
   {
     "name": "Suu Takahara (高原スウ)",
@@ -1032,6 +1221,13 @@
     "name": "Tamamugi (みゃぉ)",
     "twitter": "@Ayeon_Chan",
     "fnd": "@Tamamugi",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Tatsumi Tsurushima",
+    "twitter": "@tsuru_oden",
+    "fnd": "@tsuru_oden",
     "gas": true,
     "invite": false
   },
@@ -1085,9 +1281,23 @@
     "invite": false
   },
   {
-    "name": "Vito",
-    "twitter": "@NFTVito",
-    "fnd": "@CalmVito",
+    "name": "Vin",
+    "twitter": "@chesha_vin",
+    "fnd": "@chesha_vin",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Vinxent",
+    "twitter": "@Vinxent0468",
+    "fnd": "@Vinxent0468",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Vitu",
+    "twitter": "@NFTVitu",
+    "fnd": "@Vitu",
     "gas": true,
     "invite": true
   },
@@ -1132,6 +1342,13 @@
     "fnd": "@xiran",
     "gas": true,
     "invite": false
+  },
+  {
+    "name": "yacchi (やっち)",
+    "twitter": "@yxxrem",
+    "fnd": "@yxxrem",
+    "gas": true,
+    "invite": true
   },
   {
     "name": "YAN (やん)",
@@ -1195,6 +1412,13 @@
     "fnd": "@zineryl",
     "gas": true,
     "invite": false
+  },
+  {
+    "name": "zinut",
+    "twitter": "@zinutkun",
+    "fnd": "@ZINUT",
+    "gas": true,
+    "invite": true
   },
   {
     "name": "ZōN",
