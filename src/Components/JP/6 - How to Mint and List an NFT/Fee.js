@@ -46,14 +46,14 @@ function createData(name, link, fee, royalty, price) {
 }
 
 const rows = [
+  createData("OpenSea", "https://opensea.io/", "2.5%", "10%まで", "0.0005 ETH"),
   createData(
-    "OpenSea",
-    "https://opensea.io/",
-    "2.5%",
-    "Up to 10%",
-    "0.0005 ETH"
+    "Foundation",
+    "https://foundation.app/",
+    "5%",
+    "10%",
+    "今買う: 0.01 ETH | オークション: 0.05 ETH"
   ),
-  createData("Foundation", "https://foundation.app/", "15%", "10%", "0.1 ETH"),
   createData("MakersPlace", "http://makersplace.com/", "15%", "10%", "-"),
   createData(
     "KnownOrigin",
@@ -63,9 +63,9 @@ const rows = [
     "0.01 ETH"
   ),
   createData("SuperRare", "https://superrare.co/", "15%", "10%", "-"),
-  createData("ANIFTY", "https://anifty.jp/", "5% or 10%", "N/A", "0.02 ETH"),
+  createData("ANIFTY", "https://anifty.jp/", "5% or 10%", "不明", "0.02 ETH"),
   createData("Teia", "https://teia.art/", "2.5%", "10 - 25%", "0 XTZ"),
-  createData("OBJKT", "https://objkt.com/", "2.5%", "N/A", "0.0011 XTZ"),
+  createData("OBJKT", "https://objkt.com/", "2.5%", "不明", "0.0011 XTZ"),
   createData(
     "Kalamint",
     "https://kalamint.io/",

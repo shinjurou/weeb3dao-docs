@@ -53,7 +53,13 @@ const rows = [
     "Up to 10%",
     "0.0005 ETH"
   ),
-  createData("Foundation", "https://foundation.app/", "15%", "10%", "0.1 ETH"),
+  createData(
+    "Foundation",
+    "https://foundation.app/",
+    "5%",
+    "10%",
+    "Buy now: 0.01 ETH | Auction: 0.05 ETH"
+  ),
   createData("MakersPlace", "http://makersplace.com/", "15%", "10%", "-"),
   createData(
     "KnownOrigin",
