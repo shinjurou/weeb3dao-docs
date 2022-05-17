@@ -29,6 +29,32 @@ export default function RecReadings() {
             </Typography>
             <li className="mb-2">
               <Link
+                link="https://www.patreon.com/posts/48647279"
+                title="My thoughts on NFTs"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/koeiyue"
+                title="@koeiyue"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://www.patreon.com/posts/process-and-my-49570832"
+                title="Process and Information regarding my NFT Sale"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/koeiyue"
+                title="@koeiyue"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
                 link="https://mirror.xyz/shinjurou.eth/uIq__DaPcJ_Y3ku41N8_EGM7fZ8EIe1MwSYA3Q-ZMnA"
                 title="thoughts as an artist (january 2022)"
                 light={true}
