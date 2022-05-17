@@ -36,8 +36,8 @@ export default function RecReadings() {
                 />{" "}
                 - by{" "}
                 <Link
-                  link="https://twitter.com/shinjuroukai"
-                  title="@shinjuroukai"
+                  link="https://twitter.com/shinjuroueth"
+                  title="@shinjuroueth"
                   light={true}
                 />
               </li>

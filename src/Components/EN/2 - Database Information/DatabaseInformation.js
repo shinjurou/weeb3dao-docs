@@ -37,7 +37,7 @@ export default function DatabaseInfo() {
               <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
                 Main author & Website Developer:
               </span>{" "}
-              <Link link="https://twitter.com/shinjuroukai" title="shinjurou" />
+              <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />
             </li>
             <li className="my-2 ">
               <span className="bg-sky-600 text-gray-800 p-0.5 rounded-sm">

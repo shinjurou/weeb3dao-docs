@@ -668,7 +668,7 @@ export default function FullWidthTabs() {
                     />{" "}
                     と{" "}
                     <Link
-                      link="https://twitter.com/shinjuroukai"
+                      link="https://twitter.com/shinjuroueth"
                       title="Shinjurou"
                     />{" "}
                     の
