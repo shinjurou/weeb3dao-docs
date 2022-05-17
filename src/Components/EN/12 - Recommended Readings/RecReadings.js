@@ -339,7 +339,7 @@ export default function RecReadings() {
                 />
               </li>
             </ul>
-            <div className="content-center h-[650px] mt-4">
+            <div className="content-center h-[660px] mt-4">
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=8Kqz2dnpaKY&feature=emb_title"
                 controls={true}

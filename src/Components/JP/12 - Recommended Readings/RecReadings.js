@@ -131,7 +131,7 @@ export default function RecReadings() {
                 />
               </li>
             </ul>
-            <div className="content-center h-[650px] mt-4">
+            <div className="content-center h-[660px] mt-4">
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=8Kqz2dnpaKY&feature=emb_title"
                 controls={true}
@@ -152,7 +152,7 @@ export default function RecReadings() {
               セキュリティ
             </Typography>
             <ul className="list-disc mt-2 ml-6">
-              <li className="mb-2">
+              <li className="mb-0">
                 <Link
                   link="https://twitter.com/0TL_/status/1489110748005810176"
                   title="scamを防ぐために"
