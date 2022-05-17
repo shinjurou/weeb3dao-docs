@@ -259,7 +259,7 @@ export default function Culture() {
         <NaviButtons
           return="用語解説"
           returnlink="/community/terminologies"
-          next="FAQ"
+          next="よくある質問"
           nextlink="/faq"
         />
       </div>

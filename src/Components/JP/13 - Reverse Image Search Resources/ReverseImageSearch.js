@@ -107,8 +107,8 @@ export default function ReverseImageSearch() {
           ]}
         />
         <NaviButtons
-          return="環境問題"
-          returnlink="/environment"
+          return="おすすめの読み物"
+          returnlink="/rec-readings"
           next=""
           nextlink=""
         />

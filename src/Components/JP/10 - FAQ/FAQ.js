@@ -10,7 +10,7 @@ export default function FAQ() {
     <div className="faq">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          FAQ
+          よくある質問
         </Typography>
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">

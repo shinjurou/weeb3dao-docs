@@ -53,6 +53,18 @@ export default function DatabaseInfo() {
               <Link link="https://twitter.com/chionnera" title="Chione" />
             </li>
             <li className="my-2">
+              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
+                日本語翻訳者:
+              </span>{" "}
+              <Link link="https://twitter.com/0TL_" title="どげざちゃん" />
+            </li>
+            <li className="my-2">
+              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
+                韓国語翻訳者:
+              </span>{" "}
+              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />
+            </li>
+            <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
                 英語版校正者:
               </span>{" "}
@@ -65,12 +77,7 @@ export default function DatabaseInfo() {
               <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link link="https://twitter.com/PausePLayed" title="PausePlay" />
             </li>
-            <li className="my-2">
-              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                日本語翻訳者:
-              </span>{" "}
-              <Link link="https://twitter.com/0TL_" title="どげざちゃん" />
-            </li>
+
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
                 日本語版校正者:
@@ -82,12 +89,6 @@ export default function DatabaseInfo() {
               />,{" "}
               <Link link="https://twitter.com/PigThePersona" title="らんぶた" />
               , <Link link="https://twitter.com/WakiyamaP" title="脇P(jinP)" />
-            </li>
-            <li className="my-2">
-              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                韓国語翻訳者:
-              </span>{" "}
-              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />
             </li>
           </ul>
         </div>

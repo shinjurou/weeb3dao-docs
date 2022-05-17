@@ -79,10 +79,10 @@ export default function Environment() {
           />
         </figure>
         <NaviButtons
-          return="FAQ"
+          return="よくある質問"
           returnlink="/faq"
-          next="画像検索システム"
-          nextlink="/reverse-img-search"
+          next="おすすめの読み物"
+          nextlink="/rec-readings"
         />
       </div>
     </div>

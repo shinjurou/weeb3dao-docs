@@ -84,6 +84,7 @@ import SpeakerNotesIcon from "@mui/icons-material/SpeakerNotes";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
 import LiveHelpIcon from "@mui/icons-material/LiveHelp";
 import ParkIcon from "@mui/icons-material/Park";
+import BookIcon from "@mui/icons-material/Book";
 import ImageSearchIcon from "@mui/icons-material/ImageSearch";
 
 const headerText = createTheme({
@@ -773,7 +774,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="FAQ" />
+                  <ListItemText primary="よくある質問" />
                 </Fade>
               </ListItem>
             </Link>
@@ -799,6 +800,28 @@ export default function Index(props) {
                   timeout={{ enter: 666, exit: 0 }}
                 >
                   <ListItemText primary="環境問題" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="rec-readings">
+              <ListItem button>
+                <ListItemIcon>
+                  <BookIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="おすすめの読み物" />
                 </Fade>
               </ListItem>
             </Link>
@@ -893,28 +916,3 @@ export default function Index(props) {
     </div>
   );
 }
-
-/*
-<Link to="rec-readings">
-              <ListItem button>
-                <ListItemIcon>
-                  <BookIcon
-                    sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
-                    }
-                  />
-                </ListItemIcon>
-                <Fade
-                  in={showText}
-                  easing={{
-                    enter: "cubic-bezier(.99,0,1,1.62)",
-                    exit: "linear",
-                  }}
-                  timeout={{ enter: 666, exit: 0 }}
-                >
-                  <ListItemText primary="Recommended Readings" />
-                </Fade>
-              </ListItem>
-            </Link>
-            
-            */

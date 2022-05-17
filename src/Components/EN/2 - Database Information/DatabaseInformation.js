@@ -53,6 +53,18 @@ export default function DatabaseInfo() {
               <Link link="https://twitter.com/chionnera" title="Chione" />
             </li>
             <li className="my-2">
+              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
+                Japanese Translator:
+              </span>{" "}
+              <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />
+            </li>
+            <li className="my-2">
+              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
+                Korean Translator:
+              </span>{" "}
+              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />
+            </li>
+            <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
                 English Proofreaders:
               </span>{" "}
@@ -65,12 +77,7 @@ export default function DatabaseInfo() {
               <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link link="https://twitter.com/PausePLayed" title="PausePlay" />
             </li>
-            <li className="my-2">
-              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                Japanese Translator:
-              </span>{" "}
-              <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />
-            </li>
+
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
                 Japanese Proofreaders:
@@ -79,12 +86,6 @@ export default function DatabaseInfo() {
               , <Link link="https://twitter.com/piprycto" title="Fao" />,{" "}
               <Link link="https://twitter.com/PigThePersona" title="ranbuta" />
               , <Link link="https://twitter.com/WakiyamaP" title="WakiyamaP" />
-            </li>
-            <li className="my-2">
-              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                Korean Translator:
-              </span>{" "}
-              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />
             </li>
           </ul>
         </div>

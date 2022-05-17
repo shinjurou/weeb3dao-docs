@@ -29,7 +29,7 @@ export default function WhatIsBlockchain() {
         />
 
         <Typography variant="h3" color="inherit" component="h3" mb={2} mt={4}>
-          쉬운 설명
+          Simple Explanation
         </Typography>
 
         <WordExplain
