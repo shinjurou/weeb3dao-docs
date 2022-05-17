@@ -843,12 +843,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText
-                    primary="画像検索システム"
-                    primaryTypographyProps={{
-                      style: { whiteSpace: "normal" },
-                    }}
-                  />
+                  <ListItemText primary="画像検索システム" />
                 </Fade>
               </ListItem>
             </Link>
