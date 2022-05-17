@@ -48,8 +48,15 @@ export default function AirdropNFT() {
               color="green"
               title={[
                 <>
-                  Manifoldの作成されたチュートリアルについては、この
-                  <Link link="https://docs.manifold.xyz/" title="リンク" />
+                  <Link
+                    link="https://twitter.com/PigThePersona"
+                    title="ranbuta"
+                  />
+                  の
+                  <Link
+                    link="https://mirror.xyz/ranbuta.eth/-XVt7Zus8aGyufU__nEIxfVHlUxV0niVSfmZsb-CkB4"
+                    title="「Manifoldを使ってNFTコントラクトを作成するチュートリアル」"
+                  />
                   を参照してください。
                 </>,
               ]}

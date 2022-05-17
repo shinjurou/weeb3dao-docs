@@ -106,19 +106,6 @@ export default function RecReadings() {
               </li>
               <li className="mb-2">
                 <Link
-                  link="https://mirror.xyz/ranbuta.eth/-XVt7Zus8aGyufU__nEIxfVHlUxV0niVSfmZsb-CkB4"
-                  title="Manifoldを使ってNFTコントラクトを作成するチュートリアル"
-                  light={true}
-                />{" "}
-                - 著者{" "}
-                <Link
-                  link="https://twitter.com/PigThePersona"
-                  title="@PigThePersona"
-                  light={true}
-                />
-              </li>
-              <li className="mb-2">
-                <Link
                   link="https://mirror.xyz/ranbuta.eth/iNjmkCfbqC3JdZu4NU480XA_ZbuZIbavesaT18lDAQE"
                   title="OpenSea Collections (Polygon) コントラクト叩いてNFTを送る方法"
                   light={true}
