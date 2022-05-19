@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
-import ReactPlayer from "react-player";
+import Video from "../0 - Index/Video";
 
 export default function RecReadings() {
   return (
@@ -25,35 +25,228 @@ export default function RecReadings() {
               mt={2}
               mb={1}
             >
-              Information about NFT and its Community
+              Information for Artist
+            </Typography>
+            <li className="mb-2">
+              <Link
+                link="https://www.patreon.com/posts/48647279"
+                title="My thoughts on NFTs"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/koeiyue"
+                title="@koeiyue"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://www.patreon.com/posts/process-and-my-49570832"
+                title="Process and Information regarding my NFT Sale"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/koeiyue"
+                title="@koeiyue"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://mirror.xyz/shinjurou.eth/uIq__DaPcJ_Y3ku41N8_EGM7fZ8EIe1MwSYA3Q-ZMnA"
+                title="thoughts as an artist (january 2022)"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/shinjuroueth"
+                title="@shinjuroueth"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://twitter.com/shinjuroueth/status/1520567344841785344"
+                title="quick thread for artists"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/shinjuroueth"
+                title="@shinjuroueth"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://mirror.xyz/rwx.eth/oZAVzydqTHSn-2K3-MxwoWjizt4ZRc1WEV3KoX5dozE"
+                title="thoughts as a collector (november 2021)"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/robek_world"
+                title="@robek_world"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://twitter.com/pawwaoart/status/1505847282314641408"
+                title='The difference between "Buy Now" and "Auction"'
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/pawwaoart/"
+                title="@pawwaoart"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://twitter.com/_JustAziz_/status/1465610478663737344"
+                title='Robek’s Blog Post thoughts: (30th of Nov 2021)"'
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/_JustAziz_/"
+                title="@_JustAziz_"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://twitter.com/_JustAziz_/status/1470447763947204620"
+                title="Onboarding your friends to NFTs (13th of December 2021)"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/_JustAziz_/"
+                title="@_JustAziz_"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://twitter.com/_JustAziz_/status/1484796076909641730"
+                title="Bear Markets & Collectors’ Behavior: (22nd of January 2022)"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/_JustAziz_/"
+                title="@_JustAziz_"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://twitter.com/_JustAziz_/status/1491722942178283522"
+                title="Stamps for 1/1 Artists: (10th of February 2022)"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/_JustAziz_/"
+                title="@_JustAziz_"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://twitter.com/_JustAziz_/status/1482689646937231365"
+                title="Timezones consideration for public mints drops (16th of January 2022)"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/_JustAziz_/"
+                title="@_JustAziz_"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
+                link="https://twitter.com/curvethots/status/1493490323183579137"
+                title="Advice about shilling threads"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/curvethots"
+                title="@curvethots"
+                light={true}
+              />
+            </li>
+          </div>
+          <div className="mt-5">
+            <Typography
+              variant="h3"
+              color="inherit"
+              component="h3"
+              mt={2}
+              mb={1}
+            >
+              Guides and Tips about selling NFT
             </Typography>
             <ul className="list-disc mt-2 ml-6">
               <li className="mb-2">
                 <Link
-                  link="https://mirror.xyz/shinjurou.eth/uIq__DaPcJ_Y3ku41N8_EGM7fZ8EIe1MwSYA3Q-ZMnA"
-                  title="thoughts as an artist (january 2022)"
+                  link="https://medium.com/@impostor.eth/impostors-basic-gas-guide-nft-minting-on-fnd-superrare-b1c6cc92ec14"
+                  title="Impostor’s Basic Gas Guide (NFT Minting on FND / SuperRare)"
                   light={true}
                 />{" "}
                 - by{" "}
                 <Link
-                  link="https://twitter.com/shinjuroueth"
-                  title="@shinjuroueth"
+                  link="https://twitter.com/cantfakesigs"
+                  title="@cantfakesigs"
                   light={true}
                 />
               </li>
               <li className="mb-2">
                 <Link
-                  link="https://mirror.xyz/rwx.eth/oZAVzydqTHSn-2K3-MxwoWjizt4ZRc1WEV3KoX5dozE"
-                  title="thoughts as a collector (november 2021)"
+                  link="https://twitter.com/thinknima/status/1399768027403522063"
+                  title="NFT TIPS, GETTING COLLECTORS, SHILLING ETIQUETTE"
                   light={true}
                 />{" "}
                 - by{" "}
                 <Link
-                  link="https://twitter.com/robek_world"
-                  title="@robek_world"
+                  link="https://twitter.com/thinknima/"
+                  title="@thinknima"
                   light={true}
                 />
               </li>
+              <li className="mb-2">
+                <Link
+                  link="https://twitter.com/DCLBlogger/status/1460252096620470273?t=RFIskfpw3aiHyMh8hv09Gg&s=19"
+                  title="NFT Marketing 101"
+                  light={true}
+                />{" "}
+                - by{" "}
+                <Link
+                  link="https://twitter.com/DCLBlogger/"
+                  title="@DCLBlogger"
+                  light={true}
+                />
+              </li>
+            </ul>
+          </div>
+          <div className="mt-5">
+            <Typography
+              variant="h3"
+              color="inherit"
+              component="h3"
+              mt={2}
+              mb={1}
+            >
+              Information about NFT and its Community
+            </Typography>
+            <ul className="list-disc mt-2 ml-6">
               <li className="mb-2">
                 <Link
                   link="https://mirror.xyz/rwx.eth/vcJSTTWNbgI0dx0yrwvs8BPZVhkK3_bn3rPHTsZzkPk"
@@ -69,8 +262,8 @@ export default function RecReadings() {
               </li>
               <li className="mb-2">
                 <Link
-                  link="https://twitter.com/_JustAziz_/status/1465610478663737344"
-                  title='Comments for "thoughts as a collector (november 2021)"'
+                  link="https://twitter.com/_JustAziz_/status/1468490248716001282"
+                  title="Why you should not buy celebrities NFTs (8th of December 2021)"
                   light={true}
                 />{" "}
                 - by{" "}
@@ -82,14 +275,14 @@ export default function RecReadings() {
               </li>
               <li className="mb-2">
                 <Link
-                  link="https://twitter.com/curvethots/status/1493490323183579137"
-                  title="Comments about shilling threads"
+                  link="https://twitter.com/_JustAziz_/status/1493117036796551170"
+                  title="Broad overview of NFT market sentiment: (14th of February 2022)"
                   light={true}
                 />{" "}
                 - by{" "}
                 <Link
-                  link="https://twitter.com/curvethots"
-                  title="@curvethots"
+                  link="https://twitter.com/_JustAziz_/"
+                  title="@_JustAziz_"
                   light={true}
                 />
               </li>
@@ -172,66 +365,9 @@ export default function RecReadings() {
                 />
               </li>
             </ul>
-            <div className="content-center sm:h-vidsm md:h-vidmd lg:h-vidlg xl:h-vidxl mt-4">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=8Kqz2dnpaKY&feature=emb_title"
-                controls={true}
-                width="100%"
-                height="100%"
-              />
+            <div className="mb-3">
+              <Video youtubeId="8Kqz2dnpaKY" />
             </div>
-          </div>
-          <div className="mt-5">
-            <Typography
-              variant="h3"
-              color="inherit"
-              component="h3"
-              mt={2}
-              mb={1}
-            >
-              Guides and Tips about selling NFT
-            </Typography>
-            <ul className="list-disc mt-2 ml-6">
-              <li className="mb-2">
-                <Link
-                  link="https://medium.com/@impostor.eth/impostors-basic-gas-guide-nft-minting-on-fnd-superrare-b1c6cc92ec14"
-                  title="Impostor’s Basic Gas Guide (NFT Minting on FND / SuperRare)"
-                  light={true}
-                />{" "}
-                - by{" "}
-                <Link
-                  link="https://twitter.com/cantfakesigs"
-                  title="@cantfakesigs"
-                  light={true}
-                />
-              </li>
-              <li className="mb-2">
-                <Link
-                  link="https://twitter.com/thinknima/status/1399768027403522063"
-                  title="NFT TIPS, GETTING COLLECTORS, SHILLING ETIQUETTE"
-                  light={true}
-                />{" "}
-                - by{" "}
-                <Link
-                  link="https://twitter.com/thinknima/"
-                  title="@thinknima"
-                  light={true}
-                />
-              </li>
-              <li className="mb-2">
-                <Link
-                  link="https://twitter.com/DCLBlogger/status/1460252096620470273?t=RFIskfpw3aiHyMh8hv09Gg&s=19"
-                  title="NFT Marketing 101"
-                  light={true}
-                />{" "}
-                - by{" "}
-                <Link
-                  link="https://twitter.com/DCLBlogger/"
-                  title="@DCLBlogger"
-                  light={true}
-                />
-              </li>
-            </ul>
           </div>
           <div className="mt-5">
             <Typography
@@ -297,13 +433,8 @@ export default function RecReadings() {
                 />
               </li>
             </ul>
-            <div className="content-center sm:h-vidsm md:h-vidmd lg:h-vidlg xl:h-vidxl mt-4">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=aUBid1zJC-U"
-                controls={true}
-                width="100%"
-                height="100%"
-              />
+            <div className="mb-1">
+              <Video youtubeId="aUBid1zJC-U" />
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
 import Wallets from "./Wallets";
-import ReactPlayer from "react-player";
+import Video from "../0 - Index/Video";
 import RouterLink from "../0 - Index/RouterLink";
 
 export default function CreateWallet() {
@@ -100,16 +100,7 @@ export default function CreateWallet() {
         <Card
           color="pink"
           title="The following video is highly recommended for artists to watch to protect themselves."
-          content={[
-            <div className="content-center sm:h-vidsm md:h-vidmd lg:h-vidlg xl:h-vidxl mt-4">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=3kcXVEDB64Y"
-                controls={true}
-                width="100%"
-                height="100%"
-              />
-            </div>,
-          ]}
+          content={[<Video youtubeId="3kcXVEDB64Y" />]}
         />
         <NaviButtons
           return="How to Mint and List your NFT"
