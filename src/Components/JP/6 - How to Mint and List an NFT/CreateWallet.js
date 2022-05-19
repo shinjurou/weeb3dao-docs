@@ -97,7 +97,12 @@ export default function CreateWallet() {
         <Card
           color="pink"
           title="アーティストが自分の身を守るためにぜひ見ていただきたいのが、次の動画です。"
-          content={[<Video youtubeId="3kcXVEDB64Y" />]}
+          content={[
+            <Video
+              youtubeId="3kcXVEDB64Y"
+              title="Tips to not get hacked in Metamask"
+            />,
+          ]}
         />
         <NaviButtons
           return="作品の販売について"

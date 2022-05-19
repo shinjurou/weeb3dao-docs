@@ -100,7 +100,12 @@ export default function CreateWallet() {
         <Card
           color="pink"
           title="The following video is highly recommended for artists to watch to protect themselves."
-          content={[<Video youtubeId="3kcXVEDB64Y" />]}
+          content={[
+            <Video
+              youtubeId="3kcXVEDB64Y"
+              title="Tips to not get hacked in Metamask"
+            />,
+          ]}
         />
         <NaviButtons
           return="How to Mint and List your NFT"

@@ -366,7 +366,10 @@ export default function RecReadings() {
               </li>
             </ul>
             <div className="mb-3">
-              <Video youtubeId="8Kqz2dnpaKY" />
+              <Video
+                youtubeId="8Kqz2dnpaKY"
+                title="Saito Naoki earned 6 million yen with one illustration"
+              />
             </div>
           </div>
           <div className="mt-5">
@@ -434,7 +437,10 @@ export default function RecReadings() {
               </li>
             </ul>
             <div className="mb-1">
-              <Video youtubeId="aUBid1zJC-U" />
+              <Video
+                youtubeId="aUBid1zJC-U"
+                title="Safest Way To Store Your Crypto"
+              />
             </div>
           </div>
         </div>

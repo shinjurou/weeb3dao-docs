@@ -3,7 +3,6 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
-import Video from "../0 - Index/Video";
 
 export default function RecReadings() {
   return (
@@ -365,9 +364,6 @@ export default function RecReadings() {
                 />
               </li>
             </ul>
-            <div className="mb-3">
-              <Video youtubeId="8Kqz2dnpaKY" />
-            </div>
           </div>
           <div className="mt-5">
             <Typography
@@ -433,9 +429,6 @@ export default function RecReadings() {
                 />
               </li>
             </ul>
-            <div className="mb-1">
-              <Video youtubeId="aUBid1zJC-U" />
-            </div>
           </div>
         </div>
         <NaviButtons

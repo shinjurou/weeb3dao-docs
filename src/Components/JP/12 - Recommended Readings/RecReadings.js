@@ -119,7 +119,10 @@ export default function RecReadings() {
               </li>
             </ul>
             <div className="mb-3">
-              <Video youtubeId="8Kqz2dnpaKY" />
+              <Video
+                youtubeId="8Kqz2dnpaKY"
+                title="Saito Naoki earned 6 million yen with one illustration"
+              />
             </div>
           </div>
 
