@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
-import ReactPlayer from "react-player";
+import Video from "../0 - Index/Video";
 
 export default function RecReadings() {
   return (
@@ -118,13 +118,8 @@ export default function RecReadings() {
                 />
               </li>
             </ul>
-            <div className="content-center h-[660px] mt-4">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=8Kqz2dnpaKY&feature=emb_title"
-                controls={true}
-                width="100%"
-                height="100%"
-              />
+            <div className="mb-3">
+              <Video youtubeId="8Kqz2dnpaKY" />
             </div>
           </div>
 
