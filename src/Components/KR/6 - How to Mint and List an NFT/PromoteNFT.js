@@ -151,13 +151,6 @@ export default function PromoteNFT() {
                   </li>
                   <li className="mt-1">
                     <Link
-                      link="https://discord.gg/wxdRVkgv9E"
-                      title="Foundation"
-                      light={true}
-                    />
-                  </li>
-                  <li className="mt-1">
-                    <Link
                       link="https://discord.gg/makersplace"
                       title="MakersPlace"
                       light={true}

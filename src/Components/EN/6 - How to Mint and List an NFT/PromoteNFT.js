@@ -138,7 +138,7 @@ export default function PromoteNFT() {
                   <li className="mt-1">
                     <Link
                       link="https://discord.gg/JD8dqyfVpF"
-                      title="Anifriends"
+                      title="Anifam"
                       light={true}
                     />
                   </li>
@@ -146,13 +146,6 @@ export default function PromoteNFT() {
                     <Link
                       link="https://discord.gg/nftasia"
                       title="NFT Asia"
-                      light={true}
-                    />
-                  </li>
-                  <li className="mt-1">
-                    <Link
-                      link="https://discord.gg/wxdRVkgv9E"
-                      title="Foundation"
                       light={true}
                     />
                   </li>
