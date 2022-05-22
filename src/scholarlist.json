@@ -96,11 +96,18 @@
     "fnd": "@anemone_kisumi",
     "gas": true,
     "invite": false
-  },
+  
   {
     "name": "AnTi",
     "twitter": "@anti3024",
     "fnd": "@anti3024",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "any",
+    "twitter": "@aanyris",
+    "fnd": "@anyris",
     "gas": true,
     "invite": false
   },
@@ -546,9 +553,23 @@
     "invite": true
   },
   {
+    "name": "Kare",
+    "twitter": "@uncaream",
+    "fnd": "@uncaream",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Kazadi",
     "twitter": "@Kazadi777",
     "fnd": "@kazadi777",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Kazuu",
+    "twitter": "@Tamagoegg_eth",
+    "fnd": "@tamagoegg_",
     "gas": true,
     "invite": false
   },
@@ -598,6 +619,13 @@
     "name": "Lee Benaza",
     "twitter": "@lesleebee_art",
     "fnd": "@lesleebee_art",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Levia",
+    "twitter": "@levianft",
+    "fnd": "@levia",
     "gas": true,
     "invite": false
   },
@@ -707,6 +735,13 @@
     "invite": true
   },
   {
+    "name": "MieYa",
+    "twitter": "@MieAyamTerminal",
+    "fnd": "@MieAyamTerminal",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "migume",
     "twitter": "@migume000",
     "fnd": "@migume",
@@ -761,6 +796,13 @@
     "fnd": "@momofhiki",
     "gas": true,
     "invite": false
+  },
+  {
+    "name": "monmon",
+    "twitter": "@monmonNFT",
+    "fnd": "@monmonNFT",
+    "gas": true,
+    "invite": true
   },
   {
     "name": "Monope",
@@ -868,6 +910,13 @@
     "invite": true
   },
   {
+    "name": "nyaro",
+    "twitter": "@SaperlipopetteC",
+    "fnd": "@saperlipopette",
+    "gas": true,
+    "invite": true
+  },
+  {
     "name": "Ohi Uii",
     "twitter": "@OhiUii",
     "fnd": "@OhiUii",
@@ -922,6 +971,13 @@
     "fnd": "@patch_oxxo",
     "gas": false,
     "invite": true
+  },
+  {
+    "name": "Pepper",
+    "twitter": "@pepperlune",
+    "fnd": "@pepperlune",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "pipipi (ぴぴぴ)",
@@ -1113,6 +1169,13 @@
     "invite": true
   },
   {
+    "name": "sauv",
+    "twitter": "@sauvineonft",
+    "fnd": "@sauvineon",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "SAWARI",
     "twitter": "@SawariART",
     "fnd": "@sawari",
@@ -1190,6 +1253,13 @@
     "invite": false
   },
   {
+    "name": "Sui-Bunbun",
+    "twitter": "@sui_bunbun",
+    "fnd": "@sui_bunbun",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "suisa (水sa)",
     "twitter": "@suisa_ra",
     "fnd": "@suisa_ra",
@@ -1244,6 +1314,13 @@
     "fnd": "@aionatchan",
     "gas": true,
     "invite": true
+  },
+  {
+    "name": "Thiago Fürst",
+    "twitter": "@Furstenau_art",
+    "fnd": "@Thisou",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "Tifa",
@@ -1307,11 +1384,18 @@
     "fnd": "@VT.RKGK",
     "gas": true,
     "invite": false
-  },
+  
   {
     "name": "Wan1",
     "twitter": "@Wan1artz",
     "fnd": "@wan1",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Wanderyen Erin",
+    "twitter": "@Wanderyen_Erin",
+    "fnd": "@Wanderyen",
     "gas": true,
     "invite": false
   },
