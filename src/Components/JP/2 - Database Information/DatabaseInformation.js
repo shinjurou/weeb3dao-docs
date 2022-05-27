@@ -19,7 +19,7 @@ export default function DatabaseInfo() {
             <div>
               本サイトに掲載されている情報は、
               <span className="text-pink-600">インターネット</span>や
-              <Link link="https://discord.gg/vktnAzvyNQ" title="Anifriends" />の
+              <span className="text-teal-500">アニメNFTサークル</span>の
               <span className="text-orange-500">アーティスト</span>並びに
               <span className="text-orange-500">コレクター</span>
               から提供された情報をもとにまとめたものです。
@@ -33,41 +33,35 @@ export default function DatabaseInfo() {
           </Typography>
           <ul className="list-disc mt-3 ml-5">
             <li className="my-2 ">
-              <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
-                主著者とウェブデベロッパー:
+              <span className="bg-indigo-500 text-gray-800 p-0.5 rounded-sm">
+                ウェブデベロッパー:
               </span>{" "}
               <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />
-            </li>
-
-            <li className="my-2 ">
-              <span className="bg-sky-600 text-gray-800 p-0.5 rounded-sm">
-                ウェブサイトの提供者:
-              </span>{" "}
-              <Link link="https://twitter.com/ligaratus_" title="ligaratus" />,{" "}
-              <Link link="https://twitter.com/shiomueth" title="shiomu" />
+              , <Link link="https://twitter.com/ligaratus_" title="ligaratus" />
             </li>
             <li className="my-2 ">
-              <span className="bg-purple-400 text-gray-800 p-0.5 rounded-sm">
+              <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
                 著者:
               </span>{" "}
-              <Link link="https://twitter.com/chionnera" title="Chione" />
+              <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />{" "}
+              , <Link link="https://twitter.com/chionnera" title="Chione" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                日本語翻訳者:
+                翻訳者:
               </span>{" "}
-              <Link link="https://twitter.com/0TL_" title="どげざちゃん" />
-            </li>
-            <li className="my-2">
-              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                韓国語翻訳者:
-              </span>{" "}
-              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />
+              <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />{" "}
+              (日本語),{" "}
+              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />{" "}
+              (韓国語)
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
-                英語版校正者:
+                校正者:
               </span>{" "}
+              <br />
+              <div className="mt-1"></div>
+              英語版:{" "}
               <Link
                 link="https://twitter.com/morellostorment"
                 title="morello"
@@ -76,19 +70,33 @@ export default function DatabaseInfo() {
               , <Link link="https://twitter.com/Feireina" title="Fei" />,{" "}
               <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link link="https://twitter.com/PausePLayed" title="PausePlay" />
+              <br />
+              日本語版:{" "}
+              <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />
+              , <Link link="https://twitter.com/piprycto" title="Fao" />,{" "}
+              <Link link="https://twitter.com/PigThePersona" title="ranbuta" />,{" "}
+              <Link link="https://twitter.com/WakiyamaP" title="WakiyamaP" />
             </li>
-
-            <li className="my-2">
-              <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
-                日本語版校正者:
+            <li className="my-2 ">
+              <span className="bg-cyan-500 text-gray-800 p-0.5 rounded-sm">
+                奨学金取扱者:
               </span>{" "}
-              <Link link="https://twitter.com/0TL_" title="どげざちゃん" />
-              , <Link
-                link="https://twitter.com/piprycto"
-                title="ファオ"
-              />,{" "}
-              <Link link="https://twitter.com/PigThePersona" title="らんぶた" />
-              , <Link link="https://twitter.com/WakiyamaP" title="脇P(jinP)" />
+              <Link link="https://twitter.com/shiomueth" title="shiomu" />,{" "}
+              <Link link="https://twitter.com/ligaratus_" title="ligaratus" />,{" "}
+              <Link link="https://twitter.com/LumenWakuWaku" title="Lumen" />,{" "}
+              <Link
+                link="https://twitter.com/morellostorment"
+                title="morello"
+              />
+            </li>
+            <li className="my-2">
+              <span className="bg-violet-500 text-gray-800 p-0.5 rounded-sm">
+                ドメインオーナー:
+              </span>{" "}
+              <Link
+                link="https://twitter.com/morellostorment"
+                title="morello"
+              />
             </li>
           </ul>
         </div>
@@ -99,9 +107,9 @@ export default function DatabaseInfo() {
             <div>
               誤字脱字の報告、情報の修正、新しい情報の提供、他言語への翻訳をデータベースに追加したい場合は、
               <span className="text-pink-600">
-                TwitterまたはDiscordでShinjurou
+                weeb3daoメンバー にメッセージを送ってください
               </span>
-              にメッセージを送ってください。
+              。
             </div>,
           ]}
         />

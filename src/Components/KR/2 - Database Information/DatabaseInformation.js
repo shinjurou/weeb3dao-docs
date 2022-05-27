@@ -10,7 +10,7 @@ export default function DatabaseInfo() {
     <div className="database-info">
       <div className="m-10">
         <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          데이터 베이스 정보
+          Database Information
         </Typography>
 
         <Card
@@ -22,8 +22,8 @@ export default function DatabaseInfo() {
               thanks to the{" "}
               <span className="text-pink-600">information provided</span> by{" "}
               <span className="text-orange-500">artists</span> and{" "}
-              <span className="text-orange-500">collectors</span> in{" "}
-              <Link link="https://discord.gg/vktnAzvyNQ" title="Anifriends" />.
+              <span className="text-orange-500">collectors</span> in the{" "}
+              <span className="text-teal-500">Anime NFT circle</span>.
             </div>,
           ]}
         />
@@ -34,28 +34,35 @@ export default function DatabaseInfo() {
           </Typography>
           <ul className="list-disc mt-3 ml-5">
             <li className="my-2 ">
-              <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
-                Main author & Website Developer:
+              <span className="bg-indigo-500 text-gray-800 p-0.5 rounded-sm">
+                Website Developers:
               </span>{" "}
               <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />
+              , <Link link="https://twitter.com/ligaratus_" title="ligaratus" />
             </li>
             <li className="my-2 ">
-              <span className="bg-sky-600 text-gray-800 p-0.5 rounded-sm">
-                Website Collaborators:
+              <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
+                Authors:
               </span>{" "}
-              <Link link="https://twitter.com/ligaratus_" title="ligaratus" />,{" "}
-              <Link link="https://twitter.com/shiomueth" title="shiomu" />
+              <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />{" "}
+              , <Link link="https://twitter.com/chionnera" title="Chione" />
             </li>
-            <li className="my-2 ">
-              <span className="bg-purple-400 text-gray-800 p-0.5 rounded-sm">
-                Authors
+            <li className="my-2">
+              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
+                Translators:
               </span>{" "}
-              <Link link="https://twitter.com/chionnera" title="Chione" />
+              <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />{" "}
+              (Japanese),{" "}
+              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />{" "}
+              (Korean)
             </li>
             <li className="my-2">
               <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
-                English Proofreaders:
+                Proofreaders:
               </span>{" "}
+              <br />
+              <div className="mt-1"></div>
+              English:{" "}
               <Link
                 link="https://twitter.com/morellostorment"
                 title="morello"
@@ -64,27 +71,33 @@ export default function DatabaseInfo() {
               , <Link link="https://twitter.com/Feireina" title="Fei" />,{" "}
               <Link link="https://twitter.com/blnkart_" title="BL!NK" />,{" "}
               <Link link="https://twitter.com/PausePLayed" title="PausePlay" />
-            </li>
-            <li className="my-2">
-              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                Japanese Translator:
-              </span>{" "}
-              <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />
-            </li>
-            <li className="my-2">
-              <span className="bg-orange-400 text-gray-800 p-0.5 rounded-sm">
-                Japanese Proofreaders:
-              </span>{" "}
+              <br />
+              Japanese:{" "}
               <Link link="https://twitter.com/0TL_" title="Dogeza-chan" />
               , <Link link="https://twitter.com/piprycto" title="Fao" />,{" "}
-              <Link link="https://twitter.com/PigThePersona" title="ranbuta" />
-              , <Link link="https://twitter.com/WakiyamaP" title="WakiyamaP" />
+              <Link link="https://twitter.com/PigThePersona" title="ranbuta" />,{" "}
+              <Link link="https://twitter.com/WakiyamaP" title="WakiyamaP" />
+            </li>
+            <li className="my-2 ">
+              <span className="bg-cyan-500 text-gray-800 p-0.5 rounded-sm">
+                Scholarship Handlers:
+              </span>{" "}
+              <Link link="https://twitter.com/shiomueth" title="shiomu" />,{" "}
+              <Link link="https://twitter.com/ligaratus_" title="ligaratus" />,{" "}
+              <Link link="https://twitter.com/LumenWakuWaku" title="Lumen" />,{" "}
+              <Link
+                link="https://twitter.com/morellostorment"
+                title="morello"
+              />
             </li>
             <li className="my-2">
-              <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
-                Korean Translator:
+              <span className="bg-violet-500 text-gray-800 p-0.5 rounded-sm">
+                Domain Owner:
               </span>{" "}
-              <Link link="https://twitter.com/0xARCANE" title="ARCANΞ" />
+              <Link
+                link="https://twitter.com/morellostorment"
+                title="morello"
+              />
             </li>
           </ul>
         </div>
@@ -97,7 +110,7 @@ export default function DatabaseInfo() {
               new information or provide translation into another language to be
               added onto the database then{" "}
               <span className="text-pink-600">
-                please send a message to Shinjurou via Twitter or Discord.
+                please contact a weeb3dao member.
               </span>
             </div>,
           ]}
@@ -191,9 +204,9 @@ export default function DatabaseInfo() {
           />
         </div>
         <NaviButtons
-          return="환영합니다"
+          return="Welcome"
           returnlink="/"
-          next="소개"
+          next="Introduction"
           nextlink="/introduction"
         />
       </div>
