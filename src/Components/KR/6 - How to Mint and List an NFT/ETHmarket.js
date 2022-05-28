@@ -348,7 +348,7 @@ export default function FullWidthTabs() {
                       <span className="font-bold">Mods</span> in{" "}
                       <Link
                         link="https://discord.gg/vktnAzvyNQ"
-                        title="Anifriends Discord Server"
+                        title="Anifam Discord Server"
                       />{" "}
                       for assistance.
                     </span>
@@ -711,7 +711,7 @@ export default function FullWidthTabs() {
                     </span>
                     . There are currently{" "}
                     <span className="text-orange-500 font-bold">
-                      2 curators available in Anifriends
+                      2 curators available in Anifam
                     </span>{" "}
                     who you can contact to express your interest:{" "}
                     <Link

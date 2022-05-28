@@ -45,7 +45,7 @@ export default function Celebration() {
                   🙌🎉 Send a message in{" "}
                   <Link
                     link="https://discord.gg/vktnAzvyNQ"
-                    title="Anifriends Discord Server's #congratsu
+                    title="Anifam Discord Server's #congratsu
               channel"
                   />{" "}
                   so we can congratulate you! 💖

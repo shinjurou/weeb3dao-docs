@@ -193,6 +193,15 @@ export default function DatabaseInfo() {
             ]}
           />
           <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">2022年5月28日</span>,
+              " ",
+              <span className="text-red-600 font-bold">バージョン 3.2</span>,
+              " Ethereumマーケットプレイス情報を更新されました",
+            ]}
+          />
+          <Checkbox
             checked={false}
             label={[
               <span className="text-violet-500">(予定)</span>,

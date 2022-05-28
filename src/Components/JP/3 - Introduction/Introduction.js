@@ -173,7 +173,7 @@ export default function Introduction() {
             "残りの1作品については ",
             <Link
               link="https://discord.gg/vktnAzvyNQ"
-              title="AnifriendsのDiscordサーバー"
+              title="AnifamのDiscordサーバー"
             />,
             " で活躍されている ",
             <Link
@@ -296,11 +296,7 @@ export default function Introduction() {
                     link="https://twitter.com/seerlight"
                     title="SeerLight"
                   />{" "}
-                  氏です。SeerLight氏は一般のNFTコミュニティでは今やブルーチップアーティストと呼ばれており、
-                  <Link
-                    link="https://twitter.com/seerlight/status/1451367288498651137"
-                    title="現在125ETHの過去最高の売上実績を持っています。"
-                  />
+                  氏です。SeerLight氏は一般のNFTコミュニティでは今やブルーチップアーティストと呼ばれております。
                 </div>,
               ]}
             />
@@ -309,9 +305,9 @@ export default function Introduction() {
               現在、
               <Link
                 link="https://discord.gg/vktnAzvyNQ"
-                title="AnifriendsのDiscordサーバー"
+                title="AnifamのDiscordサーバー"
               />
-              には一千人以上のメンバーがいます。weeb3やuwucrewにいる多くのコレクターやアーティストもこのディスコードサーバーに参加しており、Anifriendsはアニメアーティスト仲間のハブとなっています。
+              には一千人以上のメンバーがいます。weeb3やuwucrewにいる多くのコレクターやアーティストもこのディスコードサーバーに参加しており、Anifamはアニメアーティスト仲間のハブとなっています。
             </div>
             <div className="mt-2">
               Discordサーバーには、
@@ -324,7 +320,7 @@ export default function Introduction() {
               color="green"
               content={[
                 <div>
-                  Anifriendsで最も注目されている日本のアーティストは{" "}
+                  Anifamで最も注目されている日本のアーティストは{" "}
                   <Link
                     link="https://twitter.com/_NaokiSaito"
                     title="Naoki Saito（さいとう なおき氏）"
@@ -386,8 +382,7 @@ export default function Introduction() {
             </div>
             <div className="mt-2">
               また、
-              <Link link="https://twitter.com/AnifamNft" title="Anifam" />{" "}
-              のメンバーが作成したジェネレーティブPFPプロジェクトにも協力しています。
+              色んなアニメNFTアーティストが作成したジェネレーティブPFPプロジェクトにも協力しています。
             </div>
           </div>
         </div>

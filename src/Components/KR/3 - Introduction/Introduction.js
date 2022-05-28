@@ -180,7 +180,7 @@ export default function Introduction() {
             " who is an active member of ",
             <Link
               link="https://discord.gg/vktnAzvyNQ"
-              title="Anifriends Discord Server"
+              title="Anifam Discord Server"
             />,
             ".",
           ]}
@@ -313,11 +313,7 @@ export default function Introduction() {
                     title="SeerLight"
                   />{" "}
                   who is now considered a blue chip artist in the general NFT
-                  Community, aside from Anime NFT Community. Seer currently has
-                  <Link
-                    link="https://twitter.com/seerlight/status/1451367288498651137"
-                    title=" an ATH sale of 125 ETH."
-                  />
+                  Community, aside from Anime NFT Community.
                 </div>,
               ]}
             />
@@ -326,11 +322,11 @@ export default function Introduction() {
               Currently there are 1k+ members in the{" "}
               <Link
                 link="https://discord.gg/vktnAzvyNQ"
-                title="Anifriends Discord Server"
+                title="Anifam Discord Server"
               />
               . Many collectors and artists who in weeb3 and uwucrew are also in
-              the discord server and Anifriends has become a hub for fellow
-              anime artists.
+              the discord server and Anifam has become a hub for fellow anime
+              artists.
             </div>
             <div className="mt-2">
               The discord server also has channels for{" "}
@@ -344,7 +340,7 @@ export default function Introduction() {
               color="green"
               content={[
                 <div>
-                  The most notable artist in Anifriends is the Japanese artist{" "}
+                  The most notable artist in Anifam is the Japanese artist{" "}
                   <Link
                     link="https://twitter.com/_NaokiSaito"
                     title="Naoki Saito"
@@ -408,8 +404,7 @@ export default function Introduction() {
             </div>
             <div className="mt-2">
               They are also helping other generative PFP projects created by
-              members from{" "}
-              <Link link="https://twitter.com/AnifamNft" title="Anifam" />.
+              various Anime NFT Artists.
             </div>
           </div>
         </div>

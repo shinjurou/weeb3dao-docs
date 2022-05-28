@@ -138,7 +138,7 @@ export default function PromoteNFT() {
                   <li className="mt-1">
                     <Link
                       link="https://discord.gg/JD8dqyfVpF"
-                      title="Anifriends"
+                      title="Anifam"
                       light={true}
                     />
                   </li>

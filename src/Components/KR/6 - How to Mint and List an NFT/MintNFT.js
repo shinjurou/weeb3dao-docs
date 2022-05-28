@@ -282,7 +282,7 @@ export default function MintNFT() {
                     message to Shinjurou in the{" "}
                     <Link
                       link="https://discord.gg/vktnAzvyNQ"
-                      title="Anifriends Discord Server"
+                      title="Anifam Discord Server"
                     />{" "}
                     for support.
                   </span>

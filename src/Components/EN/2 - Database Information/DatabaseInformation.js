@@ -195,6 +195,15 @@ export default function DatabaseInfo() {
             ]}
           />
           <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">28 May 2022</span>,
+              " ",
+              <span className="text-red-600 font-bold">Version 3.2</span>,
+              " Ethereum Marketplace information is updated",
+            ]}
+          />
+          <Checkbox
             checked={false}
             label={[
               <span className="text-violet-500">(In Progress)</span>,
