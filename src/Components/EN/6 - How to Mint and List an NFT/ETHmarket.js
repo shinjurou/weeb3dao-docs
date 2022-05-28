@@ -294,26 +294,6 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    Minting an NFT from a different marketplace (For example:
-                    Foundation) will result in the NFT showing up on OpenSea as
-                    a part of{" "}
-                    <span className="text-orange-500 font-bold">
-                      Foundation's collection
-                    </span>{" "}
-                    and not your own collection{" "}
-                    <span className="relative bottom-0.5 right-0.5">
-                      <ArrowRightAltIcon />
-                    </span>
-                    You will have to mint as a collection on Foundation in order
-                    for the NFT(s) to be shown in your own collection on
-                    OpenSea.{" "}
-                    <Link
-                      link="https://opensea.io/collection/the-girls-of-armament-v2"
-                      title="Example of a Foundation's collection on OpenSea"
-                    />
-                    .
-                  </li>
-                  <li className="mt-1">
                     You will still be able to change the NFT(s) after the
                     purchase is completed, so it is recommended to{" "}
                     <Link
@@ -348,7 +328,7 @@ export default function FullWidthTabs() {
                       <span className="font-bold">Mods</span> in{" "}
                       <Link
                         link="https://discord.gg/vktnAzvyNQ"
-                        title="Anifriends Discord Server"
+                        title="Anifam Discord Server"
                       />{" "}
                       for assistance.
                     </span>
@@ -368,6 +348,13 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
+                    <span className="text-green-600 font-bold">
+                      Open for everyone to use.
+                    </span>{" "}
+                    Anyone can make an account and start using Foundation
+                    without needing to go through an application process.
+                  </li>
+                  <li className="mt-1">
                     Currently, Foundation{" "}
                     <span className="text-green-600 font-bold">
                       is the most popular marketplace
@@ -379,20 +366,9 @@ export default function FullWidthTabs() {
                     .
                   </li>
                   <li className="mt-1">
-                    Minting is{" "}
-                    <span className="text-green-600 font-bold">
-                      straight-forward and easy to understand
-                    </span>
-                    .
-                  </li>
-                  <li className="mt-1">
                     Currently has the{" "}
                     <span className="text-green-600 font-bold">
                       best UI experience
-                    </span>{" "}
-                    and{" "}
-                    <span className="text-green-600 font-bold">
-                      easy to use
                     </span>
                     .
                   </li>
@@ -403,11 +379,11 @@ export default function FullWidthTabs() {
                     are currently using Foundation to collect NFT.
                   </li>
                   <li className="mt-1">
-                    Recently implemented a{" "}
-                    <span className="text-pink-600 font-bold">
-                      collection system
-                    </span>{" "}
-                    into their website and is now available to all artists.
+                    Artists are able to{" "}
+                    <span className="text-green-600 font-bold">
+                      create their own collection
+                    </span>
+                    .
                   </li>
                   <li className="mt-1">
                     You can{" "}
@@ -474,11 +450,30 @@ export default function FullWidthTabs() {
                     .
                   </li>
                   <li className="mt-1">
-                    You will need to{" "}
+                    You are required to{" "}
                     <span className="text-red-600 font-bold">
-                      pay the gas fees twice
+                      pay a gas fee to create a collection on Foundation
+                    </span>{" "}
+                    before{" "}
+                    <span className="text-red-600 font-bold">
+                      paying another gas free to mint the NFT
                     </span>
-                    : 1 for minting and 1 for listing.
+                    . <br />
+                    Afterwards, you are can select to{" "}
+                    <span className="text-red-600 font-bold">
+                      pay another gas fee to list the NFT with a "Buy Now" price
+                    </span>{" "}
+                    or{" "}
+                    <span className="text-red-600 font-bold">
+                      set a minimum reserve price so a 24 hour auction when
+                      someone bids on it
+                    </span>
+                    .<br />
+                    <span className="text-orange-500 font-bold">
+                      <ArrowRightAltIcon /> This means that you will need to pay
+                      2 gas fees if you want to set both a minimum bid price and
+                      a "buy now" price.
+                    </span>
                   </li>
                   <li className="mt-1">
                     Might have{" "}
@@ -497,7 +492,18 @@ export default function FullWidthTabs() {
                     does not allow editions.
                   </li>
                   <li className="mt-1">
-                    Currently has{" "}
+                    Foundation now also{" "}
+                    <span className="text-red-600 font-bold">
+                      shows generative PFP projects' NFTs
+                    </span>{" "}
+                    on the platform and{" "}
+                    <span className="text-red-600 font-bold">
+                      is no longer a 1/1 only platform
+                    </span>
+                    .
+                  </li>
+                  <li className="mt-1">
+                    Has{" "}
                     <span className="text-orange-500 font-bold">
                       bad thumbnail image crop
                     </span>{" "}
@@ -523,35 +529,31 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    <span className="text-orange-500 font-bold">
-                      Invite-based system
-                    </span>{" "}
-                    so you can join with an invite from someone who has{" "}
-                    <span className="text-pink-600 font-bold">made a sale</span>{" "}
-                    on Foundation.
+                    Foundation has{" "}
+                    <span className="text-orange-500 font-bold">3 systems</span>{" "}
+                    available for selling NFT(s) in which you can choose
+                    depending on your preference:
                   </li>
-                  <li className="mt-1">
-                    Foundation only has{" "}
-                    <span className="text-orange-500 font-bold">1 system</span>{" "}
-                    available to selling your NFT(s) which is the bidding model.
-                  </li>
-                  <ol className="list-decimal ml-6">
+                  <ul className="list-disc ml-6">
+                    <li className="mt-1">
+                      Set a{" "}
+                      <span className="text-pink-600 font-bold">
+                        fixed "buy now" price
+                      </span>
+                      .
+                    </li>
                     <li className="mt-1">
                       Set a{" "}
                       <span className="text-pink-600 font-bold">
                         minimum bid price.
                       </span>
-                    </li>
-                    <li className="mt-1">
-                      A{" "}
+                      <br />A{" "}
                       <span className="text-pink-600 font-bold">
                         24 hour countdown
                       </span>{" "}
                       will{" "}
                       <span className="text-orange-500 font-bold">start</span>{" "}
-                      once a collector bids on your work.
-                    </li>
-                    <li className="mt-1">
+                      once a collector bids on your work. <br />
                       Bidding{" "}
                       <span className="text-pink-600 font-bold">
                         ends after 24 hours
@@ -564,7 +566,13 @@ export default function FullWidthTabs() {
                       collector's wallet. (Usually the collector will pay the
                       settling fee so it is best to wait for them).
                     </li>
-                  </ol>
+                    <li className="mt-1">
+                      <span className="text-pink-600 font-bold">
+                        Accept offers
+                      </span>{" "}
+                      from others.
+                    </li>
+                  </ul>
                 </ul>
               </div>,
             ]}
@@ -580,47 +588,20 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    Recently{" "}
-                    <Link
-                      link="https://rare.makersplace.com/2021/09/21/announcing-our-new-smart-token-contract/"
-                      title="updated their smart contract"
-                      light={true}
-                    />{" "}
-                    to{" "}
+                    Has{" "}
                     <span className="text-green-600 font-bold">
-                      decrease an average of 60% gas fees
+                      lower gas fees
                     </span>{" "}
-                    for{" "}
+                    compared to{" "}
                     <span className="text-orange-500 font-bold">
-                      both minting and transferring NFTs
+                      Foundation
                     </span>
                     .
                   </li>
                   <li className="mt-1">
+                    Artists are able to{" "}
                     <span className="text-green-600 font-bold">
-                      Supportive management team
-                    </span>{" "}
-                    and currently is excited to continue onboarding anime
-                    artists into their platform.
-                  </li>
-                  <li className="mt-1">
-                    <span className="text-green-600 font-bold">
-                      Community events available
-                    </span>{" "}
-                    in their{" "}
-                    <Link
-                      link="https://discord.gg/dbbAB4CHzK"
-                      title="Discord Server"
-                    />{" "}
-                    .
-                  </li>
-                  <li className="mt-1">
-                    Has implemented the{" "}
-                    <span className="text-pink-600 font-bold">
-                      collection system
-                    </span>{" "}
-                    <span className="text-orange-500 font-bold">
-                      before Foundation
+                      create their own collection
                     </span>
                     .
                   </li>
@@ -628,14 +609,6 @@ export default function FullWidthTabs() {
                     <span className="text-green-600 font-bold">
                       Allows both 1/1 and edition NFTs.
                     </span>
-                  </li>
-                  <li className="mt-1">
-                    You will not need to list the artwork up for sale. After
-                    mint, you can{" "}
-                    <span className="text-green-600 font-bold">
-                      start accepting offers
-                    </span>{" "}
-                    for it.
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
@@ -676,6 +649,16 @@ export default function FullWidthTabs() {
                     this method.
                   </li>
                   <li className="mt-1">
+                    <span className="text-orange-500 font-bold">
+                      Anime-inspired NFTs
+                    </span>{" "}
+                    and{" "}
+                    <span className="text-orange-500 font-bold">
+                      anime NFT collectors
+                    </span>{" "}
+                    are <span className="text-red-600 font-bold">scarce</span>.
+                  </li>
+                  <li className="mt-1">
                     You will need to{" "}
                     <span className="text-red-600 font-bold">
                       pay the settling fee yourself
@@ -703,27 +686,6 @@ export default function FullWidthTabs() {
                       title="your application"
                     />{" "}
                     has been accepted.
-                  </li>
-                  <li className="mt-1">
-                    Alternatively, you can join via{" "}
-                    <span className="text-pink-600 font-bold">
-                      an invitation from one of MakersPlace curators
-                    </span>
-                    . There are currently{" "}
-                    <span className="text-orange-500 font-bold">
-                      2 curators available in Anifriends
-                    </span>{" "}
-                    who you can contact to express your interest:{" "}
-                    <Link
-                      link="https://twitter.com/GreyRadian"
-                      title="GreyRadian"
-                    />{" "}
-                    and{" "}
-                    <Link
-                      link="https://twitter.com/shinjuroueth"
-                      title="Shinjurou"
-                    />
-                    .
                   </li>
                   <li className="mt-1">
                     MakersPlace has{" "}
@@ -779,12 +741,9 @@ export default function FullWidthTabs() {
                     </span>
                   </li>
                   <li className="mt-1">
-                    Has implemented the{" "}
-                    <span className="text-pink-600 font-bold">
-                      collection system
-                    </span>{" "}
-                    <span className="text-orange-500 font-bold">
-                      before Foundation
+                    Artists are able to{" "}
+                    <span className="text-green-600 font-bold">
+                      create their own collection
                     </span>
                     .
                   </li>
@@ -967,12 +926,14 @@ export default function FullWidthTabs() {
                     <span className="text-pink-600 font-bold">
                       highest ATH for a sold NFT
                     </span>{" "}
-                    price compared to other platforms. (
-                    <Link
-                      link="https://superrare.com/artwork-v2/hunter-inn-30058"
-                      title="Hunter Inn by SeerLight was sold for 100 ETH"
-                    />
-                    )
+                    price compared to other platforms.
+                  </li>
+                  <li className="mt-1">
+                    Artists are able to{" "}
+                    <span className="text-green-600 font-bold">
+                      create their own collection
+                    </span>
+                    .
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
@@ -1078,18 +1039,6 @@ export default function FullWidthTabs() {
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      Enthusiastic development team
-                    </span>{" "}
-                    who continuously improve the platform.
-                  </li>
-                  <li className="mt-1">
-                    <span className="text-green-600 font-bold">
-                      Has the lowest platform fee
-                    </span>{" "}
-                    compared to other 1/1 marketplaces.
-                  </li>
-                  <li className="mt-1">
-                    <span className="text-green-600 font-bold">
                       Has onboarded Japanese artists
                     </span>{" "}
                     who are{" "}
@@ -1127,10 +1076,13 @@ export default function FullWidthTabs() {
                     <span className="text-green-600 font-bold">free</span>.
                   </li>
                   <li className="mt-1">
+                    <span className="text-green-600 font-bold">
+                      Allows both 1/1 and edition NFTs.
+                    </span>
+                  </li>
+                  <li className="mt-1">
                     ANIFTY wrote{" "}
-                    <span className="text-orange-500 font-bold">
-                      an indepth guide
-                    </span>{" "}
+                    <span className="text-orange-500 font-bold">a guide</span>{" "}
                     for{" "}
                     <span className="text-teal-600 font-bold">
                       their certified artists
@@ -1222,13 +1174,6 @@ export default function FullWidthTabs() {
                       .
                     </li>
                   </ul>
-                  <li className="mt-1">
-                    The development team is currently working on{" "}
-                    <span className="text-orange-500 font-bold">
-                      implementing the bidding system
-                    </span>{" "}
-                    into their platform.
-                  </li>
                 </ul>
               </div>,
             ]}

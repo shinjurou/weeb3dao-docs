@@ -280,22 +280,6 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    別のマーケットプレイス（例：Foundation）からNFTをmintすると、OpenSeaではNFTは
-                    <span className="text-orange-500 font-bold">
-                      Foundationのコレクション
-                    </span>
-                    の一部として表示され、自分のコレクションには表示されません。
-                    <span className="relative bottom-0.5 right-1">
-                      <ArrowRightAltIcon />
-                    </span>
-                    OpenSeaの自分のコレクションにNFTを表示させるには、Foundationのコレクションとしてmintする必要があります。OpenSea上のFoundationのコレクションの例は
-                    <Link
-                      link="https://opensea.io/collection/the-girls-of-armament-v2"
-                      title="こちらから"
-                    />
-                    。
-                  </li>
-                  <li className="mt-1">
                     購入完了後もNFTを変更することができますので、
                     <Link
                       link="https://support.opensea.io/hc/en-us/articles/1500012270982-What-is-Freezing-Metadata-"
@@ -343,6 +327,12 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
+                    <span className="text-green-600 font-bold">
+                      誰でも自由に使える 誰でもアカウントを作成し
+                    </span>
+                    、申請手続きなしでFoundationの利用を開始することができます。
+                  </li>
+                  <li className="mt-1">
                     現在、
                     <span className="text-orange-500 font-bold">
                       1/1のアニメNFTアーティスト
@@ -354,19 +344,10 @@ export default function FullWidthTabs() {
                     はFoundationです。
                   </li>
                   <li className="mt-1">
-                    Mint方法は
-                    <span className="text-green-600 font-bold">
-                      分かりやすく簡単
-                    </span>
-                    です。
-                  </li>
-                  <li className="mt-1">
                     現在、
                     <span className="text-green-600 font-bold">
                       最も優れたUIと体験
                     </span>
-                    と
-                    <span className="text-green-600 font-bold">使いやすさ</span>
                     を備えています。
                   </li>
                   <li className="mt-1">
@@ -377,11 +358,11 @@ export default function FullWidthTabs() {
                     はFoundationを利用してNFTを収集している。
                   </li>
                   <li className="mt-1">
-                    最近、
-                    <span className="text-pink-600 font-bold">
-                      コレクション
+                    アーティストは
+                    <span className="text-green-600 font-bold">
+                      自分のコレクション
                     </span>
-                    が実装され、すべてのアーティストが利用できるようになった。
+                    を作成することができます。
                   </li>
                   <li className="mt-1">
                     NFTの販売を
@@ -444,11 +425,30 @@ export default function FullWidthTabs() {
                     。
                   </li>
                   <li className="mt-1">
-                    mintする際と出品する際に
+                    Foundationで
                     <span className="text-red-600 font-bold">
-                      ガス代を2回支払う必要がある
+                      コレクションを作成するには、ガス代を支払う必要があります
                     </span>
-                    。
+                    。 次に、
+                    <span className="text-red-600 font-bold">
+                      NFTをmintするために別のガス代を支払う必要があります
+                    </span>
+                    。<br />
+                    その後、
+                    <span className="text-red-600 font-bold">
+                      別のガス代を支払ってNFTを「今すぐ購入」価格でリストする
+                    </span>
+                    か、
+                    <span className="text-red-600 font-bold">
+                      誰かが入札したときに24時間オークションが行われる
+                      ように最低予約価格を設定する
+                    </span>
+                    かを選択できます。
+                    <br />
+                    <span className="text-orange-500 font-bold">
+                      <ArrowRightAltIcon />{" "}
+                      つまり、最低入札価格と「今すぐ購入」価格の両方を設定する場合は、2つのガス代を支払う必要があります。
+                    </span>
                   </li>
                   <li className="mt-1">
                     <span className="text-orange-500 font-bold">
@@ -461,6 +461,17 @@ export default function FullWidthTabs() {
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">1/1NFTのみ</span>
                     可能で、エディションは不可。
+                  </li>
+                  <li className="mt-1">
+                    Foundationは現在、
+                    <span className="text-red-600 font-bold">
+                      ジェネレーティブなPFPプロジェクトのNFTも表示
+                    </span>
+                    し、{" "}
+                    <span className="text-red-600 font-bold">
+                      1/1のみのプラットフォームではなく
+                    </span>
+                    なりました。
                   </li>
                   <li className="mt-1">
                     現在、mintされたNFTの
@@ -485,26 +496,25 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    <span className="text-orange-500 font-bold">招待制</span>
-                    のため、Foundationで
-                    <span className="text-pink-600 font-bold">販売した人</span>
-                    からの招待で参加できます。
-                  </li>
-                  <li className="mt-1">
-                    ファンデーションでは、NFTを販売するために、入札モデルという
+                    Foundationでは、NFTを販売するために
                     <span className="text-orange-500 font-bold">
-                      1つのシステム
+                      3つのシステム
                     </span>
-                    のみが用意されています。
+                    を用意されており、好みに応じて選択することができます。
                   </li>
-                  <ol className="list-decimal ml-6">
+                  <ul className="list-disc ml-6">
+                    <li className="mt-1">
+                      <span className="text-pink-600 font-bold">
+                        固定価格での販売
+                      </span>
+                      。
+                    </li>
                     <li className="mt-1">
                       <span className="text-pink-600 font-bold">
                         最低落札価格
                       </span>
-                      を設定します。
-                    </li>
-                    <li className="mt-1">
+                      を設定する。
+                      <br />
                       コレクターがあなたの作品に
                       <span className="text-orange-500 font-bold">入札</span>
                       すると、
@@ -512,8 +522,7 @@ export default function FullWidthTabs() {
                         24時間のカウントダウン
                       </span>
                       が開始されます。
-                    </li>
-                    <li className="mt-1">
+                      <br />
                       入札は24時間後に
                       <span className="text-pink-600 font-bold">終了</span>
                       し、あなたもしくはコレクターは、Foundationのウォレットから
@@ -526,7 +535,13 @@ export default function FullWidthTabs() {
                       </span>
                       を支払う必要があります。(通常、コレクターが決済手数料を支払うので、コレクターを待つのがベストです)。
                     </li>
-                  </ol>
+                    <li className="mt-1">
+                      <span className="text-pink-600 font-bold">
+                        他者からのオファー
+                      </span>
+                      を受ける。
+                    </li>
+                  </ul>
                 </ul>
               </div>,
             ]}
@@ -542,52 +557,22 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    最近、
-                    <Link
-                      link="https://rare.makersplace.com/2021/09/21/announcing-our-new-smart-token-contract/"
-                      title="スマートコントラクトをアップデート"
-                    />
-                    し、NFTの
+                    Foundationに 比べて
                     <span className="text-green-600 font-bold">
-                      mintと送金にかかるガス料金を平均60％削減しました
+                      ガス代が安い
                     </span>
                     。
                   </li>
                   <li className="mt-1">
-                    経営陣は
-                    <span className="text-green-600 font-bold">協力的</span>
-                    で、現在アニメアーティストのプラットフォームへの参加に力を注いでいます。
-                  </li>
-                  <li className="mt-1">
-                    <Link
-                      link="https://discord.gg/dbbAB4CHzK"
-                      title="Discordサーバー"
-                    />
-                    で
+                    アーティストは
                     <span className="text-green-600 font-bold">
-                      コミュニティイベントを開催しています
+                      自分のコレクション
                     </span>
-                    。
-                  </li>
-                  <li className="mt-1">
-                    <span className="text-orange-500 font-bold">
-                      Foundationより先
-                    </span>
-                    <span className="text-pink-600 font-bold">
-                      コレクション
-                    </span>{" "}
-                    のシステムを導入している。
+                    を作成することができます。
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
                       1/1、エディションNFTの両方を販売可能
-                    </span>
-                    。
-                  </li>
-                  <li className="mt-1">
-                    作品を売りに出す必要はない。mintの後、
-                    <span className="text-green-600 font-bold">
-                      その作品のオファーを受け始めることができる
                     </span>
                     。
                   </li>
@@ -625,6 +610,17 @@ export default function FullWidthTabs() {
                     する必要があり、この方法を好まないコレクターにとっては不便に感じる可能性があります。
                   </li>
                   <li className="mt-1">
+                    <span className="text-orange-500 font-bold">
+                      アニメに影響を受けたNFT
+                    </span>
+                    や
+                    <span className="text-orange-500 font-bold">
+                      アニメNFTのコレクター
+                    </span>
+                    は<span className="text-red-600 font-bold">少ない</span>
+                    です。
+                  </li>
+                  <li className="mt-1">
                     販売終了時に
                     <span className="text-red-600 font-bold">
                       決済手数料を自分で支払う必要
@@ -652,30 +648,6 @@ export default function FullWidthTabs() {
                       title="応募フォーム"
                     />
                     が受理された後に投稿できるようになります。
-                  </li>
-                  <li className="mt-1">
-                    または、
-                    <span className="text-pink-600 font-bold">
-                      MakersPlaceのキュレーターの1人からの招待で参加することができます
-                    </span>
-                    。現在、
-                    <span className="text-orange-500 font-bold">
-                      Anifriendsには現在
-                    </span>{" "}
-                    <Link
-                      link="https://twitter.com/GreyRadian"
-                      title="GreyRadian"
-                    />{" "}
-                    と{" "}
-                    <Link
-                      link="https://twitter.com/shinjuroueth"
-                      title="Shinjurou"
-                    />{" "}
-                    の
-                    <span className="text-orange-500 font-bold">
-                      2名のキュレーター
-                    </span>
-                    が在籍しており、興味のある方はご連絡ください。
                   </li>
                   <li className="mt-1">
                     MakersPlaceでは、NFTを販売するために
@@ -733,13 +705,11 @@ export default function FullWidthTabs() {
                     。
                   </li>
                   <li className="mt-1">
-                    <span className="text-orange-500 font-bold">
-                      Foundationより先
+                    アーティストは
+                    <span className="text-green-600 font-bold">
+                      自分のコレクション
                     </span>
-                    <span className="text-pink-600 font-bold">
-                      コレクション
-                    </span>{" "}
-                    のシステムを導入している。
+                    を作成することができます。
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
@@ -908,12 +878,14 @@ export default function FullWidthTabs() {
                     <span className="text-pink-600 font-bold">
                       最も高いATHを有しています
                     </span>
-                    。(
-                    <Link
-                      link="https://superrare.com/artwork-v2/hunter-inn-30058"
-                      title="SeerLightの「Hunter lnn」は100ETHで落札されました"
-                    />
-                    )
+                    。
+                  </li>
+                  <li className="mt-1">
+                    アーティストは
+                    <span className="text-green-600 font-bold">
+                      自分のコレクション
+                    </span>
+                    を作成することができます。
                   </li>
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
@@ -1014,20 +986,6 @@ export default function FullWidthTabs() {
               <div>
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
-                    プラットフォームを
-                    <span className="text-green-600 font-bold">
-                      継続的に改善する非常に熱心な開発チーム
-                    </span>
-                    。
-                  </li>
-                  <li className="mt-1">
-                    他の1/1マーケットプレイスと比較した際に、
-                    <span className="text-green-600 font-bold">
-                      手数料が最も低いです
-                    </span>
-                    。
-                  </li>
-                  <li className="mt-1">
                     <span className="text-orange-500 font-bold">
                       他のマーケットプレイスでは取り扱いのない
                     </span>
@@ -1067,14 +1025,18 @@ export default function FullWidthTabs() {
                     で作品をmintできます。
                   </li>
                   <li className="mt-1">
+                    <span className="text-green-600 font-bold">
+                      1/1、エディションNFTの両方が可能です
+                    </span>
+                    。
+                  </li>
+                  <li className="mt-1">
                     ANIFTYは、
                     <span className="text-teal-600 font-bold">
                       認定アーティスト
                     </span>
                     のために、英語と日本語の両方で
-                    <span className="text-orange-500 font-bold">
-                      詳細なガイド
-                    </span>
+                    <span className="text-orange-500 font-bold">ガイド</span>
                     を作成しました。
                   </li>
                 </ul>
@@ -1161,13 +1123,6 @@ export default function FullWidthTabs() {
                       。
                     </li>
                   </ul>
-                  <li className="mt-1">
-                    現在、開発チームは
-                    <span className="text-orange-500 font-bold">
-                      入札システム
-                    </span>
-                    のプラットフォームへの実装に取り組んでいます。
-                  </li>
                 </ul>
               </div>,
             ]}
