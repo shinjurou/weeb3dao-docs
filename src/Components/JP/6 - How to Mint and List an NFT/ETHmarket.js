@@ -91,9 +91,9 @@ export default function FullWidthTabs() {
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      誰でも自由に使える 誰でもアカウントを作成し
+                      誰でも利用できるオープンなマーケットプレイスです。
                     </span>
-                    、申請手続きなしでOpenSeaの利用を開始することができます。
+                    誰でも自由にアカウントを作成し、申請手続きをすることなく、OpenSeaの利用を開始することができます。
                   </li>
                   <li className="mt-1">
                     他のマーケットプレイスとは
@@ -328,34 +328,33 @@ export default function FullWidthTabs() {
                 <ul className="list-disc ml-4">
                   <li className="mt-1">
                     <span className="text-green-600 font-bold">
-                      誰でも自由に使える 誰でもアカウントを作成し
+                      誰でも利用できるオープンなマーケットプレイスです。
                     </span>
-                    、申請手続きなしでFoundationの利用を開始することができます。
+                    誰でも自由にアカウントを作成し、申請手続きをすることなく、OpenSeaの利用を開始することができます。
                   </li>
                   <li className="mt-1">
-                    現在、
+                    現状、 Foundationは
                     <span className="text-orange-500 font-bold">
                       1/1のアニメNFTアーティスト
                     </span>
-                    に
+                    に に
                     <span className="text-green-600 font-bold">
-                      最も人気のあるマーケットプレイス
+                      最も人気のあるマーケットプレイスです。
                     </span>
-                    はFoundationです。
                   </li>
                   <li className="mt-1">
-                    現在、
+                    現状、
                     <span className="text-green-600 font-bold">
-                      最も優れたUIと体験
+                      最も優れたUIとUXを備えている
                     </span>
-                    を備えています。
+                    マーケットプレイスです。
                   </li>
                   <li className="mt-1">
-                    現在、
+                    現状、
                     <span className="text-green-600 font-bold">
-                      アニメコレクターの大半
+                      アニメコレクターの大半がFoundationを利用
                     </span>
-                    はFoundationを利用してNFTを収集している。
+                    し、NFTを収集しています。
                   </li>
                   <li className="mt-1">
                     アーティストは
@@ -365,14 +364,14 @@ export default function FullWidthTabs() {
                     を作成することができます。
                   </li>
                   <li className="mt-1">
-                    NFTの販売を
+                    NFTの売上を
                     <Link
                       link="https://help.foundation.app/en/articles/5305276-how-can-i-create-a-split-on-foundation"
-                      title="協力者と分割"
+                      title="協力者と分割する"
                     />
-                    することができます（
+                    ことができます。（
                     <span className="text-orange-500 font-bold">最大で3人</span>
-                    の協力者を追加することができます)。
+                    まで追加することができます)。
                   </li>
                   <li className="mt-1">
                     <span className="text-pink-600 font-bold">
@@ -389,12 +388,12 @@ export default function FullWidthTabs() {
                       プロフィール
                     </span>
                     に<span className="text-pink-600 font-bold">ENS</span>
-                    を表示。
+                    を表示することができます。
                     <span className="relative bottom-0.5 right-1">
                       <ArrowRightAltIcon />
                     </span>
-                    これらのアカウントがリンクされているアーティストの
-                    <span className="text-pink-600 font-bold">正当性</span>
+                    これらにより、リンクされているアーティストの
+                    <span className="text-pink-600 font-bold">信頼性</span>
                     を簡単に確認することができます。
                   </li>
                 </ul>
@@ -420,54 +419,57 @@ export default function FullWidthTabs() {
                       title="KnownOrigin"
                       light={true}
                     />
-                    より
+                    よりも
                     <span className="text-red-600 font-bold">ガス代が高い</span>
                     。
                   </li>
                   <li className="mt-1">
-                    Foundationで
+                    Foundation上に
                     <span className="text-red-600 font-bold">
-                      コレクションを作成するには、ガス代を支払う必要があります
+                      コレクションを作成するためにはガス代を支払う
                     </span>
-                    。 次に、
+                    必要があり、
                     <span className="text-red-600 font-bold">
-                      NFTをmintするために別のガス代を支払う必要があります
+                      NFTをmintする際にも別途ガス代を支払う
                     </span>
-                    。<br />
+                    必要があります。
+                    <br />
                     その後、
                     <span className="text-red-600 font-bold">
-                      別のガス代を支払ってNFTを「今すぐ購入」価格でリストする
+                      NFTを「Buy Now」価格で出品する
                     </span>
                     か、
                     <span className="text-red-600 font-bold">
-                      誰かが入札したときに24時間オークションが行われる
-                      ように最低予約価格を設定する
+                      誰かが入札した際に、24時間のオークションが行われるように最低落札価格を設定する
                     </span>
-                    かを選択できます。
+                    かを選択することができます。
                     <br />
                     <span className="text-orange-500 font-bold">
-                      <ArrowRightAltIcon />{" "}
-                      つまり、最低入札価格と「今すぐ購入」価格の両方を設定する場合は、2つのガス代を支払う必要があります。
+                      <ArrowRightAltIcon /> つまり、最低落札価格と "Buy Now
+                      "価格の両方を設定する場合は、2つのガス代を支払う必要があります。
                     </span>
                   </li>
                   <li className="mt-1">
+                    他のマーケットプレイスに比べ、
                     <span className="text-orange-500 font-bold">
-                      アニメ系NFTアーティストが多いため
+                      アニメNFTのアーティストが多いため
                     </span>
-                    、他のマーケットプレイスより
-                    <span className="text-red-600 font-bold">競争率が高い</span>
-                    可能性。
+                    、
+                    <span className="text-red-600 font-bold">
+                      競争率が高い可能性
+                    </span>
+                    があります。
                   </li>
                   <li className="mt-1">
                     <span className="text-red-600 font-bold">1/1NFTのみ</span>
-                    可能で、エディションは不可。
+                    作成可能で、エディションは作成することができません。
                   </li>
                   <li className="mt-1">
-                    Foundationは現在、
+                    Foundationでは、
                     <span className="text-red-600 font-bold">
-                      ジェネレーティブなPFPプロジェクトのNFTも表示
+                      ジェネレーティブPFPプロジェクトのNFTもプラットフォームで表示される
                     </span>
-                    し、{" "}
+                    ようになり、
                     <span className="text-red-600 font-bold">
                       1/1のみのプラットフォームではなく
                     </span>
@@ -480,7 +482,7 @@ export default function FullWidthTabs() {
                     </span>
                     、
                     <span className="text-orange-500 font-bold">
-                      サムネイルの編集をすることもできない
+                      サムネイルを編集することができません
                     </span>
                     。
                   </li>
@@ -500,7 +502,7 @@ export default function FullWidthTabs() {
                     <span className="text-orange-500 font-bold">
                       3つのシステム
                     </span>
-                    を用意されており、好みに応じて選択することができます。
+                    が用意されており、好みに応じて選択することができます。
                   </li>
                   <ul className="list-disc ml-6">
                     <li className="mt-1">
@@ -516,24 +518,28 @@ export default function FullWidthTabs() {
                       を設定する。
                       <br />
                       コレクターがあなたの作品に
-                      <span className="text-orange-500 font-bold">入札</span>
-                      すると、
+                      <span className="text-orange-500 font-bold">
+                        入札する
+                      </span>
+                      と、
                       <span className="text-pink-600 font-bold">
                         24時間のカウントダウン
                       </span>
                       が開始されます。
                       <br />
-                      入札は24時間後に
-                      <span className="text-pink-600 font-bold">終了</span>
+                      入札は
+                      <span className="text-pink-600 font-bold">
+                        24時間後に 終了
+                      </span>
                       し、あなたもしくはコレクターは、Foundationのウォレットから
                       <span className="text-orange-500 font-bold">
-                        コレクターのウォレット
+                        コレクターのウォレットにNFTを転送する
                       </span>
-                      にNFTを転送するための
+                      ための
                       <span className="text-pink-600 font-bold">
                         決済手数料
                       </span>
-                      を支払う必要があります。(通常、コレクターが決済手数料を支払うので、コレクターを待つのがベストです)。
+                      を支払う必要があります。(通常、コレクターが決済手数料を支払うので、コレクターを待つのがベストです)
                     </li>
                     <li className="mt-1">
                       <span className="text-pink-600 font-bold">
