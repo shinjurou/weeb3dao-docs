@@ -119,6 +119,13 @@
     "invite": false
   },
   {
+    "name": "Arin",
+    "twitter": "@NoxiousArin",
+    "fnd": "@Arin_13",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Arisse",
     "twitter": "@x_arisse",
     "fnd": "@_arisse_",
@@ -266,9 +273,9 @@
     "invite": true
   },
   {
-    "name": "Darkzmonsty",
-    "twitter": "@darkzmonsty1",
-    "fnd": "@darkzmonsty",
+    "name": "dmonst01",
+    "twitter": "@dmonst01",
+    "fnd": "@dmonst01",
     "gas": true,
     "invite": true
   },
@@ -339,6 +346,13 @@
     "name": "Fio",
     "twitter": "@fioreeza",
     "fnd": "@fioreeza",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Five Summer",
+    "twitter": "@fiveNsummer",
+    "fnd": "@FiveNSummer",
     "gas": true,
     "invite": false
   },
@@ -644,8 +658,8 @@
     "invite": false
   },
   {
-    "name": "Kyu",
-    "twitter": "@kyumi_00",
+    "name": "kyumi",
+    "twitter": "@kyuminft",
     "fnd": "@kyumi",
     "gas": true,
     "invite": true
@@ -698,6 +712,13 @@
     "fnd": "@luxureve",
     "gas": true,
     "invite": true
+  },
+  {
+    "name": "louise",
+    "twitter": "@jeonh_ao",
+    "fnd": "@houseofao",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "Lux",
@@ -1200,6 +1221,13 @@
     "name": "ryuudog (龍犬)",
     "twitter": "@ryuudog2",
     "fnd": "@ryuudog",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Rymzu",
+    "twitter": "@rymzu4",
+    "fnd": "@rymzu",
     "gas": true,
     "invite": false
   },
