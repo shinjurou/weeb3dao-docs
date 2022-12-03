@@ -211,6 +211,8 @@ The repository has 6 prepicked colors to help texts be read easier.
 **Example:** `<span className="text-orange-500">Hello</span>`
 > You can add `font-bold` to include bold text stylization.<br/>
 > Color meanings for text stylization is similar to the meaning for [Card](#card)'s colors.
+> 
+**Note:** You can use an alternatetive color which has a similar meaning if a color is used too many times within the same paragraph.
 
 ## Add Image
 1. Add image to [/src/Imgs/](/src/Imgs/).
