@@ -36,7 +36,7 @@ export default function WhatIsBlockchain() {
           word="Blockchain"
           explain="ブロックチェーンとは、オンラインで起こるすべての活動を記録し、ネットワーク上にすべてを保存するシステムです。"
         />
-        <WordExample explain="会社の資金が記載されている財務帳簿、売上高など。" />
+        <WordExample example="会社の資金が記載されている財務帳簿、売上高など。" />
 
         <Card
           color="orange"

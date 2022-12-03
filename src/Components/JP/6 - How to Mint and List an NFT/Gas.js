@@ -45,7 +45,7 @@ export default function Gas() {
               曜日と時間帯があります。
               <WordExample
                 notReal={true}
-                explain={[
+                example={[
                   <>
                     週の最高値が
                     <span className="text-pink-600 font-bold">200GWEI</span>

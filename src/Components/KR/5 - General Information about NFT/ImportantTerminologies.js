@@ -135,7 +135,7 @@ export default function ImportantTerminologies() {
               word="Gas Fee"
               explain="블록체인 상에서 구매, 판매, 민트 요청과 같은 행동을 요청할 때, 필요한 비용"
             />
-            <WordExample explain=" 자동차를 운행하기 위해서는 기름이 필요한 것과 비슷합니다." />
+            <WordExample example=" 자동차를 운행하기 위해서는 기름이 필요한 것과 비슷합니다." />
           </li>
         </ul>
 
@@ -219,7 +219,7 @@ export default function ImportantTerminologies() {
             />
             <WordExample
               notReal={true}
-              explain="The NFT starts at 0.2 ETH and drops to 0 ETH after 2 days."
+              example="The NFT starts at 0.2 ETH and drops to 0 ETH after 2 days."
             />
           </li>
           <li>
@@ -251,7 +251,7 @@ export default function ImportantTerminologies() {
               word="ENS"
               explain="Ethereum Name Service is a naming system based on the Ethereum blockchain which can replace your wallet address into a shortened registered name."
             />
-            <WordExample notReal={true} explain="doraemon.eth" />
+            <WordExample notReal={true} example="doraemon.eth" />
           </li>
         </ul>
         <NaviButtons

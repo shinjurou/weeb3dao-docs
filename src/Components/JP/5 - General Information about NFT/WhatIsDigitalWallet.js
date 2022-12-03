@@ -37,7 +37,7 @@ export default function WhatIsDigitalWallet() {
           word="Digital Wallet"
           explain="デジタルウォレットは、ブロックチェーン上にすべてのデジタル資産を保存することができるソフトウェアです。"
         />
-        <WordExample explain="あなたの財布には紙幣やクレジットカードが収納されています。" />
+        <WordExample example="あなたの財布には紙幣やクレジットカードが収納されています。" />
 
         <Card
           color="orange"

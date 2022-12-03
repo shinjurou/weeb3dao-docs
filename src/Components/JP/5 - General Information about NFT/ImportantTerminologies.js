@@ -139,7 +139,7 @@ export default function ImportantTerminologies() {
               explain="ガス代。各取引がブロックチェーン上で処理されるために必要な手数料です。
               "
             />
-            <WordExample explain="車を走らせるために、ガソリン代を払うこと。" />
+            <WordExample example="車を走らせるために、ガソリン代を払うこと。" />
           </li>
         </ul>
 
@@ -217,7 +217,7 @@ export default function ImportantTerminologies() {
             />
             <WordExample
               notReal={true}
-              explain="0.2ETHでオークションが開始し、2日後に0ETHまで下がりした。"
+              example="0.2ETHでオークションが開始し、2日後に0ETHまで下がりした。"
             />
           </li>
           <li>
@@ -249,7 +249,7 @@ export default function ImportantTerminologies() {
               word="ENS"
               explain="Ethereum Name Serviceは、Ethereumブロックチェーンに基づく命名システムで、ウォレットアドレスを短縮された登録名に置き換えることができます。"
             />
-            <WordExample notReal={true} explain="doraemon.eth" />
+            <WordExample notReal={true} example="doraemon.eth" />
           </li>
         </ul>
         <NaviButtons

@@ -41,13 +41,13 @@ export default function WhatIsNFT() {
           word="Non-fungible"
           explain="唯一無二の存在であり、他の追随を許さない存在。"
         />
-        <WordExample explain="高校生のあなたは、高校の数学の先生の代わりにはなれない。" />
+        <WordExample example="高校生のあなたは、高校の数学の先生の代わりにはなれない。" />
 
         <WordExplain
           word="Token"
           explain="ブロックチェーンを通じてオンラインで取引できるようになるデジタルデータです。"
         />
-        <WordExample explain="私たちが日常的に使っている紙幣はただの紙ですが、商品と交換されるお金という価値が付加されています。" />
+        <WordExample example="私たちが日常的に使っている紙幣はただの紙ですが、商品と交換されるお金という価値が付加されています。" />
 
         <Card
           color="orange"
