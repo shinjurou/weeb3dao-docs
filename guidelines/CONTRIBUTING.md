@@ -114,7 +114,8 @@ Some files are split into smaller sections so you will need to locate the text i
    - The `.` before `/Blockchains` means the file is in the same folder as the `ChooseBlockchain.js` file we are currently on.
    - Go back to the main folder [`6 - How to Mint and List an NFT`](/src/Components/EN/6%20-%20How%20to%20Mint%20and%20List%20an%20NFT) and you will find the file [`Blockchains.js`](/src/Components/EN/6%20-%20How%20to%20Mint%20and%20List%20an%20NFT/Blockchains.js) there.
 
-> `.` means in the same folder.<br/> > `..` means go back one folder.
+> `.` means in the same folder.<br/>
+> `..` means go back one folder.
 
 ## Components
 
