@@ -12,9 +12,9 @@ A documentation created by weeb3dao to help anime NFT artists. All of the resour
 
 ## Contribution Guidelines
 
-Anyone is free to make pull requests to help keep the database up to date or add new guides/information.
+[Contribution guidelines Link](guidelines/CONTRIBUTING.md)
 
-[Contribution guidelines for this project](guidelines/CONTRIBUTING.md)
+Anyone is free to make pull requests to help keep the database up to date or add new guides/information.
 
 #### ❗ Please keep in mind that any contribution should be volunteered contribution.
 
