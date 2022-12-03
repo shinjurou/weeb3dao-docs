@@ -6,6 +6,7 @@ import NaviButtons from "../0 - Index/NaviButtons";
 import WordExplain from "../0 - Index/WordExplain";
 import WordExample from "../0 - Index/WordExample";
 
+// Importing sections
 import POWPOS from "./POWPOS";
 
 export default function ImportantTerminologies() {

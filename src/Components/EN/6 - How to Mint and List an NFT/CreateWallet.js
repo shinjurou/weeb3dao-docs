@@ -3,9 +3,11 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
-import Wallets from "./Wallets";
 import Video from "../0 - Index/Video";
 import RouterLink from "../0 - Index/RouterLink";
+
+// Importing sections
+import Wallets from "./Wallets";
 
 export default function CreateWallet() {
   return (

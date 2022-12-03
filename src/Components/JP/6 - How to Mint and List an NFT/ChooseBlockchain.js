@@ -4,6 +4,8 @@ import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+
+// Importing sections
 import Blockchains from "./Blockchains";
 
 export default function ChooseBlockchain() {
