@@ -36,7 +36,7 @@ export default function WhatIsDigitalWallet() {
           explain="This is a
           software that can store all your digital assets on the Blockchain."
         />
-        <WordExample explain="Your wallet storing your paper money and credit cards." />
+        <WordExample example="Your wallet storing your paper money and credit cards." />
 
         <Card
           color="orange"

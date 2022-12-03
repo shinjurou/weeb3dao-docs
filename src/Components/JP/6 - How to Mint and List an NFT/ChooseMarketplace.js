@@ -2,6 +2,8 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import NaviButtons from "../0 - Index/NaviButtons";
+
+// Importing sections
 import Fee from "./Fee";
 import ETHmarket from "./ETHmarket";
 import XTZmarket from "./XTZmarket";

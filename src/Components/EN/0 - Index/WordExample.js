@@ -6,7 +6,7 @@ export default function WordExplain(props) {
       <span className="text-green-600 font-bold">
         {props.notReal ? "Example:" : "Real life example:"}
       </span>{" "}
-      {props.explain}
+      {props.example}
     </div>
   );
 }
