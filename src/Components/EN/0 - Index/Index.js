@@ -24,7 +24,7 @@ import LocaleSelect from "../../Shared/LocaleSelect/LocaleSelect";
 import SVG from "react-inlinesvg";
 import weeb3Logo from "../../../Imgs/weeb3Logo.svg";
 
-// Importing Router
+// Importing Router Elements
 import { Routes, Route, Link } from "react-router-dom";
 import Welcome from "../1 - Welcome/Welcome";
 import DatabaseInfo from "../2 - Database Information/DatabaseInformation";
