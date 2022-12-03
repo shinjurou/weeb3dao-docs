@@ -44,12 +44,15 @@ The main files for the repository can be located in [/src/Components/](/src/Comp
     - Navigate to the `<Routes> ... </Routes>` section.
     - Add in the path and element. **Example:** `<Route path="/security" element={<CryptoSecurity />} />`
 6. Add the new page's link for the **Navigation Bar** in [`Index.js`](/src/Components/EN/0%20-%20Index/Index.js).
-    - Copy the [**Full Code Paragraph**](/src/Components/EN/0%20-%20Index/Index.js#L268) `<Link to="database-info"> <ListItem button> ... </ListItem> </Link>`.
+    - Import Icon from [Material Icons](https://mui.com/material-ui/material-icons/) below `// Importing icons`. **Example:** `import SecurityIcon from "@mui/icons-material/Security";`
+    - Copy the [Full Code Paragraph](/src/Components/EN/0%20-%20Index/Index.js#L268) `<Link to="database-info"> <ListItem button> ... </ListItem> </Link>`.
     - Input the new page's link in between the 2 `Double Quotation Marks (" ")` in `<Link to="">`. <br/>**Example**: `<Link to="security">`
     - Input the new page's title in between the 2 `Double Quotation Marks (" ")` in `<ListItemText primary="" />`. <br/>**Example**: `<ListItemText primary="Crypto Security">`
+    - Input the imported icon in between the `<ListItemIcon>` tag. **Example:** `<ListItemIcon> <SecurityIcon sx={ theme.palette.type === "dark" ? { color: "white" } : null } /> </ListItemIcon>`
 
 >The name of the folder should have the number close to the folder it is close to. **Example:** If the folder is beneath `6 - How to Mint and List an NFT` then the folder should be named `6.1 - A New Page`.<br/>
->The new page should be placed in the same numerology as the its corresponding order in **Navigation Bar**.
+>The new page should be placed in the same numerology as the its corresponding order in **Navigation Bar**.<br/>
+>Don't change the stylization code for the Navigator's icon in `sx={ ... }`
 
 ## Language Translation
 Each folder represents the respective language translation on the website. Example: EN for English version for the website.
