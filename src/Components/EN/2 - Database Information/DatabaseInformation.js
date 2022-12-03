@@ -21,7 +21,7 @@ export default function DatabaseInfo() {
               {" "}
               Please follow the{" "}
               <Link
-                link="https://github.com/shinjurou/weeb3dao-docs/tree/main/guidelines/CONTRIBUTING.md"
+                link="https://github.com/shinjurou/weeb3dao-docs/blob/main/guidelines/CONTRIBUTING.md"
                 title="Contribution Guidelines"
               />{" "}
               and make a pull request to the{" "}
