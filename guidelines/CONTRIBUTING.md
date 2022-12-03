@@ -24,17 +24,32 @@ Guides and tips for making contributions (adding new pages, articles, language t
 You can create a pull request by making direct changes on github or your local environment.
 
 ### How to set up local environment for the repository
-1. Follow this [guide](https://javascript.plainenglish.io/how-to-clone-an-app-from-github-446541a0302d)
+1. Follow this [guide](https://javascript.plainenglish.io/how-to-clone-an-app-from-github-446541a0302d).
 2. Run `npm start` or `yarn start` in your terminal to start the app.
 
 ## About the repository
 
-The main files for the repository can be located in [/src/Components/](/src/Components/)
+The main files for the repository can be located in [/src/Components/](/src/Components/).
 
 ### How to make changes to the website?
-
 1. Go to the folder of the language you want to make changes to.
 2. Locate the file you want to edit in [Website and File correlation](#website-and-file-correlation).
+
+### How to add a new page?
+1. Go to [/src/Components/EN/](/src/Components/EN/) and create a `new folder`. **Example:** `5.1 - Crypto Security`
+2. Create a new `.js` file within the new folder. The name should not have any space in it. **Example:** `CryptoSecurity.js`
+4. Add the new page's link in [/src/routes.js ](/src/routes.js). **Example:** `"/security",`
+5. Add the `Route path` for the new page in [`Index.js`](/src/Components/EN/0%20-%20Index/Index.js).
+    - Add the importation code line below the `// Importing Router Elements` section. **Example:** `import CryptoSecurity from "../5.1 - Crypto Security/CryptoSecurity";`
+    - Navigate to the `<Routes> ... </Routes>` section.
+    - Add in the path and element. **Example:** `<Route path="/security" element={<CryptoSecurity />} />`
+6. Add the new page's link for the **Navigation Bar** in [`Index.js`](/src/Components/EN/0%20-%20Index/Index.js).
+    - Copy the [**Full Code Paragraph**](/src/Components/EN/0%20-%20Index/Index.js#L268) `<Link to="database-info"> <ListItem button> ... </ListItem> </Link>`.
+    - Input the new page's link in between the 2 `Double Quotation Marks (" ")` in `<Link to="">`. <br/>**Example**: `<Link to="security">`
+    - Input the new page's title in between the 2 `Double Quotation Marks (" ")` in `<ListItemText primary="" />`. <br/>**Example**: `<ListItemText primary="Crypto Security">`
+
+>The name of the folder should have the number close to the folder it is close to. **Example:** If the folder is beneath `6 - How to Mint and List an NFT` then the folder should be named `6.1 - A New Page`.<br/>
+>The new page should be placed in the same numerology as the its corresponding order in **Navigation Bar**.
 
 ## Language Translation
 Each folder represents the respective language translation on the website. Example: EN for English version for the website.
@@ -164,7 +179,7 @@ The repository has several pre-made components to help make adding contents to p
 1. Add `import NaviButtons from "../0 - Index/NaviButtons";` to the top of the file.
 2. Add attributes for the NaviButtons: `return`, `returnlink`, `next`, `nextlink`. **[Example](/src/Components/EN/2%20-%20Database%20Information/DatabaseInformation.js#L215)**
 > You can leave the attribute empty in between the 2 `Double Quotation Marks (" ")` if there is no page available. [**Example**](/src/Components/EN/1%20-%20Welcome/Welcome.js#L63)<br/>
-> You can find the list of links for all pages in [/src/routes.js ](/src/routes.js)
+> You can find the list of links for all pages in [/src/routes.js ](/src/routes.js).
 
 ### Word Explain
 
