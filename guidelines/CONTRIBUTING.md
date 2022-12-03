@@ -3,6 +3,7 @@ Guides and tips for making contributions (adding new pages, articles, language t
 
 ### Contents
 
+- [Start here](#start-here)
 - [About the repository](#about-the-repository)
 - [Language Translation](#language-translation)
 - [Website and File correlation](#website-and-file-correlation)
@@ -17,6 +18,14 @@ Guides and tips for making contributions (adding new pages, articles, language t
   - [Checkbox](#checkbox)
 - [Text Colors](#text-colors)
 - [Add Image](#add-image)
+
+## Start here
+
+You can create a pull request by making direct changes on github or your local environment.
+
+### How to set up local environment for the repository
+1. Follow this [guide](https://javascript.plainenglish.io/how-to-clone-an-app-from-github-446541a0302d)
+2. Run `npm start` or `yarn start` in your terminal to start the app.
 
 ## About the repository
 
