@@ -1,25 +1,34 @@
 # Contribution Guidelines
+Guides and tips for making contributions (adding new pages, articles, language translations etc.) to the doc.
 
 ### Contents
 
 - [About the repository](#about-the-repository)
+- [Language Translation](#language-translation)
 - [Website and File correlation](#website-and-file-correlation)
 - [Components](#components)
   - [Card](#card)
   - [Link](#link)
   - [RouterLink](#routerlink)
-  - [NaviButtons](#navibuttons)
+  - [NaviButtons](#navigation-buttons)
   - [Word Example](#word-example)
   - [Word Explain](#word-explain)
   - [Video](#video)
   - [Checkbox](#checkbox)
 - [Text Colors](#text-colors)
+- [Add Image](#add-image)
 
 ## About the repository
 
 The main files for the repository can be located in [/src/Components/](/src/Components/)
 
-Each folder represents the respective language on the website. Example: EN for English version for the website.
+### How to make changes to the website?
+
+1. Go to the folder of the language you want to make changes to.
+2. Locate the file you want to edit in [Website and File correlation](#website-and-file-correlation).
+
+## Language Translation
+Each folder represents the respective language translation on the website. Example: EN for English version for the website.
 
 ##### Available languages:
 
@@ -27,12 +36,7 @@ Each folder represents the respective language on the website. Example: EN for E
 - [x] JP
 - [ ] KR (in development)
 
-### How to make changes to the website?
-
-1. Go to the folder of the language you want to make changes to.
-2. Locate the file you want to edit in [Website and File correlation](#website-and-file-correlation).
-
-### How to add a new language?
+### How to add a new language translation?
 
 1. Duplicate the `EN` folder.
 2. Add the language in [/src/utils/locales.js ](/src/utils/locales.js).
@@ -207,3 +211,15 @@ The repository has 6 prepicked colors to help texts be read easier.
 **Example:** `<span className="text-orange-500">Hello</span>`
 > You can add `font-bold` to include bold text stylization.<br/>
 > Color meanings for text stylization is similar to the meaning for [Card](#card)'s colors.
+
+## Add Image
+1. Add image to [/src/Imgs/](/src/Imgs/).
+2. Add import code line to the top of the file.<br/>**Example**: `import coverImgSrc from "../../../Imgs/cover.png";`
+3. Write the `image path` you have just imported into `src` for image. **Example**: `<img src={coverImgSrc} alt="Cover Image" />`.
+4. Write the image's description into `alt`
+
+> `.` means in the same folder.<br/>
+> `..` means go back one folder.<br/>
+> You can add in `height` or `width` attribute if you want to change the image's size.
+
+**Important Note:** Each `image path` imported needs to have a different name.
