@@ -197,7 +197,7 @@ export default function DatabaseInfo() {
             label={[
               <span className="text-violet-500">19 January 2022</span>,
               " ",
-              " Japanese Version translation is finished",
+              " Japanese translation is finished",
             ]}
           />
           <Checkbox
@@ -215,7 +215,7 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">31 January 2022</span>,
               " ",
               <span className="text-red-600 font-bold">Version 3.0</span>,
-              " Japanese Version is added",
+              " Added Japanese Version",
             ]}
           />
           <Checkbox
@@ -224,7 +224,7 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">18 February 2022</span>,
               " ",
               <span className="text-red-600 font-bold">Version 3.1</span>,
-              " Guide on how to airdrop an NFT is added",
+              ' Added "How to airdrop an NFT"',
             ]}
           />
           <Checkbox
@@ -242,7 +242,16 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">3 December 2022</span>,
               " ",
               <span className="text-red-600 font-bold">Version 3.3</span>,
-              " Added Contribution Guidelines",
+              ' Added "Contribution Guidelines"',
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">25 December 2022</span>,
+              " ",
+              <span className="text-red-600 font-bold">Version 4.0</span>,
+              ' Updated website; Added "How to use Manifold"; Updated "Environment Controversy" to "NFT Controversy"',
             ]}
           />
           <Checkbox
