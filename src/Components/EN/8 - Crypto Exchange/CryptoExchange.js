@@ -102,8 +102,8 @@ export default function CryptoExchange() {
           </div>
         </div>
         <NaviButtons
-          return="How to Airdrop an NFT"
-          returnlink="/airdrop-NFT"
+          return="How to keep track of Gas"
+          returnlink="/gas"
           next="Community"
           nextlink="/community"
         />
