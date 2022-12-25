@@ -241,8 +241,8 @@ export default function Gas() {
         <NaviButtons
           return="How to burn your NFT"
           returnlink="/burn-NFT"
-          next="Crypto Exchange"
-          nextlink="/crypto-exchange"
+          next="Crypto Security"
+          nextlink="/security"
         />
       </div>
     </div>

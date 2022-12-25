@@ -48,6 +48,7 @@ import Manifold from "../7 - Manifold/Manifold";
 import AirdropNFT from "../7.1 - How to Airdrop an NFT/Airdrop";
 import BurnNFT from "../7.2 - How to burn your NFT/BurnNFT";
 import Gas from "../7.3 - How to keep track of Gas/Gas";
+import CryptoSecurity from "../7.4 - Crypto Security/CryptoSecurity";
 
 import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
 import Community from "../9 - Community/Community";
@@ -71,6 +72,7 @@ import Filter2Icon from "@mui/icons-material/Filter2";
 import Filter3Icon from "@mui/icons-material/Filter3";
 import Filter4Icon from "@mui/icons-material/Filter4";
 import Filter5Icon from "@mui/icons-material/Filter5";
+import SecurityIcon from "@mui/icons-material/Security";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import LocalGasStationIcon from "@mui/icons-material/LocalGasStation";
 import AddBusinessIcon from "@mui/icons-material/AddBusiness";
@@ -660,6 +662,30 @@ export default function Index(props) {
                 </Fade>
               </ListItem>
             </Link>
+
+            <Link to="security">
+              <ListItem button>
+                <ListItemIcon>
+                  <SecurityIcon
+                    sx={
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="暗号セキュリティ" />
+                </Fade>
+              </ListItem>
+            </Link>
           </List>
           <Divider />
           <List>
@@ -893,6 +919,7 @@ export default function Index(props) {
             <Route path="/sell-nft/mint-nft" element={<MintNFT />} />
             <Route path="/sell-nft/list-nft" element={<ListNFT />} />
             <Route path="/gas" element={<Gas />} />
+            <Route path="/security" element={<CryptoSecurity />} />
 
             <Route path="/manifold" element={<Manifold />} />
             <Route path="/airdrop-nft" element={<AirdropNFT />} />

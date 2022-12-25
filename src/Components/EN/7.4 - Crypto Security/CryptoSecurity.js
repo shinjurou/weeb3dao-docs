@@ -69,10 +69,10 @@ export default function CryptoSecurity() {
           </div>
         </div>
         <NaviButtons
-          return="Important Terminologies"
-          returnlink="/info-nft/important-terminologies"
-          next="How to Mint and List your NFT"
-          nextlink="/sell-NFT"
+          return="How to keep track of Gas"
+          returnlink="/gas"
+          next="Crypto Exchange"
+          nextlink="/crypto-exchange"
         />
       </div>
     </div>

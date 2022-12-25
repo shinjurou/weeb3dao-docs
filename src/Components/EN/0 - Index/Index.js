@@ -36,7 +36,6 @@ import WhatIsNFT from "../5 - General Information about NFT/WhatIsNFT";
 import WhatIsBlockchain from "../5 - General Information about NFT/WhatIsBlockchain";
 import WhatIsDigitalWallet from "../5 - General Information about NFT/WhatIsDigitalWallet";
 import ImportantTerminologies from "../5 - General Information about NFT/ImportantTerminologies";
-import CryptoSecurity from "../5.1 - Crypto Security/CryptoSecurity";
 
 import SellNFT from "../6 - How to Mint and List an NFT/SellNFT";
 import CreateWallet from "../6 - How to Mint and List an NFT/CreateWallet";
@@ -49,6 +48,7 @@ import Manifold from "../7 - Manifold/Manifold";
 import BurnNFT from "../7.2 - How to burn your NFT/BurnNFT";
 import AirdropNFT from "../7.1 - How to Airdrop an NFT/Airdrop";
 import Gas from "../7.3 - How to keep track of Gas/Gas";
+import CryptoSecurity from "../7.4 - Crypto Security/CryptoSecurity";
 
 import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
 import Community from "../9 - Community/Community";
@@ -456,30 +456,6 @@ export default function Index(props) {
               </List>
             </Collapse>
 
-            <Link to="security">
-              <ListItem button>
-                <ListItemIcon>
-                  <SecurityIcon
-                    sx={
-                      theme.palette.type === "dark"
-                        ? { color: "#C5C5C5" }
-                        : null
-                    }
-                  />
-                </ListItemIcon>
-                <Fade
-                  in={showText}
-                  easing={{
-                    enter: "cubic-bezier(.99,0,1,1.62)",
-                    exit: "linear",
-                  }}
-                  timeout={{ enter: 666, exit: 0 }}
-                >
-                  <ListItemText primary="Crypto Security" />
-                </Fade>
-              </ListItem>
-            </Link>
-
             <Link to="sell-NFT">
               <ListItem
                 button
@@ -693,6 +669,30 @@ export default function Index(props) {
                   timeout={{ enter: 666, exit: 0 }}
                 >
                   <ListItemText primary="How to keep track of Gas" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="security">
+              <ListItem button>
+                <ListItemIcon>
+                  <SecurityIcon
+                    sx={
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Crypto Security" />
                 </Fade>
               </ListItem>
             </Link>
@@ -927,7 +927,6 @@ export default function Index(props) {
               path="/info-nft/important-terminologies"
               element={<ImportantTerminologies />}
             />
-            <Route path="/security" element={<CryptoSecurity />} />
 
             <Route path="/sell-nft" element={<SellNFT />} />
             <Route path="/sell-nft/create-wallet" element={<CreateWallet />} />
@@ -946,6 +945,7 @@ export default function Index(props) {
             <Route path="/manifold" element={<Manifold />} />
             <Route path="/airdrop-nft" element={<AirdropNFT />} />
             <Route path="/burn-nft" element={<BurnNFT />} />
+            <Route path="/security" element={<CryptoSecurity />} />
 
             <Route path="/crypto-exchange" element={<CryptoExchange />} />
             <Route path="/community" element={<Community />} />
