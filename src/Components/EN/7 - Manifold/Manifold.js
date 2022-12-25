@@ -135,6 +135,33 @@ export default function Gas() {
               youtubeId="VVnsHPgifvE"
               title="Launch Your Own Smart Contract With Manifold Studio"
             />
+          </div>
+          <div className="mt-8">
+            <Typography
+              variant="h2"
+              color="inherit"
+              component="h2"
+              mt={2}
+              mb={1}
+            >
+              Dune Dashboard for Claim Pages
+            </Typography>{" "}
+            <Card
+              color="green"
+              title={[
+                <div>
+                  <Link
+                    link="https://twitter.com/PigThePersona"
+                    title="ranbuta"
+                  />{" "}
+                  has created a{" "}
+                  <Link
+                    link="https://dune.com/ranbuta/moefold"
+                    title="Dune Dashboard for Manifold Claim Pages"
+                  />
+                </div>,
+              ]}
+            />
             <NaviButtons
               return="List an NFT"
               returnlink="/sell-nft/list-nft"
