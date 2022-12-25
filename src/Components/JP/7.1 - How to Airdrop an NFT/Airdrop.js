@@ -275,10 +275,10 @@ export default function AirdropNFT() {
               ]}
             />
             <NaviButtons
-              return="NFTをBurnする"
-              returnlink="/burn-NFT"
-              next="暗号資産取引所"
-              nextlink="/crypto-exchange"
+              return="Manifoldの使い方"
+              returnlink="/manifold"
+              next="NFTをBurnする"
+              nextlink="/burn-NFT"
             />
           </div>
         </div>

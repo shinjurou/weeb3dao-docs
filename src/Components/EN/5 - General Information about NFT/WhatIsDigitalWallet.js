@@ -4,9 +4,11 @@ import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
 import RouterLink from "../0 - Index/RouterLink";
-import HotColdWalletTable from "./HotColdWalletTable";
 import WordExplain from "../0 - Index/WordExplain";
 import WordExample from "../0 - Index/WordExample";
+
+// Importing sections
+import HotColdWalletTable from "./HotColdWalletTable";
 
 export default function WhatIsDigitalWallet() {
   return (
@@ -36,7 +38,7 @@ export default function WhatIsDigitalWallet() {
           explain="This is a
           software that can store all your digital assets on the Blockchain."
         />
-        <WordExample explain="Your wallet storing your paper money and credit cards." />
+        <WordExample example="Your wallet storing your paper money and credit cards." />
 
         <Card
           color="orange"

@@ -14,16 +14,48 @@ export default function DatabaseInfo() {
         </Typography>
 
         <Card
-          color="orange"
+          color="green"
+          title="Contribute to the Database"
           content={[
             <div>
-              All information available on this website were gathered{" "}
-              <span className="text-pink-600">from the internet</span> and
-              thanks to the{" "}
-              <span className="text-pink-600">information provided</span> by{" "}
-              <span className="text-orange-500">artists</span> and{" "}
-              <span className="text-orange-500">collectors</span> in the{" "}
-              <span className="text-teal-500">Anime NFT circle</span>.
+              {" "}
+              Please follow the{" "}
+              <Link
+                link="https://github.com/shinjurou/weeb3dao-docs/blob/main/guidelines/CONTRIBUTING.md"
+                title="Contribution Guidelines"
+              />{" "}
+              and make a pull request to the{" "}
+              <Link
+                link="https://github.com/shinjurou/weeb3dao-docs"
+                title="repository"
+              />{" "}
+              if you wish to{" "}
+              <span className="text-teal-600">edit any typo</span>,{" "}
+              <span className="text-green-600">correct an information</span>,{" "}
+              <span className="text-pink-600">provide new information</span> or{" "}
+              <span className="text-orange-500">
+                provide translation into another language
+              </span>
+              .
+            </div>,
+          ]}
+        />
+
+        <Card
+          color="purple"
+          content={[
+            <div>
+              Please feel free to{" "}
+              <span className="text-green-600 font-bold">
+                drop a message to weeb3dao members
+              </span>{" "}
+              in the{" "}
+              <Link
+                link="https://discord.gg/fndmoe"
+                title="FND.moe
+                server"
+              />{" "}
+              if you require assistance .
             </div>,
           ]}
         />
@@ -103,15 +135,16 @@ export default function DatabaseInfo() {
         </div>
 
         <Card
-          color="green"
+          color="teal"
           content={[
             <div>
-              If you wish to report any typo, correct an information, provide
-              new information or provide translation into another language to be
-              added onto the database then{" "}
-              <span className="text-pink-600">
-                please contact a weeb3dao member.
-              </span>
+              All information available on this website were gathered{" "}
+              <span className="text-pink-600">from the internet</span> and
+              thanks to the{" "}
+              <span className="text-pink-600">information provided</span> by{" "}
+              <span className="text-orange-500">artists</span> and{" "}
+              <span className="text-orange-500">collectors</span> in the{" "}
+              <span className="text-teal-500">Anime NFT circle</span>.
             </div>,
           ]}
         />
@@ -201,6 +234,15 @@ export default function DatabaseInfo() {
               " ",
               <span className="text-red-600 font-bold">Version 3.2</span>,
               " Ethereum Marketplace information is updated",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">3 December 2022</span>,
+              " ",
+              <span className="text-red-600 font-bold">Version 3.3</span>,
+              " Added Contribution Guidelines",
             ]}
           />
           <Checkbox

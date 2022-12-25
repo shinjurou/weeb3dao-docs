@@ -17,7 +17,7 @@ const routes = [
   "/sell-nft/list-nft",
   "/sell-nft/promote-nft",
   "/sell-nft/celebration",
-  "/sell-nft/gas",
+  "/gas",
   "/burn-nft",
   "/crypto-exchange",
   "/community",

@@ -54,7 +54,7 @@ export default function BurnNFT() {
                   </span>
                   , but{" "}
                   <RouterLink
-                    link="/sell-nft/gas"
+                    link="/gas"
                     title="you can still check our previous guide for
                   reference on how to keep track of gas."
                   />
@@ -135,7 +135,7 @@ export default function BurnNFT() {
         </div>
         <NaviButtons
           return="Gas Fee를 모니터링 하는 방법"
-          returnlink="/sell-nft/gas"
+          returnlink="/gas"
           next="NFT Airdrop(에어드랍, 선물) 하는 법"
           nextlink="/airdrop-nft"
         />

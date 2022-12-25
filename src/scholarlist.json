@@ -119,6 +119,13 @@
     "invite": false
   },
   {
+    "name": "Arin",
+    "twitter": "@NoxiousArin",
+    "fnd": "@Arin_13",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Arisse",
     "twitter": "@x_arisse",
     "fnd": "@_arisse_",
@@ -133,6 +140,13 @@
     "invite": true
   },
   {
+    "name": "aqua",
+    "twitter": "@aquasunshine_",
+    "fnd": "@aquasunshine",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Asagon",
     "twitter": "@gooooon007",
     "fnd": "@asagon",
@@ -145,6 +159,13 @@
     "fnd": "@azen_",
     "gas": false,
     "invite": true
+  },
+  {
+    "name": "Bencob",
+    "twitter": "@Bencob10",
+    "fnd": "@Bencob",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "Berry_R(e Art)",
@@ -252,9 +273,9 @@
     "invite": true
   },
   {
-    "name": "Darkzmonsty",
-    "twitter": "@darkzmonsty1",
-    "fnd": "@darkzmonsty",
+    "name": "dmonst01",
+    "twitter": "@dmonst01",
+    "fnd": "@dmonst01",
     "gas": true,
     "invite": true
   },
@@ -269,6 +290,13 @@
     "name": "EDENJB",
     "twitter": "@Eden_JB000",
     "fnd": "@edenjbnft",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Eggy",
+    "twitter": "@Scrambl_Egg",
+    "fnd": "@ScramblEgg",
     "gas": true,
     "invite": false
   },
@@ -318,6 +346,13 @@
     "name": "Fio",
     "twitter": "@fioreeza",
     "fnd": "@fioreeza",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Five Summer",
+    "twitter": "@fiveNsummer",
+    "fnd": "@FiveNSummer",
     "gas": true,
     "invite": false
   },
@@ -462,6 +497,13 @@
     "invite": true
   },
   {
+    "name": "ICHIREN",
+    "twitter": "@ichiichiren_",
+    "fnd": "@ichiren",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "ichizon (일존/一存)",
     "twitter": "@ichizon7",
     "fnd": "@ichizon",
@@ -507,6 +549,20 @@
     "name": "JokiYoh",
     "twitter": "@_k_i_i______",
     "fnd": "@aldarsign",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "Jules",
+    "twitter": "@BlancNFT",
+    "fnd": "@jujulesblanc",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "June",
+    "twitter": "@junetears_",
+    "fnd": "@junetears_",
     "gas": true,
     "invite": false
   },
@@ -602,8 +658,8 @@
     "invite": false
   },
   {
-    "name": "Kyu",
-    "twitter": "@kyumi_00",
+    "name": "kyumi",
+    "twitter": "@kyuminft",
     "fnd": "@kyumi",
     "gas": true,
     "invite": true
@@ -656,6 +712,13 @@
     "fnd": "@luxureve",
     "gas": true,
     "invite": true
+  },
+  {
+    "name": "louise",
+    "twitter": "@jeonh_ao",
+    "fnd": "@houseofao",
+    "gas": true,
+    "invite": false
   },
   {
     "name": "Lux",
@@ -973,6 +1036,13 @@
     "invite": true
   },
   {
+    "name": "PearlyMercury",
+    "twitter": "@pearl_y314",
+    "fnd": "@pearl_y",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "Pepper",
     "twitter": "@pepperlune",
     "fnd": "@pepperlune",
@@ -1155,6 +1225,13 @@
     "invite": false
   },
   {
+    "name": "Rymzu",
+    "twitter": "@rymzu4",
+    "fnd": "@rymzu",
+    "gas": true,
+    "invite": false
+  },
+  {
     "name": "ꜱᴀᴍᴊᴏᴋᴏ//",
     "twitter": "@samjoko__",
     "fnd": "@samjoko__",
@@ -1270,6 +1347,13 @@
     "name": "Sully Piggsmall",
     "twitter": "@PiggSmall",
     "fnd": "@piggsmall",
+    "gas": true,
+    "invite": false
+  },
+  {
+    "name": "SunLily",
+    "twitter": "@SunLily14",
+    "fnd": "@meltinglele",
     "gas": true,
     "invite": false
   },

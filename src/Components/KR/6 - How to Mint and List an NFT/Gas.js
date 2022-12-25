@@ -46,7 +46,7 @@ export default function Gas() {
               <span className="text-pink-600 font-bold">lowest.</span>
               <WordExample
                 notReal={true}
-                explain={[
+                example={[
                   <>
                     highest of the week is{" "}
                     <span className="text-pink-600 font-bold">200 GWEI</span>{" "}

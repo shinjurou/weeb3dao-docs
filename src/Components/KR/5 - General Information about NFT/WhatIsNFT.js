@@ -40,7 +40,7 @@ export default function WhatIsNFT() {
           explain="Unique, the only one of it's kind and cannot be replaced."
         />
         <WordExample
-          explain="You as an individual cannot be replaced by your high school math
+          example="You as an individual cannot be replaced by your high school math
           teacher."
         />
 
@@ -50,7 +50,7 @@ export default function WhatIsNFT() {
           currency that the holder will be able to trade online through the
           blockchain."
         />
-        <WordExample explain="Coins we use everyday representing money to be exchanged for goods." />
+        <WordExample example="Coins we use everyday representing money to be exchanged for goods." />
 
         <Card
           color="orange"

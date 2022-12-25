@@ -39,7 +39,7 @@ export default function WhatIsBlockchain() {
           everything on the network."
         />
         <WordExample
-          explain="A
+          example="A
           financial book for a company with listings of their funds, sales, etc."
         />
 

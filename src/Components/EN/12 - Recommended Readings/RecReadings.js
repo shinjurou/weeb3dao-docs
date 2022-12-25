@@ -94,6 +94,25 @@ export default function RecReadings() {
             </li>
             <li className="mb-2">
               <Link
+                link="https://mirror.xyz/shinjurou.eth/yTB5r8TOE8PfAGCflxNmV2jkzjXceqGKzM8fmAlbvZQ"
+                title="Why I don’t buy your NFT"
+                light={true}
+              />{" "}
+              - by{" "}
+              <Link
+                link="https://twitter.com/pro_seafood"
+                title="@pro_seafood"
+                light={true}
+              />{" "}
+              | translated by{" "}
+              <Link
+                link="https://twitter.com/shinjuroueth"
+                title="@shinjuroueth"
+                light={true}
+              />
+            </li>
+            <li className="mb-2">
+              <Link
                 link="https://twitter.com/pawwaoart/status/1505847282314641408"
                 title='The difference between "Buy Now" and "Auction"'
                 light={true}
@@ -445,8 +464,8 @@ export default function RecReadings() {
           </div>
         </div>
         <NaviButtons
-          return="Environment Controversy"
-          returnlink="/environment"
+          return="NFT Controversy"
+          returnlink="/controversy"
           next="Reverse Image Search Resources"
           nextlink="/reverse-img-search"
         />

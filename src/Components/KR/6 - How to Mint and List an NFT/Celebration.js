@@ -58,7 +58,7 @@ export default function Celebration() {
           return="여러분들의 NFT를 홍보하기"
           returnlink="/sell-nft/promote-nft"
           next="Gas Fee를 모니터링 하는 방법"
-          nextlink="/sell-nft/gas"
+          nextlink="/gas"
         />
       </div>
     </div>

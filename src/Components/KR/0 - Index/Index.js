@@ -48,7 +48,7 @@ import Celebration from "../6 - How to Mint and List an NFT/Celebration";
 import Gas from "../6 - How to Mint and List an NFT/Gas";
 
 import AirdropNFT from "../7.1 - How to Airdrop an NFT/Airdrop";
-import BurnNFT from "../7 - Burn your NFT/BurnNFT";
+import BurnNFT from "../7 - How to burn your NFT/BurnNFT";
 import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
 
 import Community from "../9 - Community/Community";
@@ -56,7 +56,7 @@ import Terminologies from "../9 - Community/Terminologies";
 import Culture from "../9 - Community/Culture";
 
 import FAQ from "../10 - FAQ/FAQ";
-import Environment from "../11 - Environment Controversy/Environment";
+import Environment from "../11 - NFT Controversy/Environment";
 import RecReadings from "../12 - Recommended Readings/RecReadings";
 import ReverseImageSearch from "../13 - Reverse Image Search Resources/ReverseImageSearch";
 
@@ -593,7 +593,7 @@ export default function Index(props) {
                   </ListItem>
                 </Link>
 
-                <Link to="sell-nft/gas">
+                <Link to="gas">
                   <ListItem button sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <LocalGasStationIcon
@@ -865,7 +865,7 @@ export default function Index(props) {
             <Route path="/sell-nft/list-nft" element={<ListNFT />} />
             <Route path="/sell-nft/promote-nft" element={<PromoteNFT />} />
             <Route path="/sell-nft/celebration" element={<Celebration />} />
-            <Route path="/sell-nft/gas" element={<Gas />} />
+            <Route path="/gas" element={<Gas />} />
 
             <Route path="/airdrop-nft" element={<AirdropNFT />} />
             <Route path="/burn-nft" element={<BurnNFT />} />

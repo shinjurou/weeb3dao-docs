@@ -51,7 +51,7 @@ export default function SellNFT() {
           </li>
 
           <li className="my-2">
-            <RouterLink link="/sell-nft/gas" title="How to keep track of Gas" />
+            <RouterLink link="/gas" title="How to keep track of Gas" />
           </li>
         </ol>
         <NaviButtons

@@ -24,7 +24,7 @@ import LocaleSelect from "../../Shared/LocaleSelect/LocaleSelect";
 import SVG from "react-inlinesvg";
 import weeb3Logo from "../../../Imgs/weeb3Logo.svg";
 
-// Importing Router
+// Importing Router Elements
 import { Routes, Route, Link } from "react-router-dom";
 import Welcome from "../1 - Welcome/Welcome";
 import DatabaseInfo from "../2 - Database Information/DatabaseInformation";
@@ -44,20 +44,19 @@ import ChooseBlockchain from "../6 - How to Mint and List an NFT/ChooseBlockchai
 import ChooseMarketplace from "../6 - How to Mint and List an NFT/ChooseMarketplace";
 import MintNFT from "../6 - How to Mint and List an NFT/MintNFT";
 import ListNFT from "../6 - How to Mint and List an NFT/ListNFT";
-import PromoteNFT from "../6 - How to Mint and List an NFT/PromoteNFT";
-import Celebration from "../6 - How to Mint and List an NFT/Celebration";
-import Gas from "../6 - How to Mint and List an NFT/Gas";
 
+import Manifold from "../7 - Manifold/Manifold";
+import BurnNFT from "../7.2 - How to burn your NFT/BurnNFT";
 import AirdropNFT from "../7.1 - How to Airdrop an NFT/Airdrop";
-import BurnNFT from "../7 - Burn your NFT/BurnNFT";
-import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
+import Gas from "../7.3 - How to keep track of Gas/Gas";
 
+import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
 import Community from "../9 - Community/Community";
 import Terminologies from "../9 - Community/Terminologies";
 import Culture from "../9 - Community/Culture";
 
 import FAQ from "../10 - FAQ/FAQ";
-import Environment from "../11 - Environment Controversy/Environment";
+import Controversy from "../11 - NFT Controversy/Controversy";
 import RecReadings from "../12 - Recommended Readings/RecReadings";
 import ReverseImageSearch from "../13 - Reverse Image Search Resources/ReverseImageSearch";
 
@@ -73,9 +72,8 @@ import Filter2Icon from "@mui/icons-material/Filter2";
 import Filter3Icon from "@mui/icons-material/Filter3";
 import Filter4Icon from "@mui/icons-material/Filter4";
 import Filter5Icon from "@mui/icons-material/Filter5";
-import Filter6Icon from "@mui/icons-material/Filter6";
 import SecurityIcon from "@mui/icons-material/Security";
-import CakeIcon from "@mui/icons-material/Cake";
+import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import LocalGasStationIcon from "@mui/icons-material/LocalGasStation";
 import AddBusinessIcon from "@mui/icons-material/AddBusiness";
 import SendIcon from "@mui/icons-material/Send";
@@ -604,58 +602,13 @@ export default function Index(props) {
                     <ListItemText primary="List an NFT" />
                   </ListItem>
                 </Link>
-
-                <Link to="sell-nft/promote-nft">
-                  <ListItem button sx={{ pl: 4 }}>
-                    <ListItemIcon>
-                      <Filter6Icon
-                        sx={
-                          theme.palette.type === "dark"
-                            ? { color: "#C5C5C5" }
-                            : null
-                        }
-                      />
-                    </ListItemIcon>
-                    <ListItemText primary="Promote your NFT" />
-                  </ListItem>
-                </Link>
-
-                <Link to="sell-nft/celebration">
-                  <ListItem button sx={{ pl: 4 }}>
-                    <ListItemIcon>
-                      <CakeIcon
-                        sx={
-                          theme.palette.type === "dark"
-                            ? { color: "#C5C5C5" }
-                            : null
-                        }
-                      />
-                    </ListItemIcon>
-                    <ListItemText primary="Celebration" />
-                  </ListItem>
-                </Link>
-
-                <Link to="sell-nft/gas">
-                  <ListItem button sx={{ pl: 4 }}>
-                    <ListItemIcon>
-                      <LocalGasStationIcon
-                        sx={
-                          theme.palette.type === "dark"
-                            ? { color: "#C5C5C5" }
-                            : null
-                        }
-                      />
-                    </ListItemIcon>
-                    <ListItemText primary="How to keep track of Gas" />
-                  </ListItem>
-                </Link>
               </List>
             </Collapse>
 
-            <Link to="burn-NFT">
+            <Link to="manifold">
               <ListItem button>
                 <ListItemIcon>
-                  <LocalFireDepartmentIcon
+                  <RocketLaunchIcon
                     sx={
                       theme.palette.type === "dark"
                         ? { color: "#C5C5C5" }
@@ -671,7 +624,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Burn your NFT" />
+                  <ListItemText primary="How to use Manifold" />
                 </Fade>
               </ListItem>
             </Link>
@@ -696,6 +649,50 @@ export default function Index(props) {
                   timeout={{ enter: 666, exit: 0 }}
                 >
                   <ListItemText primary="How to Airdrop an NFT" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="burn-NFT">
+              <ListItem button>
+                <ListItemIcon>
+                  <LocalFireDepartmentIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="How to burn your NFT" />
+                </Fade>
+              </ListItem>
+            </Link>
+
+            <Link to="gas">
+              <ListItem button>
+                <ListItemIcon>
+                  <LocalGasStationIcon
+                    sx={
+                      theme.palette.type === "dark" ? { color: "white" } : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="How to keep track of Gas" />
                 </Fade>
               </ListItem>
             </Link>
@@ -829,7 +826,7 @@ export default function Index(props) {
 
           <Divider />
           <List>
-            <Link to="environment">
+            <Link to="controversy">
               <ListItem button>
                 <ListItemIcon>
                   <ParkIcon
@@ -848,7 +845,7 @@ export default function Index(props) {
                   }}
                   timeout={{ enter: 666, exit: 0 }}
                 >
-                  <ListItemText primary="Environment Controversy" />
+                  <ListItemText primary="NFT Controversy" />
                 </Fade>
               </ListItem>
             </Link>
@@ -944,12 +941,12 @@ export default function Index(props) {
             />
             <Route path="/sell-nft/mint-nft" element={<MintNFT />} />
             <Route path="/sell-nft/list-nft" element={<ListNFT />} />
-            <Route path="/sell-nft/promote-nft" element={<PromoteNFT />} />
-            <Route path="/sell-nft/celebration" element={<Celebration />} />
-            <Route path="/sell-nft/gas" element={<Gas />} />
+            <Route path="/gas" element={<Gas />} />
 
+            <Route path="/manifold" element={<Manifold />} />
             <Route path="/airdrop-nft" element={<AirdropNFT />} />
             <Route path="/burn-nft" element={<BurnNFT />} />
+
             <Route path="/crypto-exchange" element={<CryptoExchange />} />
             <Route path="/community" element={<Community />} />
             <Route
@@ -958,7 +955,7 @@ export default function Index(props) {
             />
             <Route path="/community/culture" element={<Culture />} />
             <Route path="/faq" element={<FAQ />} />
-            <Route path="/environment" element={<Environment />} />
+            <Route path="/controversy" element={<Controversy />} />
             <Route path="/rec-readings" element={<RecReadings />} />
             <Route
               path="/reverse-img-search"
@@ -970,3 +967,46 @@ export default function Index(props) {
     </div>
   );
 }
+
+/* Remove "Promote your NFT" and "Celebration" pages
+
+import Filter6Icon from "@mui/icons-material/Filter6";
+import CakeIcon from "@mui/icons-material/Cake";
+
+import PromoteNFT from "../6 - How to Mint and List an NFT/PromoteNFT";
+import Celebration from "../6 - How to Mint and List an NFT/Celebration";
+
+<Link to="sell-nft/promote-nft">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <Filter6Icon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Promote your NFT" />
+                  </ListItem>
+                </Link>
+
+                <Link to="sell-nft/celebration">
+                  <ListItem button sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <CakeIcon
+                        sx={
+                          theme.palette.type === "dark"
+                            ? { color: "white" }
+                            : null
+                        }
+                      />
+                    </ListItemIcon>
+                    <ListItemText primary="Celebration" />
+                  </ListItem>
+                </Link>
+
+<Route path="/sell-nft/promote-nft" element={<PromoteNFT />} />
+<Route path="/sell-nft/celebration" element={<Celebration />} />
+
+*/

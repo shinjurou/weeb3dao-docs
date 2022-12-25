@@ -27,7 +27,7 @@ export default function ListNFT() {
                 ガス代の管理は、出品の際に
                 <span className="text-pink-600 font-bold">非常に重要</span>
                 です。ここでは、そのための
-                <RouterLink link="/sell-nft/gas" title="ガイド"></RouterLink>
+                <RouterLink link="/gas" title="ガイド"></RouterLink>
                 を作成しました。
               </div>,
             ]}
@@ -186,8 +186,8 @@ export default function ListNFT() {
         <NaviButtons
           return="Mintingしましょう"
           returnlink="/sell-nft/mint-nft"
-          next="NFTのプロモーション"
-          nextlink="/sell-nft/promote-nft"
+          next="Manifoldの使い方"
+          nextlink="/manifold"
         />
       </div>
     </div>

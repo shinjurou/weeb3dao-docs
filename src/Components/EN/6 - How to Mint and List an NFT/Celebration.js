@@ -58,7 +58,7 @@ export default function Celebration() {
           return="Promote your NFT"
           returnlink="/sell-nft/promote-nft"
           next="How to keep track of Gas"
-          nextlink="/sell-nft/gas"
+          nextlink="/gas"
         />
       </div>
     </div>
