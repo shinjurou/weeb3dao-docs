@@ -30,7 +30,7 @@ export default function ListNFT() {
                 </span>{" "}
                 and we have{" "}
                 <RouterLink
-                  link="/sell-nft/gas"
+                  link="/gas"
                   title="created a guide here to help."
                 ></RouterLink>
               </div>,
@@ -193,8 +193,8 @@ export default function ListNFT() {
         <NaviButtons
           return="Mint an NFT"
           returnlink="/sell-nft/mint-nft"
-          next="Promote your NFT"
-          nextlink="/sell-nft/promote-nft"
+          next="How to use Manifold"
+          nextlink="/manifold"
         />
       </div>
     </div>

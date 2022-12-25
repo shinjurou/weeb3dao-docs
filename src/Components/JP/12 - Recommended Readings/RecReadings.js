@@ -68,6 +68,19 @@ export default function RecReadings() {
               </li>
               <li className="mb-2">
                 <Link
+                  link="https://mirror.xyz/nishiyama.eth/I7zlaTr65iJmg34f-Bnbn_93AzPwR4D-mMRdqNh8WkE"
+                  title="あなたのNFTを買わない理由"
+                  light={true}
+                />{" "}
+                - 著者{" "}
+                <Link
+                  link="https://twitter.com/pro_seafood"
+                  title="@pro_seafood"
+                  light={true}
+                />{" "}
+              </li>
+              <li className="mb-2">
+                <Link
                   link="https://twitter.com/0TL_/status/1520584560731639808"
                   title="アーティスト向け早いスレッド"
                   light={true}
@@ -160,8 +173,8 @@ export default function RecReadings() {
           </div>
         </div>
         <NaviButtons
-          return="環境問題"
-          returnlink="/environment"
+          return="NFTの異議"
+          returnlink="/controversy"
           next="画像検索システム"
           nextlink="/reverse-img-search"
         />

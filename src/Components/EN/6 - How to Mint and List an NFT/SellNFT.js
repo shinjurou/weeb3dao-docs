@@ -41,18 +41,6 @@ export default function SellNFT() {
           <li className="my-2">
             <RouterLink link="/sell-nft/list-nft" title="List an NFT" />
           </li>
-
-          <li className="my-2">
-            <RouterLink link="/sell-nft/promote-nft" title="Promote your NFT" />
-          </li>
-
-          <li className="my-2">
-            <RouterLink link="/sell-nft/celebration" title="Celebration" />
-          </li>
-
-          <li className="my-2">
-            <RouterLink link="/sell-nft/gas" title="How to keep track of Gas" />
-          </li>
         </ol>
         <NaviButtons
           return="Important Terminologies"
@@ -64,3 +52,15 @@ export default function SellNFT() {
     </div>
   );
 }
+
+/* Remove "Promote your NFT" and "Celebration" pages
+
+ <li className="my-2">
+            <RouterLink link="/sell-nft/promote-nft" title="Promote your NFT" />
+          </li>
+
+          <li className="my-2">
+            <RouterLink link="/sell-nft/celebration" title="Celebration" />
+          </li>
+
+*/

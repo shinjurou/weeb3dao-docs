@@ -16,7 +16,7 @@ const routes = [
   "/sell-nft/list-nft",
   "/sell-nft/promote-nft",
   "/sell-nft/celebration",
-  "/sell-nft/gas",
+  "/gas",
   "/burn-nft",
   "/crypto-exchange",
   "/community",
@@ -25,6 +25,6 @@ const routes = [
   "/faq",
   "/environment",
   "/rec-readings",
-  "/reverse-img-search"
-]
+  "/reverse-img-search",
+];
 export default routes;

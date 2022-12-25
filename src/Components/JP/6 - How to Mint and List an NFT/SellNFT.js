@@ -40,24 +40,6 @@ export default function SellNFT() {
           <li className="my-2">
             <RouterLink link="/sell-nft/list-nft" title="Listingしましょう" />
           </li>
-
-          <li className="my-2">
-            <RouterLink
-              link="/sell-nft/promote-nft"
-              title="NFTのプロモーション"
-            />
-          </li>
-
-          <li className="my-2">
-            <RouterLink link="/sell-nft/celebration" title="NFTを販売した後" />
-          </li>
-
-          <li className="my-2">
-            <RouterLink
-              link="/sell-nft/gas"
-              title="ガス代の相場を調べる方法について"
-            />
-          </li>
         </ol>
         <NaviButtons
           return="重要な用語についての説明"
@@ -69,3 +51,18 @@ export default function SellNFT() {
     </div>
   );
 }
+
+/* Remove "Promote your NFT" and "Celebration" pages
+
+   <li className="my-2">
+            <RouterLink
+              link="/sell-nft/promote-nft"
+              title="NFTのプロモーション"
+            />
+          </li>
+
+          <li className="my-2">
+            <RouterLink link="/sell-nft/celebration" title="NFTを販売した後" />
+          </li>
+
+*/

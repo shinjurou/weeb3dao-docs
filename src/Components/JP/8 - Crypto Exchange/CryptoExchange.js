@@ -102,8 +102,8 @@ export default function CryptoExchange() {
           </div>
         </div>
         <NaviButtons
-          return="NFTをAirdropする"
-          returnlink="/airdrop-NFT"
+          return="ガス代の相場を調べる方法について"
+          returnlink="/gas"
           next="コミュニティ"
           nextlink="/community"
         />

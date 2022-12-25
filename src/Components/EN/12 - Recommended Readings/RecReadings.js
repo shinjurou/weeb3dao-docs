@@ -445,8 +445,8 @@ export default function RecReadings() {
           </div>
         </div>
         <NaviButtons
-          return="Environment Controversy"
-          returnlink="/environment"
+          return="NFT Controversy"
+          returnlink="/controversy"
           next="Reverse Image Search Resources"
           nextlink="/reverse-img-search"
         />

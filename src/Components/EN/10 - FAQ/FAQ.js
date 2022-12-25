@@ -31,7 +31,7 @@ export default function FAQ() {
               color="green"
               title={[
                 <div>
-                  Please read the article I have written{" "}
+                  Please read the article{" "}
                   <Link
                     link="https://mirror.xyz/shinjurou.eth/uIq__DaPcJ_Y3ku41N8_EGM7fZ8EIe1MwSYA3Q-ZMnA"
                     title="here."
@@ -209,8 +209,8 @@ export default function FAQ() {
         <NaviButtons
           return="Culture"
           returnlink="/community/culture"
-          next="Environment Controversy"
-          nextlink="/environment"
+          next="NFT Controversy"
+          nextlink="/controversy"
         />
       </div>
     </div>

@@ -30,7 +30,7 @@ export default function ListNFT() {
                 </span>{" "}
                 and we have{" "}
                 <RouterLink
-                  link="/sell-nft/gas"
+                  link="/gas"
                   title="created a guide here to help."
                 ></RouterLink>
               </div>,

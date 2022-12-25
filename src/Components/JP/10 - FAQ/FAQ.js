@@ -34,10 +34,10 @@ export default function FAQ() {
               color="green"
               title={[
                 <div>
-                  私が
+                  この
                   <Link
                     link="https://mirror.xyz/shinjurou.eth/uIq__DaPcJ_Y3ku41N8_EGM7fZ8EIe1MwSYA3Q-ZMnA"
-                    title="書いた記事"
+                    title="記事"
                   />
                   を読んでください。
                 </div>,
@@ -198,8 +198,8 @@ export default function FAQ() {
         <NaviButtons
           return="カルチャー"
           returnlink="/community/culture"
-          next="環境問題"
-          nextlink="/environment"
+          next="NFTの異議"
+          nextlink="/controversy"
         />
       </div>
     </div>

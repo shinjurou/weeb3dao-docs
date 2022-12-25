@@ -29,43 +29,26 @@ export default function AirdropNFT() {
   return (
     <div className="airdrop-nft">
       <div className="m-10">
-        <Typography variant="h1" color="inherit" component="h1" mb={2}>
-          How to Airdrop an NFT
+        <Typography variant="h1" color="inherit" component="h1" mb={1}>
+          How to Airdrop an NFT (Polygon)
         </Typography>
+
+        <Card
+          color="green"
+          content={[
+            <>
+              <Link
+                link="https://docs.google.com/document/d/1gMAElC2Yfc2eaxIixpauEuwoJpbMeeD8NNGBSa2hZr4/edit?usp=sharing"
+                title="Link to original guide"
+              />{" "}
+              created by{" "}
+              <Link link="https://twitter.com/chionnera" title="Chione" />
+            </>,
+          ]}
+        />
 
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
           <div>
-            <Typography
-              variant="h2"
-              color="inherit"
-              component="h2"
-              mt={2}
-              mb={1}
-            >
-              Manifold
-            </Typography>
-            <Card
-              color="green"
-              title={[
-                <>
-                  Please refer to this{" "}
-                  <Link link="https://docs.manifold.xyz/" title="link" /> for
-                  the Tutorials created by Manifold.
-                </>,
-              ]}
-            />
-          </div>
-          <div>
-            <Typography
-              variant="h2"
-              color="inherit"
-              component="h2"
-              mt={2}
-              mb={1}
-            >
-              Polygon
-            </Typography>
-
             <ol className="list-decimal ml-6">
               <li className="mt-1">
                 On Opensea, navigate to{" "}
@@ -263,24 +246,12 @@ export default function AirdropNFT() {
                 </>,
               ]}
             />
-            <Card
-              color="green"
-              content={[
-                <>
-                  <Link
-                    link="https://docs.google.com/document/d/1gMAElC2Yfc2eaxIixpauEuwoJpbMeeD8NNGBSa2hZr4/edit?usp=sharing"
-                    title="Link to original guide"
-                  />{" "}
-                  created by{" "}
-                  <Link link="https://twitter.com/chionnera" title="Chione" />
-                </>,
-              ]}
-            />
+
             <NaviButtons
-              return="Burn your NFT"
-              returnlink="/burn-nft"
-              next="Crypto Exchange"
-              nextlink="/crypto-exchange"
+              return="How to use Manifold"
+              returnlink="/manifold"
+              next="How to burn your NFT"
+              nextlink="/burn-NFT"
             />
           </div>
         </div>

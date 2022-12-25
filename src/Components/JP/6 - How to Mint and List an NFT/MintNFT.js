@@ -29,7 +29,7 @@ export default function MintNFT() {
                 <span className="text-pink-600 font-bold">とても重要</span>
                 なことです。ですので、
                 <RouterLink
-                  link="/sell-nft/gas"
+                  link="/gas"
                   title="ここではそのためのガイドを作成しました。"
                 ></RouterLink>
               </div>,
