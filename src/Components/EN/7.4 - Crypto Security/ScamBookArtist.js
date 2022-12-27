@@ -10,7 +10,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 
-import commissionrar1 from "../../../Imgs/ScamGuidebook/artist/commissionrar-1.jpg";
+import commission1 from "../../../Imgs/ScamGuidebook/artist/commissionrar-1.jpg";
 import ineedgasmoney1 from "../../../Imgs/ScamGuidebook/artist/ineedgasmoney-1.jpg";
 
 const Accordion = styled((props) => <MuiAccordion elevation={0} {...props} />)(
@@ -76,7 +76,7 @@ export default function ScamBookArtist() {
           id="panel1bh-header"
         >
           <Typography sx={{ width: "33%", flexShrink: 0 }}>
-            Commission.rar
+            Commission Malware
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -179,8 +179,8 @@ export default function ScamBookArtist() {
             Example Screenshot
           </Typography>
           <img
-            src={commissionrar1}
-            alt="Commission.rar example"
+            src={commission1}
+            alt="Commission example"
             className="my-2 rounded"
           />
         </AccordionDetails>
@@ -208,22 +208,45 @@ export default function ScamBookArtist() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Insert text here
-            <Typography
-              variant="h5"
-              color="inherit"
-              component="h2"
-              mt={2}
-              mb={1}
-            >
-              Example Screenshot
-            </Typography>
-            <img
-              src={ineedgasmoney1}
-              alt="I need gas money example"
-              className="my-2 rounded"
-            />
+            This scam makes use of social engineering and preys on an artists desire to make a sale,
+            first the scammer strikes up a conversation with the victim in order to make them feel 
+            more comfortable: "I really love your art", "I really want to buy it", etc... 
+            At some point in the conversation the scammer will ask you to{" "}
+            <span className="text-red-600 font-bold">give them ETH</span>{" "}so they can pay 
+            the gas fees to close a really profitable trade so they can buy your art and also refund that 
+            fee to you, obviously they never do and{" "}
+            <span className="text-red-600 font-bold">you lose a few hundred dollars.</span>
           </Typography>
+          <Card
+            color="pink"
+            title="Key Points"
+            content={[
+              <ul className="list-disc ml-4">
+                <li className="mt-1">
+                If this person supposedly has a Cryptopunk, Bored Ape Yacht Club or other high value 
+                profile picture, how can they not find a couple hundred dollars for gas?
+                </li>
+                <li className="mt-1">
+                The scammer often sends a screenshot of a Binance trade, this is a centralized 
+                exchange and no gas fees are required to close trades.
+                </li>
+              </ul>,
+            ]}
+          />
+          <Typography
+            variant="h5"
+            color="inherit"
+            component="h2"
+            mt={2}
+            mb={1}
+          >
+            Example Screenshot
+          </Typography>
+          <img
+            src={ineedgasmoney1}
+            alt="I need gas money example"
+            className="my-2 rounded"
+          />
         </AccordionDetails>
       </Accordion>
     </div>
