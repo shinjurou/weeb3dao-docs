@@ -48,7 +48,7 @@ export default function CryptoSecurity() {
               mt={2}
               mb={1}
             >
-              NFT Scam Guidebook
+              NFT Common Scams Guidebook
             </Typography>
 
             <ScamBook />
