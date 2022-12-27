@@ -41,8 +41,21 @@ export default function CryptoSecurity() {
               ]}
             />
           </div>
+        </div>
+        <NaviButtons
+          return="ガス代の相場を調べる方法について"
+          returnlink="/gas"
+          next="暗号資産取引所"
+          nextlink="/crypto-exchange"
+        />
+      </div>
+    </div>
+  );
+}
 
-          <div>
+/* Placeholder
+
+         <div>
             <Typography
               variant="h2"
               color="inherit"
@@ -69,14 +82,5 @@ export default function CryptoSecurity() {
               ]}
             />
           </div>
-        </div>
-        <NaviButtons
-          return="ガス代の相場を調べる方法について"
-          returnlink="/gas"
-          next="暗号資産取引所"
-          nextlink="/crypto-exchange"
-        />
-      </div>
-    </div>
-  );
-}
+
+*/

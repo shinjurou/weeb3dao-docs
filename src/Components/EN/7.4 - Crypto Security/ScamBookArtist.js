@@ -41,7 +41,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-export default function ScamBookArtist() {
+export default function ScamBookArtist(props) {
   const theme = useTheme();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -208,14 +208,28 @@ export default function ScamBookArtist() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            This scam makes use of social engineering and preys on an artists desire to make a sale,
-            first the scammer strikes up a conversation with the victim in order to make them feel 
-            more comfortable: "I really love your art", "I really want to buy it", etc... 
-            At some point in the conversation the scammer will ask you to{" "}
-            <span className="text-red-600 font-bold">give them ETH</span>{" "}so they can pay 
-            the gas fees to close a really profitable trade so they can buy your art and also refund that 
-            fee to you, obviously they never do and{" "}
-            <span className="text-red-600 font-bold">you lose a few hundred dollars.</span>
+            This scam{" "}
+            <span className="text-orange-500 font-bold">
+              makes use of social engineering and preys on an artists desire to
+              make a sale
+            </span>
+            , first the scammer strikes up a conversation with the victim in
+            order to make them feel more comfortable:{" "}
+            <span className="text-pink-600 font-bold">
+              "I really love your art"
+            </span>
+            ,{" "}
+            <span className="text-pink-600 font-bold">
+              "I really want to buy it"
+            </span>
+            , etc... At some point in the conversation the scammer will ask you
+            to <span className="text-red-600 font-bold">give them ETH</span> so
+            they can pay the gas fees to close a really profitable trade so they
+            can buy your art and also refund that fee to you, obviously they
+            never do and{" "}
+            <span className="text-red-600 font-bold">
+              you lose a few hundred dollars.
+            </span>
           </Typography>
           <Card
             color="pink"
@@ -223,23 +237,29 @@ export default function ScamBookArtist() {
             content={[
               <ul className="list-disc ml-4">
                 <li className="mt-1">
-                If this person supposedly has a Cryptopunk, Bored Ape Yacht Club or other high value 
-                profile picture, how can they not find a couple hundred dollars for gas?
+                  If this person supposedly{" "}
+                  <span className="text-pink-600 font-bold">
+                    has a Cryptopunk, Bored Ape Yacht Club or other high value
+                    profile picture
+                  </span>
+                  ,{" "}
+                  <span className="text-red-600 font-bold">
+                    how can they not find a couple hundred dollars for gas?
+                  </span>
                 </li>
                 <li className="mt-1">
-                The scammer often sends a screenshot of a Binance trade, this is a centralized 
-                exchange and no gas fees are required to close trades.
+                  The scammer often sends{" "}
+                  <span className="text-pink-600 font-bold">
+                    a screenshot of a Binance trade
+                  </span>
+                  , this is a centralized exchange and{" "}
+                  <span className="text-red-600 font-bold">no gas fees</span>{" "}
+                  are required to close trades.
                 </li>
               </ul>,
             ]}
           />
-          <Typography
-            variant="h5"
-            color="inherit"
-            component="h2"
-            mt={2}
-            mb={1}
-          >
+          <Typography variant="h5" color="inherit" component="h2" mt={2} mb={1}>
             Example Screenshot
           </Typography>
           <img
