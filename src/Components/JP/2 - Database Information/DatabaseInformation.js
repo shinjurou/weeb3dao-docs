@@ -122,14 +122,14 @@ export default function DatabaseInfo() {
             checked={true}
             label={[
               <span className="text-violet-600">2021年12月8日</span>,
-              " データベースのコンパイル開始",
+              " データベースのコンパイル開始。",
             ]}
           />
           <Checkbox
             checked={true}
             label={[
               <span className="text-violet-500">2021年12月9日</span>,
-              " データベースのドメイン登録",
+              " データベースのドメイン登録。",
             ]}
           />
           <Checkbox
@@ -138,14 +138,14 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">2021年12月17日</span>,
               " ",
               <span className="text-red-600 font-bold">バージョン 1.0</span>,
-              " 英語版リリース",
+              " 英語版リリース。",
             ]}
           />
           <Checkbox
             checked={true}
             label={[
               <span className="text-violet-500">2022年1月9日</span>,
-              " ウェブサイトの移行と再構築開始",
+              " ウェブサイトの移行と再構築開始。",
             ]}
           />
           <Checkbox
@@ -154,7 +154,7 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">2022年1月12日</span>,
               " ",
               <span className="text-red-600 font-bold">バージョン 2.0</span>,
-              " Gitbookから移行し、データベースを再構築して独自のウェブサイトにしました",
+              " Gitbookから移行し、データベースを再構築して独自のウェブサイトにしました。",
             ]}
           />
           <Checkbox
@@ -162,7 +162,7 @@ export default function DatabaseInfo() {
             label={[
               <span className="text-violet-500">2022年1月19日</span>,
               " ",
-              " 日本語版は翻訳されています",
+              " 日本語版は翻訳されています。",
             ]}
           />
           <Checkbox
@@ -171,7 +171,7 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">2022年1月30日</span>,
               " ",
 
-              " 日本語版を付け加え開始",
+              " 日本語版を付け加え開始。",
             ]}
           />
           <Checkbox
@@ -180,7 +180,7 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">2022年1月31日</span>,
               " ",
               <span className="text-red-600 font-bold">バージョン 3.0</span>,
-              " 日本語版を付け加えました",
+              " 日本語版を追加しました。",
             ]}
           />
           <Checkbox
@@ -189,7 +189,7 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">2022年2月18日</span>,
               " ",
               <span className="text-red-600 font-bold">バージョン 3.1</span>,
-              " NFT Airdropの送り方を付け加えました",
+              " 「NFTをAirdropする」を追加しました。",
             ]}
           />
           <Checkbox
@@ -198,7 +198,25 @@ export default function DatabaseInfo() {
               <span className="text-violet-500">2022年5月28日</span>,
               " ",
               <span className="text-red-600 font-bold">バージョン 3.2</span>,
-              " Ethereumマーケットプレイス情報を更新されました",
+              " Ethereumマーケットプレイス情報を更新されました。",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">2022年12月3日</span>,
+              " ",
+              <span className="text-red-600 font-bold">バージョン 3.3</span>,
+              " 「Contribution Guidelines」を追加しました。",
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">2022年12月25日</span>,
+              " ",
+              <span className="text-red-600 font-bold">バージョン 4.0</span>,
+              " ウェブサイトを更新しました。「マニホールドの使い方」を追加しました。「環境問題」を「NFTの立場」に更新しました。",
             ]}
           />
           <Checkbox
@@ -206,7 +224,7 @@ export default function DatabaseInfo() {
             label={[
               <span className="text-violet-500">(予定)</span>,
               " ",
-              " 韓国語版については現在翻訳中です",
+              " 韓国語版については現在翻訳中です。",
             ]}
           />
         </div>
