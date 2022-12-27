@@ -257,6 +257,15 @@ export default function DatabaseInfo() {
             ]}
           />
           <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">28 December 2022</span>,
+              " ",
+              <span className="text-red-600 font-bold">Version 5.0</span>,
+              ' Added "Crypto Security"',
+            ]}
+          />
+          <Checkbox
             checked={false}
             label={[
               <span className="text-violet-500">(In Progress)</span>,
