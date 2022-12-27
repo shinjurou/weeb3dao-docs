@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Card from "../0 - Index/Card";
 import Link from "../0 - Index/Link";
 import NaviButtons from "../0 - Index/NaviButtons";
-import ScamBook from "./ScamBook";
+// import ScamBook from "./ScamBook";
 
 export default function CryptoSecurity() {
   return (
