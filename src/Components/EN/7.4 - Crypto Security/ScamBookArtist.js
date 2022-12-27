@@ -1,5 +1,4 @@
 import * as React from "react";
-import { useRef } from "react";
 import { styled, useTheme } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
