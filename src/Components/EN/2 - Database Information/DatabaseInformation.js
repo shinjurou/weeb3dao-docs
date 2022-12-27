@@ -71,6 +71,7 @@ export default function DatabaseInfo() {
               </span>{" "}
               <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />
               , <Link link="https://twitter.com/ligaratus_" title="ligaratus" />
+              , <Link link="https://twitter.com/tougeAI" title="TougeAI" />
             </li>
             <li className="my-2 ">
               <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
@@ -78,6 +79,7 @@ export default function DatabaseInfo() {
               </span>{" "}
               <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />{" "}
               , <Link link="https://twitter.com/chionnera" title="Chione" />
+              , <Link link="https://twitter.com/tougeAI" title="TougeAI" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
