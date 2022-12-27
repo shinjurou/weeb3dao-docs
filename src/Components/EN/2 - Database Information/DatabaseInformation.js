@@ -71,6 +71,7 @@ export default function DatabaseInfo() {
               </span>{" "}
               <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />
               , <Link link="https://twitter.com/ligaratus_" title="ligaratus" />
+              , <Link link="https://twitter.com/tougeAI" title="TougeAI" />
             </li>
             <li className="my-2 ">
               <span className="bg-red-400 text-gray-800 p-0.5 rounded-sm">
@@ -78,6 +79,7 @@ export default function DatabaseInfo() {
               </span>{" "}
               <Link link="https://twitter.com/shinjuroueth" title="shinjurou" />{" "}
               , <Link link="https://twitter.com/chionnera" title="Chione" />
+              , <Link link="https://twitter.com/tougeAI" title="TougeAI" />
             </li>
             <li className="my-2">
               <span className="bg-emerald-400 text-gray-800 p-0.5 rounded-sm">
@@ -252,6 +254,15 @@ export default function DatabaseInfo() {
               " ",
               <span className="text-red-600 font-bold">Version 4.0</span>,
               ' Updated website; Added "How to use Manifold"; Updated "Environment Controversy" to "NFT Controversy"',
+            ]}
+          />
+          <Checkbox
+            checked={true}
+            label={[
+              <span className="text-violet-500">28 December 2022</span>,
+              " ",
+              <span className="text-red-600 font-bold">Version 5.0</span>,
+              ' Added "Crypto Security"',
             ]}
           />
           <Checkbox

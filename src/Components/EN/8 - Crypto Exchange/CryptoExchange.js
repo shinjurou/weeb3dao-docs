@@ -102,8 +102,8 @@ export default function CryptoExchange() {
           </div>
         </div>
         <NaviButtons
-          return="How to keep track of Gas"
-          returnlink="/gas"
+          return="Crypto Security"
+          returnlink="/security"
           next="Community"
           nextlink="/community"
         />

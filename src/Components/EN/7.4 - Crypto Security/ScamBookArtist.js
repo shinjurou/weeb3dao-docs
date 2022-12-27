@@ -1,0 +1,274 @@
+import * as React from "react";
+import { useRef } from "react";
+import { styled, useTheme } from "@mui/material/styles";
+import MuiAccordion from "@mui/material/Accordion";
+import MuiAccordionDetails from "@mui/material/AccordionDetails";
+import MuiAccordionSummary from "@mui/material/AccordionSummary";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
+import Card from "../0 - Index/Card";
+import Link from "../0 - Index/Link";
+
+import commission1 from "../../../Imgs/ScamGuidebook/artist/commissionrar-1.jpg";
+import ineedgasmoney1 from "../../../Imgs/ScamGuidebook/artist/ineedgasmoney-1.jpg";
+
+const Accordion = styled((props) => <MuiAccordion elevation={0} {...props} />)(
+  ({ theme }) => ({})
+);
+
+const AccordionSummary = styled((props) => <MuiAccordionSummary {...props} />)(
+  ({ theme }) => ({
+    backgroundColor:
+      theme.palette.type === "dark"
+        ? "rgba(255, 255, 255, .02)"
+        : "rgba(0, 0, 0, .04)",
+    flexDirection: "row-reverse",
+    "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
+      transform: "rotate(90deg)",
+    },
+    "& .MuiAccordionSummary-content": {
+      marginLeft: theme.spacing(1),
+    },
+    "& .MuiAccordionSummary-content.Mui-expanded": {
+      marginLeft: theme.spacing(1),
+    },
+  })
+);
+
+const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
+  padding: theme.spacing(2),
+  borderTop: "1px solid rgba(0, 0, 0, .125)",
+}));
+
+export default function ScamBookArtist(props) {
+  const theme = useTheme();
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+
+    const yOffset = -150;
+    const element = document.getElementById("ScamBookArtist");
+    const y =
+      element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    if (element) {
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
+  return (
+    <div>
+      <Accordion
+        expanded={expanded === "panel1"}
+        onChange={handleChange("panel1")}
+      >
+        <AccordionSummary
+          expandIcon={
+            <ExpandMoreIcon
+              sx={{
+                transform: "rotate(-90deg)",
+                color: theme.palette.type === "dark" ? "#C5C5C5" : null,
+              }}
+            />
+          }
+          aria-controls="panel1bh-content"
+          id="panel1bh-header"
+        >
+          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+            Commission Malware
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            This scam aims to{" "}
+            <span className="text-orange-500 font-bold">
+              install malware on your PC
+            </span>{" "}
+            <span className="text-red-600 font-bold">
+              which steals your metamask seed phrase
+            </span>{" "}
+            and gives the scammer access to your wallets. The scammer often
+            claims to have commissioned work but for whatever reason it is
+            unfinished and they want you to finish it or they will offer up a
+            file of assets they want you to rework in your artistic style. The
+            scammer will hold a bit of a conversation about commissioning you,
+            your rates and such but if you ask too much back about the job they
+            will be quite persistent and say it is all in proposal inside the{" "}
+            <span className="text-pink-600 font-bold">zip</span> or{" "}
+            <span className="text-pink-600 font-bold">rar</span> file they sent
+            you. Within the <span className="text-pink-600 font-bold">zip</span>{" "}
+            or <span className="text-pink-600 font-bold">rar</span> file that
+            the scammer sends to you may be files that look like{" "}
+            <span className="text-pink-600 font-bold">.docx</span>,{" "}
+            <span className="text-pink-600 font-bold">.PDF</span> or{" "}
+            <span className="text-pink-600 font-bold">.PSD</span> files but
+            actually have double extensions such as{" "}
+            <span className="text-red-600 font-bold">
+              unfinished-work.psd.exe
+            </span>{" "}
+            or <span className="text-red-600 font-bold">brief.pdf.scr</span>.{" "}
+            Attempting to open any such file will{" "}
+            <span className="text-orange-500 font-bold">
+              infect your PC with malware
+            </span>{" "}
+            and{" "}
+            <span className="text-red-600 font-bold">
+              transfer your seed phrase to the scammer who will drain your
+              wallet
+            </span>
+            .
+          </Typography>
+
+          <Card
+            color="pink"
+            title="Key Points"
+            content={[
+              <ul className="list-disc ml-4">
+                <li className="mt-1">
+                  The scammer needs you to{" "}
+                  <span className="text-pink-600 font-bold">
+                    click on those files
+                  </span>
+                  , so{" "}
+                  <span className="text-red-600 font-bold">
+                    be suspicious of anyone who won't explain the commission or
+                    answer more questions in the DM
+                  </span>
+                  .
+                </li>
+                <li className="mt-1">
+                  Turn on{" "}
+                  <span className="text-pink-600 font-bold">
+                    "Show File Extensions" in Windows Explorer
+                  </span>{" "}
+                  and{" "}
+                  <span className="text-pink-600 font-bold">
+                    double check the final extension (.xxx)
+                  </span>{" "}
+                  is what you think it is{" "}
+                  <span className="text-red-600 font-bold">
+                    before clicking on any files
+                  </span>
+                  .
+                </li>
+              </ul>,
+            ]}
+          />
+
+          <Card
+            color="green"
+            title="Useful Link"
+            content={[
+              <div>
+                <Link link="https://www.virustotal.com/" title="VirusTotal" />{" "}
+                is a free service owned by Google that lets you{" "}
+                <span className="text-teal-600 font-bold">
+                  upload files or file archives (zip/rar)
+                </span>{" "}
+                and{" "}
+                <span className="text-orange-500 font-bold">
+                  scans them for malicious content
+                </span>
+                .
+              </div>,
+            ]}
+          />
+
+          <Typography variant="h5" color="inherit" component="h2" mt={2} mb={1}>
+            Example Screenshot
+          </Typography>
+          <img
+            src={commission1}
+            alt="Commission example"
+            className="my-2 rounded"
+          />
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion
+        expanded={expanded === "panel2"}
+        onChange={handleChange("panel2")}
+      >
+        <AccordionSummary
+          expandIcon={
+            <ExpandMoreIcon
+              sx={{
+                transform: "rotate(-90deg)",
+                color: theme.palette.type === "dark" ? "#C5C5C5" : null,
+              }}
+            />
+          }
+          aria-controls="panel2bh-content"
+          id="panel2bh-header"
+        >
+          <Typography sx={{ width: "33%", flexShrink: 0 }}>
+            I Need Gas Money
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            This scam{" "}
+            <span className="text-orange-500 font-bold">
+              makes use of social engineering and preys on an artists desire to
+              make a sale
+            </span>
+            , first the scammer strikes up a conversation with the victim in
+            order to make them feel more comfortable:{" "}
+            <span className="text-pink-600 font-bold">
+              "I really love your art"
+            </span>
+            ,{" "}
+            <span className="text-pink-600 font-bold">
+              "I really want to buy it"
+            </span>
+            , etc... At some point in the conversation the scammer will ask you
+            to <span className="text-red-600 font-bold">give them ETH</span> so
+            they can pay the gas fees to close a really profitable trade so they
+            can buy your art and also refund that fee to you, obviously they
+            never do and{" "}
+            <span className="text-red-600 font-bold">
+              you lose a few hundred dollars.
+            </span>
+          </Typography>
+          <Card
+            color="pink"
+            title="Key Points"
+            content={[
+              <ul className="list-disc ml-4">
+                <li className="mt-1">
+                  If this person supposedly{" "}
+                  <span className="text-pink-600 font-bold">
+                    has a Cryptopunk, Bored Ape Yacht Club or other high value
+                    profile picture
+                  </span>
+                  ,{" "}
+                  <span className="text-red-600 font-bold">
+                    how can they not find a couple hundred dollars for gas?
+                  </span>
+                </li>
+                <li className="mt-1">
+                  The scammer often sends{" "}
+                  <span className="text-pink-600 font-bold">
+                    a screenshot of a Binance trade
+                  </span>
+                  , this is a centralized exchange and{" "}
+                  <span className="text-red-600 font-bold">no gas fees</span>{" "}
+                  are required to close trades.
+                </li>
+              </ul>,
+            ]}
+          />
+          <Typography variant="h5" color="inherit" component="h2" mt={2} mb={1}>
+            Example Screenshot
+          </Typography>
+          <img
+            src={ineedgasmoney1}
+            alt="I need gas money example"
+            className="my-2 rounded"
+          />
+        </AccordionDetails>
+      </Accordion>
+    </div>
+  );
+}

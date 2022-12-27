@@ -48,6 +48,7 @@ import Manifold from "../7 - Manifold/Manifold";
 import BurnNFT from "../7.2 - How to burn your NFT/BurnNFT";
 import AirdropNFT from "../7.1 - How to Airdrop an NFT/Airdrop";
 import Gas from "../7.3 - How to keep track of Gas/Gas";
+import CryptoSecurity from "../7.4 - Crypto Security/CryptoSecurity";
 
 import CryptoExchange from "../8 - Crypto Exchange/CryptoExchange";
 import Community from "../9 - Community/Community";
@@ -71,6 +72,7 @@ import Filter2Icon from "@mui/icons-material/Filter2";
 import Filter3Icon from "@mui/icons-material/Filter3";
 import Filter4Icon from "@mui/icons-material/Filter4";
 import Filter5Icon from "@mui/icons-material/Filter5";
+import SecurityIcon from "@mui/icons-material/Security";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import LocalGasStationIcon from "@mui/icons-material/LocalGasStation";
 import AddBusinessIcon from "@mui/icons-material/AddBusiness";
@@ -229,11 +231,15 @@ export default function Index(props) {
             <IconButton onClick={handleDrawerClose}>
               {theme.direction === "rtl" ? (
                 <ChevronRightIcon
-                  sx={theme.palette.type === "dark" ? { color: "white" } : null}
+                  sx={
+                    theme.palette.type === "dark" ? { color: "#C5C5C5" } : null
+                  }
                 />
               ) : (
                 <ChevronLeftIcon
-                  sx={theme.palette.type === "dark" ? { color: "white" } : null}
+                  sx={
+                    theme.palette.type === "dark" ? { color: "#C5C5C5" } : null
+                  }
                 />
               )}
             </IconButton>
@@ -246,7 +252,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <CelebrationIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -268,7 +276,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <BookmarkIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -290,7 +300,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <FaceRetouchingNaturalIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -312,7 +324,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <RedeemIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -350,7 +364,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <MenuBookIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -384,7 +400,7 @@ export default function Index(props) {
                       <Filter1Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -399,7 +415,7 @@ export default function Index(props) {
                       <Filter2Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -414,7 +430,7 @@ export default function Index(props) {
                       <Filter3Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -429,7 +445,7 @@ export default function Index(props) {
                       <Filter4Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -458,7 +474,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <AddBusinessIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -492,7 +510,7 @@ export default function Index(props) {
                       <Filter1Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -507,7 +525,7 @@ export default function Index(props) {
                       <Filter2Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -522,7 +540,7 @@ export default function Index(props) {
                       <Filter3Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -537,7 +555,7 @@ export default function Index(props) {
                       <Filter4Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -552,7 +570,7 @@ export default function Index(props) {
                       <Filter5Icon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -568,7 +586,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <RocketLaunchIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -590,7 +610,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <SendIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -650,6 +672,30 @@ export default function Index(props) {
                 </Fade>
               </ListItem>
             </Link>
+
+            <Link to="security">
+              <ListItem button>
+                <ListItemIcon>
+                  <SecurityIcon
+                    sx={
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
+                    }
+                  />
+                </ListItemIcon>
+                <Fade
+                  in={showText}
+                  easing={{
+                    enter: "cubic-bezier(.99,0,1,1.62)",
+                    exit: "linear",
+                  }}
+                  timeout={{ enter: 666, exit: 0 }}
+                >
+                  <ListItemText primary="Crypto Security" />
+                </Fade>
+              </ListItem>
+            </Link>
           </List>
           <Divider />
           <List>
@@ -658,7 +704,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <CurrencyExchangeIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -693,7 +741,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <MapsHomeWorkIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -723,7 +773,7 @@ export default function Index(props) {
                       <SpeakerNotesIcon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -738,7 +788,7 @@ export default function Index(props) {
                       <FactCheckIcon
                         sx={
                           theme.palette.type === "dark"
-                            ? { color: "white" }
+                            ? { color: "#C5C5C5" }
                             : null
                         }
                       />
@@ -754,7 +804,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <LiveHelpIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -779,7 +831,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <ParkIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -801,7 +855,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <BookIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -823,7 +879,9 @@ export default function Index(props) {
                 <ListItemIcon>
                   <ImageSearchIcon
                     sx={
-                      theme.palette.type === "dark" ? { color: "white" } : null
+                      theme.palette.type === "dark"
+                        ? { color: "#C5C5C5" }
+                        : null
                     }
                   />
                 </ListItemIcon>
@@ -887,6 +945,7 @@ export default function Index(props) {
             <Route path="/manifold" element={<Manifold />} />
             <Route path="/airdrop-nft" element={<AirdropNFT />} />
             <Route path="/burn-nft" element={<BurnNFT />} />
+            <Route path="/security" element={<CryptoSecurity />} />
 
             <Route path="/crypto-exchange" element={<CryptoExchange />} />
             <Route path="/community" element={<Community />} />

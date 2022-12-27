@@ -8,6 +8,7 @@ const routes = [
   "/info-nft/what-is-blockchain",
   "/info-nft/what-is-digital-wallet",
   "/info-nft/important-terminologies",
+  "/security",
   "/sell-nft",
   "/sell-nft/create-wallet",
   "/sell-nft/choose-blockchain",

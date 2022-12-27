@@ -255,8 +255,8 @@ export default function ImportantTerminologies() {
         <NaviButtons
           return="What is Digital Wallet?"
           returnlink="/info-nft/what-is-digital-wallet"
-          next="How to Mint and List your NFT"
-          nextlink="/sell-NFT"
+          next="Crypto Security"
+          nextlink="/security"
         />
       </div>
     </div>

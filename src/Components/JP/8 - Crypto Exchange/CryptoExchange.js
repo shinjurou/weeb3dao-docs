@@ -102,8 +102,8 @@ export default function CryptoExchange() {
           </div>
         </div>
         <NaviButtons
-          return="ガス代の相場を調べる方法について"
-          returnlink="/gas"
+          return="暗号セキュリティて"
+          returnlink="/security"
           next="コミュニティ"
           nextlink="/community"
         />

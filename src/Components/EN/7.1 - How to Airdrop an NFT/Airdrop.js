@@ -33,20 +33,6 @@ export default function AirdropNFT() {
           How to Airdrop an NFT (Polygon)
         </Typography>
 
-        <Card
-          color="green"
-          content={[
-            <>
-              <Link
-                link="https://docs.google.com/document/d/1gMAElC2Yfc2eaxIixpauEuwoJpbMeeD8NNGBSa2hZr4/edit?usp=sharing"
-                title="Link to original guide"
-              />{" "}
-              created by{" "}
-              <Link link="https://twitter.com/chionnera" title="Chione" />
-            </>,
-          ]}
-        />
-
         <div className="grid grid-cols-1 divide-y-2 divide-gray-400/25 divide-dashed">
           <div>
             <ol className="list-decimal ml-6">
@@ -246,7 +232,19 @@ export default function AirdropNFT() {
                 </>,
               ]}
             />
-
+            <Card
+              color="green"
+              content={[
+                <>
+                  <Link
+                    link="https://docs.google.com/document/d/1gMAElC2Yfc2eaxIixpauEuwoJpbMeeD8NNGBSa2hZr4/edit?usp=sharing"
+                    title="Link to original guide"
+                  />{" "}
+                  created by{" "}
+                  <Link link="https://twitter.com/chionnera" title="Chione" />
+                </>,
+              ]}
+            />
             <NaviButtons
               return="How to use Manifold"
               returnlink="/manifold"

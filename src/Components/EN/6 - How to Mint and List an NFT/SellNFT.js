@@ -43,8 +43,8 @@ export default function SellNFT() {
           </li>
         </ol>
         <NaviButtons
-          return="Important Terminologies"
-          returnlink="/info-nft/important-terminologies"
+          return="Crypto Security"
+          returnlink="/security"
           next="Create your Digital Wallet"
           nextlink="/sell-nft/create-wallet"
         />

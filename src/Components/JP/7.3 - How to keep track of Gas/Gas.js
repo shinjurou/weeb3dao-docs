@@ -225,8 +225,8 @@ export default function Gas() {
         <NaviButtons
           return="NFTをBurnする"
           returnlink="/burn-NFT"
-          next="暗号資産取引所"
-          nextlink="/crypto-exchange"
+          next="暗号セキュリティ"
+          nextlink="/security"
         />
       </div>
     </div>
