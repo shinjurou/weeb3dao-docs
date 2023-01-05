@@ -2,7 +2,7 @@
 
 Guides and tips for making contributions (adding new pages, articles, language translations etc.) to the doc.
 
-You can read [this guide](/guidelines/FEDEVGUIDE.md) if you don't have prior experiences in front-end development.
+You can start with [this guide](/guidelines/FEDEVGUIDE.md) if you don't have prior experiences in front-end development.
 
 ### Contents
 
