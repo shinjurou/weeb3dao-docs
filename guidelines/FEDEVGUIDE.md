@@ -13,6 +13,11 @@ This guide is intended for beginners who have no prior experience in front-end d
 - [Setting up the repository for editing](#setting-up-the-repository-for-editing)
 - [Commonly used packages in the repository](#commonly-used-packages-in-the-repository)
   - [Material UI](#material-ui)
+  - [Tailwind CSS](#tailwind-css)
+- [Useful websites](#useful-websites)
+  - [Stack Overflow](#stack-overflow)
+  - [CodePen](#codepen)
+  - [CodeSandbox](#codesandbox)
 
 ## Install NPM
 #### What is NPM?
@@ -79,9 +84,15 @@ The repository uses [React](https://reactjs.org/) for its development.
 - [Official React documentation](https://reactjs.org/docs/getting-started.html): The official React documentation is a great place to start learning about the library. It includes a tutorial and a reference guide, as well as detailed information about the different features of React.
 - [FreeCodeCamp](https://www.freecodecamp.org/): FreeCodeCamp is a non-profit organization that offers a variety of free coding resources, including a course on React. The course includes interactive exercises and video lessons to help you learn the basics of React.
 <br/>**Example:** [Learn React JS - Full Course for Beginners - Tutorial 2019](https://www.youtube.com/watch?v=DLX62G4lc44).
+- [Codecademy](https://www.codecademy.com/): Codecademy is a popular online learning platform that offers a course on React. The course covers the fundamentals of React, including components, state, and props.
 - YouTube: There are many YouTube channels that offer tutorials and lessons on React. Some popular options include Traversy Media, The Net Ninja, and LearnCode.academy.
 <br/>**Example:** [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY).
 - Full ReactJS Course: [ReactJS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3).
+- [Other resources](https://skillcrush.com/blog/64-online-resources-to-learn-to-code-for-free/)
+
+> **Important Note**
+> - React uses [JSX](https://reactjs.org/docs/introducing-jsx.html) instead of HTML Tags. [HTML vs JSX – What's the Difference?](https://www.freecodecamp.org/news/html-vs-jsx-whats-the-difference)
+> - React uses `className` instead of `class`.
 
 ## Setting up the repository for editing
 To set up your local environment, you will need to download or clone the repository from GitHub.
@@ -106,10 +117,31 @@ This will start the development server and open a new browser window at `http://
 
 ## Commonly used packages in the repository
 ### [Material UI](https://mui.com/)
+The majority of the website is built using Material UI's components.
+#### What is Material UI?
 > Material-UI is a React library for building user interfaces following Google's Material Design guidelines. It provides reusable components and a customizable theme system. It is well-documented and easy to use.
-#### Guides for Material UI
+#### How to use Material UI?
 - [Add Material UI on your React application | The React UI library | Material UI | React.js](https://www.youtube.com/watch?v=LD4-UTFXtwA)
 - [Learn Material UI in One Hour - React Material UI Project Tutorial [2022]](https://www.youtube.com/watch?v=Xoz31I1FuiY)
-- Full tutorials for Material UI's components: [React Material UI Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO)
+- Full tutorials for Material UI: [React Material UI Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO)
 
-The majority of the website is built using Material UI's components.
+#### How to customize Material UI's components?
+- [Official Material UI Documentation](https://mui.com/material-ui/customization/how-to-customize/)
+- Alternatively, you can search on Google (Example: "How to customize Material UI's button") and read replies on [Stack Overflow](https://stackoverflow.com/).
+### [Tailwind CSS](https://tailwindcss.com/)
+The majority of the attributes in the className are elements from Tailwind CSS.
+#### What is Tailwind CSS?
+> Tailwind CSS is a utility-first CSS framework that provides low-level utility classes for rapid UI development. It is customizable, responsive, and works well with modern CSS features.
+#### How to use Tailwind CSS?
+- [Tailwind CSS React Tutorial](https://www.youtube.com/watch?v=L2KHCWJ3gjs)
+- Full tutorials for Tailwind CSS: [Tailwind CSS Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
+
+## Useful websites
+### [Stack Overflow](https://stackoverflow.com/)
+> Stack Overflow is a popular online community where developers can ask and answer programming questions. It is used by millions of developers worldwide and is a valuable resource for finding answers to technical questions and learning new skills.
+
+### [CodePen](https://codepen.io/)
+> Codepen is an online platform that allows users to create, share, and collaborate on web development projects. It is popular among developers for its easy-to-use interface and features that make it easy to build and test code snippets and small web applications. Codepen also has a large community of users who can view, comment on, and fork each other's projects.
+
+### [CodeSandbox](https://codesandbox.io/)
+> CodeSandbox is an online code editor that allows users to create, share, and collaborate on web development projects. It is popular among developers for its easy-to-use interface and features that make it easy to build and test code snippets and small web applications. CodeSandbox also has a large community of users who can view, comment on, and fork each other's projects.
